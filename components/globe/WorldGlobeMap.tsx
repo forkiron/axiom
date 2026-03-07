@@ -6,12 +6,14 @@ import MapboxMap, {
   NavigationControl as MapboxNavigationControl,
   ScaleControl as MapboxScaleControl,
   Source as MapboxSource,
+  Marker as MapboxMarker,
 } from 'react-map-gl/mapbox';
 import MapLibreMap, {
   Layer as MapLibreLayer,
   NavigationControl as MapLibreNavigationControl,
   ScaleControl as MapLibreScaleControl,
   Source as MapLibreSource,
+  Marker as MapLibreMarker,
 } from 'react-map-gl/maplibre';
 import countryShapesGeoJson from '../../lib/data/ne_110m_admin_0_countries.json';
 import educationDataset from '../../lib/data/country-education-metrics.json';
@@ -19,6 +21,7 @@ import bcSchoolDataset from '../../lib/data/bc-school-rankings.json';
 import type { EducationCountryDataset } from '../../lib/types';
 import { getHeatDomain, heatColorFromValue } from './heatColor';
 import { MAP_STYLE_URL } from '../../lib/constants';
+import { SchoolDetailsPanel } from './SchoolDetailsPanel';
 
 interface WorldGlobeMapProps {
   className?: string;
@@ -236,6 +239,22 @@ function darkenHexColor(hex: string, factor = 0.78) {
   return `#${r}${g}${b}`;
 }
 
+function getRatingColor(rating: number) {
+  const value = Math.max(0, Math.min(10, rating));
+  const hex = (c: string) => Number.parseInt(c.slice(1), 16);
+  const interpolate = (c1: string, c2: string, t: number) => {
+    const r1 = (hex(c1) >> 16) & 255, g1 = (hex(c1) >> 8) & 255, b1 = hex(c1) & 255;
+    const r2 = (hex(c2) >> 16) & 255, g2 = (hex(c2) >> 8) & 255, b2 = hex(c2) & 255;
+    const r = Math.round(r1 + (r2 - r1) * t);
+    const g = Math.round(g1 + (g2 - g1) * t);
+    const b = Math.round(b1 + (b2 - b1) * t);
+    return `#${(1 << 24 | r << 16 | g << 8 | b).toString(16).slice(1)}`;
+  };
+  
+  if (value < 5) return interpolate('#7f0000', '#f4d35e', value / 5);
+  return interpolate('#f4d35e', '#16c768', (value - 5) / 5);
+}
+
 function getUnderlyingMap(refObject: any) {
   return refObject?.current?.getMap?.() ?? refObject?.current ?? null;
 }
@@ -260,6 +279,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const [activeLayer, setActiveLayer] = useState<LayerMode>('terrain');
   const [schoolQuery, setSchoolQuery] = useState('');
   const [isSchoolSearchOpen, setIsSchoolSearchOpen] = useState(false);
+  const [selectedSchool, setSelectedSchool] = useState<BcSchoolRecord | null>(null);
   const token = MAPBOX_TOKEN.trim();
   const hasMapboxToken =
     token.length > 0 &&
@@ -429,6 +449,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
     (mode: LayerMode) => {
       setActiveLayer(mode);
       setIsSchoolSearchOpen(false);
+      setSelectedSchool(null);
       const activeMap = hasMapboxToken ? getUnderlyingMap(mapboxRef) : getUnderlyingMap(maplibreRef);
       setProjectionForMode(activeMap, mode);
       if (mode === 'bc-schools') {
@@ -445,6 +466,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
       setSchoolQuery(`${school.schoolName} (${school.city})`);
       setIsSchoolSearchOpen(false);
       setActiveLayer('bc-schools');
+      setSelectedSchool(school);
 
       requestAnimationFrame(() => {
         const activeMap = hasMapboxToken ? getUnderlyingMap(mapboxRef) : getUnderlyingMap(maplibreRef);
@@ -477,7 +499,8 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         const [lng, lat] = schoolFeature.geometry.coordinates;
         setActiveLayer('bc-schools');
         setProjectionForMode(activeMap, 'bc-schools');
-        flyToSchool(activeMap, {
+        
+        const targetedSchool = {
           id: schoolFeature?.properties?.id ?? 'selected-school',
           schoolName: schoolFeature?.properties?.schoolName ?? 'Selected school',
           city: schoolFeature?.properties?.city ?? '',
@@ -485,13 +508,16 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
           rating: Number(schoolFeature?.properties?.rating ?? 0),
           longitude: Number(lng),
           latitude: Number(lat),
-        });
+        };
+        setSelectedSchool(targetedSchool);
+        flyToSchool(activeMap, targetedSchool);
         return;
       }
 
       const countryFeature = features.find((feature: any) => feature?.layer?.id === 'country-hit-layer');
       const iso3 = countryFeature?.properties?.ISO_A3;
       if (typeof iso3 === 'string' && iso3 && iso3 !== '-99') {
+        setSelectedSchool(null);
         if (iso3 === 'CAN') {
           setActiveLayer('bc-schools');
           setProjectionForMode(activeMap, 'bc-schools');
@@ -588,6 +614,27 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
             </MapboxSource>
           )}
 
+          {selectedSchool && activeLayer === 'bc-schools' && (
+            <MapboxMarker 
+              longitude={selectedSchool.longitude} 
+              latitude={selectedSchool.latitude}
+              anchor="bottom"
+            >
+              <div className="flex flex-col items-center pt-8 transition-transform" style={{ marginTop: '-32px' }}>
+                <div 
+                  className="text-white text-xs px-2 py-1 rounded shadow-lg font-bold whitespace-nowrap mb-1 transition-colors"
+                  style={{ backgroundColor: getRatingColor(selectedSchool.rating) }}
+                >
+                  {selectedSchool.schoolName}
+                </div>
+                <div 
+                  className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[8px] drop-shadow-md transition-colors"
+                  style={{ borderTopColor: getRatingColor(selectedSchool.rating) }}
+                ></div>
+              </div>
+            </MapboxMarker>
+          )}
+
           <MapboxNavigationControl position="bottom-right" visualizePitch />
           <MapboxScaleControl position="bottom-left" />
         </MapboxMap>
@@ -648,6 +695,27 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
               <MapLibreLayer {...BC_POINT_LAYER} />
               <MapLibreLayer {...BC_LABEL_LAYER} />
             </MapLibreSource>
+          )}
+
+          {selectedSchool && activeLayer === 'bc-schools' && (
+            <MapLibreMarker 
+              longitude={selectedSchool.longitude} 
+              latitude={selectedSchool.latitude}
+              anchor="bottom"
+            >
+              <div className="flex flex-col items-center pt-8 transition-transform" style={{ marginTop: '-32px' }}>
+                <div 
+                  className="text-white text-xs px-2 py-1 rounded shadow-lg font-bold whitespace-nowrap mb-1 transition-colors"
+                  style={{ backgroundColor: getRatingColor(selectedSchool.rating) }}
+                >
+                  {selectedSchool.schoolName}
+                </div>
+                <div 
+                  className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[8px] drop-shadow-md transition-colors"
+                  style={{ borderTopColor: getRatingColor(selectedSchool.rating) }}
+                ></div>
+              </div>
+            </MapLibreMarker>
           )}
 
           <MapLibreNavigationControl position="bottom-right" visualizePitch />
@@ -719,6 +787,12 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
           </div>
         )}
       </form>
+
+      <SchoolDetailsPanel 
+        school={selectedSchool} 
+        onClose={() => setSelectedSchool(null)} 
+        getRatingColor={getRatingColor}
+      />
     </div>
   );
 }
