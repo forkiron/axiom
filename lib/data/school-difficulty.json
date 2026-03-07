@@ -1,0 +1,110 @@
+[
+  {
+    "id": "school-toronto-west",
+    "name": "Toronto West Collegiate",
+    "city": "Toronto",
+    "provinceSlug": "on",
+    "latitude": 43.6532,
+    "longitude": -79.3832,
+    "difficulty": { "math": 7.8, "physics": 8.2, "english": 6.9 }
+  },
+  {
+    "id": "school-vancouver-central",
+    "name": "Vancouver Central Secondary",
+    "city": "Vancouver",
+    "provinceSlug": "bc",
+    "latitude": 49.2827,
+    "longitude": -123.1207,
+    "difficulty": { "math": 7.1, "physics": 6.8, "english": 7.4 }
+  },
+  {
+    "id": "school-calgary-north",
+    "name": "Calgary North High",
+    "city": "Calgary",
+    "provinceSlug": "ab",
+    "latitude": 51.0447,
+    "longitude": -114.0719,
+    "difficulty": { "math": 6.4, "physics": 6.7, "english": 5.9 }
+  },
+  {
+    "id": "school-montreal-est",
+    "name": "Montreal Est Academique",
+    "city": "Montreal",
+    "provinceSlug": "qc",
+    "latitude": 45.5017,
+    "longitude": -73.5673,
+    "difficulty": { "math": 8.5, "physics": 8.0, "english": 7.2 }
+  },
+  {
+    "id": "school-halifax-south",
+    "name": "Halifax South Secondary",
+    "city": "Halifax",
+    "provinceSlug": "ns",
+    "latitude": 44.6488,
+    "longitude": -63.5752,
+    "difficulty": { "math": 5.9, "physics": 5.5, "english": 6.3 }
+  },
+  {
+    "id": "school-regina-central",
+    "name": "Regina Central Collegiate",
+    "city": "Regina",
+    "provinceSlug": "sk",
+    "latitude": 50.4452,
+    "longitude": -104.6189,
+    "difficulty": { "math": 6.8, "physics": 6.1, "english": 6.0 }
+  },
+  {
+    "id": "school-winnipeg-east",
+    "name": "Winnipeg East High",
+    "city": "Winnipeg",
+    "provinceSlug": "mb",
+    "latitude": 49.8954,
+    "longitude": -97.1385,
+    "difficulty": { "math": 6.2, "physics": 5.8, "english": 6.5 }
+  },
+  {
+    "id": "school-ottawa-north",
+    "name": "Ottawa North Academy",
+    "city": "Ottawa",
+    "provinceSlug": "on",
+    "latitude": 45.4215,
+    "longitude": -75.6972,
+    "difficulty": { "math": 8.0, "physics": 7.9, "english": 7.5 }
+  },
+  {
+    "id": "school-edmonton-west",
+    "name": "Edmonton West Institute",
+    "city": "Edmonton",
+    "provinceSlug": "ab",
+    "latitude": 53.5461,
+    "longitude": -113.4938,
+    "difficulty": { "math": 7.3, "physics": 7.0, "english": 6.7 }
+  },
+  {
+    "id": "school-saskatoon-central",
+    "name": "Saskatoon Central High",
+    "city": "Saskatoon",
+    "provinceSlug": "sk",
+    "latitude": 52.1332,
+    "longitude": -106.6700,
+    "difficulty": { "math": 6.5, "physics": 5.9, "english": 6.1 }
+  },
+  {
+    "id": "school-stjohns-east",
+    "name": "St. John's East Secondary",
+    "city": "St. John’s",
+    "provinceSlug": "nl",
+    "latitude": 47.5615,
+    "longitude": -52.7126,
+    "difficulty": { "math": 5.4, "physics": 5.1, "english": 5.8 }
+  },
+  {
+    "id": "school-queens-park",
+    "name": "Queen’s Park High",
+    "city": "Charlottetown",
+    "provinceSlug": "pe",
+    "latitude": 46.2382,
+    "longitude": -63.1311,
+    "difficulty": { "math": 6.0, "physics": 5.7, "english": 6.2 }
+  }
+]

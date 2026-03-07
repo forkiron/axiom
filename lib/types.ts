@@ -45,7 +45,14 @@ export interface SchoolDatum {
   provinceSlug: string;
   latitude: number;
   longitude: number;
+  // optional pre‑computed metrics for GPA etc.
   metrics?: SchoolMetrics;
+  // difficulty ratings on a 1–10 scale for each subject
+  difficulty?: {
+    math: number;
+    physics: number;
+    english: number;
+  };
 }
 
 export interface EducationCountryMetric {
