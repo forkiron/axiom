@@ -42,7 +42,7 @@ export function TestAnalyzerResult({ result, onReset }: { result: AnalysisResult
       <div className="flex justify-between items-start relative z-10">
         <div>
           <h3 className="text-xl font-medium text-slate-100 mb-1">Analysis Complete</h3>
-          <p className="text-sm text-slate-400">CanStandard AI Evaluation</p>
+          <p className="text-sm text-slate-400">AXIOM AI Evaluation</p>
         </div>
         <div className={`px-3 py-1 rounded-full text-xs font-medium border ${statusBg} ${statusColor}`}>
           {statusLabel}

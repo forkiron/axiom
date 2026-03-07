@@ -26,7 +26,7 @@ export default function AnalyzerPage() {
             Measure True Academic Rigor
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            Paste a test or assignment below. Our AI model evaluates the inherent difficulty of the material against national standards. By comparing this to the class average, CanStandard generates a definitive Adjustment Factor to expose grade inflation or reward rigorous grading.
+            Paste a test or assignment below. Our AI model evaluates the inherent difficulty of the material against national standards. By comparing this to the class average, AXIOM generates a definitive Adjustment Factor to expose grade inflation or reward rigorous grading.
           </p>
         </div>
 
