@@ -125,9 +125,6 @@ export function GlobeScene({
 
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_52%,rgba(0,0,0,0.58)_100%)]" />
 
-      <div className="pointer-events-none absolute inset-x-4 bottom-4 rounded border border-white/10 bg-black/55 p-3 text-xs text-white/70 backdrop-blur">
-        Color heat uses `global.csv`. Country-shape extrusion uses latest non-empty value in `global_extrusion.csv`.
-      </div>
     </div>
   );
 }
