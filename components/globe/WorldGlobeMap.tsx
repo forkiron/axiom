@@ -267,7 +267,8 @@ function darkenHexColor(hex: string, factor = 0.78) {
   return `#${r}${g}${b}`;
 }
 
-function getRatingColor(rating: number) {
+function getRatingColor(rating: number | null | undefined) {
+  if (rating === null || rating === undefined || isNaN(rating)) return '#94a3b8';
   const value = Math.max(0, Math.min(10, rating));
   const hex = (c: string) => Number.parseInt(c.slice(1), 16);
   const interpolate = (c1: string, c2: string, t: number) => {
@@ -317,6 +318,12 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const [isSchoolSearchOpen, setIsSchoolSearchOpen] = useState(false);
   const [selectedSchool, setSelectedSchool] = useState<BcSchoolRecord | null>(null);
   const [academicHoverCard, setAcademicHoverCard] = useState<AcademicHoverCard | null>(null);
+  const [preSchoolCameraState, setPreSchoolCameraState] = useState<{
+    center: [number, number];
+    zoom: number;
+    pitch: number;
+    bearing: number;
+  } | null>(null);
   const token = MAPBOX_TOKEN.trim();
   const hasMapboxToken =
     token.length > 0 &&
@@ -514,8 +521,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
       setIsSchoolSearchOpen(false);
       setSelectedSchool(null);
       setAcademicHoverCard(null);
-      setSelectedSchool(null);
-      setAcademicHoverCard(null);
+      setPreSchoolCameraState(null);
       const activeMap = hasMapboxToken ? getUnderlyingMap(mapboxRef) : getUnderlyingMap(maplibreRef);
       setProjectionForMode(activeMap, mode);
       if (mode === 'bc-schools') {
@@ -531,16 +537,27 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
     (school: BcSchoolRecord) => {
       setSchoolQuery(`${school.schoolName} (${school.city}, ${school.province})`);
       setIsSchoolSearchOpen(false);
-      setActiveLayer('bc-schools');
-      setSelectedSchool(school);
-
+      
       requestAnimationFrame(() => {
         const activeMap = hasMapboxToken ? getUnderlyingMap(mapboxRef) : getUnderlyingMap(maplibreRef);
+        
+        if (activeMap && !selectedSchool) {
+          const center = activeMap.getCenter();
+          setPreSchoolCameraState({
+            center: [center.lng, center.lat],
+            zoom: activeMap.getZoom(),
+            pitch: activeMap.getPitch(),
+            bearing: activeMap.getBearing(),
+          });
+        }
+        
+        setActiveLayer('bc-schools');
+        setSelectedSchool(school);
         setProjectionForMode(activeMap, 'bc-schools');
         flyToSchool(activeMap, school);
       });
     },
-    [hasMapboxToken, flyToSchool]
+    [hasMapboxToken, flyToSchool, selectedSchool]
   );
 
   const handleSchoolSearchSubmit = useCallback(
@@ -601,6 +618,17 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
       const schoolFeature = features.find((feature: any) => feature?.layer?.id === 'bc-school-points');
       if (schoolFeature?.geometry?.coordinates) {
         const [lng, lat] = schoolFeature.geometry.coordinates;
+        
+        if (activeMap && !selectedSchool) {
+          const center = activeMap.getCenter();
+          setPreSchoolCameraState({
+            center: [center.lng, center.lat],
+            zoom: activeMap.getZoom(),
+            pitch: activeMap.getPitch(),
+            bearing: activeMap.getBearing(),
+          });
+        }
+
         setActiveLayer('bc-schools');
         setProjectionForMode(activeMap, 'bc-schools');
         
@@ -623,17 +651,33 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
       const iso3 = countryFeature?.properties?.ISO_A3;
       if (typeof iso3 === 'string' && iso3 && iso3 !== '-99') {
         setSelectedSchool(null);
+        if (preSchoolCameraState) {
+          activeMap.flyTo({
+            ...preSchoolCameraState,
+            duration: 1500,
+            essential: true,
+          });
+          setPreSchoolCameraState(null);
+          return;
+        }
+
         if (iso3 === 'CAN') {
-          setActiveLayer('bc-schools');
-          setProjectionForMode(activeMap, 'bc-schools');
-          flyToCanada(activeMap);
+          if (activeLayer !== 'bc-schools') {
+            setActiveLayer('bc-schools');
+            setProjectionForMode(activeMap, 'bc-schools');
+            flyToCanada(activeMap);
+          }
           return;
         }
         flyToCountry(activeMap, iso3);
       }
     },
-    [flyToCanada, flyToCountry, flyToSchool]
+    [flyToCanada, flyToCountry, flyToSchool, selectedSchool, preSchoolCameraState, activeLayer]
   );
+
+  const interactiveLayers = activeLayer === 'bc-schools' 
+    ? ['country-hit-layer', 'bc-school-points'] 
+    : ['country-hit-layer'];
 
   return (
     <div className={`relative ${className ?? ''}`}>
@@ -647,7 +691,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
           minZoom={0.8}
           performanceMetricsCollection={false}
           terrain={{ source: 'mapbox-dem', exaggeration: 1.15 }}
-          interactiveLayerIds={['country-hit-layer', 'bc-school-points']}
+          interactiveLayerIds={interactiveLayers}
           antialias
           onClick={(event) => handleMapClick(event, true)}
           onMouseMove={handleAcademicHover}
@@ -746,7 +790,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
           mapStyle={MAP_STYLE_URL}
           maxZoom={18}
           minZoom={0.8}
-          interactiveLayerIds={['country-hit-layer', 'bc-school-points']}
+          interactiveLayerIds={interactiveLayers}
           onClick={(event) => handleMapClick(event, false)}
           onMouseMove={handleAcademicHover}
           onMouseLeave={() => setAcademicHoverCard(null)}
@@ -870,6 +914,18 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         >
           Academic Overlay
         </button>
+        {activeLayer === 'bc-schools' && (
+          <button
+            type="button"
+            onClick={() => {
+              const activeMap = hasMapboxToken ? getUnderlyingMap(mapboxRef) : getUnderlyingMap(maplibreRef);
+              if (activeMap) flyToCanada(activeMap);
+            }}
+            className="rounded-md bg-transparent px-3 py-2 text-xs font-medium text-slate-200 transition hover:bg-white/10"
+          >
+            Reset to Canada
+          </button>
+        )}
       </div>
 
       <form
@@ -914,7 +970,18 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
 
       <SchoolDetailsPanel 
         school={selectedSchool} 
-        onClose={() => setSelectedSchool(null)} 
+        onClose={() => {
+          setSelectedSchool(null);
+          const activeMap = hasMapboxToken ? getUnderlyingMap(mapboxRef) : getUnderlyingMap(maplibreRef);
+          if (activeMap && preSchoolCameraState) {
+            activeMap.flyTo({
+              ...preSchoolCameraState,
+              duration: 1500,
+              essential: true,
+            });
+            setPreSchoolCameraState(null);
+          }
+        }} 
         getRatingColor={getRatingColor}
       />
     </div>

@@ -6,8 +6,9 @@ export interface BcSchoolRecord {
   id: string;
   schoolName: string;
   city: string;
-  rank: number;
-  rating: number;
+  province?: string;
+  rank: number | null;
+  rating: number | null;
   latitude: number;
   longitude: number;
 }
@@ -15,7 +16,7 @@ export interface BcSchoolRecord {
 interface SchoolDetailsPanelProps {
   school: BcSchoolRecord | null;
   onClose: () => void;
-  getRatingColor?: (rating: number) => string;
+  getRatingColor?: (rating: number | null | undefined) => string;
 }
 
 export function SchoolDetailsPanel({ school, onClose, getRatingColor }: SchoolDetailsPanelProps) {
@@ -48,7 +49,7 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor }: SchoolDe
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              {school.city}, British Columbia
+              {school.city}, {school.province ?? "British Columbia"}
             </p>
 
             <div className="grid grid-cols-2 gap-4">
@@ -60,8 +61,8 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor }: SchoolDe
                   className="text-4xl font-extrabold"
                   style={{ color: getRatingColor ? getRatingColor(school.rating) : '#10b981' }}
                 >
-                  {school.rating.toFixed(1)}
-                  <span className="text-lg text-slate-500 font-medium ml-1">/10</span>
+                  {school.rating != null ? school.rating.toFixed(1) : 'N/A'}
+                  {school.rating != null && <span className="text-lg text-slate-500 font-medium ml-1">/10</span>}
                 </div>
               </div>
 
@@ -70,7 +71,7 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor }: SchoolDe
                   Provincial Rank
                 </div>
                 <div className="text-4xl font-extrabold text-white">
-                  #{school.rank}
+                  {school.rank != null ? `#${school.rank}` : 'N/A'}
                 </div>
               </div>
             </div>
