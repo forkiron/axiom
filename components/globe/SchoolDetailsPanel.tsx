@@ -17,9 +17,10 @@ interface SchoolDetailsPanelProps {
   school: BcSchoolRecord | null;
   onClose: () => void;
   getRatingColor?: (rating: number | null | undefined) => string;
+  adjustmentFactor?: number;
 }
 
-export function SchoolDetailsPanel({ school, onClose, getRatingColor }: SchoolDetailsPanelProps) {
+export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustmentFactor }: SchoolDetailsPanelProps) {
   return (
     <AnimatePresence>
       {school && (
@@ -75,6 +76,24 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor }: SchoolDe
                 </div>
               </div>
             </div>
+
+            {adjustmentFactor != null && (
+              <div className={`mt-3 rounded-xl border p-4 flex flex-col justify-center items-center ${
+                adjustmentFactor > 0 ? 'border-emerald-500/30 bg-emerald-500/10' : adjustmentFactor < 0 ? 'border-rose-500/30 bg-rose-500/10' : 'border-white/5 bg-white/5'
+              }`}>
+                <div className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">
+                  AI Adjustment Factor
+                </div>
+                <div className={`text-3xl font-extrabold ${
+                  adjustmentFactor > 0 ? 'text-emerald-400' : adjustmentFactor < 0 ? 'text-rose-400' : 'text-slate-300'
+                }`}>
+                  {adjustmentFactor > 0 ? '+' : ''}{adjustmentFactor.toFixed(1)}%
+                </div>
+                <div className="text-xs text-slate-500 mt-1">
+                  {adjustmentFactor > 0 ? 'Grade Deflation' : adjustmentFactor < 0 ? 'Grade Inflation' : 'Standard'}
+                </div>
+              </div>
+            )}
             
             <div className="mt-6 rounded-lg border border-emerald-500/20 bg-emerald-500/10 p-3 flex gap-3 text-sm text-emerald-100">
               <svg className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

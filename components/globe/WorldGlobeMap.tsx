@@ -326,6 +326,14 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
     pitch: number;
     bearing: number;
   } | null>(null);
+  const [adjustmentOverrides, setAdjustmentOverrides] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    fetch('/api/school-adjustment')
+      .then(r => r.ok ? r.json() : {})
+      .then(data => setAdjustmentOverrides(data))
+      .catch(() => {});
+  }, []);
   const token = MAPBOX_TOKEN.trim();
   const hasMapboxToken =
     token.length > 0 &&
@@ -1050,6 +1058,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
           }
         }} 
         getRatingColor={getRatingColor}
+        adjustmentFactor={selectedSchool ? adjustmentOverrides[selectedSchool.id] : undefined}
       />
       {schoolTour.length > 0 && activeTourSchool && (
         <div className="absolute bottom-24 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2 rounded-xl border border-white/20 bg-black/70 px-3 py-2 text-xs text-slate-100 backdrop-blur">
