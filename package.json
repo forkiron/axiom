@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "data:education": "node scripts/build-country-education-metrics.mjs"
+    "data:education": "node scripts/build-country-education-metrics.mjs",
+    "data:bc-cities": "node scripts/geocode-bc-cities.mjs",
+    "data:bc-schools": "node scripts/build-bc-school-map-data.mjs"
   },
   "dependencies": {
     "@deck.gl/aggregation-layers": "^9.2.11",
@@ -17,6 +19,7 @@
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
     "framer-motion": "^12.35.0",
+    "mapbox-gl": "^3.19.1",
     "maplibre-gl": "^5.19.0",
     "next": "16.1.6",
     "react": "^19.2.0",

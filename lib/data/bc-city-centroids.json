@@ -1,0 +1,1184 @@
+{
+  "generatedAt": "2026-03-07T17:35:15.946Z",
+  "source": "bc_school_rankings_2025.csv",
+  "provider": "OpenStreetMap Nominatim",
+  "count": 168,
+  "cities": [
+    {
+      "city": "100 Mile House",
+      "latitude": 51.642787,
+      "longitude": -121.295694,
+      "displayName": "100 Mile House, Cariboo Regional District, British Columbia, Canada",
+      "sourceQuery": "100 Mile House, British Columbia, Canada"
+    },
+    {
+      "city": "108 Mile Ranch",
+      "latitude": 51.732468,
+      "longitude": -121.363052,
+      "displayName": "108 Mile Ranch, Area G (Lac La Hache/108 Mile Ranch), Cariboo Regional District, British Columbia, Canada",
+      "sourceQuery": "108 Mile Ranch, British Columbia, Canada"
+    },
+    {
+      "city": "150 Mile House",
+      "latitude": 52.116684,
+      "longitude": -121.937363,
+      "displayName": "150 Mile House, Area F (Horsefly/Likely/150 Mile House), Cariboo Regional District, British Columbia, V0K 2G0, Canada",
+      "sourceQuery": "150 Mile House, British Columbia, Canada"
+    },
+    {
+      "city": "Abbotsford",
+      "latitude": 49.052116,
+      "longitude": -122.329479,
+      "displayName": "Abbotsford, Fraser Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "Abbotsford, British Columbia, Canada"
+    },
+    {
+      "city": "Agassiz",
+      "latitude": 49.239376,
+      "longitude": -121.765055,
+      "displayName": "Agassiz, Pioneer Avenue, Agassiz, Kent, Fraser Valley Regional District, British Columbia, V0M 1A2, Canada",
+      "sourceQuery": "Agassiz, British Columbia, Canada"
+    },
+    {
+      "city": "Aldergrove",
+      "latitude": 49.059663,
+      "longitude": -122.492238,
+      "displayName": "Aldergrove, Township of Langley, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Aldergrove, British Columbia, Canada"
+    },
+    {
+      "city": "Anmore",
+      "latitude": 49.314443,
+      "longitude": -122.856459,
+      "displayName": "Anmore, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Anmore, British Columbia, Canada"
+    },
+    {
+      "city": "Armstrong",
+      "latitude": 50.444548,
+      "longitude": -119.194159,
+      "displayName": "Armstrong, Spallumcheen, Regional District of North Okanagan, British Columbia, Canada",
+      "sourceQuery": "Armstrong, British Columbia, Canada"
+    },
+    {
+      "city": "Ashcroft",
+      "latitude": 50.721241,
+      "longitude": -121.283544,
+      "displayName": "Ashcroft, Thompson-Nicola Regional District, British Columbia, Canada",
+      "sourceQuery": "Ashcroft, British Columbia, Canada"
+    },
+    {
+      "city": "Baldonnel",
+      "latitude": 56.217398,
+      "longitude": -120.689252,
+      "displayName": "Baldonnel, Area C (Old Fort/Charlie Lake), Peace River Regional District, British Columbia, Canada",
+      "sourceQuery": "Baldonnel, British Columbia, Canada"
+    },
+    {
+      "city": "Barriere",
+      "latitude": 51.172004,
+      "longitude": -120.127369,
+      "displayName": "Barriere, Thompson-Nicola Regional District, British Columbia, V0E 1E0, Canada",
+      "sourceQuery": "Barriere, British Columbia, Canada"
+    },
+    {
+      "city": "Bella Bella",
+      "latitude": 52.184585,
+      "longitude": -128.156949,
+      "displayName": "Bella Bella (Campbell Island) Airport, Cheenies Street, Bella Bella, Area B (Bella Bella), Central Coast Regional District, British Columbia, V0T 1Z0, Canada",
+      "sourceQuery": "Bella Bella, British Columbia, Canada"
+    },
+    {
+      "city": "Black Creek",
+      "latitude": 49.833002,
+      "longitude": -125.129189,
+      "displayName": "Black Creek, Area C (Puntledge/Black Creek), Comox Valley Regional District, British Columbia, V9J 1H6, Canada",
+      "sourceQuery": "Black Creek, British Columbia, Canada"
+    },
+    {
+      "city": "Bowen Island",
+      "latitude": 49.376821,
+      "longitude": -123.369464,
+      "displayName": "Bowen Island, Bowen Island Municipality, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Bowen Island, British Columbia, Canada"
+    },
+    {
+      "city": "Bowser",
+      "latitude": 49.440274,
+      "longitude": -124.688226,
+      "displayName": "Bowser, Area H (Lighthouse Country), Regional District of Nanaimo, British Columbia, V0R 1G0, Canada",
+      "sourceQuery": "Bowser, British Columbia, Canada"
+    },
+    {
+      "city": "Brentwood Bay",
+      "latitude": 48.572303,
+      "longitude": -123.461695,
+      "displayName": "Brentwood Bay, Central Saanich, Capital Regional District, British Columbia, V8M 1B4, Canada",
+      "sourceQuery": "Brentwood Bay, British Columbia, Canada"
+    },
+    {
+      "city": "Burnaby",
+      "latitude": 49.24338,
+      "longitude": -122.972545,
+      "displayName": "Burnaby, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Burnaby, British Columbia, Canada"
+    },
+    {
+      "city": "Burns Lake",
+      "latitude": 54.230269,
+      "longitude": -125.764503,
+      "displayName": "Burns Lake, Regional District of Bulkley-Nechako, British Columbia, V0J 1E1, Canada",
+      "sourceQuery": "Burns Lake, British Columbia, Canada"
+    },
+    {
+      "city": "Cache Creek",
+      "latitude": 50.813174,
+      "longitude": -121.324211,
+      "displayName": "Cache Creek, Thompson-Nicola Regional District, British Columbia, V0K 1H1, Canada",
+      "sourceQuery": "Cache Creek, British Columbia, Canada"
+    },
+    {
+      "city": "Campbell River",
+      "latitude": 50.023071,
+      "longitude": -125.244153,
+      "displayName": "Campbell River, Strathcona Regional District, British Columbia, Canada",
+      "sourceQuery": "Campbell River, British Columbia, Canada"
+    },
+    {
+      "city": "Canoe",
+      "latitude": 50.752454,
+      "longitude": -119.226361,
+      "displayName": "Canoe, Salmon Arm, Columbia-Shuswap Regional District, British Columbia, V0E 1K0, Canada",
+      "sourceQuery": "Canoe, British Columbia, Canada"
+    },
+    {
+      "city": "Canyon",
+      "latitude": 49.079655,
+      "longitude": -116.448388,
+      "displayName": "Canyon, Area B (Goat River Valley), Regional District of Central Kootenay, British Columbia, V0B 1C0, Canada",
+      "sourceQuery": "Canyon, British Columbia, Canada"
+    },
+    {
+      "city": "Castlegar",
+      "latitude": 49.316171,
+      "longitude": -117.663574,
+      "displayName": "Castlegar, Regional District of Central Kootenay, British Columbia, Canada",
+      "sourceQuery": "Castlegar, British Columbia, Canada"
+    },
+    {
+      "city": "Cawston",
+      "latitude": 49.182232,
+      "longitude": -119.7606,
+      "displayName": "Cawston, Area B (Cawston/Lower Similkameen), Regional District of Okanagan-Similkameen, British Columbia, V0X 1C1, Canada",
+      "sourceQuery": "Cawston, British Columbia, Canada"
+    },
+    {
+      "city": "Charlie Lake",
+      "latitude": 56.335724,
+      "longitude": -120.993273,
+      "displayName": "Charlie Lake, Area B (Finlay Valley/Beatton Valley), Peace River Regional District, British Columbia, Canada",
+      "sourceQuery": "Charlie Lake, British Columbia, Canada"
+    },
+    {
+      "city": "Chase",
+      "latitude": 50.819336,
+      "longitude": -119.686177,
+      "displayName": "Chase, Thompson-Nicola Regional District, British Columbia, Canada",
+      "sourceQuery": "Chase, British Columbia, Canada"
+    },
+    {
+      "city": "Chemainus",
+      "latitude": 48.922499,
+      "longitude": -123.718414,
+      "displayName": "Chemainus, North Cowichan, Cowichan Valley Regional District, British Columbia, V0R 1K0, Canada",
+      "sourceQuery": "Chemainus, British Columbia, Canada"
+    },
+    {
+      "city": "Chetwynd",
+      "latitude": 55.695893,
+      "longitude": -121.638179,
+      "displayName": "Chetwynd, Peace River Regional District, British Columbia, V0C 1J0, Canada",
+      "sourceQuery": "Chetwynd, British Columbia, Canada"
+    },
+    {
+      "city": "Chilliwack",
+      "latitude": 49.170979,
+      "longitude": -121.95255,
+      "displayName": "Chilliwack, Fraser Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "Chilliwack, British Columbia, Canada"
+    },
+    {
+      "city": "Clearwater",
+      "latitude": 51.650351,
+      "longitude": -120.06546,
+      "displayName": "Clearwater, Thompson-Nicola Regional District, British Columbia, Canada",
+      "sourceQuery": "Clearwater, British Columbia, Canada"
+    },
+    {
+      "city": "Cobble Hill",
+      "latitude": 48.683708,
+      "longitude": -123.600311,
+      "displayName": "Cobble Hill, Area C (Cobble Hill), Cowichan Valley Regional District, British Columbia, V0R 1L5, Canada",
+      "sourceQuery": "Cobble Hill, British Columbia, Canada"
+    },
+    {
+      "city": "Coldstream",
+      "latitude": 50.223876,
+      "longitude": -119.22974,
+      "displayName": "Coldstream, Regional District of North Okanagan, British Columbia, Canada",
+      "sourceQuery": "Coldstream, British Columbia, Canada"
+    },
+    {
+      "city": "Comox",
+      "latitude": 49.672758,
+      "longitude": -124.92762,
+      "displayName": "Comox, Comox Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "Comox, British Columbia, Canada"
+    },
+    {
+      "city": "Coquitlam",
+      "latitude": 49.284296,
+      "longitude": -122.793281,
+      "displayName": "Coquitlam, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Coquitlam, British Columbia, Canada"
+    },
+    {
+      "city": "Courtenay",
+      "latitude": 49.689406,
+      "longitude": -124.995496,
+      "displayName": "Courtenay, Comox Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "Courtenay, British Columbia, Canada"
+    },
+    {
+      "city": "Cowichan Bay",
+      "latitude": 48.741701,
+      "longitude": -123.626404,
+      "displayName": "Cowichan Bay, Area D (Cowichan Bay), Cowichan Valley Regional District, British Columbia, V0R 1N0, Canada",
+      "sourceQuery": "Cowichan Bay, British Columbia, Canada"
+    },
+    {
+      "city": "Cranbrook",
+      "latitude": 49.510748,
+      "longitude": -115.767277,
+      "displayName": "Cranbrook, Regional District of East Kootenay, British Columbia, Canada",
+      "sourceQuery": "Cranbrook, British Columbia, Canada"
+    },
+    {
+      "city": "Crescent Valley",
+      "latitude": 49.44665,
+      "longitude": -117.55738,
+      "displayName": "Crescent Valley, Area H (The Slocan Valley), Regional District of Central Kootenay, British Columbia, V0G 1H0, Canada",
+      "sourceQuery": "Crescent Valley, British Columbia, Canada"
+    },
+    {
+      "city": "Creston",
+      "latitude": 49.097405,
+      "longitude": -116.513093,
+      "displayName": "Creston, Regional District of Central Kootenay, British Columbia, Canada",
+      "sourceQuery": "Creston, British Columbia, Canada"
+    },
+    {
+      "city": "Crofton",
+      "latitude": 48.860861,
+      "longitude": -123.644812,
+      "displayName": "Crofton, North Cowichan, Cowichan Valley Regional District, British Columbia, V0R 1R0, Canada",
+      "sourceQuery": "Crofton, British Columbia, Canada"
+    },
+    {
+      "city": "Cultus Lake",
+      "latitude": 49.055293,
+      "longitude": -121.983689,
+      "displayName": "Cultus Lake, Area H (Cultus Lake/Columbia Valley), Fraser Valley Regional District, British Columbia, V2R 5A3, Canada",
+      "sourceQuery": "Cultus Lake, British Columbia, Canada"
+    },
+    {
+      "city": "Cumberland",
+      "latitude": 49.618475,
+      "longitude": -125.03197,
+      "displayName": "Cumberland, Comox Valley Regional District, British Columbia, V0R 1S0, Canada",
+      "sourceQuery": "Cumberland, British Columbia, Canada"
+    },
+    {
+      "city": "Dawson Creek",
+      "latitude": 55.760531,
+      "longitude": -120.236445,
+      "displayName": "Dawson Creek, Peace River Regional District, British Columbia, Canada",
+      "sourceQuery": "Dawson Creek, British Columbia, Canada"
+    },
+    {
+      "city": "Delta",
+      "latitude": 49.084626,
+      "longitude": -123.057938,
+      "displayName": "Delta, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Delta, British Columbia, Canada"
+    },
+    {
+      "city": "Dewdney",
+      "latitude": 49.164137,
+      "longitude": -122.195998,
+      "displayName": "Dewdney, Area G (Deroche/Dewdney/Sumas Mountain), Fraser Valley Regional District, British Columbia, V2V 7K6, Canada",
+      "sourceQuery": "Dewdney, British Columbia, Canada"
+    },
+    {
+      "city": "Duncan",
+      "latitude": 48.778687,
+      "longitude": -123.708045,
+      "displayName": "Duncan, Cowichan Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "Duncan, British Columbia, Canada"
+    },
+    {
+      "city": "Edgewater",
+      "latitude": 50.699264,
+      "longitude": -116.133897,
+      "displayName": "Edgewater, Area G (Forster Creek/Mount Assiniboine), Regional District of East Kootenay, British Columbia, Canada",
+      "sourceQuery": "Edgewater, British Columbia, Canada"
+    },
+    {
+      "city": "Elkford",
+      "latitude": 50.024456,
+      "longitude": -114.921826,
+      "displayName": "Elkford, Regional District of East Kootenay, British Columbia, Canada",
+      "sourceQuery": "Elkford, British Columbia, Canada"
+    },
+    {
+      "city": "Enderby",
+      "latitude": 50.550479,
+      "longitude": -119.139779,
+      "displayName": "Enderby, Regional District of North Okanagan, British Columbia, V0E 1V0, Canada",
+      "sourceQuery": "Enderby, British Columbia, Canada"
+    },
+    {
+      "city": "Erickson",
+      "latitude": 49.090656,
+      "longitude": -116.465539,
+      "displayName": "Erickson, Area B (Goat River Valley), Regional District of Central Kootenay, British Columbia, V0B 1K0, Canada",
+      "sourceQuery": "Erickson, British Columbia, Canada"
+    },
+    {
+      "city": "Errington",
+      "latitude": 49.289574,
+      "longitude": -124.370396,
+      "displayName": "Errington, Area F (Alberni Highway), Regional District of Nanaimo, British Columbia, V0R 1V0, Canada",
+      "sourceQuery": "Errington, British Columbia, Canada"
+    },
+    {
+      "city": "Fernie",
+      "latitude": 49.504175,
+      "longitude": -115.062867,
+      "displayName": "Fernie, Regional District of East Kootenay, British Columbia, Canada",
+      "sourceQuery": "Fernie, British Columbia, Canada"
+    },
+    {
+      "city": "Forest Grove",
+      "latitude": 51.767242,
+      "longitude": -121.097767,
+      "displayName": "Forest Grove, Area H (Canim Lake/Forest Grove), Cariboo Regional District, British Columbia, V0K 1M0, Canada",
+      "sourceQuery": "Forest Grove, British Columbia, Canada"
+    },
+    {
+      "city": "Fort Langley",
+      "latitude": 49.169126,
+      "longitude": -122.579363,
+      "displayName": "Fort Langley, Township of Langley, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Fort Langley, British Columbia, Canada"
+    },
+    {
+      "city": "Fort Nelson",
+      "latitude": 58.833301,
+      "longitude": -122.900001,
+      "displayName": "Fort Nelson (Parker Lake) Seaplane Base, Alaska Highway, Northern Rockies Regional Municipality, British Columbia, V0C 1R0, Canada",
+      "sourceQuery": "Fort Nelson, British Columbia, Canada"
+    },
+    {
+      "city": "Fort St James",
+      "latitude": 54.444695,
+      "longitude": -124.259698,
+      "displayName": "Fort St. James, Regional District of Bulkley-Nechako, British Columbia, Canada",
+      "sourceQuery": "Fort St James, British Columbia, Canada"
+    },
+    {
+      "city": "Fort St John",
+      "latitude": 56.252404,
+      "longitude": -120.846943,
+      "displayName": "Fort St. John, Peace River Regional District, British Columbia, Canada",
+      "sourceQuery": "Fort St John, British Columbia, Canada"
+    },
+    {
+      "city": "Fraser Lake",
+      "latitude": 54.060292,
+      "longitude": -124.843962,
+      "displayName": "Fraser Lake, Regional District of Bulkley-Nechako, British Columbia, V0J 1S0, Canada",
+      "sourceQuery": "Fraser Lake, British Columbia, Canada"
+    },
+    {
+      "city": "Fruitvale",
+      "latitude": 49.116667,
+      "longitude": -117.55,
+      "displayName": "Fruitvale, Regional District of Kootenay Boundary, British Columbia, V0G 1L0, Canada",
+      "sourceQuery": "Fruitvale, British Columbia, Canada"
+    },
+    {
+      "city": "Gabriola Island",
+      "latitude": 49.164878,
+      "longitude": -123.814706,
+      "displayName": "Gabriola Island, Area B (DeCourcy/Gabriola/Mudge), Regional District of Nanaimo, British Columbia, Canada",
+      "sourceQuery": "Gabriola Island, British Columbia, Canada"
+    },
+    {
+      "city": "Gibsons",
+      "latitude": 49.40062,
+      "longitude": -123.508918,
+      "displayName": "Gibsons, Sunshine Coast Regional District, British Columbia, Canada",
+      "sourceQuery": "Gibsons, British Columbia, Canada"
+    },
+    {
+      "city": "Golden",
+      "latitude": 51.299222,
+      "longitude": -116.964296,
+      "displayName": "Golden, Columbia-Shuswap Regional District, British Columbia, Canada",
+      "sourceQuery": "Golden, British Columbia, Canada"
+    },
+    {
+      "city": "Grand Forks",
+      "latitude": 49.031227,
+      "longitude": -118.439204,
+      "displayName": "Grand Forks, Regional District of Kootenay Boundary, British Columbia, Canada",
+      "sourceQuery": "Grand Forks, British Columbia, Canada"
+    },
+    {
+      "city": "Greenwood",
+      "latitude": 49.089585,
+      "longitude": -118.676876,
+      "displayName": "Greenwood, Regional District of Kootenay Boundary, British Columbia, V0H 1J0, Canada",
+      "sourceQuery": "Greenwood, British Columbia, Canada"
+    },
+    {
+      "city": "Grindrod",
+      "latitude": 50.626269,
+      "longitude": -119.121608,
+      "displayName": "Grindrod, Area F (Grindrod/Ashton Creek/Mabel Lake), Regional District of North Okanagan, British Columbia, V0E 1Y0, Canada",
+      "sourceQuery": "Grindrod, British Columbia, Canada"
+    },
+    {
+      "city": "Halfmoon Bay",
+      "latitude": 49.513402,
+      "longitude": -123.909573,
+      "displayName": "Halfmoon Bay, Area B (Halfmoon Bay), Sunshine Coast Regional District, British Columbia, Canada",
+      "sourceQuery": "Halfmoon Bay, British Columbia, Canada"
+    },
+    {
+      "city": "Hope",
+      "latitude": 49.379978,
+      "longitude": -121.441585,
+      "displayName": "Hope, Fraser Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "Hope, British Columbia, Canada"
+    },
+    {
+      "city": "Houston",
+      "latitude": 54.398267,
+      "longitude": -126.647708,
+      "displayName": "Houston, Regional District of Bulkley-Nechako, British Columbia, V0J 1Z0, Canada",
+      "sourceQuery": "Houston, British Columbia, Canada"
+    },
+    {
+      "city": "Invermere",
+      "latitude": 50.504853,
+      "longitude": -116.030206,
+      "displayName": "Invermere, Regional District of East Kootenay, British Columbia, Canada",
+      "sourceQuery": "Invermere, British Columbia, Canada"
+    },
+    {
+      "city": "Jaffray",
+      "latitude": 49.371094,
+      "longitude": -115.301039,
+      "displayName": "Jaffray, Area B (Lake Koocanusa), Regional District of East Kootenay, British Columbia, V0B 1T0, Canada",
+      "sourceQuery": "Jaffray, British Columbia, Canada"
+    },
+    {
+      "city": "Kamloops",
+      "latitude": 50.675827,
+      "longitude": -120.339415,
+      "displayName": "Kamloops, Thompson-Nicola Regional District, British Columbia, Canada",
+      "sourceQuery": "Kamloops, British Columbia, Canada"
+    },
+    {
+      "city": "Kaslo",
+      "latitude": 49.912198,
+      "longitude": -116.904973,
+      "displayName": "Kaslo, Regional District of Central Kootenay, British Columbia, Canada",
+      "sourceQuery": "Kaslo, British Columbia, Canada"
+    },
+    {
+      "city": "Kelowna",
+      "latitude": 49.887918,
+      "longitude": -119.495902,
+      "displayName": "Kelowna, Westbank First Nation #9, Regional District of Central Okanagan, British Columbia, Canada",
+      "sourceQuery": "Kelowna, British Columbia, Canada"
+    },
+    {
+      "city": "Kimberley",
+      "latitude": 49.685088,
+      "longitude": -115.981948,
+      "displayName": "Kimberley, Regional District of East Kootenay, British Columbia, Canada",
+      "sourceQuery": "Kimberley, British Columbia, Canada"
+    },
+    {
+      "city": "Kitimat",
+      "latitude": 54.053558,
+      "longitude": -128.654052,
+      "displayName": "Kitimat, Regional District of Kitimat-Stikine, British Columbia, Canada",
+      "sourceQuery": "Kitimat, British Columbia, Canada"
+    },
+    {
+      "city": "Ladysmith",
+      "latitude": 48.993658,
+      "longitude": -123.815796,
+      "displayName": "Ladysmith, Cowichan Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "Ladysmith, British Columbia, Canada"
+    },
+    {
+      "city": "Lake Country",
+      "latitude": 50.030236,
+      "longitude": -119.402331,
+      "displayName": "Lake Country, Regional District of Central Okanagan, British Columbia, Canada",
+      "sourceQuery": "Lake Country, British Columbia, Canada"
+    },
+    {
+      "city": "Lake Cowichan",
+      "latitude": 48.825949,
+      "longitude": -124.056281,
+      "displayName": "Lake Cowichan, Cowichan Valley Regional District, British Columbia, V0R 2G0, Canada",
+      "sourceQuery": "Lake Cowichan, British Columbia, Canada"
+    },
+    {
+      "city": "Langley",
+      "latitude": 49.103929,
+      "longitude": -122.657047,
+      "displayName": "City of Langley, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Langley, British Columbia, Canada"
+    },
+    {
+      "city": "Lantzville",
+      "latitude": 49.250711,
+      "longitude": -124.074654,
+      "displayName": "Lantzville, Regional District of Nanaimo, British Columbia, V0R 2H0, Canada",
+      "sourceQuery": "Lantzville, British Columbia, Canada"
+    },
+    {
+      "city": "Lazo",
+      "latitude": 49.715023,
+      "longitude": -124.908932,
+      "displayName": "Lazo, Comox, Comox Valley Regional District, British Columbia, V0R 2K0, Canada",
+      "sourceQuery": "Lazo, British Columbia, Canada"
+    },
+    {
+      "city": "Lillooet",
+      "latitude": 50.693938,
+      "longitude": -121.933691,
+      "displayName": "Lillooet, Squamish-Lillooet Regional District, British Columbia, Canada",
+      "sourceQuery": "Lillooet, British Columbia, Canada"
+    },
+    {
+      "city": "Logan Lake",
+      "latitude": 50.494465,
+      "longitude": -120.813365,
+      "displayName": "Logan Lake, Thompson-Nicola Regional District, British Columbia, Canada",
+      "sourceQuery": "Logan Lake, British Columbia, Canada"
+    },
+    {
+      "city": "Lone Butte",
+      "latitude": 51.553481,
+      "longitude": -121.188622,
+      "displayName": "Lone Butte, Area L (Lone Butte/Interlakes), Cariboo Regional District, British Columbia, Canada",
+      "sourceQuery": "Lone Butte, British Columbia, Canada"
+    },
+    {
+      "city": "Lower Nicola",
+      "latitude": 50.155012,
+      "longitude": -120.879084,
+      "displayName": "Lower Nicola, Area M (Beautiful Nicola Valley - North), Thompson-Nicola Regional District, British Columbia, V1K 0A7, Canada",
+      "sourceQuery": "Lower Nicola, British Columbia, Canada"
+    },
+    {
+      "city": "Lumby",
+      "latitude": 50.250137,
+      "longitude": -118.965601,
+      "displayName": "Lumby, Regional District of North Okanagan, British Columbia, V0E 2G0, Canada",
+      "sourceQuery": "Lumby, British Columbia, Canada"
+    },
+    {
+      "city": "Lytton",
+      "latitude": 50.231132,
+      "longitude": -121.581601,
+      "displayName": "Lytton, Thompson-Nicola Regional District, British Columbia, V0K 1Z0, Canada",
+      "sourceQuery": "Lytton, British Columbia, Canada"
+    },
+    {
+      "city": "Mackenzie",
+      "latitude": 55.324397,
+      "longitude": -123.092609,
+      "displayName": "Mackenzie, Regional District of Fraser-Fort George, British Columbia, V0J 2C0, Canada",
+      "sourceQuery": "Mackenzie, British Columbia, Canada"
+    },
+    {
+      "city": "Maple Ridge",
+      "latitude": 49.219735,
+      "longitude": -122.599707,
+      "displayName": "Maple Ridge, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Maple Ridge, British Columbia, Canada"
+    },
+    {
+      "city": "McBride",
+      "latitude": 53.304196,
+      "longitude": -120.16407,
+      "displayName": "McBride, Regional District of Fraser-Fort George, British Columbia, Canada",
+      "sourceQuery": "McBride, British Columbia, Canada"
+    },
+    {
+      "city": "Merritt",
+      "latitude": 50.112488,
+      "longitude": -120.788415,
+      "displayName": "Merritt, Thompson-Nicola Regional District, British Columbia, Canada",
+      "sourceQuery": "Merritt, British Columbia, Canada"
+    },
+    {
+      "city": "Mill Bay",
+      "latitude": 48.651057,
+      "longitude": -123.556366,
+      "displayName": "Mill Bay, Area A (Mill Bay / Malahat), Cowichan Valley Regional District, British Columbia, V0R 2P1, Canada",
+      "sourceQuery": "Mill Bay, British Columbia, Canada"
+    },
+    {
+      "city": "Mission",
+      "latitude": 49.158935,
+      "longitude": -122.283583,
+      "displayName": "Mission, Fraser Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "Mission, British Columbia, Canada"
+    },
+    {
+      "city": "Nakusp",
+      "latitude": 50.239611,
+      "longitude": -117.797403,
+      "displayName": "Nakusp, Regional District of Central Kootenay, British Columbia, Canada",
+      "sourceQuery": "Nakusp, British Columbia, Canada"
+    },
+    {
+      "city": "Nanaimo",
+      "latitude": 49.163877,
+      "longitude": -123.938122,
+      "displayName": "Nanaimo, Regional District of Nanaimo, British Columbia, Canada",
+      "sourceQuery": "Nanaimo, British Columbia, Canada"
+    },
+    {
+      "city": "Nanoose Bay",
+      "latitude": 49.271116,
+      "longitude": -124.19257,
+      "displayName": "Nanoose Bay, Area E (Nanoose Bay), Regional District of Nanaimo, British Columbia, V9P 9A0, Canada",
+      "sourceQuery": "Nanoose Bay, British Columbia, Canada"
+    },
+    {
+      "city": "Nelson",
+      "latitude": 49.494891,
+      "longitude": -117.290039,
+      "displayName": "Nelson, Regional District of Central Kootenay, British Columbia, Canada",
+      "sourceQuery": "Nelson, British Columbia, Canada"
+    },
+    {
+      "city": "New Hazelton",
+      "latitude": 55.245427,
+      "longitude": -127.587752,
+      "displayName": "New Hazelton, Regional District of Kitimat-Stikine, British Columbia, V0J 2J0, Canada",
+      "sourceQuery": "New Hazelton, British Columbia, Canada"
+    },
+    {
+      "city": "New Westminster",
+      "latitude": 49.206773,
+      "longitude": -122.910882,
+      "displayName": "New Westminster, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "New Westminster, British Columbia, Canada"
+    },
+    {
+      "city": "North Cowichan",
+      "latitude": 48.82473,
+      "longitude": -123.719181,
+      "displayName": "North Cowichan, Cowichan Valley Regional District, British Columbia, Canada",
+      "sourceQuery": "North Cowichan, British Columbia, Canada"
+    },
+    {
+      "city": "North Saanich",
+      "latitude": 48.656367,
+      "longitude": -123.432794,
+      "displayName": "North Saanich, Capital Regional District, British Columbia, Canada",
+      "sourceQuery": "North Saanich, British Columbia, Canada"
+    },
+    {
+      "city": "North Vancouver",
+      "latitude": 49.320629,
+      "longitude": -123.073792,
+      "displayName": "North Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "North Vancouver, British Columbia, Canada"
+    },
+    {
+      "city": "Oliver",
+      "latitude": 49.183333,
+      "longitude": -119.55,
+      "displayName": "Oliver, Regional District of Okanagan-Similkameen, British Columbia, Canada",
+      "sourceQuery": "Oliver, British Columbia, Canada"
+    },
+    {
+      "city": "Osoyoos",
+      "latitude": 49.033333,
+      "longitude": -119.466667,
+      "displayName": "Osoyoos, Regional District of Okanagan-Similkameen, British Columbia, Canada",
+      "sourceQuery": "Osoyoos, British Columbia, Canada"
+    },
+    {
+      "city": "Oyama",
+      "latitude": 50.110056,
+      "longitude": -119.370877,
+      "displayName": "Oyama, Lake Country, Regional District of Central Okanagan, British Columbia, V4V 2E1, Canada",
+      "sourceQuery": "Oyama, British Columbia, Canada"
+    },
+    {
+      "city": "Parksville",
+      "latitude": 49.317951,
+      "longitude": -124.311739,
+      "displayName": "Parksville, Regional District of Nanaimo, British Columbia, Canada",
+      "sourceQuery": "Parksville, British Columbia, Canada"
+    },
+    {
+      "city": "Peachland",
+      "latitude": 49.766667,
+      "longitude": -119.75,
+      "displayName": "Peachland, Regional District of Central Okanagan, British Columbia, Canada",
+      "sourceQuery": "Peachland, British Columbia, Canada"
+    },
+    {
+      "city": "Pemberton",
+      "latitude": 50.32038,
+      "longitude": -122.808078,
+      "displayName": "Pemberton, Squamish-Lillooet Regional District, British Columbia, V0N 2L1, Canada",
+      "sourceQuery": "Pemberton, British Columbia, Canada"
+    },
+    {
+      "city": "Pender Island",
+      "latitude": 48.778693,
+      "longitude": -123.281611,
+      "displayName": "Pender Island, Bedwell Harbour Road, Southern Gulf Islands Electoral Area, Capital Regional District, British Columbia, V0N 2M0, Canada",
+      "sourceQuery": "Pender Island, British Columbia, Canada"
+    },
+    {
+      "city": "Penticton",
+      "latitude": 49.500327,
+      "longitude": -119.593249,
+      "displayName": "Penticton, Regional District of Okanagan-Similkameen, British Columbia, Canada",
+      "sourceQuery": "Penticton, British Columbia, Canada"
+    },
+    {
+      "city": "Pitt Meadows",
+      "latitude": 49.220762,
+      "longitude": -122.690153,
+      "displayName": "Pitt Meadows, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Pitt Meadows, British Columbia, Canada"
+    },
+    {
+      "city": "Port Alberni",
+      "latitude": 49.234367,
+      "longitude": -124.805652,
+      "displayName": "Port Alberni, Alberni-Clayoquot Regional District, British Columbia, Canada",
+      "sourceQuery": "Port Alberni, British Columbia, Canada"
+    },
+    {
+      "city": "Port Coquitlam",
+      "latitude": 49.262164,
+      "longitude": -122.780542,
+      "displayName": "Port Coquitlam, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Port Coquitlam, British Columbia, Canada"
+    },
+    {
+      "city": "Port Hardy",
+      "latitude": 50.72444,
+      "longitude": -127.497608,
+      "displayName": "Port Hardy, Regional District of Mount Waddington, British Columbia, V0N 2P0, Canada",
+      "sourceQuery": "Port Hardy, British Columbia, Canada"
+    },
+    {
+      "city": "Port Mcneill",
+      "latitude": 50.589345,
+      "longitude": -127.083903,
+      "displayName": "Port McNeill, Regional District of Mount Waddington, British Columbia, V0N 2R0, Canada",
+      "sourceQuery": "Port Mcneill, British Columbia, Canada"
+    },
+    {
+      "city": "Port Moody",
+      "latitude": 49.282198,
+      "longitude": -122.829355,
+      "displayName": "Port Moody, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Port Moody, British Columbia, Canada"
+    },
+    {
+      "city": "Pouce Coupe",
+      "latitude": 55.714682,
+      "longitude": -120.132191,
+      "displayName": "Pouce Coupe, Peace River Regional District, British Columbia, V0C 2C0, Canada",
+      "sourceQuery": "Pouce Coupe, British Columbia, Canada"
+    },
+    {
+      "city": "Powell River",
+      "latitude": 49.835676,
+      "longitude": -124.524412,
+      "displayName": "Powell River, qathet Regional District, British Columbia, Canada",
+      "sourceQuery": "Powell River, British Columbia, Canada"
+    },
+    {
+      "city": "Prespatou",
+      "latitude": 56.921193,
+      "longitude": -121.060437,
+      "displayName": "Prespatou, Area B (Finlay Valley/Beatton Valley), Peace River Regional District, British Columbia, V0C 2S0, Canada",
+      "sourceQuery": "Prespatou, British Columbia, Canada"
+    },
+    {
+      "city": "Prince George",
+      "latitude": 53.912864,
+      "longitude": -122.74537,
+      "displayName": "Prince George, Regional District of Fraser-Fort George, British Columbia, Canada",
+      "sourceQuery": "Prince George, British Columbia, Canada"
+    },
+    {
+      "city": "Prince Rupert",
+      "latitude": 54.312657,
+      "longitude": -130.32549,
+      "displayName": "Prince Rupert, North Coast Regional District, British Columbia, Canada",
+      "sourceQuery": "Prince Rupert, British Columbia, Canada"
+    },
+    {
+      "city": "Princeton",
+      "latitude": 49.460459,
+      "longitude": -120.507973,
+      "displayName": "Princeton, Regional District of Okanagan-Similkameen, British Columbia, Canada",
+      "sourceQuery": "Princeton, British Columbia, Canada"
+    },
+    {
+      "city": "Qualicum Beach",
+      "latitude": 49.347986,
+      "longitude": -124.443941,
+      "displayName": "Qualicum Beach, Regional District of Nanaimo, British Columbia, Canada",
+      "sourceQuery": "Qualicum Beach, British Columbia, Canada"
+    },
+    {
+      "city": "Quathiaski Cove",
+      "latitude": 50.041275,
+      "longitude": -125.209964,
+      "displayName": "Quathiaski Cove, Area C (Discovery Islands/Mainland Inlets), Strathcona Regional District, British Columbia, V0P 1N0, Canada",
+      "sourceQuery": "Quathiaski Cove, British Columbia, Canada"
+    },
+    {
+      "city": "Queen Charlotte",
+      "latitude": 53.254788,
+      "longitude": -132.10273,
+      "displayName": "Daajing Giids, North Coast Regional District, British Columbia, V0T 1S0, Canada",
+      "sourceQuery": "Queen Charlotte, British Columbia, Canada"
+    },
+    {
+      "city": "Quesnel",
+      "latitude": 52.979428,
+      "longitude": -122.493627,
+      "displayName": "Quesnel, Cariboo Regional District, British Columbia, Canada",
+      "sourceQuery": "Quesnel, British Columbia, Canada"
+    },
+    {
+      "city": "Revelstoke",
+      "latitude": 50.998045,
+      "longitude": -118.195671,
+      "displayName": "Revelstoke, Columbia-Shuswap Regional District, British Columbia, Canada",
+      "sourceQuery": "Revelstoke, British Columbia, Canada"
+    },
+    {
+      "city": "Richmond",
+      "latitude": 49.163168,
+      "longitude": -123.137414,
+      "displayName": "Richmond, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Richmond, British Columbia, Canada"
+    },
+    {
+      "city": "Roberts Creek",
+      "latitude": 49.421258,
+      "longitude": -123.641937,
+      "displayName": "Roberts Creek, Area D (Roberts Creek), Sunshine Coast Regional District, British Columbia, V0N 2W0, Canada",
+      "sourceQuery": "Roberts Creek, British Columbia, Canada"
+    },
+    {
+      "city": "Robson",
+      "latitude": 49.334255,
+      "longitude": -117.694834,
+      "displayName": "Robson, Area J (Lower Arrow/Columbia), Regional District of Central Kootenay, British Columbia, V1N 4V3, Canada",
+      "sourceQuery": "Robson, British Columbia, Canada"
+    },
+    {
+      "city": "Rosedale",
+      "latitude": 49.183078,
+      "longitude": -121.806022,
+      "displayName": "Rosedale, Chilliwack, Kent, Fraser Valley Regional District, British Columbia, V3V 1P8, Canada",
+      "sourceQuery": "Rosedale, British Columbia, Canada"
+    },
+    {
+      "city": "Rossland",
+      "latitude": 49.078476,
+      "longitude": -117.799903,
+      "displayName": "Rossland, Regional District of Kootenay Boundary, British Columbia, V0G 1Y0, Canada",
+      "sourceQuery": "Rossland, British Columbia, Canada"
+    },
+    {
+      "city": "Royston",
+      "latitude": 49.646142,
+      "longitude": -124.945873,
+      "displayName": "Royston, Area A (Baynes Sound), Comox Valley Regional District, British Columbia, V0R 2V0, Canada",
+      "sourceQuery": "Royston, British Columbia, Canada"
+    },
+    {
+      "city": "Salmo",
+      "latitude": 49.193443,
+      "longitude": -117.278705,
+      "displayName": "Salmo, Regional District of Central Kootenay, British Columbia, Canada",
+      "sourceQuery": "Salmo, British Columbia, Canada"
+    },
+    {
+      "city": "Salmon Arm",
+      "latitude": 50.700506,
+      "longitude": -119.279053,
+      "displayName": "Salmon Arm, Columbia-Shuswap Regional District, British Columbia, Canada",
+      "sourceQuery": "Salmon Arm, British Columbia, Canada"
+    },
+    {
+      "city": "Salt Spring Island",
+      "latitude": 48.829667,
+      "longitude": -123.515161,
+      "displayName": "Saltspring Island, Salt Spring Island Electoral Area, Capital Regional District, British Columbia, Canada",
+      "sourceQuery": "Salt Spring Island, British Columbia, Canada"
+    },
+    {
+      "city": "Sechelt",
+      "latitude": 49.472115,
+      "longitude": -123.763124,
+      "displayName": "Sechelt, Sunshine Coast Regional District, British Columbia, Canada",
+      "sourceQuery": "Sechelt, British Columbia, Canada"
+    },
+    {
+      "city": "Shawnigan Lake",
+      "latitude": 48.653813,
+      "longitude": -123.622979,
+      "displayName": "Shawnigan Lake, Area B (Shawnigan Lake), Cowichan Valley Regional District, British Columbia, V0R 2W2, Canada",
+      "sourceQuery": "Shawnigan Lake, British Columbia, Canada"
+    },
+    {
+      "city": "Sicamous",
+      "latitude": 50.836799,
+      "longitude": -118.982639,
+      "displayName": "Sicamous, Columbia-Shuswap Regional District, British Columbia, Canada",
+      "sourceQuery": "Sicamous, British Columbia, Canada"
+    },
+    {
+      "city": "Sidney",
+      "latitude": 48.650579,
+      "longitude": -123.398324,
+      "displayName": "Sidney, Capital Regional District, British Columbia, Canada",
+      "sourceQuery": "Sidney, British Columbia, Canada"
+    },
+    {
+      "city": "Smithers",
+      "latitude": 54.779207,
+      "longitude": -127.176099,
+      "displayName": "Smithers, Regional District of Bulkley-Nechako, British Columbia, Canada",
+      "sourceQuery": "Smithers, British Columbia, Canada"
+    },
+    {
+      "city": "Sooke",
+      "latitude": 48.382572,
+      "longitude": -123.731517,
+      "displayName": "Sooke, Capital Regional District, British Columbia, Canada",
+      "sourceQuery": "Sooke, British Columbia, Canada"
+    },
+    {
+      "city": "Sorrento",
+      "latitude": 50.876948,
+      "longitude": -119.469932,
+      "displayName": "Sorrento, Area C (Blind Bay/Sorrento), Columbia-Shuswap Regional District, British Columbia, V0E 2W0, Canada",
+      "sourceQuery": "Sorrento, British Columbia, Canada"
+    },
+    {
+      "city": "Sparwood",
+      "latitude": 49.733269,
+      "longitude": -114.885847,
+      "displayName": "Sparwood, Regional District of East Kootenay, British Columbia, Canada",
+      "sourceQuery": "Sparwood, British Columbia, Canada"
+    },
+    {
+      "city": "Squamish",
+      "latitude": 49.758888,
+      "longitude": -123.13428,
+      "displayName": "Squamish, Squamish-Lillooet Regional District, British Columbia, Canada",
+      "sourceQuery": "Squamish, British Columbia, Canada"
+    },
+    {
+      "city": "Summerland",
+      "latitude": 49.6,
+      "longitude": -119.666667,
+      "displayName": "Summerland, Regional District of Okanagan-Similkameen, British Columbia, Canada",
+      "sourceQuery": "Summerland, British Columbia, Canada"
+    },
+    {
+      "city": "Surrey",
+      "latitude": 49.191303,
+      "longitude": -122.849143,
+      "displayName": "Surrey, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Surrey, British Columbia, Canada"
+    },
+    {
+      "city": "Tappen",
+      "latitude": 50.783333,
+      "longitude": -119.333333,
+      "displayName": "Tappen, British Columbia, V0E 2X1, Canada",
+      "sourceQuery": "Tappen, British Columbia, Canada"
+    },
+    {
+      "city": "Taylor",
+      "latitude": 56.159227,
+      "longitude": -120.686769,
+      "displayName": "Taylor, Peace River Regional District, British Columbia, V0C 2K0, Canada",
+      "sourceQuery": "Taylor, British Columbia, Canada"
+    },
+    {
+      "city": "Telkwa",
+      "latitude": 54.696517,
+      "longitude": -127.050966,
+      "displayName": "Telkwa, Regional District of Bulkley-Nechako, British Columbia, V0J 2X0, Canada",
+      "sourceQuery": "Telkwa, British Columbia, Canada"
+    },
+    {
+      "city": "Terrace",
+      "latitude": 54.517271,
+      "longitude": -128.599548,
+      "displayName": "Terrace, Regional District of Kitimat-Stikine, British Columbia, Canada",
+      "sourceQuery": "Terrace, British Columbia, Canada"
+    },
+    {
+      "city": "Tofino",
+      "latitude": 49.152964,
+      "longitude": -125.904708,
+      "displayName": "Tofino, Alberni-Clayoquot Regional District, British Columbia, V0R 2Z0, Canada",
+      "sourceQuery": "Tofino, British Columbia, Canada"
+    },
+    {
+      "city": "Trail",
+      "latitude": 49.09453,
+      "longitude": -117.709766,
+      "displayName": "Trail, Regional District of Kootenay Boundary, British Columbia, Canada",
+      "sourceQuery": "Trail, British Columbia, Canada"
+    },
+    {
+      "city": "Tumbler Ridge",
+      "latitude": 55.126201,
+      "longitude": -120.998067,
+      "displayName": "Tumbler Ridge, Peace River Regional District, British Columbia, V0C 2W0, Canada",
+      "sourceQuery": "Tumbler Ridge, British Columbia, Canada"
+    },
+    {
+      "city": "Ucluelet",
+      "latitude": 48.942682,
+      "longitude": -125.546049,
+      "displayName": "Ucluelet, Alberni-Clayoquot Regional District, British Columbia, V0R 3A0, Canada",
+      "sourceQuery": "Ucluelet, British Columbia, Canada"
+    },
+    {
+      "city": "Valemount",
+      "latitude": 52.831512,
+      "longitude": -119.280579,
+      "displayName": "Valemount, Regional District of Fraser-Fort George, British Columbia, V0E 2Z0, Canada",
+      "sourceQuery": "Valemount, British Columbia, Canada"
+    },
+    {
+      "city": "Vancouver",
+      "latitude": 49.260872,
+      "longitude": -123.113952,
+      "displayName": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "Vancouver, British Columbia, Canada"
+    },
+    {
+      "city": "Vanderhoof",
+      "latitude": 54.017529,
+      "longitude": -124.007663,
+      "displayName": "Vanderhoof, Regional District of Bulkley-Nechako, British Columbia, Canada",
+      "sourceQuery": "Vanderhoof, British Columbia, Canada"
+    },
+    {
+      "city": "Vernon",
+      "latitude": 50.266867,
+      "longitude": -119.271816,
+      "displayName": "Vernon, Regional District of North Okanagan, British Columbia, Canada",
+      "sourceQuery": "Vernon, British Columbia, Canada"
+    },
+    {
+      "city": "Victoria",
+      "latitude": 48.428318,
+      "longitude": -123.364953,
+      "displayName": "Victoria, Capital Regional District, British Columbia, Canada",
+      "sourceQuery": "Victoria, British Columbia, Canada"
+    },
+    {
+      "city": "West Kelowna",
+      "latitude": 49.858578,
+      "longitude": -119.582876,
+      "displayName": "West Kelowna, Regional District of Central Okanagan, British Columbia, Canada",
+      "sourceQuery": "West Kelowna, British Columbia, Canada"
+    },
+    {
+      "city": "West Vancouver",
+      "latitude": 49.331121,
+      "longitude": -123.159479,
+      "displayName": "West Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "West Vancouver, British Columbia, Canada"
+    },
+    {
+      "city": "Whistler",
+      "latitude": 50.11719,
+      "longitude": -122.954302,
+      "displayName": "Whistler, Squamish-Lillooet Regional District, British Columbia, Canada",
+      "sourceQuery": "Whistler, British Columbia, Canada"
+    },
+    {
+      "city": "White Rock",
+      "latitude": 49.023536,
+      "longitude": -122.797924,
+      "displayName": "White Rock, Metro Vancouver Regional District, British Columbia, Canada",
+      "sourceQuery": "White Rock, British Columbia, Canada"
+    },
+    {
+      "city": "Williams Lake",
+      "latitude": 52.129266,
+      "longitude": -122.139726,
+      "displayName": "Williams Lake, Cariboo Regional District, British Columbia, Canada",
+      "sourceQuery": "Williams Lake, British Columbia, Canada"
+    },
+    {
+      "city": "Windermere",
+      "latitude": 50.463718,
+      "longitude": -115.989832,
+      "displayName": "Windermere, Area F (Columbia Lake/Windermere Lake), Regional District of East Kootenay, British Columbia, V0B 2L2, Canada",
+      "sourceQuery": "Windermere, British Columbia, Canada"
+    },
+    {
+      "city": "Winfield",
+      "latitude": 50.021492,
+      "longitude": -119.407041,
+      "displayName": "Winfield, Lake Country, Regional District of Central Okanagan, British Columbia, V4V 2L9, Canada",
+      "sourceQuery": "Winfield, British Columbia, Canada"
+    },
+    {
+      "city": "Winlaw",
+      "latitude": 49.61082,
+      "longitude": -117.563431,
+      "displayName": "Winlaw, Area H (The Slocan Valley), Regional District of Central Kootenay, British Columbia, V0G 2J0, Canada",
+      "sourceQuery": "Winlaw, British Columbia, Canada"
+    }
+  ]
+}

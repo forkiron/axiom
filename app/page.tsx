@@ -1,31 +1,10 @@
 'use client';
 
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { GlobeScene } from '../components/globe/GlobeScene';
-import { SearchBar } from '../components/SearchBar';
-import type { EducationCountryMetric, SchoolDatum } from '../lib/types';
+import { WorldGlobeMap } from '../components/globe/WorldGlobeMap';
 
 export default function LandingPage() {
-  const [selectedRecord, setSelectedRecord] = useState<EducationCountryMetric | null>(null);
-  const [targetSchool, setTargetSchool] = useState<SchoolDatum | null>(null);
-
-  const handleCountrySelect = (record: EducationCountryMetric | null) => {
-    setSelectedRecord(record);
-    setTargetSchool(null);
-  };
-
-  const handleBackToGlobe = () => {
-    setSelectedRecord(null);
-    setTargetSchool(null);
-  };
-
-  const handleSchoolSelect = (school: SchoolDatum) => {
-    setTargetSchool(school);
-    setSelectedRecord(null);
-  };
-
   return (
     <main className="relative h-screen w-screen overflow-hidden bg-black">
       <motion.div
@@ -34,50 +13,18 @@ export default function LandingPage() {
         transition={{ duration: 0.55, ease: 'easeOut' }}
         className="h-full w-full"
       >
-        <GlobeScene
-          className="h-screen min-h-screen w-screen rounded-none border-0"
-          onCountrySelect={handleCountrySelect}
-          selectedIso3={selectedRecord?.iso3 ?? null}
-          targetCoordinates={targetSchool ? { latitude: targetSchool.latitude, longitude: targetSchool.longitude } : null}
-        />
+        <WorldGlobeMap className="h-screen min-h-screen w-screen" />
+        <div className="pointer-events-none absolute top-6 right-6 z-20 flex gap-3">
+          <div className="pointer-events-auto">
+            <Link
+              href="/analyzer"
+              className="rounded-md border border-emerald-500/30 bg-emerald-950/40 px-3 py-2 text-xs font-medium text-emerald-200 hover:bg-emerald-900/60 transition-colors backdrop-blur-sm"
+            >
+              AI Test Analyzer →
+            </Link>
+          </div>
+        </div>
       </motion.div>
-
-      <div className="absolute top-6 left-1/2 -translate-x-1/2 z-20 w-full max-w-md px-4">
-        <SearchBar onSelect={handleSchoolSelect} />
-      </div>
-
-      <div className="absolute top-6 right-6 z-10 flex gap-3">
-        <Link
-          href="/analyzer"
-          className="rounded-md border border-emerald-500/30 bg-emerald-950/40 px-3 py-2 text-xs font-medium text-emerald-200 hover:bg-emerald-900/60 transition-colors backdrop-blur-sm"
-        >
-          AI Test Analyzer →
-        </Link>
-        {(selectedRecord || targetSchool) && (
-          <button
-            type="button"
-            onClick={handleBackToGlobe}
-            className="rounded-md border border-slate-700 bg-slate-950/70 px-3 py-2 text-xs font-medium text-slate-200 hover:bg-slate-800 transition-colors"
-          >
-            ← Back to Globe
-          </button>
-        )}
-      </div>
-
-      {selectedRecord && (
-        <div className="absolute top-6 left-6 z-10 flex items-center gap-3">
-          <span className="rounded-md border border-slate-700 bg-slate-950/70 px-3 py-2 text-xs font-medium text-slate-200">
-            {selectedRecord.country}
-          </span>
-        </div>
-      )}
-      {targetSchool && (
-        <div className="absolute top-6 left-6 z-10 flex items-center gap-3">
-          <span className="rounded-md border border-slate-700 bg-slate-950/70 px-3 py-2 text-xs font-medium text-amber-200">
-            {targetSchool.name}
-          </span>
-        </div>
-      )}
     </main>
   );
 }
