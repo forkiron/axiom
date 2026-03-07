@@ -1,11 +1,8 @@
 'use client';
 
-import { AnimatePresence, motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 import { IBM_Plex_Mono, Space_Grotesk } from 'next/font/google';
 import Link from 'next/link';
-import { TestAnalyzerForm } from '@/components/analyzer/TestAnalyzerForm';
-import { TestAnalyzerResult } from '@/components/analyzer/TestAnalyzerResult';
 import { cn } from '@/lib/utils';
 import { Scales } from '@/components/ui/scales';
 import { Spotlight } from '@/components/ui/spotlight';
@@ -20,32 +17,7 @@ const monoFont = IBM_Plex_Mono({
   weight: ['400', '500', '600'],
 });
 
-interface AnalysisResult {
-  estimatedDifficulty: number;
-  adjustmentFactor: number;
-  rationale: string;
-  curriculumAlignment?: string;
-  questionStyle?: string;
-  questionCount?: number;
-}
-
 export default function LandingPage() {
-  const [isAnalyzerOpen, setIsAnalyzerOpen] = useState(false);
-  const [analysisResult, setAnalysisResult] = useState<AnalysisResult | null>(null);
-
-  useEffect(() => {
-    if (!isAnalyzerOpen) return;
-
-    const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        setIsAnalyzerOpen(false);
-      }
-    };
-
-    window.addEventListener('keydown', handleEscape);
-    return () => window.removeEventListener('keydown', handleEscape);
-  }, [isAnalyzerOpen]);
-
   const verticalMask = {
     maskImage: 'linear-gradient(to bottom, transparent, black 12%, black 88%, transparent)',
     WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 12%, black 88%, transparent)',
@@ -119,61 +91,6 @@ export default function LandingPage() {
           </div>
         </section>
       </motion.div>
-
-      <button
-        type="button"
-        onClick={() => setIsAnalyzerOpen((open) => !open)}
-        className={`fixed right-0 top-1/2 z-[60] -translate-y-1/2 rounded-l-xl border border-r-0 border-white/15 bg-zinc-950/95 px-3 py-5 text-[11px] font-medium uppercase tracking-[0.14em] text-zinc-200 shadow-xl backdrop-blur-sm transition hover:bg-zinc-900 ${monoFont.className}`}
-      >
-        {isAnalyzerOpen ? 'Close Analyzer' : 'Open Analyzer'}
-      </button>
-
-      <AnimatePresence>
-        {isAnalyzerOpen && (
-          <>
-            <motion.button
-              type="button"
-              aria-label="Close analyzer overlay"
-              onClick={() => setIsAnalyzerOpen(false)}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 z-40 bg-black/70 backdrop-blur-[2px]"
-            />
-
-            <motion.aside
-              initial={{ x: 520, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              exit={{ x: 520, opacity: 0 }}
-              transition={{ duration: 0.3, ease: 'easeOut' }}
-              className="fixed right-2 top-1/2 z-50 max-h-[92vh] w-[min(44rem,calc(100vw-1rem))] -translate-y-1/2 overflow-y-auto rounded-2xl border border-white/10 bg-[#05070de8] p-4 shadow-2xl backdrop-blur-xl sm:right-4 sm:w-[min(48rem,calc(100vw-2rem))] sm:p-6"
-            >
-              <div className="mb-5 flex items-start justify-between gap-4">
-                <div>
-                  <p className={`text-[11px] uppercase tracking-[0.2em] text-zinc-500 ${monoFont.className}`}>AXIOM ANALYZER</p>
-                  <h2 className="mt-1 text-2xl font-semibold text-zinc-100">AI Test Evaluator</h2>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => setIsAnalyzerOpen(false)}
-                  className="rounded-lg border border-white/15 px-3 py-1.5 text-xs font-medium text-zinc-300 transition hover:bg-white/10"
-                >
-                  Close
-                </button>
-              </div>
-
-              {!analysisResult ? (
-                <TestAnalyzerForm onResult={setAnalysisResult} />
-              ) : (
-                <TestAnalyzerResult
-                  result={analysisResult}
-                  onReset={() => setAnalysisResult(null)}
-                />
-              )}
-            </motion.aside>
-          </>
-        )}
-      </AnimatePresence>
     </main>
   );
 }
