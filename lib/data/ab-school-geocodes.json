@@ -1,0 +1,2471 @@
+{
+  "generatedAt": "2026-03-07T18:54:30.377Z",
+  "source": "ab_school_rankings.csv",
+  "provider": "OpenStreetMap Nominatim",
+  "schools": {
+    "old scona|edmonton": {
+      "latitude": 53.51977,
+      "longitude": -113.501992,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Old Scona Academic High School, 84 Avenue NW, Strathcona, Greater Strathcona, Edmonton, Alberta, T6E 2H5, Canada",
+      "sourceQuery": "Old Scona, Edmonton, Alberta, Canada"
+    },
+    "webber|calgary": {
+      "latitude": 51.043705,
+      "longitude": -114.225169,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "Webber Academy, 14 Avenue SW, Aspen Woods, Calgary, Alberta, T3H 0L6, Canada",
+      "sourceQuery": "Webber, Calgary, Alberta, Canada"
+    },
+    "renert|calgary": {
+      "latitude": 51.152324,
+      "longitude": -114.203457,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Renert School, Royal Vista Way NW, Royal Vista, Calgary, Alberta, T3R 0N2, Canada",
+      "sourceQuery": "Renert, Calgary, Alberta, Canada"
+    },
+    "edison|foothills county": {
+      "latitude": 50.75277,
+      "longitude": -113.977146,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Edison School, 15 Street E, Foothills County, Alberta, T1S 0H9, Canada",
+      "sourceQuery": "Edison, Foothills County, Alberta, Canada"
+    },
+    "rundle college|calgary": {
+      "latitude": 51.03641,
+      "longitude": -114.194876,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Rundle College Jr/Sr High School, 7375, 17 Avenue SW, Springbank Hill, Calgary, Alberta, T3H 3W5, Canada",
+      "sourceQuery": "Rundle College, Calgary, Alberta, Canada"
+    },
+    "calgary french & international|calgary": {
+      "latitude": 51.067983,
+      "longitude": -114.197875,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 15,
+      "displayName": "Calgary French and International School, 77 Street SW, Cougar Ridge, Calgary, Alberta, T3H 5R1, Canada",
+      "sourceQuery": "Calgary French & International, Calgary, Alberta, Canada"
+    },
+    "west island college|calgary": {
+      "latitude": 50.98696,
+      "longitude": -114.051508,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "West Island College, 7410, Blackfoot Trail SE, Fairview Industrial, Calgary, Alberta, T2H 1M5, Canada",
+      "sourceQuery": "West Island College, Calgary, Alberta, Canada"
+    },
+    "westmount|calgary": {
+      "latitude": 51.058281,
+      "longitude": -114.130856,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Westmount Charter School Elementary, 728, 32 Street NW, Parkdale, Calgary, Alberta, T2N 2V9, Canada",
+      "sourceQuery": "Westmount, Calgary, Alberta, Canada"
+    },
+    "archbishop macdonald|edmonton": {
+      "latitude": 53.553032,
+      "longitude": -113.567545,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Archbishop MacDonald Catholic High School, 144A Street NW, McQueen, Western Mature Area, Edmonton, Alberta, T5N 3L1, Canada",
+      "sourceQuery": "Archbishop MacDonald, Edmonton, Alberta, Canada"
+    },
+    "western canada|calgary": {
+      "latitude": 51.036436,
+      "longitude": -114.07696,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Western Canada High School, 641, 17 Avenue SW, 17th Ave Retail & Entertainment District, Cliff Bungalow, Calgary, Alberta, T2S 0B6, Canada",
+      "sourceQuery": "Western Canada, Calgary, Alberta, Canada"
+    },
+    "ernest manning|calgary": {
+      "latitude": 51.036408,
+      "longitude": -114.190613,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Ernest Manning High School, 20, Springborough Boulevard SW, Springbank Hill, Calgary, Alberta, T3N 0N9, Canada",
+      "sourceQuery": "Ernest Manning, Calgary, Alberta, Canada"
+    },
+    "tempo|edmonton": {
+      "latitude": 53.629162,
+      "longitude": -113.352737,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Tempo, Evergreen Avenue NW, Evergreen, Horse Hill, Edmonton, Alberta, T5B 4K3, Canada",
+      "sourceQuery": "Tempo, Edmonton, Alberta, Canada"
+    },
+    "millwoods christian|edmonton": {
+      "latitude": 53.475527,
+      "longitude": -113.463266,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Millwoods Christian School, 8710, Mill Woods Road West NW, Tweddle Place, Millbourne, Mill Woods, Edmonton, Alberta, T6K 3J3, Canada",
+      "sourceQuery": "Millwoods Christian, Edmonton, Alberta, Canada"
+    },
+    "edmonton islamic|edmonton": {
+      "latitude": 53.607553,
+      "longitude": -113.538433,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Edmonton Islamic Acadamy, 125 Street NW, Baranow, Castle Downs, Edmonton, Alberta, T6V 1C1, Canada",
+      "sourceQuery": "Edmonton Islamic, Edmonton, Alberta, Canada"
+    },
+    "dr. e. p. scarlett|calgary": {
+      "latitude": 50.94871,
+      "longitude": -114.087703,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Dr. E.P. Scarlett High School, 220, Canterbury Drive SW, Canyon Meadows, Calgary, Alberta, T2W 1H4, Canada",
+      "sourceQuery": "Dr. E. P. Scarlett High School, Calgary, Alberta, Canada"
+    },
+    "bearspaw christian|calgary": {
+      "latitude": 51.187403,
+      "longitude": -114.189538,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Bearspaw Christian School, 69 Street NW, Glacier Ridge, Calgary, Rocky View County, Alberta, T3R 1C5, Canada",
+      "sourceQuery": "Bearspaw Christian, Calgary, Alberta, Canada"
+    },
+    "master’s college|calgary": {
+      "latitude": 51.015255,
+      "longitude": -114.11611,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "Master's Academy & College, 4414, Crowchild Trail SW, Garrison Woods, Calgary, Alberta, T2T 5J4, Canada",
+      "sourceQuery": "Master’s College, Calgary, Alberta, Canada"
+    },
+    "vérendrye|lethbridge": {
+      "latitude": 49.690797,
+      "longitude": -112.810766,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "École La Vérendrye, 6 Avenue S, Victoria Park, Lethbridge, Alberta, T1J 3C6, Canada",
+      "sourceQuery": "Vérendrye, Lethbridge, Alberta, Canada"
+    },
+    "sir winston churchill|calgary": {
+      "latitude": 51.099446,
+      "longitude": -114.139226,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Sir Winston Churchill High School, 5220, Northland Drive NW, Brentwood, Calgary, Alberta, T2L 2J8, Canada",
+      "sourceQuery": "Sir Winston Churchill, Calgary, Alberta, Canada"
+    },
+    "lillian osborne|edmonton": {
+      "latitude": 53.456589,
+      "longitude": -113.579674,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Lillian Osborne High School, 2019, Leger Road NW, Leger, Oak Hills, Terwillegar Heights, Edmonton, Alberta, T6R 0R9, Canada",
+      "sourceQuery": "Lillian Osborne, Edmonton, Alberta, Canada"
+    },
+    "william aberhart|calgary": {
+      "latitude": 51.078154,
+      "longitude": -114.11486,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "William Aberhart High School, 3009, Morley Trail NW, Banff Trail, Calgary, Alberta, T2M 4H2, Canada",
+      "sourceQuery": "William Aberhart, Calgary, Alberta, Canada"
+    },
+    "holy trinity academy|okotoks": {
+      "latitude": 50.741663,
+      "longitude": -113.949974,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Holy Trinity Academy, 32 Street E, Crystal Green, Okotoks, Town of Okotoks, Alberta, T1S 2N7, Canada",
+      "sourceQuery": "Holy Trinity Academy, Okotoks, Alberta, Canada"
+    },
+    "henry wise wood|calgary": {
+      "latitude": 50.986463,
+      "longitude": -114.084833,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 21,
+      "displayName": "Henry Wise Wood High School, 910, 75 Avenue SW, Kelvin Grove, Calgary, Alberta, T2V 0R9, Canada",
+      "sourceQuery": "Henry Wise Wood, Calgary, Alberta, Canada"
+    },
+    "strathcona christian|sherwood park": {
+      "latitude": 53.514011,
+      "longitude": -113.269532,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Strathcona Christian Academy Secondary, 1011, Clover Bar Road, Sherwood Park, Strathcona County, Alberta, T8B 6G3, Canada",
+      "sourceQuery": "Strathcona Christian, Sherwood Park, Alberta, Canada"
+    },
+    "heritage christian|calgary": {
+      "latitude": 51.091746,
+      "longitude": -114.010044,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Heritage Christian Academy, 2003, McKnight Boulevard NE, North Airways, Calgary, Alberta, T2E 6L2, Canada",
+      "sourceQuery": "Heritage Christian, Calgary, Alberta, Canada"
+    },
+    "strathcona-tweedsmuir|foothills county": {
+      "latitude": 50.775613,
+      "longitude": -114.031365,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Strathcona-Tweedsmuir School, 306 Avenue W, Foothills County, Alberta, Canada",
+      "sourceQuery": "Strathcona-Tweedsmuir, Foothills County, Alberta, Canada"
+    },
+    "alberta ballet|calgary": {
+      "latitude": 51.036793,
+      "longitude": -114.065467,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Alberta Ballet, 141, 18 Avenue SW, Mission, Calgary, Alberta, T2S 0B8, Canada",
+      "sourceQuery": "Alberta Ballet, Calgary, Alberta, Canada"
+    },
+    "our lady of the snows|canmore": {
+      "latitude": 51.050225,
+      "longitude": -115.317286,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Our Lady of the Snows, 3100B, Stewart Creek Drive, Stewart Creek, Three Sisters Ridge, Three Sisters Mountain Village, Canmore, Town of Canmore, Alberta, T1W 3M6, Canada",
+      "sourceQuery": "Our Lady of the Snows, Canmore, Alberta, Canada"
+    },
+    "clear water|calgary": {
+      "latitude": 51.019419,
+      "longitude": -114.122615,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Clear Water Academy, 3910, Quesnay Wood Drive SW, Currie Barracks, Calgary, Alberta, T3E 8G1, Canada",
+      "sourceQuery": "Clear Water, Calgary, Alberta, Canada"
+    },
+    "hughenden|hughenden": {
+      "latitude": 52.510771,
+      "longitude": -110.963255,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Village of Hughenden, Alberta, Canada",
+      "sourceQuery": "Hughenden, Alberta, Canada"
+    },
+    "strathcona|edmonton": {
+      "latitude": 53.522624,
+      "longitude": -113.489176,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Strathcona, Greater Strathcona, Edmonton, Alberta, Canada",
+      "sourceQuery": "Strathcona, Edmonton, Alberta, Canada"
+    },
+    "stirling|stirling": {
+      "latitude": 49.50132,
+      "longitude": -112.522383,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Stirling School, 3 Street, Village of Stirling, Alberta, T0K 2E0, Canada",
+      "sourceQuery": "Stirling, Stirling, Alberta, Canada"
+    },
+    "j h picard|edmonton": {
+      "latitude": 53.507233,
+      "longitude": -113.485076,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "École J. H. Picard, 72 Avenue NW, Hazeldean, Mill Creek South, Greater Strathcona, Edmonton, Alberta, T6E 1E8, Canada",
+      "sourceQuery": "J H Picard, Edmonton, Alberta, Canada"
+    },
+    "archbishop jordan|sherwood park": {
+      "latitude": 53.565854,
+      "longitude": -113.287432,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Archbishop Jordan Catholic High School, 4001, Emerald Drive, Emerald Hills, Sherwood Park, Strathcona County, Alberta, T8H 0P5, Canada",
+      "sourceQuery": "Archbishop Jordan, Sherwood Park, Alberta, Canada"
+    },
+    "john g diefenbaker|calgary": {
+      "latitude": 51.112808,
+      "longitude": -114.07024,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "John G. Diefenbaker High School, 6620, 4 Street NW, Huntington Hills, Calgary, Alberta, T2K 1C1, Canada",
+      "sourceQuery": "John G Diefenbaker, Calgary, Alberta, Canada"
+    },
+    "springbank|calgary": {
+      "latitude": 51.028926,
+      "longitude": -114.209793,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Springbank Hill, Calgary, Alberta, Canada",
+      "sourceQuery": "Springbank, Calgary, Alberta, Canada"
+    },
+    "calgary christian|calgary": {
+      "latitude": 51.027612,
+      "longitude": -114.158821,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Calgary Christian Elementary School, 49 Street SW, Glenbrook, Calgary, Alberta, T3E 0V4, Canada",
+      "sourceQuery": "Calgary Christian, Calgary, Alberta, Canada"
+    },
+    "ardrossan|ardrossan": {
+      "latitude": 53.564051,
+      "longitude": -113.146315,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Ardrossan Elementary School, Range Road 222, Ardrossan, Strathcona County, Alberta, T8E 2A2, Canada",
+      "sourceQuery": "Ardrossan, Ardrossan, Alberta, Canada"
+    },
+    "jasper|jasper": {
+      "latitude": 52.876182,
+      "longitude": -118.079625,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Jasper, Connaught Drive, Municipality of Jasper, Alberta, T0E 0A8, Canada",
+      "sourceQuery": "Jasper, Jasper, Alberta, Canada"
+    },
+    "st. albert|st albert": {
+      "latitude": 53.649561,
+      "longitude": -113.569284,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Canada Post St Albert Depot, Carleton Drive, Campbell Business Park, St. Albert, Alberta, T8N 5A7, Canada",
+      "sourceQuery": "St. Albert, St Albert, Alberta, Canada"
+    },
+    "st. gabriel the archangel|chestermere": {
+      "latitude": 51.046801,
+      "longitude": -113.835895,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "St. Gabriel the Archangel School, Invermere Drive, Westmere, Chestermere, Alberta, T1X 0C2, Canada",
+      "sourceQuery": "St. Gabriel the Archangel, Chestermere, Alberta, Canada"
+    },
+    "centennial|calgary": {
+      "latitude": 50.905252,
+      "longitude": -114.05349,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Centennial High School, 55, Sun Valley Boulevard SE, Sundance, Calgary, Alberta, T2X 3W7, Canada",
+      "sourceQuery": "Centennial, Calgary, Alberta, Canada"
+    },
+    "harry ainlay|edmonton": {
+      "latitude": 53.479582,
+      "longitude": -113.518342,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Harry Ainlay High School, 43 Avenue NW, Royal Gardens, Edmonton, Alberta, T6J 1E8, Canada",
+      "sourceQuery": "Harry Ainlay, Edmonton, Alberta, Canada"
+    },
+    "bishop carroll|calgary": {
+      "latitude": 51.012559,
+      "longitude": -114.120005,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Bishop Carroll High School, 4626, Richard Road SW, Currie Barracks, Calgary, Alberta, T3E 6L1, Canada",
+      "sourceQuery": "Bishop Carroll, Calgary, Alberta, Canada"
+    },
+    "mother margaret mary|edmonton": {
+      "latitude": 53.460028,
+      "longitude": -113.581039,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 21,
+      "displayName": "Mother Margaret Mary Catholic School, Leger Road NW, Leger, Oak Hills, Terwillegar Heights, Edmonton, Alberta, T6R 0R9, Canada",
+      "sourceQuery": "Mother Margaret Mary, Edmonton, Alberta, Canada"
+    },
+    "bev facey|sherwood park": {
+      "latitude": 53.525391,
+      "longitude": -113.26905,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Bev Facey Community High School, 99, Colwill Boulevard, Sherwood Park, Strathcona County, Alberta, T8A 4V5, Canada",
+      "sourceQuery": "Bev Facey, Sherwood Park, Alberta, Canada"
+    },
+    "st. francis xavier|edmonton": {
+      "latitude": 53.529369,
+      "longitude": -113.604294,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "St. Francis Xavier Catholic High School, 163 Street NW, West Meadowlark Park, Jasper Place, Edmonton, Alberta, T5R 2P2, Canada",
+      "sourceQuery": "St. Francis Xavier, Edmonton, Alberta, Canada"
+    },
+    "st. joseph|whitecourt": {
+      "latitude": 54.145278,
+      "longitude": -115.640278,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "St. Joseph School, 5575, Mcilwaine Drive, Whitecourt, Alberta, T7S 0G6, Canada",
+      "sourceQuery": "St. Joseph, Whitecourt, Alberta, Canada"
+    },
+    "all saints|calgary": {
+      "latitude": 50.858777,
+      "longitude": -114.026694,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "All Saints High School, 729, Legacy Village Road SE, Legacy, Calgary, Alberta, T2X 4K9, Canada",
+      "sourceQuery": "All Saints, Calgary, Alberta, Canada"
+    },
+    "national sport|calgary": {
+      "latitude": 51.084448,
+      "longitude": -114.222656,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "National Sport School, 88, Canada Olympic Road SW, Greenwood/Greenbriar, Calgary, Alberta, T3B 5R5, Canada",
+      "sourceQuery": "National Sport, Calgary, Alberta, Canada"
+    },
+    "olds koinonia|olds": {
+      "latitude": 51.742667,
+      "longitude": -114.071127,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Olds Koinonia Christian School, 32237 Rge Rd 13, Mountain View County, Alberta, T4H 1T8, Canada",
+      "sourceQuery": "Olds Koinonia, Alberta, Canada"
+    },
+    "st. francis|calgary": {
+      "latitude": 51.084468,
+      "longitude": -114.102264,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "St. Francis High School, 877, Northmount Drive NW, Collingwood, Calgary, Alberta, T2L 0A8, Canada",
+      "sourceQuery": "St. Francis, Calgary, Alberta, Canada"
+    },
+    "foothills|okotoks": {
+      "latitude": 50.714341,
+      "longitude": -113.973102,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Foothills Composite High School, Cimarron Meadows Road, Cimarron Meadows, Okotoks, Town of Okotoks, Alberta, T1S 2N7, Canada",
+      "sourceQuery": "Foothills, Okotoks, Alberta, Canada"
+    },
+    "edmonton christian|edmonton": {
+      "latitude": 53.554672,
+      "longitude": -113.568273,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Edmonton Christian High School, 14304, 109 Avenue NW, McQueen, Western Mature Area, Edmonton, Alberta, T5N 1H6, Canada",
+      "sourceQuery": "Edmonton Christian, Edmonton, Alberta, Canada"
+    },
+    "central alberta christian|lacombe": {
+      "latitude": 52.472505,
+      "longitude": -113.752196,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 21,
+      "displayName": "Central Alberta Christian High School, 22, Eagle Road, Nursery Grove, City of Lacombe, Alberta, T4L 1G7, Canada",
+      "sourceQuery": "Central Alberta Christian, Lacombe, Alberta, Canada"
+    },
+    "notre dame|calgary": {
+      "latitude": 51.157872,
+      "longitude": -114.066293,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Notre Dame High School, 11900, Country Village Link NE, Country Hills Village, Calgary, Alberta, T3K 0A2, Canada",
+      "sourceQuery": "Notre Dame, Calgary, Alberta, Canada"
+    },
+    "holy trinity|edmonton": {
+      "latitude": 53.45706,
+      "longitude": -113.442535,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Holy Trinity Catholic High School, 7007, 28 Avenue NW, Kameyosek, Mill Woods Park, Mill Woods, Edmonton, Alberta, T6K 4A5, Canada",
+      "sourceQuery": "Holy Trinity, Edmonton, Alberta, Canada"
+    },
+    "blessed sacrament|wainwright": {
+      "latitude": 52.831373,
+      "longitude": -110.851876,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Blessed Sacrament School, 1321, 4 Avenue, Wainwright, Town of Wainwright, Alberta, T9W 1L7, Canada",
+      "sourceQuery": "Blessed Sacrament, Wainwright, Alberta, Canada"
+    },
+    "delia|delia": {
+      "latitude": 51.631602,
+      "longitude": -112.373082,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Delia, Alberta, T0J 0W0, Canada",
+      "sourceQuery": "Delia, Delia, Alberta, Canada"
+    },
+    "peace wapiti academy|grande prairie": {
+      "latitude": 55.183734,
+      "longitude": -118.808438,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Peace Wapiti Academy, 11410, 104 Street, Avondale, Grande Prairie, Alberta, T8V 4W3, Canada",
+      "sourceQuery": "Peace Wapiti Academy, Grande Prairie, Alberta, Canada"
+    },
+    "salisbury|sherwood park": {
+      "latitude": 53.50973,
+      "longitude": -113.302941,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Salisbury Way & Tilbury Street, Salisbury Way, Salisbury Village, Sherwood Park, Strathcona County, Alberta, T8A 2G6, Canada",
+      "sourceQuery": "Salisbury, Sherwood Park, Alberta, Canada"
+    },
+    "coronation|coronation": {
+      "latitude": 52.095982,
+      "longitude": -111.459554,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Coronation (Health Centre) Heliport, Wales Drive, Town of Coronation, Alberta, T0C 1C0, Canada",
+      "sourceQuery": "Coronation, Coronation, Alberta, Canada"
+    },
+    "joane cardinal-schubert|calgary": {
+      "latitude": 50.878323,
+      "longitude": -113.943534,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Joane Cardinal-Schubert School, 19480, 45 Street SE, Seton, Calgary, Alberta, T3M 2P9, Canada",
+      "sourceQuery": "Joane Cardinal-Schubert, Calgary, Alberta, Canada"
+    },
+    "ross sheppard|edmonton": {
+      "latitude": 53.560012,
+      "longitude": -113.55734,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Ross Sheppard High School, 13546, 111 Avenue NW, Woodcroft, Western Mature Area, Edmonton, Alberta, T5M 2P2, Canada",
+      "sourceQuery": "Ross Sheppard, Edmonton, Alberta, Canada"
+    },
+    "paul kane|st albert": {
+      "latitude": 53.632904,
+      "longitude": -113.611684,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "Paul Kane High School, 12, Cunningham Road, Sturgeon Heights, St. Albert, Alberta, T8N 2E9, Canada",
+      "sourceQuery": "Paul Kane, St Albert, Alberta, Canada"
+    },
+    "sexsmith|sexsmith": {
+      "latitude": 55.349096,
+      "longitude": -118.772614,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Sexsmith Elementary School, 91 Street, Sexsmith, Town of Sexsmith, Alberta, T0H 3C0, Canada",
+      "sourceQuery": "Sexsmith, Sexsmith, Alberta, Canada"
+    },
+    "archbishop o’leary|edmonton": {
+      "latitude": 53.592807,
+      "longitude": -113.474084,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Archbishop O'Leary High School, 8760, 132 Avenue NW, Glengarry, Northern Mature Area, Edmonton, Alberta, T5E 0Y2, Canada",
+      "sourceQuery": "Archbishop O’Leary, Edmonton, Alberta, Canada"
+    },
+    "magrath|magrath": {
+      "latitude": 49.42032,
+      "longitude": -112.863749,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Magrath, Alberta, T0K 1J0, Canada",
+      "sourceQuery": "Magrath, Magrath, Alberta, Canada"
+    },
+    "beaumont|beaumont": {
+      "latitude": 53.345185,
+      "longitude": -113.40841,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Beaumont Lakes, Beaumont, Alberta, T4X 1R6, Canada",
+      "sourceQuery": "Beaumont, Beaumont, Alberta, Canada"
+    },
+    "westwood|fort mcmurray": {
+      "latitude": 56.728151,
+      "longitude": -111.45185,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Westwood Community High School, Tundra Drive, Thickwood, Fort McMurray, Wood Buffalo, Alberta, T9K 2L9, Canada",
+      "sourceQuery": "Westwood, Fort McMurray, Alberta, Canada"
+    },
+    "jasper place|edmonton": {
+      "latitude": 53.540691,
+      "longitude": -113.598687,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Jasper Place, Edmonton, Alberta, Canada",
+      "sourceQuery": "Jasper Place, Edmonton, Alberta, Canada"
+    },
+    "bowness|calgary": {
+      "latitude": 51.089277,
+      "longitude": -114.193075,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Bowness, Calgary, Alberta, Canada",
+      "sourceQuery": "Bowness, Calgary, Alberta, Canada"
+    },
+    "dr. anne anderson|edmonton": {
+      "latitude": 53.402191,
+      "longitude": -113.543865,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Dr. Anne Anderson High School, 11810, 35 Avenue SW, Heritage Valley Town Centre, Heritage Valley, Edmonton, Alberta, T6W 1A7, Canada",
+      "sourceQuery": "Dr. Anne Anderson, Edmonton, Alberta, Canada"
+    },
+    "raymond|raymond": {
+      "latitude": 49.464251,
+      "longitude": -112.667902,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Raymond Elementary School, 145 North, 200 West, Town of Raymond, Alberta, T0K 2S0, Canada",
+      "sourceQuery": "Raymond, Raymond, Alberta, Canada"
+    },
+    "queen elizabeth|calgary": {
+      "latitude": 51.05671,
+      "longitude": -114.100918,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Queen Elizabeth High School, 512, 18 Street NW, Hillhurst, Calgary, Alberta, T2N 2G5, Canada",
+      "sourceQuery": "Queen Elizabeth, Calgary, Alberta, Canada"
+    },
+    "st. martin de porres|airdrie": {
+      "latitude": 51.271828,
+      "longitude": -114.014669,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "St. Martin De Porres High School, 410, Yankee Valley Boulevard SW, Waterstone, Airdrie, Alberta, T4B 2M1, Canada",
+      "sourceQuery": "St. Martin De Porres, Airdrie, Alberta, Canada"
+    },
+    "george mcdougall|airdrie": {
+      "latitude": 51.295002,
+      "longitude": -114.005468,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "George McDougall High School, 412, 3 Avenue NE, The Village, Airdrie, Alberta, T4B 1R7, Canada",
+      "sourceQuery": "George McDougall, Airdrie, Alberta, Canada"
+    },
+    "notre dame collegiate|high river": {
+      "latitude": 50.590943,
+      "longitude": -113.893995,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Notre Dame Collegiate, High Country Drive NW, High River, Town of High River, Alberta, T1V 2C4, Canada",
+      "sourceQuery": "Notre Dame Collegiate, High River, Alberta, Canada"
+    },
+    "bellerose|st albert": {
+      "latitude": 53.653547,
+      "longitude": -113.614058,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 11,
+      "displayName": "Bellerose Drive, Oakmont, St. Albert, Alberta, T8N 5S5, Canada",
+      "sourceQuery": "Bellerose, St Albert, Alberta, Canada"
+    },
+    "central memorial|calgary": {
+      "latitude": 51.041122,
+      "longitude": -114.069902,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Central Memorial Park, Victoria Park, Beltline, Calgary, Alberta, Canada",
+      "sourceQuery": "Central Memorial, Calgary, Alberta, Canada"
+    },
+    "christ the king|leduc": {
+      "latitude": 53.249914,
+      "longitude": -113.520725,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Christ the King High School, 3511, Rollyview Road, Meadowview Park, City of Leduc, Alberta, T9E 6N4, Canada",
+      "sourceQuery": "Christ The King, Leduc, Alberta, Canada"
+    },
+    "rimbey|rimbey": {
+      "latitude": 52.641735,
+      "longitude": -114.238599,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Rimbey, Alberta, T0C 2J0, Canada",
+      "sourceQuery": "Rimbey, Rimbey, Alberta, Canada"
+    },
+    "sundre|sundre": {
+      "latitude": 51.801533,
+      "longitude": -114.643755,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Sundre High School, 2 Avenue NW, Sundre, Town of Sundre, Alberta, T0M 1X0, Canada",
+      "sourceQuery": "Sundre, Sundre, Alberta, Canada"
+    },
+    "st. paul|st paul": {
+      "latitude": 53.988149,
+      "longitude": -111.290498,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 11,
+      "displayName": "St. Paul (Health Care Centre) Heliport, 46 Avenue, Town of St. Paul, Alberta, T0A 3A0, Canada",
+      "sourceQuery": "St. Paul, St Paul, Alberta, Canada"
+    },
+    "alix-mac|alix": {
+      "latitude": 52.396889,
+      "longitude": -113.188889,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "Alix-MAC, Buffalo Avenue, Village of Alix, Alix, Alberta, T0C 0B0, Canada",
+      "sourceQuery": "Alix-MAC, Alix, Alberta, Canada"
+    },
+    "immanuel christian|lethbridge": {
+      "latitude": 49.705058,
+      "longitude": -112.812079,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Immanuel Christian Elementary School, 5 Avenue N, Westminster, Westminister, Lethbridge, Alberta, T1H 6L6, Canada",
+      "sourceQuery": "Immanuel Christian, Lethbridge, Alberta, Canada"
+    },
+    "spirit river|spirit river": {
+      "latitude": 55.777498,
+      "longitude": -118.837626,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Spirit River, Town of Spirit River, Alberta, T0H 3G0, Canada",
+      "sourceQuery": "Spirit River, Spirit River, Alberta, Canada"
+    },
+    "st. dominic|rocky mountain house": {
+      "latitude": 51.109635,
+      "longitude": -114.154265,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 17,
+      "displayName": "St. Dominic Fine Arts School, 4820, Dalhart Road NW, Dalhousie, Calgary, Alberta, T3A 1C2, Canada",
+      "sourceQuery": "St. Dominic, Alberta, Canada"
+    },
+    "cochrane|cochrane": {
+      "latitude": 51.194993,
+      "longitude": -114.47258,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Cochrane Heights, Town of Cochrane, Alberta, T4C 1C5, Canada",
+      "sourceQuery": "Cochrane, Cochrane, Alberta, Canada"
+    },
+    "st. mary’s|calgary": {
+      "latitude": 51.036449,
+      "longitude": -114.063357,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "St. Mary's Senior High School, 111, 18 Avenue SW, Mission, Calgary, Alberta, T2S 0B8, Canada",
+      "sourceQuery": "St. Mary’s, Calgary, Alberta, Canada"
+    },
+    "bishop o’byrne|calgary": {
+      "latitude": 50.897405,
+      "longitude": -114.066176,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Bishop O'Byrne High School, 500-333, Shawville Boulevard SE, Shawnessy, Calgary, Alberta, T2Y 4H3, Canada",
+      "sourceQuery": "Bishop O’Byrne, Calgary, Alberta, Canada"
+    },
+    "louis st. laurent|edmonton": {
+      "latitude": 53.479849,
+      "longitude": -113.522666,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Louis St. Laurent Junior and Senior High School, 43 Avenue NW, Royal Gardens, Edmonton, Alberta, T6J 1E8, Canada",
+      "sourceQuery": "Louis St. Laurent, Edmonton, Alberta, Canada"
+    },
+    "parkland immanuel|edmonton": {
+      "latitude": 53.470392,
+      "longitude": -113.684181,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Parkland Immanuel Christian School, 5320, Edgemont Boulevard NW, Edgemont, Edmonton, Alberta, T6M 2P6, Canada",
+      "sourceQuery": "Parkland Immanuel, Edmonton, Alberta, Canada"
+    },
+    "olds|olds": {
+      "latitude": 51.78914,
+      "longitude": -114.088442,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 15,
+      "displayName": "Olds College of Agriculture & Technology, 4500, 50 Street, Olds, Town of Olds, Alberta, T4H 1R6, Canada",
+      "sourceQuery": "Olds, Olds, Alberta, Canada"
+    },
+    "canmore collegiate|canmore": {
+      "latitude": 51.098316,
+      "longitude": -115.363745,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Canmore Collegiate High School, 1800, 8 Avenue, Lions Park, Palliser, Canmore, Town of Canmore, Alberta, T1W 1Y2, Canada",
+      "sourceQuery": "Canmore Collegiate, Canmore, Alberta, Canada"
+    },
+    "didsbury|didsbury": {
+      "latitude": 51.660793,
+      "longitude": -114.137248,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Didsbury, Alberta, T0M 0Q0, Canada",
+      "sourceQuery": "Didsbury, Didsbury, Alberta, Canada"
+    },
+    "lacombe|lacombe": {
+      "latitude": 52.487932,
+      "longitude": -113.712921,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Lacombe Regional Airport, 3910, 63 Avenue, City of Lacombe, Alberta, T4L 0E5, Canada",
+      "sourceQuery": "Lacombe, Lacombe, Alberta, Canada"
+    },
+    "wetaskiwin|wetaskiwin": {
+      "latitude": 52.968492,
+      "longitude": -113.36792,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Wetaskiwin, Alberta, Canada",
+      "sourceQuery": "Wetaskiwin, Wetaskiwin, Alberta, Canada"
+    },
+    "st. mary’s|vegreville": {
+      "latitude": 53.489377,
+      "longitude": -112.064653,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "Saint Mary's Catholic School, Maple Street, Town of Vegreville, Alberta, T9C 1M9, Canada",
+      "sourceQuery": "St. Mary’s, Vegreville, Alberta, Canada"
+    },
+    "innisfail|innisfail": {
+      "latitude": 52.022895,
+      "longitude": -113.955182,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Innisfail Middle School, 52 Avenue, Innisfail, Town of Innisfail, Alberta, T4G 1S1, Canada",
+      "sourceQuery": "Innisfail, Innisfail, Alberta, Canada"
+    },
+    "spruce grove|spruce grove": {
+      "latitude": 53.527603,
+      "longitude": -113.899081,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Cross Country Canada Supply & Rentals, Spruce Grove Industrial, City of Spruce Grove, Alberta, Canada",
+      "sourceQuery": "Spruce Grove, Spruce Grove, Alberta, Canada"
+    },
+    "st. peter the apostle|spruce grove": {
+      "latitude": 53.556641,
+      "longitude": -113.950664,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "St. Peter the Apostle Catholic High School, 10, Harvest Ridge Drive, Harvest Ridge, City of Spruce Grove, Alberta, T7X 0L3, Canada",
+      "sourceQuery": "St. Peter the Apostle, Spruce Grove, Alberta, Canada"
+    },
+    "hugh sutherland|carstairs": {
+      "latitude": 51.563474,
+      "longitude": -114.090695,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Hugh Sutherland School, Mandalay Avenue, Scottsdale Place, Carstairs, Alberta, T0M 0N0, Canada",
+      "sourceQuery": "Hugh Sutherland, Carstairs, Alberta, Canada"
+    },
+    "hunting hills|red deer": {
+      "latitude": 52.250497,
+      "longitude": -113.761451,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Hunting Hills High School, Lockwood Avenue, Lancaster Meadows, Red Deer, Alberta, T4R 2H0, Canada",
+      "sourceQuery": "Hunting Hills, Red Deer, Alberta, Canada"
+    },
+    "monsignor mccoy|medicine hat": {
+      "latitude": 50.050931,
+      "longitude": -110.680019,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Monsignor McCoy High School, 202, 8 Street Northeast, North Gate Village, Medicine Hat, Alberta, T1A 5R6, Canada",
+      "sourceQuery": "Monsignor McCoy, Medicine Hat, Alberta, Canada"
+    },
+    "charles spencer|grande prairie": {
+      "latitude": 55.143205,
+      "longitude": -118.814335,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Charles Spencer High School, 20, Knowledge Way, Grande Prairie, Alberta, T8W 0K8, Canada",
+      "sourceQuery": "Charles Spencer, Grande Prairie, Alberta, Canada"
+    },
+    "banff|banff": {
+      "latitude": 51.181753,
+      "longitude": -115.576155,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Banff, Railway Avenue, Banff, Alberta, T1L 1K3, Canada",
+      "sourceQuery": "Banff, Banff, Alberta, Canada"
+    },
+    "maurice-lavallée|edmonton": {
+      "latitude": 53.524268,
+      "longitude": -113.473901,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "École Maurice-Lavallée, 8828, 95 Street NW, French Quarter, Bonnie Doon, Edmonton, Alberta, T6C 3T6, Canada",
+      "sourceQuery": "Maurice-Lavallée, Edmonton, Alberta, Canada"
+    },
+    "crescent heights|calgary": {
+      "latitude": 51.059686,
+      "longitude": -114.060886,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Crescent Heights, Calgary, Alberta, Canada",
+      "sourceQuery": "Crescent Heights, Calgary, Alberta, Canada"
+    },
+    "morinville|morinville": {
+      "latitude": 53.803113,
+      "longitude": -113.634569,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Morinville Community High School, 9506, 100 Avenue, Notre Dame, Morinville, Alberta, T8R 1P6, Canada",
+      "sourceQuery": "Morinville, Morinville, Alberta, Canada"
+    },
+    "david thompson|leslieville": {
+      "latitude": 51.837779,
+      "longitude": -116.826873,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "Mount David Thompson, Improvement District No. 9, Alberta, Canada",
+      "sourceQuery": "David Thompson, Alberta, Canada"
+    },
+    "leduc|leduc": {
+      "latitude": 53.329654,
+      "longitude": -113.728628,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Leduc No. 1 Oil Derrick, 50339, Highway 60, Leduc County, Alberta, T9G 1Z5, Canada",
+      "sourceQuery": "Leduc, Leduc, Alberta, Canada"
+    },
+    "father patrick mercredi|fort mcmurray": {
+      "latitude": 56.731299,
+      "longitude": -111.43359,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 21,
+      "displayName": "Father Patrick Mercredi Community High School, Thickwood Boulevard, Thickwood, Fort McMurray, Wood Buffalo, Alberta, T9H 5A5, Canada",
+      "sourceQuery": "Father Patrick Mercredi, Fort McMurray, Alberta, Canada"
+    },
+    "st. oscar romero|edmonton": {
+      "latitude": 53.504104,
+      "longitude": -113.629896,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "St. Oscar Romero Catholic High School, 17760, 69 Avenue NW, Callingwood North, West Jasper Place, Edmonton, Alberta, T5T 6X3, Canada",
+      "sourceQuery": "St. Oscar Romero, Edmonton, Alberta, Canada"
+    },
+    "our lady of the rockies|calgary": {
+      "latitude": 50.975247,
+      "longitude": -114.079943,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Our Lady of the Rockies High School, 111, Haddon Road SW, Haysboro, Calgary, Alberta, T2V 2Y2, Canada",
+      "sourceQuery": "Our Lady of the Rockies, Calgary, Alberta, Canada"
+    },
+    "robert thirsk|calgary": {
+      "latitude": 51.130574,
+      "longitude": -114.194549,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Robert Thirsk High School, 8777, Nose Hill Drive NW, Arbour Lake, Calgary, Alberta, T3G 5T3, Canada",
+      "sourceQuery": "Robert Thirsk, Calgary, Alberta, Canada"
+    },
+    "catholic central|lethbridge": {
+      "latitude": 49.674931,
+      "longitude": -112.906966,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Catholic Central High School - West Campus, Britannia Boulevard W, The Crossings, Lethbridge, Alberta, T1J 5L4, Canada",
+      "sourceQuery": "Catholic Central, Lethbridge, Alberta, Canada"
+    },
+    "fairview|fairview": {
+      "latitude": 52.271579,
+      "longitude": -113.83284,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Fairview, Red Deer, Alberta, T4N 6W4, Canada",
+      "sourceQuery": "Fairview, Fairview, Alberta, Canada"
+    },
+    "assumption|cold lake": {
+      "latitude": 54.411331,
+      "longitude": -110.210346,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Assumption Junior-Senior High School, 48 Avenue, Cold Lake South, City of Cold Lake, Alberta, T9M 1R3, Canada",
+      "sourceQuery": "Assumption, Cold Lake, Alberta, Canada"
+    },
+    "h. j. cody|sylvan lake": {
+      "latitude": 52.302448,
+      "longitude": -114.101711,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "H.J. Cody School, 4520, 50 Street, Town of Sylvan Lake, Alberta, T4S 1A4, Canada",
+      "sourceQuery": "H. J. Cody, Sylvan Lake, Alberta, Canada"
+    },
+    "cold lake|cold lake": {
+      "latitude": 54.463491,
+      "longitude": -110.177137,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Cold Lake North, City of Cold Lake, Alberta, T9M 1N6, Canada",
+      "sourceQuery": "Cold Lake, Cold Lake, Alberta, Canada"
+    },
+    "strathmore|strathmore": {
+      "latitude": 51.038381,
+      "longitude": -113.418962,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Strathmore Cemetery, Strathmore, Alberta, Canada",
+      "sourceQuery": "Strathmore, Strathmore, Alberta, Canada"
+    },
+    "m. e. lazerte|edmonton": {
+      "latitude": 53.605964,
+      "longitude": -113.444512,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "M. E. LaZerte High School, 144 Avenue NW, Kilkenny, Londonderry, Northern Mature Area, Edmonton, Alberta, T5C 2R4, Canada",
+      "sourceQuery": "M. E. LaZerte, Edmonton, Alberta, Canada"
+    },
+    "cardston|cardston": {
+      "latitude": 49.000415,
+      "longitude": -112.788027,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "CANADA, Range Road 215, Cardston County, Alberta, T0K 0S0, Canada",
+      "sourceQuery": "Cardston, Cardston, Alberta, Canada"
+    },
+    "edge|calgary": {
+      "latitude": 51.037971,
+      "longitude": -114.134598,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "107.3 The Edge, 3312, 17 Avenue SW, Shaganappi, Calgary, Alberta, T3E 2J7, Canada",
+      "sourceQuery": "Edge, Calgary, Alberta, Canada"
+    },
+    "holy trinity|fort mcmurray": {
+      "latitude": 56.759502,
+      "longitude": -111.458696,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Holy Trinity Catholic High School, 230, Powder Drive, Timberlea, Fort McMurray, Wood Buffalo, Alberta, T9K 2W6, Canada",
+      "sourceQuery": "Holy Trinity, Fort McMurray, Alberta, Canada"
+    },
+    "holy cross|strathmore": {
+      "latitude": 51.039622,
+      "longitude": -113.391544,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Holy Cross Collegiate, 2nd Street, Downtown, Strathmore, Alberta, T1P 1A0, Canada",
+      "sourceQuery": "Holy Cross, Strathmore, Alberta, Canada"
+    },
+    "penhold crossing|penhold": {
+      "latitude": 52.139708,
+      "longitude": -113.859313,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Penhold Crossing Secondary School, 1, Waskasoo Avenue, Penhold, Town of Penhold, Alberta, T0M 1R0, Canada",
+      "sourceQuery": "Penhold Crossing, Penhold, Alberta, Canada"
+    },
+    "calgary academy|calgary": {
+      "latitude": 51.039499,
+      "longitude": -114.224562,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Calgary Academy, 17 Avenue SW, Aspen Woods, Calgary, Alberta, T3H 0A8, Canada",
+      "sourceQuery": "Calgary Academy, Calgary, Alberta, Canada"
+    },
+    "bert church|airdrie": {
+      "latitude": 51.283254,
+      "longitude": -113.991184,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Bert Church High School, 1010, East Lake Boulevard NE, Big Springs, Airdrie, Alberta, T4A 1P6, Canada",
+      "sourceQuery": "Bert Church, Airdrie, Alberta, Canada"
+    },
+    "sturgeon|sturgeon county": {
+      "latitude": 53.751718,
+      "longitude": -113.232065,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Sturgeon Industrial Park, Sturgeon County, Alberta, Canada",
+      "sourceQuery": "Sturgeon, Sturgeon County, Alberta, Canada"
+    },
+    "michaëlle-jean|edmonton": {
+      "latitude": 53.539782,
+      "longitude": -113.455727,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "École Michaëlle-Jean, 10005, 84 Street NW, Forest Heights, Edmonton, Alberta, T6A 0K4, Canada",
+      "sourceQuery": "Michaëlle-Jean, Edmonton, Alberta, Canada"
+    },
+    "rosemary|rosemary": {
+      "latitude": 50.75481,
+      "longitude": -112.086421,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Rosemary School, Gwen Avenue East, Rosemary, County of Newell, Alberta, T0J 2W0, Canada",
+      "sourceQuery": "Rosemary, Rosemary, Alberta, Canada"
+    },
+    "st. joseph|red deer": {
+      "latitude": 52.290034,
+      "longitude": -113.761766,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "St. Joseph's High School, 2700, 67 Street, Emerson, Red Deer, Alberta, T4P 0M9, Canada",
+      "sourceQuery": "St. Joseph, Red Deer, Alberta, Canada"
+    },
+    "vegreville|vegreville": {
+      "latitude": 53.50271,
+      "longitude": -112.081161,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Vegreville, 67 Street, Vegreville Power Centre, Town of Vegreville, Alberta, T9C 1R2, Canada",
+      "sourceQuery": "Vegreville, Vegreville, Alberta, Canada"
+    },
+    "memorial|stony plain": {
+      "latitude": 53.506664,
+      "longitude": -113.985934,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Memorial Composite High School, 50, Golf Course Road, Country Plains Estates, Stony Plain, Alberta, T7Z 1R3, Canada",
+      "sourceQuery": "Memorial, Stony Plain, Alberta, Canada"
+    },
+    "vimy ridge|edmonton": {
+      "latitude": 53.524296,
+      "longitude": -113.452929,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Vimy Ridge Academy, 8205, 90 Avenue NW, Idylwylde, Edmonton, Alberta, T6C 1N8, Canada",
+      "sourceQuery": "Vimy Ridge, Edmonton, Alberta, Canada"
+    },
+    "onoway|onoway": {
+      "latitude": 53.706956,
+      "longitude": -114.190102,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Onoway Junior/Senior High School, 4704, St. Anne Trail, Town of Onoway, Lac Ste. Anne County, Alberta, T0E 1V0, Canada",
+      "sourceQuery": "Onoway, Onoway, Alberta, Canada"
+    },
+    "highwood|high river": {
+      "latitude": 50.592904,
+      "longitude": -113.895444,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Highwood Village Gate NW, High River, Town of High River, Alberta, T1V 2C4, Canada",
+      "sourceQuery": "Highwood, High River, Alberta, Canada"
+    },
+    "john maland|devon": {
+      "latitude": 53.363753,
+      "longitude": -113.7195,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "John Maland High School, 105, Athabasca Avenue, Devon, Alberta, T9G 1A4, Canada",
+      "sourceQuery": "John Maland, Devon, Alberta, Canada"
+    },
+    "william e hay|stettler": {
+      "latitude": 52.324371,
+      "longitude": -112.712559,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "William E. Hay Stettler Secondary School, 4820, 50 Avenue, Town of Stettler, Alberta, T0C 2L2, Canada",
+      "sourceQuery": "William E Hay, Stettler, Alberta, Canada"
+    },
+    "nelson mandela|calgary": {
+      "latitude": 51.122321,
+      "longitude": -113.949017,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Nelson Mandela High School, 45, Saddletowne Circle NE, Martindale, Calgary, Alberta, T3J 0C9, Canada",
+      "sourceQuery": "Nelson Mandela, Calgary, Alberta, Canada"
+    },
+    "lindsay thurber|red deer": {
+      "latitude": 52.276187,
+      "longitude": -113.792864,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Lindsay Thurber Comprehensive High School, 4204, 58 Street, Waskasoo, Red Deer, Alberta, T4N 2L6, Canada",
+      "sourceQuery": "Lindsay Thurber, Red Deer, Alberta, Canada"
+    },
+    "ponoka|ponoka": {
+      "latitude": 52.685238,
+      "longitude": -113.58936,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Ponoka (Hospital & Care Centre) Heliport, 59 Street, Ponoka, Town of Ponoka, Alberta, T4J 1K2, Canada",
+      "sourceQuery": "Ponoka, Ponoka, Alberta, Canada"
+    },
+    "st. joseph’s|brooks": {
+      "latitude": 50.569361,
+      "longitude": -111.895344,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 11,
+      "displayName": "St Joseph's Collegiate, 408, 1 Street West, Downtown, Brooks, City of Brooks, Alberta, T1R 0V8, Canada",
+      "sourceQuery": "St. Joseph’s, Brooks, Alberta, Canada"
+    },
+    "w p wagner|edmonton": {
+      "latitude": 53.498868,
+      "longitude": -113.453114,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "W. P. Wagner School, 6310, Wagner Road NW, Davies Industrial West, South Industrial District, Edmonton, Alberta, T6E 4N5, Canada",
+      "sourceQuery": "W P Wagner, Edmonton, Alberta, Canada"
+    },
+    "bow valley|cochrane": {
+      "latitude": 51.162747,
+      "longitude": -114.45311,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Bow Valley High School, Ridge Gate, Town of Cochrane, Alberta, T4C 0T9, Canada",
+      "sourceQuery": "Bow Valley School, Cochrane, Alberta, Canada"
+    },
+    "lord beaverbrook|calgary": {
+      "latitude": 50.973151,
+      "longitude": -114.062476,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Lord Beaverbrook High School, 9019, Fairmount Drive SE, Acadia, Calgary, Alberta, T2H 0Z4, Canada",
+      "sourceQuery": "Lord Beaverbrook, Calgary, Alberta, Canada"
+    },
+    "notre dame|red deer": {
+      "latitude": 52.2472,
+      "longitude": -113.761886,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Notre Dame High School, Lees Street, Lancaster Meadows, Red Deer, Alberta, T4R 2H0, Canada",
+      "sourceQuery": "Notre Dame, Red Deer, Alberta, Canada"
+    },
+    "fort saskatchewan|fort saskatchewan": {
+      "latitude": 53.710992,
+      "longitude": -113.218192,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Fort Saskatchewan (rebuilt), 100 Avenue, Downtown, Fort Saskatchewan, Alberta, T8L 3Y1, Canada",
+      "sourceQuery": "Fort Saskatchewan, Fort Saskatchewan, Alberta, Canada"
+    },
+    "edwin parr|athabasca": {
+      "latitude": 54.71765,
+      "longitude": -113.314908,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Edwin Parr Composite School, 4, University Drive, Town of Athabasca, Alberta, T9S 0A3, Canada",
+      "sourceQuery": "Edwin Parr, Athabasca, Alberta, Canada"
+    },
+    "frank maddock|drayton valley": {
+      "latitude": 53.217837,
+      "longitude": -114.963333,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Frank Maddock High School, 43 Street, Meraw Estates, Drayton Valley, Alberta, T7A 1P5, Canada",
+      "sourceQuery": "Frank Maddock, Drayton Valley, Alberta, Canada"
+    },
+    "holy redeemer catholic|edson": {
+      "latitude": 53.591502,
+      "longitude": -116.437369,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 21,
+      "displayName": "Holy Redeemer Catholic School, 50 Street, Jubliee, Edson, Alberta, T7E 1K8, Canada",
+      "sourceQuery": "Holy Redeemer Catholic, Edson, Alberta, Canada"
+    },
+    "oilfields|diamond valley": {
+      "latitude": 50.683703,
+      "longitude": -114.239475,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Oilfields High School, 3 Street SW, Diamond Valley, Alberta, T0L 0H0, Canada",
+      "sourceQuery": "Oilfields, Diamond Valley, Alberta, Canada"
+    },
+    "our lady of mount pleasant|camrose": {
+      "latitude": 53.013115,
+      "longitude": -112.841402,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 21,
+      "displayName": "Our Lady of Mount Pleasant School, 39, Mount Pleasant Drive, Mount Pleasant, Camrose, Alberta, T4V 2M3, Canada",
+      "sourceQuery": "Our Lady of Mount Pleasant School, Camrose, Alberta, Canada"
+    },
+    "st. jerome’s|vermilion": {
+      "latitude": 53.352148,
+      "longitude": -110.838988,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "St. Jerome's School, 4820, 46 Street, Vermilion, Town of Vermilion, Alberta, T9X 1G2, Canada",
+      "sourceQuery": "St. Jerome’s, Vermilion, Alberta, Canada"
+    },
+    "hilltop|whitecourt": {
+      "latitude": 54.126756,
+      "longitude": -115.676246,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Hilltop, Whitecourt, Alberta, T7S 1M8, Canada",
+      "sourceQuery": "Hilltop, Whitecourt, Alberta, Canada"
+    },
+    "chestermere|rocky view county": {
+      "latitude": 51.041699,
+      "longitude": -113.751999,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Chestermere (Kirkby Field) Airport, Range Road 275, Rocky View County, Alberta, T1X 0K5, Canada",
+      "sourceQuery": "Chestermere, Rocky View County, Alberta, Canada"
+    },
+    "austin o’brien|edmonton": {
+      "latitude": 53.535776,
+      "longitude": -113.425725,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Austin O'Brien Catholic High School, Austin O'Brien Road NW, Ottewell, Edmonton, Alberta, T6B 1A5, Canada",
+      "sourceQuery": "Austin O’Brien, Edmonton, Alberta, Canada"
+    },
+    "medicine hat|medicine hat": {
+      "latitude": 50.041492,
+      "longitude": -110.678366,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Medicine Hat City Hall, 580, 1 Street Southeast, Medicine Hat, Alberta, T1A 8E6, Canada",
+      "sourceQuery": "Medicine Hat, Medicine Hat, Alberta, Canada"
+    },
+    "calgary islamic|calgary": {
+      "latitude": 51.087187,
+      "longitude": -114.000321,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Calgary Islamic School – Akram Jomaa Campus, 2612, 37 Avenue NE, Horizon, Calgary, Alberta, T1Y 5L2, Canada",
+      "sourceQuery": "Calgary Islamic, Calgary, Alberta, Canada"
+    },
+    "f. p. walshe|fort macleod": {
+      "latitude": 49.71873,
+      "longitude": -113.39897,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "F P Walshe School, 16 Street, Fort Macleod, Town of Fort Macleod, Alberta, T0L 0Z0, Canada",
+      "sourceQuery": "F. P. Walshe, Fort Macleod, Alberta, Canada"
+    },
+    "mctavish|fort mcmurray": {
+      "latitude": 56.760975,
+      "longitude": -111.453921,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "École McTavish Public High School, 352, Parsons Creek Drive, Timberlea, Fort McMurray, Wood Buffalo, Alberta, T9K 2W6, Canada",
+      "sourceQuery": "McTavish, Fort McMurray, Alberta, Canada"
+    },
+    "pigeon lake|falun": {
+      "latitude": 52.959071,
+      "longitude": -113.84557,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Pigeon Lake Regional High School, Highway 13, Falun, County of Wetaskiwin, Alberta, T0C 1H0, Canada",
+      "sourceQuery": "Pigeon Lake, Falun, Alberta, Canada"
+    },
+    "rose sauvage|calgary": {
+      "latitude": 51.074719,
+      "longitude": -114.070465,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "École de la Rose Sauvage, 2512, 4 Street NW, Mount Pleasant, Calgary, Alberta, T2M 2A8, Canada",
+      "sourceQuery": "Rose Sauvage, Calgary, Alberta, Canada"
+    },
+    "mcnally|edmonton": {
+      "latitude": 53.548589,
+      "longitude": -113.458752,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "McNally High School, 105 Avenue NW, Forest Heights, Edmonton, Alberta, T6A 3X4, Canada",
+      "sourceQuery": "McNally, Edmonton, Alberta, Canada"
+    },
+    "three hills|three hills": {
+      "latitude": 51.699417,
+      "longitude": -113.263718,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Three Hills School, 4 Street South, Three Hills, Alberta, T0M 2N0, Canada",
+      "sourceQuery": "Three Hills, Three Hills, Alberta, Canada"
+    },
+    "grand trunk|evansburg": {
+      "latitude": 53.597478,
+      "longitude": -115.011683,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Grand Trunk High School, 4707, 46 Avenue, Evansburg, Yellowhead County, Alberta, T0E 0T0, Canada",
+      "sourceQuery": "Grand Trunk, Evansburg, Alberta, Canada"
+    },
+    "foothills academy|calgary": {
+      "latitude": 51.063759,
+      "longitude": -114.142392,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Foothills Academy, 745, 37 Street NW, Parkdale, Calgary, Alberta, T2N 4T1, Canada",
+      "sourceQuery": "Foothills Academy, Calgary, Alberta, Canada"
+    },
+    "st. andré bessette|fort saskatchewan": {
+      "latitude": 53.682889,
+      "longitude": -113.232261,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Saint Andre Bessette Catholic School, Southfort Drive, Southfort, Fort Saskatchewan, Alberta, T8L 4P5, Canada",
+      "sourceQuery": "St. André Bessette, Fort Saskatchewan, Alberta, Canada"
+    },
+    "st. augustine|ponoka": {
+      "latitude": 52.673457,
+      "longitude": -113.587739,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "St. Augustine School, 5520, 45 Avenue Crescent, Ponoka, Town of Ponoka, Alberta, T4J 1K2, Canada",
+      "sourceQuery": "St. Augustine, Ponoka, Alberta, Canada"
+    },
+    "vauxhall|vauxhall": {
+      "latitude": 50.070526,
+      "longitude": -112.108794,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Vauxhall High school, 7th Street North, Vauxhall, Town of Vauxhall, Alberta, T0K 2K0, Canada",
+      "sourceQuery": "Vauxhall, Vauxhall, Alberta, Canada"
+    },
+    "notre dame|bonnyville": {
+      "latitude": 54.265358,
+      "longitude": -110.741581,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Notre Dame High School, Lakeshore Drive, Lakeview Estates, Town of Bonnyville, Alberta, T9N 2J7, Canada",
+      "sourceQuery": "Notre Dame, Bonnyville, Alberta, Canada"
+    },
+    "eagle butte|dunmore": {
+      "latitude": 49.962792,
+      "longitude": -110.571951,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "Eagle Butte High School, 1150, Eagle Butte Road, Cypress County, Alberta, T1B 0J3, Canada",
+      "sourceQuery": "Eagle Butte, Dunmore, Alberta, Canada"
+    },
+    "calvin christian|coalhurst": {
+      "latitude": 49.791808,
+      "longitude": -113.027489,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Calvin Christian School, 26, Range Road 232, Coalhurst, Lethbridge County, Alberta, T0L 0V0, Canada",
+      "sourceQuery": "Calvin Christian, Coalhurst, Alberta, Canada"
+    },
+    "bishop mcnally|calgary": {
+      "latitude": 51.102811,
+      "longitude": -113.954234,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Bishop McNally High School, 5700, Falconridge Boulevard NE, Castleridge, Calgary, Alberta, T3J 5H4, Canada",
+      "sourceQuery": "Bishop McNally, Calgary, Alberta, Canada"
+    },
+    "mayerthorpe|mayerthorpe": {
+      "latitude": 53.956715,
+      "longitude": -115.146553,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Mayerthorpe Junior/Senior High School, 5310, 50 Avenue, Town of Mayerthorpe, Alberta, T0E 1N0, Canada",
+      "sourceQuery": "Mayerthorpe, Mayerthorpe, Alberta, Canada"
+    },
+    "crowsnest|coleman": {
+      "latitude": 49.633968,
+      "longitude": -114.485913,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "20 Avenue, Coleman, Crowsnest Pass, Municipality of Crowsnest Pass, Alberta, T0K 0M0, Canada",
+      "sourceQuery": "Crowsnest, Coleman, Alberta, Canada"
+    },
+    "thorsby|thorsby": {
+      "latitude": 53.227392,
+      "longitude": -114.050656,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Thorsby, Town of Thorsby, Alberta, Canada",
+      "sourceQuery": "Thorsby, Thorsby, Alberta, Canada"
+    },
+    "kate andrews|coaldale": {
+      "latitude": 49.723434,
+      "longitude": -112.625584,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Kate Andrews High School, 22 Avenue, Coaldale, Town of Coaldale, Alberta, T1M 1N2, Canada",
+      "sourceQuery": "Kate Andrews, Coaldale, Alberta, Canada"
+    },
+    "bawlf|bawlf": {
+      "latitude": 52.922314,
+      "longitude": -112.46946,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Bawlf School, 202, King Street, Village of Bawlf, Alberta, T0B 0J0, Canada",
+      "sourceQuery": "Bawlf, Bawlf, Alberta, Canada"
+    },
+    "barrhead|barrhead": {
+      "latitude": 54.118282,
+      "longitude": -114.400066,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Barrhead (Healthcare Centre) Heliport, 50 Avenue, Town of Barrhead, Alberta, T7N 1M1, Canada",
+      "sourceQuery": "Barrhead, Barrhead, Alberta, Canada"
+    },
+    "j percy page|edmonton": {
+      "latitude": 53.456346,
+      "longitude": -113.446923,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "J. Percy Page High School, Mill Woods Road West NW, Meyonohk, Mill Woods Park, Mill Woods, Edmonton, Alberta, T6K 4A6, Canada",
+      "sourceQuery": "J Percy Page, Edmonton, Alberta, Canada"
+    },
+    "la crete|la crete": {
+      "latitude": 58.185319,
+      "longitude": -116.40764,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "La Crête Public School, 99 Avenue, La Crete, Mackenzie County, Alberta, T0H 2H0, Canada",
+      "sourceQuery": "La Crete, La Crete, Alberta, Canada"
+    },
+    "willow creek|claresholm": {
+      "latitude": 50.03166,
+      "longitude": -113.592944,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Willow Creek Composite High School, 55 Avenue West, Claresholm, Town of Claresholm, Alberta, T0L 0T0, Canada",
+      "sourceQuery": "Willow Creek, Claresholm, Alberta, Canada"
+    },
+    "breton|warburg": {
+      "latitude": 53.110779,
+      "longitude": -114.471488,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 11,
+      "displayName": "Village of Breton, Alberta, Canada",
+      "sourceQuery": "Breton, Alberta, Canada"
+    },
+    "hay lakes|hay lakes": {
+      "latitude": 53.199698,
+      "longitude": -113.056234,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Hay Lakes School, 1st Street North, Village of Hay Lakes, Alberta, T0B 1W0, Canada",
+      "sourceQuery": "Hay Lakes, Hay Lakes, Alberta, Canada"
+    },
+    "spruce view|spruce view": {
+      "latitude": 52.085971,
+      "longitude": -114.312315,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Spruce View Post Office, Highway 54, Spruce View, Red Deer County, Alberta, T0M 1V0, Canada",
+      "sourceQuery": "Spruce View, Spruce View, Alberta, Canada"
+    },
+    "j. r. robson|vermilion": {
+      "latitude": 53.354881,
+      "longitude": -110.837304,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "J.R. Robson High School, 46 Street, Vermilion, Town of Vermilion, Alberta, T9X 1G2, Canada",
+      "sourceQuery": "J. R. Robson, Vermilion, Alberta, Canada"
+    },
+    "father lacombe|calgary": {
+      "latitude": 51.047343,
+      "longitude": -113.983335,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Father Lacombe High School, 3615, Radcliffe Drive SE, Albert Park/Radisson Heights, Calgary, Alberta, T2A 6B4, Canada",
+      "sourceQuery": "Father Lacombe, Calgary, Alberta, Canada"
+    },
+    "harry collinge|hinton": {
+      "latitude": 53.414849,
+      "longitude": -117.557827,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Harry Collinge High School, Sunwapta Drive, Valley District, Town of Hinton, Alberta, T7V 1V7, Canada",
+      "sourceQuery": "Harry Collinge, Hinton, Alberta, Canada"
+    },
+    "acme|acme": {
+      "latitude": 51.496005,
+      "longitude": -113.509197,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Acme, Alberta, T0M 0A0, Canada",
+      "sourceQuery": "Acme, Acme, Alberta, Canada"
+    },
+    "kitscoty|kitscoty": {
+      "latitude": 53.343369,
+      "longitude": -110.338103,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Kitscoty Jr. Sr. High School, 51 Street, Village of Kitscoty, Alberta, T0B 2P0, Canada",
+      "sourceQuery": "Kitscoty, Kitscoty, Alberta, Canada"
+    },
+    "lamont|lamont": {
+      "latitude": 53.76114,
+      "longitude": -112.770444,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Lamont Creek, Lamont, Town of Lamont, Alberta, Canada",
+      "sourceQuery": "Lamont, Lamont, Alberta, Canada"
+    },
+    "crescent heights|medicine hat": {
+      "latitude": 50.05541,
+      "longitude": -110.684546,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Crescent Heights High School, 1201, Division Avenue North, North Gate Village, Medicine Hat, Alberta, T1A 5Y9, Canada",
+      "sourceQuery": "Crescent Heights, Medicine Hat, Alberta, Canada"
+    },
+    "glenmary|peace river": {
+      "latitude": 56.246178,
+      "longitude": -117.295937,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Glenmary School, 8801, 96 Street, Coolsprings Mobile Home Park, Peace River, Alberta, T8S 1R6, Canada",
+      "sourceQuery": "Glenmary, Peace River, Alberta, Canada"
+    },
+    "delburne centralized|delburne": {
+      "latitude": 52.192589,
+      "longitude": -113.240733,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Delburne Centralized School, 2611, 28 Avenue, Village of Delburne, Red Deer County, Alberta, T0M 0V0, Canada",
+      "sourceQuery": "Delburne Centralized, Delburne, Alberta, Canada"
+    },
+    "tofield|tofield": {
+      "latitude": 53.393431,
+      "longitude": -112.657794,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Tofield Cemetery, Tofield, Beaver County, Alberta, Canada",
+      "sourceQuery": "Tofield, Tofield, Alberta, Canada"
+    },
+    "matthew halton|pincher creek": {
+      "latitude": 49.483828,
+      "longitude": -113.940752,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Matthew Halton High School, Poplar Avenue, Pincher Creek, Alberta, T0K 1W0, Canada",
+      "sourceQuery": "Matthew Halton, Pincher Creek, Alberta, Canada"
+    },
+    "camrose composite|camrose": {
+      "latitude": 53.015953,
+      "longitude": -112.848732,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Camrose Composite High School, 6205, 48 Avenue, Mount Pleasant, Camrose, Alberta, T4V 0K5, Canada",
+      "sourceQuery": "Camrose Composite, Camrose, Alberta, Canada"
+    },
+    "forest lawn|calgary": {
+      "latitude": 51.03772,
+      "longitude": -113.970909,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Forest Lawn, Calgary, Alberta, Canada",
+      "sourceQuery": "Forest Lawn, Calgary, Alberta, Canada"
+    },
+    "georges p vanier|donnelly": {
+      "latitude": 51.080325,
+      "longitude": -114.051547,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "Georges P. Vanier School, 509, 32 Avenue NE, Winston Heights/Mountview, Calgary, Alberta, T2E 8P3, Canada",
+      "sourceQuery": "Georges P Vanier, Alberta, Canada"
+    },
+    "gerard redmond|hinton": {
+      "latitude": 53.394911,
+      "longitude": -117.583205,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Gerard Redmond Community Catholic School, 174, Maligne Drive, Hill District, Town of Hinton, Alberta, T7V 1J4, Canada",
+      "sourceQuery": "Gerard Redmond, Hinton, Alberta, Canada"
+    },
+    "h. a. kostash|smoky lake": {
+      "latitude": 54.118452,
+      "longitude": -112.47432,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "H.A. Kostash School, 54 Avenue, Smoky Lake, Town of Smoky Lake, Alberta, T0A 3C0, Canada",
+      "sourceQuery": "H. A. Kostash, Smoky Lake, Alberta, Canada"
+    },
+    "st. anthony’s|drumheller": {
+      "latitude": 51.471278,
+      "longitude": -112.732776,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "St. Anthony's School, 1000, North Dinosaur Trail, North Drumheller, Drumheller, Alberta, T0J 0Y1, Canada",
+      "sourceQuery": "St. Anthony’s, Drumheller, Alberta, Canada"
+    },
+    "lester b. pearson|calgary": {
+      "latitude": 51.077279,
+      "longitude": -113.956627,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Lester B. Pearson High School, Village Square Library Drop-Off, Pineridge, Calgary, Alberta, T1Y 6S1, Canada",
+      "sourceQuery": "Lester B. Pearson, Calgary, Alberta, Canada"
+    },
+    "victoria|edmonton": {
+      "latitude": 53.555178,
+      "longitude": -113.496325,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Victoria School of the Arts, 10210, 108 Avenue NW, Central McDougall, Chinatown North, Central Core, Edmonton, Alberta, T5H 1A8, Canada",
+      "sourceQuery": "Victoria, Edmonton, Alberta, Canada"
+    },
+    "j. t. foster|nanton": {
+      "latitude": 50.343119,
+      "longitude": -113.778182,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "J. T. Foster, 24 Avenue, Town of Nanton, Alberta, T0L 1R0, Canada",
+      "sourceQuery": "J. T. Foster, Nanton, Alberta, Canada"
+    },
+    "st. mary’s|taber": {
+      "latitude": 49.7911,
+      "longitude": -112.148357,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 7,
+      "displayName": "St. Mary's High School Field/Park, Taber, Town of Taber, Alberta, Canada",
+      "sourceQuery": "St. Mary’s, Taber, Alberta, Canada"
+    },
+    "st. michael’s|pincher creek": {
+      "latitude": 49.48277,
+      "longitude": -113.952356,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "St Michael's Roman Catholic School, McDougall Street, Pincher Creek, Alberta, T0K 1W0, Canada",
+      "sourceQuery": "St. Michael’s, Pincher Creek, Alberta, Canada"
+    },
+    "bonnyville|bonnyville": {
+      "latitude": 54.305082,
+      "longitude": -110.742754,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Bonnyville Airport, 61521A Highway 41, Municipal District of Bonnyville, Alberta, T9N 2J5, Canada",
+      "sourceQuery": "Bonnyville, Bonnyville, Alberta, Canada"
+    },
+    "james fowler|calgary": {
+      "latitude": 51.08674,
+      "longitude": -114.069811,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "James Fowler High School, 4004, 4 Street NW, Highland Park, Calgary, Alberta, T2K 1A1, Canada",
+      "sourceQuery": "James Fowler, Calgary, Alberta, Canada"
+    },
+    "high level|high level": {
+      "latitude": 58.516667,
+      "longitude": -117.133333,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "High Level, Town of High Level, Alberta, Canada",
+      "sourceQuery": "High Level, High Level, Alberta, Canada"
+    },
+    "calgary arts academy|calgary": {
+      "latitude": 51.039428,
+      "longitude": -114.049261,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Calgary Arts Academy, 640, 14 Avenue SE, Victoria Park, Beltline, Calgary, Alberta, T2G 1E8, Canada",
+      "sourceQuery": "Calgary Arts Academy, Calgary, Alberta, Canada"
+    },
+    "coalhurst|coalhurst": {
+      "latitude": 49.748317,
+      "longitude": -112.929904,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Coalhurst High School, 415, 53 Avenue, Coalhurst, Lethbridge County, Alberta, T0L 0V0, Canada",
+      "sourceQuery": "Coalhurst, Coalhurst, Alberta, Canada"
+    },
+    "picture butte|picture butte": {
+      "latitude": 49.871598,
+      "longitude": -112.779862,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Picture Butte High School, Maple Estates Park, Picture Butte, Alberta, T0K 1V0, Canada",
+      "sourceQuery": "Picture Butte, Picture Butte, Alberta, Canada"
+    },
+    "wainwright|wainwright": {
+      "latitude": 52.832338,
+      "longitude": -110.862988,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Wainwright, 1 Avenue, Wainwright, Town of Wainwright, Alberta, T9W 1P8, Canada",
+      "sourceQuery": "Wainwright, Wainwright, Alberta, Canada"
+    },
+    "chinook|lethbridge": {
+      "latitude": 49.671497,
+      "longitude": -112.82035,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Park Royal / Chinook Heights, Lethbridge, Alberta, Canada",
+      "sourceQuery": "Chinook, Lethbridge, Alberta, Canada"
+    },
+    "j a williams|lac la biche": {
+      "latitude": 54.769834,
+      "longitude": -111.947145,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "J.A. Williams High School, 8702, 91 Avenue, Hamlet of Lac la Biche, Lac La Biche County, Alberta, T0A 2C0, Canada",
+      "sourceQuery": "J A Williams, Lac La Biche, Alberta, Canada"
+    },
+    "ridgevalley|crooked creek": {
+      "latitude": 55.158566,
+      "longitude": -117.898203,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 11,
+      "displayName": "Ridgevalley, Municipal District of Greenview, Alberta, Canada",
+      "sourceQuery": "Ridgevalley, Alberta, Canada"
+    },
+    "st. timothy|cochrane": {
+      "latitude": 51.206175,
+      "longitude": -114.475508,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "St. Timothy's High School, 501, Sunset Drive, Sunset Ridge, Town of Cochrane, Alberta, T4C 0E1, Canada",
+      "sourceQuery": "St. Timothy, Cochrane, Alberta, Canada"
+    },
+    "parkland|edson": {
+      "latitude": 53.593556,
+      "longitude": -116.430248,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Parkland Composite High School, 46 Street, Heatherwood, William Wilson, Edson, Alberta, T7E 1K8, Canada",
+      "sourceQuery": "Parkland, Edson, Alberta, Canada"
+    },
+    "koinonia|red deer": {
+      "latitude": 52.280427,
+      "longitude": -113.825201,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Koinonia Christian School, 60 Street, Riverside Meadows, Red Deer, Alberta, T4N 4M6, Canada",
+      "sourceQuery": "Koinonia, Red Deer, Alberta, Canada"
+    },
+    "beaverlodge|beaverlodge": {
+      "latitude": 55.212153,
+      "longitude": -119.430281,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Beaverlodge Regional Highschool, 1034, 2 Avenue, Beaverlodge, Town of Beaverlodge, Alberta, T0H 0C0, Canada",
+      "sourceQuery": "Beaverlodge, Beaverlodge, Alberta, Canada"
+    },
+    "al-mustafa academy|edmonton": {
+      "latitude": 53.514213,
+      "longitude": -113.456389,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "Al Mustafa Academy, 83 Street NW, King Edward Park, Mill Creek South, Edmonton, Alberta, T6C 2Y8, Canada",
+      "sourceQuery": "Al-Mustafa Academy, Edmonton, Alberta, Canada"
+    },
+    "alexandre-taché|st albert": {
+      "latitude": 53.65899,
+      "longitude": -113.624218,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 16,
+      "displayName": "École Alexandre-Taché, 30, Erin Ridge Drive, Erin Ridge, St. Albert, Alberta, T8N 5S5, Canada",
+      "sourceQuery": "Alexandre-Taché, St Albert, Alberta, Canada"
+    },
+    "west central|rocky mountain house": {
+      "latitude": 53.022382,
+      "longitude": -112.83546,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "West Central, Camrose, Alberta, T4V 0J7, Canada",
+      "sourceQuery": "West Central, Alberta, Canada"
+    },
+    "roland michener|slave lake": {
+      "latitude": 51.05711,
+      "longitude": -113.947488,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "Roland Michener School, 5958, 4 Avenue NE, Marlborough Park, Calgary, Alberta, T2A 5Z7, Canada",
+      "sourceQuery": "Roland Michener, Alberta, Canada"
+    },
+    "grande prairie|grande prairie": {
+      "latitude": 55.217725,
+      "longitude": -118.749145,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Grande Prairie, Hamlet of Clairmont, County of Grande Prairie, Alberta, T8X 5B1, Canada",
+      "sourceQuery": "Grande Prairie, Grande Prairie, Alberta, Canada"
+    },
+    "winston churchill|lethbridge": {
+      "latitude": 49.720069,
+      "longitude": -112.817249,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Winston Churchill, Lethbridge, Alberta, Canada",
+      "sourceQuery": "Winston Churchill, Lethbridge, Alberta, Canada"
+    },
+    "beiseker|beiseker": {
+      "latitude": 51.382223,
+      "longitude": -113.542265,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Beiseker Dog Park, 200, 1 Avenue, Village of Beiseker, Alberta, T0M 0G0, Canada",
+      "sourceQuery": "Beiseker, Beiseker, Alberta, Canada"
+    },
+    "st. john paul ii|grande prairie": {
+      "latitude": 55.20222,
+      "longitude": -118.829329,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "St. John Paul II Catholic School, Arbour Hills Boulevard, Grande Prairie, Alberta, T8V 7N6, Canada",
+      "sourceQuery": "St. John Paul II, Grande Prairie, Alberta, Canada"
+    },
+    "st. thomas aquinas|provost": {
+      "latitude": 52.353566,
+      "longitude": -110.255493,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Saint Thomas Aquinas, 4403, 52 Avenue, Provost, Town of Provost, Alberta, T0B 3S0, Canada",
+      "sourceQuery": "St. Thomas Aquinas, Provost, Alberta, Canada"
+    },
+    "peace river|peace river": {
+      "latitude": 56.233711,
+      "longitude": -117.291084,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Peace River, Alberta, T8S 1P7, Canada",
+      "sourceQuery": "Peace River, Peace River, Alberta, Canada"
+    },
+    "airdrie christian academy|airdrie": {
+      "latitude": 51.306759,
+      "longitude": -114.009797,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Airdrie Christian Academy, 77, Gateway Drive NE, Gateway, Airdrie, Alberta, T4B 0J6, Canada",
+      "sourceQuery": "Airdrie Christian Academy, Airdrie, Alberta, Canada"
+    },
+    "central high sedgewick|sedgewick": {
+      "latitude": 52.778096,
+      "longitude": -111.699924,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Central High Sedgewick Public Schoo, 53A Street, Sedgewick, Town of Sedgewick, Alberta, T0B 4C0, Canada",
+      "sourceQuery": "Central High Sedgewick, Sedgewick, Alberta, Canada"
+    },
+    "st. mary catholic|westlock": {
+      "latitude": 55.278339,
+      "longitude": -114.778786,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "St. Mary of the Lake Catholic School, 6 Street SW, Town of Slave Lake, Municipal District of Lesser Slave River, Alberta, T0G 2A1, Canada",
+      "sourceQuery": "St. Mary Catholic, Alberta, Canada"
+    },
+    "st. joseph|grande prairie": {
+      "latitude": 55.143004,
+      "longitude": -118.810969,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "St. Joseph Catholic High School, Knowledge Way, Grande Prairie, Alberta, T8W 2P1, Canada",
+      "sourceQuery": "St. Joseph, Grande Prairie, Alberta, Canada"
+    },
+    "buck mountain|buck lake": {
+      "latitude": 53.0523,
+      "longitude": -114.739228,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "Buck Mountain, County of Wetaskiwin, Alberta, Canada",
+      "sourceQuery": "Buck Mountain, Alberta, Canada"
+    },
+    "college heights|lacombe": {
+      "latitude": 52.489109,
+      "longitude": -113.73202,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "College Heights, City of Lacombe, Alberta, T4L 2E5, Canada",
+      "sourceQuery": "College Heights, Lacombe, Alberta, Canada"
+    },
+    "paul rowe|manning": {
+      "latitude": 56.923453,
+      "longitude": -117.620396,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Paul Rowe Jr Senior High School, 501, 4 Avenue Northeast, Town of Manning, Alberta, T0H 4G0, Canada",
+      "sourceQuery": "Paul Rowe, Manning, Alberta, Canada"
+    },
+    "prairie christian|three hills": {
+      "latitude": 51.708692,
+      "longitude": -113.257424,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Prairie Christian Academy, 9 Avenue East, Three Hills, Alberta, T0M 2A0, Canada",
+      "sourceQuery": "Prairie Christian, Three Hills, Alberta, Canada"
+    },
+    "brooks|brooks": {
+      "latitude": 50.571384,
+      "longitude": -111.896622,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Davis Chevrolet Brooks, 504, 2 Street West, Brooks, City of Brooks, Alberta, T1R 0E9, Canada",
+      "sourceQuery": "Brooks, Brooks, Alberta, Canada"
+    },
+    "drumheller valley|drumheller": {
+      "latitude": 51.451424,
+      "longitude": -112.685298,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Drumheller Valley Secondary School, 450, 17 Street East, Drumheller, Alberta, T0J 0Y7, Canada",
+      "sourceQuery": "Drumheller Valley, Drumheller, Alberta, Canada"
+    },
+    "consort|consort": {
+      "latitude": 52.013435,
+      "longitude": -110.773563,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Consort School, 50 Street, Village of Consort, Alberta, T0C 1B0, Canada",
+      "sourceQuery": "Consort, Consort, Alberta, Canada"
+    },
+    "duchess|duchess": {
+      "latitude": 50.731773,
+      "longitude": -111.900518,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Duchess Post Office, 401, Highway 550, Village of Duchess, Alberta, T0J 0Z0, Canada",
+      "sourceQuery": "Duchess, Duchess, Alberta, Canada"
+    },
+    "redwater|redwater": {
+      "latitude": 53.949684,
+      "longitude": -113.127061,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Redwater (Health Centre) Heliport, 48 Avenue, Redwater, Town of Redwater, Alberta, T0A 2W0, Canada",
+      "sourceQuery": "Redwater, Redwater, Alberta, Canada"
+    },
+    "thorhild central|thorhild": {
+      "latitude": 54.15382,
+      "longitude": -113.110503,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Thorhild Central School, Township Road 600, Thorhild County, Alberta, T0A 3J0, Canada",
+      "sourceQuery": "Thorhild Central, Thorhild, Alberta, Canada"
+    },
+    "viking|viking": {
+      "latitude": 53.092599,
+      "longitude": -111.777788,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Viking, 619, Viking, Town of Viking, Alberta, T0B 4N0, Canada",
+      "sourceQuery": "Viking, Viking, Alberta, Canada"
+    },
+    "plamondon|plamondon": {
+      "latitude": 54.848511,
+      "longitude": -112.343948,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Plamondon, Lac La Biche County, Alberta, T0A 2T0, Canada",
+      "sourceQuery": "Plamondon, Alberta, Canada"
+    },
+    "grande cache|grande cache": {
+      "latitude": 53.88981,
+      "longitude": -119.114302,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "Petro-Canada, 10009, 100 Street, Hamlet of Grande Cache, Municipal District of Greenview, Alberta, T0E 0Y0, Canada",
+      "sourceQuery": "Grande Cache, Grande Cache, Alberta, Canada"
+    },
+    "holy trinity academy|drayton valley": {
+      "latitude": 53.216465,
+      "longitude": -114.994539,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Holy Trinity Academy, 5749, 49 Avenue, Drayton Valley, Alberta, T7A 0B6, Canada",
+      "sourceQuery": "Holy Trinity Academy, Drayton Valley, Alberta, Canada"
+    },
+    "w. g. murdoch|crossfield": {
+      "latitude": 51.433159,
+      "longitude": -114.028419,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "W.G. Murdoch High School, 1020, Mountain Avenue, Crossfield Mobile Home Park, Town of Crossfield, Alberta, T0M 0S0, Canada",
+      "sourceQuery": "W. G. Murdoch, Crossfield, Alberta, Canada"
+    },
+    "eastglen|edmonton": {
+      "latitude": 53.568435,
+      "longitude": -113.446923,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Eastglen High School, 11430, 68 Street NW, Bellevue, Greater Highlands, Edmonton, Alberta, T5B 1P1, Canada",
+      "sourceQuery": "Eastglen, Edmonton, Alberta, Canada"
+    },
+    "hillside jr/sr high|valleyview": {
+      "latitude": 55.07317,
+      "longitude": -117.274629,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Hillside Junior/Senior High, 52 Avenue, Town of Valleyview, Alberta, T0H 0C8, Canada",
+      "sourceQuery": "Hillside Jr/Sr High, Valleyview, Alberta, Canada"
+    },
+    "northstar|red deer": {
+      "latitude": 53.656966,
+      "longitude": -113.665634,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 11,
+      "displayName": "Northstar Close, North Ridge, St. Albert, Alberta, T8N 3X7, Canada",
+      "sourceQuery": "Northstar, Alberta, Canada"
+    },
+    "new sarepta community|new sarepta": {
+      "latitude": 53.268572,
+      "longitude": -113.145504,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "New Sarepta Community High School, 2 Street South, Hamlet of New Sarepta, Leduc County, Alberta, Canada",
+      "sourceQuery": "New Sarepta Community, New Sarepta, Alberta, Canada"
+    },
+    "queen elizabeth|edmonton": {
+      "latitude": 53.591463,
+      "longitude": -113.487494,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Queen Elizabeth High School, 9425, 132 Avenue NW, Glengarry, Killarney, Northern Mature Area, Edmonton, Alberta, T5E 0Y4, Canada",
+      "sourceQuery": "Queen Elizabeth, Edmonton, Alberta, Canada"
+    },
+    "calmar|calmar": {
+      "latitude": 53.265105,
+      "longitude": -113.80556,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Calmar, Alberta, T0C 0V0, Canada",
+      "sourceQuery": "Calmar, Calmar, Alberta, Canada"
+    },
+    "e w pratt|high prairie": {
+      "latitude": 55.437937,
+      "longitude": -116.496213,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "E.W. Pratt High School, 50 Street, High Prairie, Town of High Prairie, Alberta, T0G 1E0, Canada",
+      "sourceQuery": "E W Pratt, High Prairie, Alberta, Canada"
+    },
+    "hope christian|vulcan": {
+      "latitude": 53.513041,
+      "longitude": -113.464017,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 12,
+      "displayName": "New Hope Christian Assembly, 7625, 89 Street NW, King Edward Park, Mill Creek South, Edmonton, Alberta, T6C 0T4, Canada",
+      "sourceQuery": "Hope Christian, Alberta, Canada"
+    },
+    "grimshaw|grimshaw": {
+      "latitude": 56.189698,
+      "longitude": -117.59816,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 13,
+      "displayName": "Grimshaw Community Park, Town of Grimshaw, Alberta, Canada",
+      "sourceQuery": "Grimshaw, Grimshaw, Alberta, Canada"
+    },
+    "fort mcmurray|fort mcmurray": {
+      "latitude": 56.719901,
+      "longitude": -111.357543,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 14,
+      "displayName": "RBC Royal Bank, Manning Avenue, City Centre, Fort McMurray, Wood Buffalo, Alberta, T9H 5G2, Canada",
+      "sourceQuery": "Fort McMurray, Fort McMurray, Alberta, Canada"
+    },
+    "livingstone range|fort macleod": {
+      "latitude": 49.722051,
+      "longitude": -113.401708,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 20,
+      "displayName": "Livingstone Range School Division, 19 Street, Fort Macleod, Town of Fort Macleod, Alberta, T0L 0Z0, Canada",
+      "sourceQuery": "Livingstone Range, Fort Macleod, Alberta, Canada"
+    },
+    "summit west|okotoks": {
+      "latitude": 50.891456,
+      "longitude": -114.160591,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 9,
+      "displayName": "Tanbridge Academy, 178003, 112 Street W, Calgary, Foothills County, Alberta, T1S 0V8, Canada",
+      "sourceQuery": "Summit West, Alberta, Canada"
+    },
+    "st. andrew’s|high prairie": {
+      "latitude": 55.431513,
+      "longitude": -116.482934,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "St. Andrew’s School, 4617, 53 Avenue, High Prairie, Town of High Prairie, Alberta, T0G 1E0, Canada",
+      "sourceQuery": "St. Andrew’s, High Prairie, Alberta, Canada"
+    },
+    "amiskwaciy|edmonton": {
+      "latitude": 53.571083,
+      "longitude": -113.523122,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 18,
+      "displayName": "Amiskwaciy Academy, 101, Airport Road NW, Blatchford, Edmonton, Alberta, T5G 3K2, Canada",
+      "sourceQuery": "Amiskwaciy, Edmonton, Alberta, Canada"
+    },
+    "mistassiniy|wabasca": {
+      "latitude": 55.946843,
+      "longitude": -113.807054,
+      "coordinateSource": "geocoded-school",
+      "geocodeScore": 19,
+      "displayName": "Mistassiniy School, Mistassiniy Road, Wabasca-Desmarais, Municipal District of Opportunity, Alberta, T0G 2K0, Canada",
+      "sourceQuery": "Mistassiniy, Wabasca, Alberta, Canada"
+    },
+    "ffca south|calgary": {
+      "latitude": 51.003468,
+      "longitude": -114.073199,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Calgary, Alberta, Canada",
+      "sourceQuery": "Calgary, Alberta, Canada"
+    },
+    "ffca|calgary": {
+      "latitude": 51.048494,
+      "longitude": -114.017378,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Calgary, Alberta, Canada",
+      "sourceQuery": "Calgary, Alberta, Canada"
+    },
+    "hautes-plaines|airdrie": {
+      "latitude": 51.261025,
+      "longitude": -114.054786,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Airdrie, Alberta, Canada",
+      "sourceQuery": "Airdrie, Alberta, Canada"
+    },
+    "rundle college academy|calgary": {
+      "latitude": 51.045534,
+      "longitude": -114.096268,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Calgary, Alberta, Canada",
+      "sourceQuery": "Calgary, Alberta, Canada"
+    },
+    "f g miller|elk point": {
+      "latitude": 53.87745,
+      "longitude": -110.856907,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Elk Point, Town of Elk Point, Alberta, T0A 0B9, Canada",
+      "sourceQuery": "Elk Point, Alberta, Canada"
+    },
+    "w. r. myers|taber": {
+      "latitude": 49.921474,
+      "longitude": -112.118379,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Municipal District of Taber, Alberta, Canada",
+      "sourceQuery": "Taber, Alberta, Canada"
+    },
+    "w.h. croxford|airdrie": {
+      "latitude": 51.266386,
+      "longitude": -113.984064,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Airdrie, Alberta, Canada",
+      "sourceQuery": "Airdrie, Alberta, Canada"
+    },
+    "lethbridge collegiate|lethbridge": {
+      "latitude": 49.68312,
+      "longitude": -112.896453,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Lethbridge, Alberta, Canada",
+      "sourceQuery": "Lethbridge, Alberta, Canada"
+    },
+    "richard f staples|westlock": {
+      "latitude": 54.166404,
+      "longitude": -113.828687,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Town of Westlock, Alberta, Canada",
+      "sourceQuery": "Westlock, Alberta, Canada"
+    },
+    "mountain view academy|calgary": {
+      "latitude": 51.03269,
+      "longitude": -114.08684,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Calgary, Alberta, Canada",
+      "sourceQuery": "Calgary, Alberta, Canada"
+    },
+    "gateway academy|whitecourt": {
+      "latitude": 54.182949,
+      "longitude": -115.665102,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Whitecourt, Alberta, Canada",
+      "sourceQuery": "Whitecourt, Alberta, Canada"
+    },
+    "j. c. charyk hanna|hanna": {
+      "latitude": 51.693279,
+      "longitude": -111.857604,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Hanna, Alberta, T0J 1P0, Canada",
+      "sourceQuery": "Hanna, Alberta, Canada"
+    },
+    "senator gershaw|bow island": {
+      "latitude": 49.826127,
+      "longitude": -111.380203,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Bow Island, Town of Bow Island, Alberta, T0K 0G0, Canada",
+      "sourceQuery": "Bow Island, Alberta, Canada"
+    },
+    "covenant canadian reformed|county of barrhead": {
+      "latitude": 54.208325,
+      "longitude": -114.602416,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "County of Barrhead, Alberta, Canada",
+      "sourceQuery": "County of Barrhead, Alberta, Canada"
+    },
+    "taber christian|taber": {
+      "latitude": 49.885657,
+      "longitude": -111.992691,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Municipal District of Taber, Alberta, Canada",
+      "sourceQuery": "Taber, Alberta, Canada"
+    },
+    "county central|vulcan": {
+      "latitude": 50.392501,
+      "longitude": -113.322118,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Town of Vulcan, Alberta, T0L 2B0, Canada",
+      "sourceQuery": "Vulcan, Alberta, Canada"
+    },
+    "wheatland crossing|standard": {
+      "latitude": 51.127139,
+      "longitude": -112.991996,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Standard, Wheatland County, Alberta, Canada",
+      "sourceQuery": "Standard, Alberta, Canada"
+    },
+    "st isidore|sherwood park": {
+      "latitude": 53.517663,
+      "longitude": -113.287402,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Sherwood Park, Strathcona County, Alberta, Canada",
+      "sourceQuery": "Sherwood Park, Alberta, Canada"
+    },
+    "bcs@home|calgary": {
+      "latitude": 51.018999,
+      "longitude": -114.01028,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Calgary, Alberta, Canada",
+      "sourceQuery": "Calgary, Alberta, Canada"
+    },
+    "foothills digital|okotoks": {
+      "latitude": 50.766943,
+      "longitude": -114.033334,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Okotoks, Town of Okotoks, Alberta, T1S 2N7, Canada",
+      "sourceQuery": "Okotoks, Alberta, Canada"
+    },
+    "pathways|high level": {
+      "latitude": 58.519503,
+      "longitude": -117.095235,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Town of High Level, Alberta, Canada",
+      "sourceQuery": "High Level, Alberta, Canada"
+    },
+    "ignite centre|edmonton": {
+      "latitude": 53.586119,
+      "longitude": -113.482178,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Edmonton, Alberta, Canada",
+      "sourceQuery": "Edmonton, Alberta, Canada"
+    },
+    "immaculate heart of mary|fort mcmurray": {
+      "latitude": 56.738325,
+      "longitude": -111.429275,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Fort McMurray, Wood Buffalo, Alberta, Canada",
+      "sourceQuery": "Fort McMurray, Alberta, Canada"
+    },
+    "strathmore store front|strathmore": {
+      "latitude": 51.007159,
+      "longitude": -113.405965,
+      "coordinateSource": "geocoded-city+jitter",
+      "geocodeScore": null,
+      "displayName": "Strathmore, Alberta, Canada",
+      "sourceQuery": "Strathmore, Alberta, Canada"
+    }
+  },
+  "cities": {
+    "calgary": {
+      "latitude": 51.045606,
+      "longitude": -114.057541,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Calgary, Alberta, Canada",
+      "sourceQuery": "Calgary, Alberta, Canada"
+    },
+    "airdrie": {
+      "latitude": 51.28597,
+      "longitude": -114.01062,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Airdrie, Alberta, Canada",
+      "sourceQuery": "Airdrie, Alberta, Canada"
+    },
+    "elk point": {
+      "latitude": 53.899937,
+      "longitude": -110.899979,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Elk Point, Town of Elk Point, Alberta, T0A 0B9, Canada",
+      "sourceQuery": "Elk Point, Alberta, Canada"
+    },
+    "taber": {
+      "latitude": 49.889534,
+      "longitude": -112.048807,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Municipal District of Taber, Alberta, Canada",
+      "sourceQuery": "Taber, Alberta, Canada"
+    },
+    "lethbridge": {
+      "latitude": 49.694578,
+      "longitude": -112.833103,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Lethbridge, Alberta, Canada",
+      "sourceQuery": "Lethbridge, Alberta, Canada"
+    },
+    "westlock": {
+      "latitude": 54.152524,
+      "longitude": -113.85199,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Town of Westlock, Alberta, Canada",
+      "sourceQuery": "Westlock, Alberta, Canada"
+    },
+    "whitecourt": {
+      "latitude": 54.142457,
+      "longitude": -115.68465,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Whitecourt, Alberta, Canada",
+      "sourceQuery": "Whitecourt, Alberta, Canada"
+    },
+    "hanna": {
+      "latitude": 51.644557,
+      "longitude": -111.927479,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Hanna, Alberta, T0J 1P0, Canada",
+      "sourceQuery": "Hanna, Alberta, Canada"
+    },
+    "bow island": {
+      "latitude": 49.869684,
+      "longitude": -111.379351,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Bow Island, Town of Bow Island, Alberta, T0K 0G0, Canada",
+      "sourceQuery": "Bow Island, Alberta, Canada"
+    },
+    "county of barrhead": {
+      "latitude": 54.172301,
+      "longitude": -114.548565,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "County of Barrhead, Alberta, Canada",
+      "sourceQuery": "County of Barrhead, Alberta, Canada"
+    },
+    "vulcan": {
+      "latitude": 50.401633,
+      "longitude": -113.263236,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Town of Vulcan, Alberta, T0L 2B0, Canada",
+      "sourceQuery": "Vulcan, Alberta, Canada"
+    },
+    "standard": {
+      "latitude": 51.112451,
+      "longitude": -112.980209,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Standard, Wheatland County, Alberta, Canada",
+      "sourceQuery": "Standard, Alberta, Canada"
+    },
+    "sherwood park": {
+      "latitude": 53.525696,
+      "longitude": -113.296631,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Sherwood Park, Strathcona County, Alberta, Canada",
+      "sourceQuery": "Sherwood Park, Alberta, Canada"
+    },
+    "okotoks": {
+      "latitude": 50.725369,
+      "longitude": -113.975082,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Okotoks, Town of Okotoks, Alberta, T1S 2N7, Canada",
+      "sourceQuery": "Okotoks, Alberta, Canada"
+    },
+    "high level": {
+      "latitude": 58.511536,
+      "longitude": -117.143876,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Town of High Level, Alberta, Canada",
+      "sourceQuery": "High Level, Alberta, Canada"
+    },
+    "edmonton": {
+      "latitude": 53.546205,
+      "longitude": -113.491241,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Edmonton, Alberta, Canada",
+      "sourceQuery": "Edmonton, Alberta, Canada"
+    },
+    "fort mcmurray": {
+      "latitude": 56.7292,
+      "longitude": -111.388522,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Fort McMurray, Wood Buffalo, Alberta, Canada",
+      "sourceQuery": "Fort McMurray, Alberta, Canada"
+    },
+    "strathmore": {
+      "latitude": 51.043549,
+      "longitude": -113.399848,
+      "coordinateSource": "geocoded-city+jitter",
+      "displayName": "Strathmore, Alberta, Canada",
+      "sourceQuery": "Strathmore, Alberta, Canada"
+    }
+  }
+}

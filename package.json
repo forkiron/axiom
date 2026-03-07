@@ -10,6 +10,8 @@
     "data:education": "node scripts/build-country-education-metrics.mjs",
     "data:bc-cities": "node scripts/geocode-bc-cities.mjs",
     "data:bc-schools": "node scripts/build-bc-school-map-data.mjs",
+    "data:ab-schools": "node scripts/build-ab-school-map-data.mjs",
+    "data:qc-schools": "node scripts/build-qc-school-map-data.mjs",
     "backboard:upload-csv": "node scripts/upload-backboard-csv.mjs",
     "backboard:csv-status": "node scripts/upload-backboard-csv.mjs --status"
   },

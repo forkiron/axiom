@@ -45,3 +45,7 @@ Thumbs.db
 # editor
 .vscode/
 .idea/
+
+# local/raw datasets
+ab_school_rankings.csv
+quebec_469_schools (1).csv
