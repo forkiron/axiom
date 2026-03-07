@@ -13,7 +13,6 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
   const [subject, setSubject] = useState('math');
   const [classAverage, setClassAverage] = useState('85');
   const [testContent, setTestContent] = useState('');
-  const [apiKey, setApiKey] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
@@ -37,7 +36,6 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
           subject,
           classAverage: parseFloat(classAverage),
           testContent,
-          apiKey: apiKey.trim() || undefined,
         }),
       });
 
@@ -106,20 +104,6 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
             onChange={(e) => setTestContent(e.target.value)}
             placeholder="E.g., 1. Calculate the derivative of f(x) = x^2 * sin(x)..."
             className="h-48 w-full resize-none rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-sm text-slate-200 outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
-          />
-        </div>
-
-        <div className="space-y-2 pt-4 border-t border-slate-800">
-          <label className="text-sm font-medium flex justify-between text-slate-300">
-            <span>Gemini API Key (Optional)</span>
-            <span className="text-[10px] text-emerald-400 font-normal">Only needed if server .env is missing</span>
-          </label>
-          <input 
-            type="password" 
-            value={apiKey}
-            onChange={(e) => setApiKey(e.target.value)}
-            placeholder="AIzaSyB..."
-            className="w-full rounded-lg border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm text-slate-200 outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all font-mono"
           />
         </div>
       </div>
