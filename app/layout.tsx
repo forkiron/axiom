@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import './globals.css';
+import BackboardQuestionBox from '../components/BackboardQuestionBox';
 
 export const metadata: Metadata = {
   title: 'Academic Atlas Canada',
@@ -12,6 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className="min-h-screen bg-[#05070d] text-slate-100 antialiased">
         {children}
+        <BackboardQuestionBox />
       </body>
     </html>
   );
