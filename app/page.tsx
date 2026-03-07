@@ -14,11 +14,11 @@ export default function LandingPage() {
         className="h-full w-full"
       >
         <WorldGlobeMap className="h-screen min-h-screen w-screen" />
-        <div className="pointer-events-none absolute top-6 right-6 z-20 flex gap-3">
-          <div className="pointer-events-auto">
+        <div className="pointer-events-none absolute bottom-8 right-16 z-20 flex gap-3">
+          <div className="pointer-events-auto shadow-lg">
             <Link
               href="/analyzer"
-              className="rounded-md border border-emerald-500/30 bg-emerald-950/40 px-3 py-2 text-xs font-medium text-emerald-200 hover:bg-emerald-900/60 transition-colors backdrop-blur-sm"
+              className="rounded-md border border-emerald-500/30 bg-emerald-950/80 px-3 py-2 text-xs font-medium text-emerald-200 hover:bg-emerald-900/90 transition-colors backdrop-blur-md"
             >
               AI Test Analyzer →
             </Link>
