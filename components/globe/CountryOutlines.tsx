@@ -70,7 +70,7 @@ export function CountryOutlines({
         polygon.forEach((ring, ringIndex) => {
           if (ring.length > 1) {
             linePaths.push({
-              id: `${iso3 || featureIndex}-p-${ringIndex}`,
+              id: `${featureIndex}-${iso3 || 'na'}-p-${ringIndex}`,
               color: borderColor,
               points: ring.map((coordinate) => {
                 const [longitude, latitude] = coordinate;
@@ -85,7 +85,7 @@ export function CountryOutlines({
           polygon.forEach((ring, ringIndex) => {
             if (ring.length > 1) {
               linePaths.push({
-                id: `${iso3 || featureIndex}-m-${polygonIndex}-${ringIndex}`,
+                id: `${featureIndex}-${iso3 || 'na'}-m-${polygonIndex}-${ringIndex}`,
                 color: borderColor,
                 points: ring.map((coordinate) => {
                   const [longitude, latitude] = coordinate;
