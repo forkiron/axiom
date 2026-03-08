@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-08T00:17:22.271Z",
+  "generatedAt": "2026-03-08T03:41:07.026Z",
   "source": "ontario_747_schools.csv",
-  "provider": "Deterministic city anchors",
+  "provider": "OpenStreetMap Nominatim + legacy cache",
   "count": 225,
   "cities": [
     {
@@ -90,10 +90,11 @@
     },
     {
       "city": "Leamington",
-      "latitude": 45.582099,
-      "longitude": -75.368091,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 42.053139,
+      "longitude": -82.599772,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Leamington, Essex, Ontario, Canada"
     },
     {
       "city": "Kitchener",
@@ -104,24 +105,27 @@
     },
     {
       "city": "Dunrobin",
-      "latitude": 46.684575,
-      "longitude": -78.715518,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 45.422905,
+      "longitude": -76.02042,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Dunrobin, Ottawa, Eastern Ontario, Ontario, Canada"
     },
     {
       "city": "Erin",
-      "latitude": 46.949728,
-      "longitude": -81.512669,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 43.543318,
+      "longitude": -79.704974,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Mississauga—Erin Mills, Mississauga, Peel, Ontario, Canada"
     },
     {
       "city": "LaSalle",
-      "latitude": 43.986694,
-      "longitude": -80.336191,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 42.245064,
+      "longitude": -83.060653,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "LaSalle, Essex, Ontario, Canada"
     },
     {
       "city": "Guelph",
@@ -230,17 +234,19 @@
     },
     {
       "city": "Belle River",
-      "latitude": 45.380849,
-      "longitude": -75.715791,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 42.292899,
+      "longitude": -82.711335,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Belle River, Lakeshore, Essex, Ontario, Canada"
     },
     {
       "city": "Fonthill",
-      "latitude": 45.417863,
-      "longitude": -76.385539,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 43.030782,
+      "longitude": -79.285963,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Fonthill, Pelham, Niagara, Ontario, Canada"
     },
     {
       "city": "Georgetown",
@@ -251,10 +257,11 @@
     },
     {
       "city": "Vaughan",
-      "latitude": 42.448994,
-      "longitude": -81.854722,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 43.794154,
+      "longitude": -79.526802,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Vaughan, York, Ontario, Canada"
     },
     {
       "city": "Ancaster",
@@ -279,10 +286,11 @@
     },
     {
       "city": "Dundas",
-      "latitude": 43.981028,
-      "longitude": -76.791632,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kingston"
+      "latitude": 43.653613,
+      "longitude": -79.39278,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Art Gallery of Ontario, Toronto, Golden Horseshoe, Ontario, Canada"
     },
     {
       "city": "Stoney Creek",
@@ -335,17 +343,19 @@
     },
     {
       "city": "Fergus",
-      "latitude": 42.353702,
-      "longitude": -82.653077,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Windsor"
+      "latitude": 43.705944,
+      "longitude": -80.377937,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Fergus, Centre Wellington, Wellington, Ontario, Canada"
     },
     {
       "city": "Sydenham",
-      "latitude": 45.769453,
-      "longitude": -78.777239,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 44.447741,
+      "longitude": -80.93046,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Sydenham River, Chatsworth, Grey, Ontario, Canada"
     },
     {
       "city": "St. Marys",
@@ -370,17 +380,19 @@
     },
     {
       "city": "Chesterville",
-      "latitude": 46.488472,
-      "longitude": -80.624076,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 45.102427,
+      "longitude": -75.228918,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Chesterville, North Dundas, Stormont, Dundas and Glengarry, Ontario, Canada"
     },
     {
       "city": "Almonte",
-      "latitude": 43.899669,
-      "longitude": -79.196209,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 45.226049,
+      "longitude": -76.194528,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Almonte, Mississippi Mills, Lanark, Ontario, Canada"
     },
     {
       "city": "Cambridge",
@@ -391,10 +403,11 @@
     },
     {
       "city": "Petrolia",
-      "latitude": 44.400503,
-      "longitude": -78.957669,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 42.882002,
+      "longitude": -82.149582,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Petrolia, Lambton, Ontario, Canada"
     },
     {
       "city": "Caledon",
@@ -419,17 +432,19 @@
     },
     {
       "city": "Kincardine",
-      "latitude": 42.346659,
-      "longitude": -81.393456,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 44.177638,
+      "longitude": -81.634871,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Kincardine, Bruce, Ontario, Canada"
     },
     {
       "city": "Grimsby",
-      "latitude": 46.808449,
-      "longitude": -79.301676,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 43.193166,
+      "longitude": -79.560677,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Grimsby, Niagara, Ontario, Canada"
     },
     {
       "city": "Stratford",
@@ -440,17 +455,19 @@
     },
     {
       "city": "Alexandria",
-      "latitude": 43.930535,
-      "longitude": -79.688756,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 45.317942,
+      "longitude": -74.639764,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Alexandria, Township of North Glengarry, Stormont, Dundas and Glengarry, Ontario, Canada"
     },
     {
       "city": "Acton",
-      "latitude": 46.099317,
-      "longitude": -79.915177,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 43.634068,
+      "longitude": -80.035112,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Acton, Acton, Halton, Ontario, Canada"
     },
     {
       "city": "Oshawa",
@@ -468,31 +485,35 @@
     },
     {
       "city": "Walkerton",
-      "latitude": 43.406941,
-      "longitude": -80.031706,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 44.133191,
+      "longitude": -81.148589,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Walkerton, Brockton, Bruce, Ontario, Canada"
     },
     {
       "city": "Meaford",
-      "latitude": 42.039703,
-      "longitude": -82.47428,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Windsor"
+      "latitude": 44.60693,
+      "longitude": -80.591653,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Meaford, Grey, Ontario, Canada"
     },
     {
       "city": "Perth",
-      "latitude": 48.261091,
-      "longitude": -88.524969,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Thunder Bay"
+      "latitude": 43.493599,
+      "longitude": -81.016411,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Perth, Ontario, Canada"
     },
     {
       "city": "Gravenhurst",
-      "latitude": 42.919905,
-      "longitude": -81.043656,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 44.91741,
+      "longitude": -79.373131,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Gravenhurst, Muskoka, Ontario, Canada"
     },
     {
       "city": "North Bay",
@@ -503,24 +524,27 @@
     },
     {
       "city": "Uxbridge",
-      "latitude": 43.666994,
-      "longitude": -78.808207,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 44.10885,
+      "longitude": -79.122677,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Uxbridge, Durham, Ontario, Canada"
     },
     {
       "city": "Williamstown",
-      "latitude": 41.887399,
-      "longitude": -82.657812,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Windsor"
+      "latitude": 45.146673,
+      "longitude": -74.579561,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Williamstown, South Glengarry, Stormont, Dundas and Glengarry, Ontario, Canada"
     },
     {
       "city": "Carleton Place",
-      "latitude": 44.201522,
-      "longitude": -78.970212,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 45.140337,
+      "longitude": -76.146567,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Carleton Place, Lanark, Ontario, Canada"
     },
     {
       "city": "Atikokan",
@@ -531,24 +555,27 @@
     },
     {
       "city": "Embrun",
-      "latitude": 46.860993,
-      "longitude": -78.701717,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 45.275081,
+      "longitude": -75.276488,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Embrun, Russell, Prescott and Russell, Ontario, Canada"
     },
     {
       "city": "Mount Forest",
-      "latitude": 43.294001,
-      "longitude": -81.682624,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 43.980698,
+      "longitude": -80.733824,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Mount Forest, Wellington North, Wellington, Ontario, Canada"
     },
     {
       "city": "Thorold",
-      "latitude": 46.426455,
-      "longitude": -80.940432,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 43.124913,
+      "longitude": -79.200593,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Thorold, Niagara, Ontario, Canada"
     },
     {
       "city": "Welland",
@@ -559,24 +586,27 @@
     },
     {
       "city": "Richmond",
-      "latitude": 44.734004,
-      "longitude": -79.435116,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 43.880117,
+      "longitude": -79.439292,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Richmond Hill, York, Ontario, Canada"
     },
     {
       "city": "Bracebridge",
-      "latitude": 45.032543,
-      "longitude": -79.319124,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 45.041508,
+      "longitude": -79.310989,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Bracebridge, Muskoka, Ontario, Canada"
     },
     {
       "city": "Arnprior",
-      "latitude": 47.792236,
-      "longitude": -89.833133,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Thunder Bay"
+      "latitude": 45.415066,
+      "longitude": -76.365284,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Arnprior Airport, Arnprior, Renfrew, Ontario, Canada"
     },
     {
       "city": "Peterborough",
@@ -587,10 +617,11 @@
     },
     {
       "city": "King City",
-      "latitude": 44.702217,
-      "longitude": -79.953672,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 43.929489,
+      "longitude": -79.525227,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "King City, King, York, Ontario, Canada"
     },
     {
       "city": "Belleville",
@@ -601,10 +632,11 @@
     },
     {
       "city": "Elmvale",
-      "latitude": 43.606057,
-      "longitude": -79.569346,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "St. Catharines"
+      "latitude": 45.396893,
+      "longitude": -75.630645,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Elmvale, Ottawa, Eastern Ontario, Ontario, Canada"
     },
     {
       "city": "Thunder Bay",
@@ -622,45 +654,51 @@
     },
     {
       "city": "Keswick",
-      "latitude": 43.106826,
-      "longitude": -79.476513,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 44.239617,
+      "longitude": -79.468656,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Keswick, York, Ontario, Canada"
     },
     {
       "city": "Bolton",
-      "latitude": 45.304335,
-      "longitude": -75.778968,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 43.879548,
+      "longitude": -79.73826,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Bolton, Caledon, Peel, Ontario, Canada"
     },
     {
       "city": "Wiarton",
-      "latitude": 46.300514,
-      "longitude": -81.133954,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 44.745545,
+      "longitude": -81.110893,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Wiarton-Keppel District Airport, Georgian Bluffs, Grey, Ontario, Canada"
     },
     {
       "city": "Port Colborne",
-      "latitude": 43.880254,
-      "longitude": -81.232302,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 42.886239,
+      "longitude": -79.25139,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Port Colborne, Niagara, Ontario, Canada"
     },
     {
       "city": "Collingwood",
-      "latitude": 43.657567,
-      "longitude": -75.870873,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kingston"
+      "latitude": 44.502723,
+      "longitude": -80.217238,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Collingwood, Simcoe, Ontario, Canada"
     },
     {
       "city": "Owen Sound",
-      "latitude": 46.285638,
-      "longitude": -80.457941,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 44.567811,
+      "longitude": -80.943009,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Owen Sound, Grey, Ontario, Canada"
     },
     {
       "city": "St. Thomas",
@@ -671,17 +709,19 @@
     },
     {
       "city": "Hagersville",
-      "latitude": 46.893217,
-      "longitude": -80.2759,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 42.961976,
+      "longitude": -80.051713,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Hagersville, Haldimand, Ontario, Canada"
     },
     {
       "city": "Elmira",
-      "latitude": 44.854443,
-      "longitude": -78.044091,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 43.584702,
+      "longitude": -80.603104,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Elmira Airport, Woolwich, Waterloo, Ontario, Canada"
     },
     {
       "city": "Bowmanville",
@@ -692,80 +732,91 @@
     },
     {
       "city": "Huntsville",
-      "latitude": 43.832097,
-      "longitude": -80.264268,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 45.326392,
+      "longitude": -79.218434,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Huntsville, Muskoka, Ontario, Canada"
     },
     {
       "city": "Gananoque",
-      "latitude": 43.428297,
-      "longitude": -79.398074,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 44.329621,
+      "longitude": -76.162665,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Gananoque, Eastern Ontario, Ontario, Canada"
     },
     {
       "city": "Clinton",
-      "latitude": 43.653939,
-      "longitude": -80.115184,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 43.617183,
+      "longitude": -81.539715,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Clinton, Central Huron, Huron, Ontario, Canada"
     },
     {
       "city": "Rockland",
-      "latitude": 44.154064,
-      "longitude": -77.675287,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 45.524798,
+      "longitude": -75.260753,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Clarence-Rockland, Prescott and Russell, Ontario, Canada"
     },
     {
       "city": "Port Elgin",
-      "latitude": 46.773623,
-      "longitude": -81.248272,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 44.414235,
+      "longitude": -81.416854,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Port Elgin Airport, Port Elgin, Bruce, Ontario, Canada"
     },
     {
       "city": "Arva",
-      "latitude": 42.906013,
-      "longitude": -80.681208,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 47.817923,
+      "longitude": -83.964564,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Arva Lake, Unorganized North Sudbury, Sudbury, Ontario, Canada"
     },
     {
       "city": "Russell",
-      "latitude": 44.256214,
-      "longitude": -78.4768,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 45.513464,
+      "longitude": -74.906598,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Prescott and Russell, Ontario, Canada"
     },
     {
       "city": "Dorchester",
-      "latitude": 42.991182,
-      "longitude": -79.692907,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 42.986977,
+      "longitude": -81.062095,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Lord Dorchester Secondary School, Dorchester, Middlesex County, Ontario, Canada"
     },
     {
       "city": "Simcoe",
-      "latitude": 45.638228,
-      "longitude": -76.291956,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 44.501401,
+      "longitude": -79.703871,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Simcoe, Ontario, Canada"
     },
     {
       "city": "Noelville",
-      "latitude": 42.486729,
-      "longitude": -83.321148,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Windsor"
+      "latitude": 46.133946,
+      "longitude": -80.431708,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Noëlville, French River, Sudbury, Ontario, Canada"
     },
     {
       "city": "Deep River",
-      "latitude": 45.221383,
-      "longitude": -75.610371,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 46.11688,
+      "longitude": -77.527799,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Deep River/Rolph Airport, Laurentian Hills, Renfrew, Ontario, Canada"
     },
     {
       "city": "Cornwall",
@@ -776,66 +827,75 @@
     },
     {
       "city": "Alliston",
-      "latitude": 44.882707,
-      "longitude": -76.46127,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 44.1833,
+      "longitude": -79.837097,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Alliston Airport, Essa, Simcoe, Ontario, Canada"
     },
     {
       "city": "New Liskeard",
-      "latitude": 43.342409,
-      "longitude": -80.375263,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 47.508731,
+      "longitude": -79.678903,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "New Liskeard, Temiskaming Shores, Timiskaming, Ontario, Canada"
     },
     {
       "city": "Waterdown",
-      "latitude": 43.056231,
-      "longitude": -79.7355,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 43.331416,
+      "longitude": -79.89568,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Waterdown, Hamilton, Golden Horseshoe, Ontario, Canada"
     },
     {
       "city": "Palmerston",
-      "latitude": 43.904359,
-      "longitude": -78.592494,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 43.658382,
+      "longitude": -79.418412,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Palmerston-Little Italy, Toronto, Golden Horseshoe, Ontario, Canada"
     },
     {
       "city": "Fenelon Falls",
-      "latitude": 43.054956,
-      "longitude": -80.171752,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 44.53703,
+      "longitude": -78.73638,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Fenelon Falls, Kawartha Lakes, Central Ontario, Ontario, Canada"
     },
     {
       "city": "Hanover",
-      "latitude": 43.142454,
-      "longitude": -79.062115,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 44.158221,
+      "longitude": -81.062181,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Hanover/Saugeen Municipal Airport, Brockton, Bruce, Ontario, Canada"
     },
     {
       "city": "Metcalfe",
-      "latitude": 43.210731,
-      "longitude": -80.589425,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 42.975292,
+      "longitude": -81.629625,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Ontario Provincial Police, Strathroy, Middlesex County, Ontario, Canada"
     },
     {
       "city": "Baden",
-      "latitude": 43.292086,
-      "longitude": -78.62924,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "St. Catharines"
+      "latitude": 43.40378,
+      "longitude": -80.668923,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Baden, Wilmot, Waterloo, Ontario, Canada"
     },
     {
       "city": "Hearst",
-      "latitude": 43.417227,
-      "longitude": -79.746573,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 49.690732,
+      "longitude": -83.666382,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Hearst, Cochrane, Ontario, Canada"
     },
     {
       "city": "Lindsay",
@@ -846,52 +906,59 @@
     },
     {
       "city": "Petawawa",
-      "latitude": 46.208354,
-      "longitude": -80.488637,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 45.898429,
+      "longitude": -77.282664,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Petawawa, Renfrew, Ontario, Canada"
     },
     {
       "city": "Cayuga",
-      "latitude": 44.335978,
-      "longitude": -77.580712,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 42.949727,
+      "longitude": -79.858536,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Cayuga, Haldimand, Ontario, Canada"
     },
     {
       "city": "Amherstburg",
-      "latitude": 44.933606,
-      "longitude": -78.189401,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 42.101331,
+      "longitude": -83.108654,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Amherstburg, Essex, Ontario, Canada"
     },
     {
       "city": "Lion's Head",
-      "latitude": 42.909881,
-      "longitude": -79.781608,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "St. Catharines"
+      "latitude": 44.988222,
+      "longitude": -81.219138,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Lion's Head Provincial Nature Reserve, Municipality of Northern Bruce Peninsula, Bruce, Ontario, Canada"
     },
     {
       "city": "Kingsville",
-      "latitude": 41.76649,
-      "longitude": -83.678879,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Windsor"
+      "latitude": 42.037896,
+      "longitude": -82.739661,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Kingsville, Essex, Ontario, Canada"
     },
     {
       "city": "Bradford",
-      "latitude": 45.949607,
-      "longitude": -76.143526,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 44.117126,
+      "longitude": -79.556013,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Bradford, Bradford, Simcoe, Ontario, Canada"
     },
     {
       "city": "Plantagenet",
-      "latitude": 44.58763,
-      "longitude": -76.094884,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kingston"
+      "latitude": 45.543826,
+      "longitude": -74.985227,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Alfred and Plantagenet, Prescott and Russell, Ontario, Canada"
     },
     {
       "city": "Woodstock",
@@ -909,66 +976,75 @@
     },
     {
       "city": "Exeter",
-      "latitude": 46.725874,
-      "longitude": -79.559296,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 43.344987,
+      "longitude": -81.480108,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Exeter, South Huron, Huron, Ontario, Canada"
     },
     {
       "city": "Strathroy",
-      "latitude": 43.122751,
-      "longitude": -79.434757,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "St. Catharines"
+      "latitude": 42.975292,
+      "longitude": -81.629625,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Ontario Provincial Police, Strathroy, Middlesex County, Ontario, Canada"
     },
     {
       "city": "Flesherton",
-      "latitude": 42.217011,
-      "longitude": -82.790838,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Windsor"
+      "latitude": 44.26106,
+      "longitude": -80.54575,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Flesherton, Grey Highlands, Grey, Ontario, Canada"
     },
     {
       "city": "Brighton",
-      "latitude": 49.018344,
-      "longitude": -88.539218,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Thunder Bay"
+      "latitude": 44.042228,
+      "longitude": -77.737007,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Brighton, Northumberland County, Ontario, Canada"
     },
     {
       "city": "Madoc",
-      "latitude": 46.602006,
-      "longitude": -81.656195,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 44.5818,
+      "longitude": -77.507668,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Madoc, Hastings, Ontario, Canada"
     },
     {
       "city": "Vankleek Hill",
-      "latitude": 42.8386,
-      "longitude": -83.606467,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Windsor"
+      "latitude": 45.519609,
+      "longitude": -74.651967,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Vankleek Hill, Champlain, Prescott and Russell, Ontario, Canada"
     },
     {
       "city": "Essex",
-      "latitude": 43.818247,
-      "longitude": -78.090324,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 42.235414,
+      "longitude": -82.712011,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Essex, Ontario, Canada"
     },
     {
       "city": "Orangeville",
-      "latitude": 45.017209,
-      "longitude": -79.350749,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 43.919317,
+      "longitude": -80.097375,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Orangeville, Dufferin, Ontario, Canada"
     },
     {
       "city": "Goderich",
-      "latitude": 43.203845,
-      "longitude": -80.06613,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 43.743092,
+      "longitude": -81.711095,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Goderich, Huron, Ontario, Canada"
     },
     {
       "city": "Dryden",
@@ -979,24 +1055,27 @@
     },
     {
       "city": "Forest",
-      "latitude": 44.078885,
-      "longitude": -80.98489,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 43.692918,
+      "longitude": -79.403753,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Upper Canada College, Toronto, Golden Horseshoe, Ontario, Canada"
     },
     {
       "city": "Sturgeon Falls",
-      "latitude": 46.430689,
-      "longitude": -78.660919,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 46.365341,
+      "longitude": -79.932157,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Sturgeon Falls, Lavigne, Nipissing, Ontario, Canada"
     },
     {
       "city": "Port Hope",
-      "latitude": 42.683121,
-      "longitude": -79.855818,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 43.951575,
+      "longitude": -78.29397,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Port Hope, Northumberland County, Ontario, Canada"
     },
     {
       "city": "Orillia",
@@ -1007,10 +1086,11 @@
     },
     {
       "city": "Fort Erie",
-      "latitude": 43.546757,
-      "longitude": -80.53876,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 42.91308,
+      "longitude": -78.918611,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Fort Erie, Niagara, Ontario, Canada"
     },
     {
       "city": "Sault Ste. Marie",
@@ -1021,52 +1101,59 @@
     },
     {
       "city": "West Lorne",
-      "latitude": 45.889827,
-      "longitude": -79.317706,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 42.603767,
+      "longitude": -81.606678,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "West Lorne, West Elgin, Elgin, Ontario, Canada"
     },
     {
       "city": "Espanola",
-      "latitude": 44.075448,
-      "longitude": -78.829311,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 46.265341,
+      "longitude": -81.769867,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Espanola, Sudbury, Ontario, Canada"
     },
     {
       "city": "Mitchell",
-      "latitude": 44.225724,
-      "longitude": -77.632622,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 44.577706,
+      "longitude": -78.949212,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Mitchell Lake, Kawartha Lakes, Central Ontario, Ontario, Canada"
     },
     {
       "city": "Shelburne",
-      "latitude": 45.318322,
-      "longitude": -75.127692,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 44.078473,
+      "longitude": -80.203431,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Shelburne, Dufferin, Ontario, Canada"
     },
     {
       "city": "Haliburton",
-      "latitude": 46.422478,
-      "longitude": -81.639845,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 45.110157,
+      "longitude": -78.643197,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Haliburton/Stanhope Municipal Airport, Algonquin Highlands, Haliburton, Ontario, Canada"
     },
     {
       "city": "Ingersoll",
-      "latitude": 48.168402,
-      "longitude": -89.586129,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Thunder Bay"
+      "latitude": 43.037725,
+      "longitude": -80.88211,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Ingersoll, Oxford, Ontario, Canada"
     },
     {
       "city": "Dresden",
-      "latitude": 43.955456,
-      "longitude": -79.699173,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 42.590985,
+      "longitude": -82.179531,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Dresden, Chatham-Kent (municipality), Ontario, Canada"
     },
     {
       "city": "Timmins",
@@ -1077,45 +1164,51 @@
     },
     {
       "city": "Midland",
-      "latitude": 43.013321,
-      "longitude": -79.735234,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 44.750147,
+      "longitude": -79.885712,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Midland, Simcoe, Ontario, Canada"
     },
     {
       "city": "Waterford",
-      "latitude": 46.063938,
-      "longitude": -81.717784,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 42.929188,
+      "longitude": -80.286294,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Waterford District High School, Waterford, Norfolk, Ontario, Canada"
     },
     {
       "city": "Sharbot Lake",
-      "latitude": 45.216274,
-      "longitude": -76.26411,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 44.775719,
+      "longitude": -76.713349,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Sharbot Lake Provincial Park, Central Frontenac, Frontenac, Ontario, Canada"
     },
     {
       "city": "Listowel",
-      "latitude": 43.026395,
-      "longitude": -79.088903,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 43.742802,
+      "longitude": -80.991402,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Listowel Airport, North Perth, Perth, Ontario, Canada"
     },
     {
       "city": "Lively",
-      "latitude": 43.493941,
-      "longitude": -79.327027,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 46.436517,
+      "longitude": -81.146366,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Lively, Sudbury, Sudbury, Ontario, Canada"
     },
     {
       "city": "Hammond",
-      "latitude": 45.407142,
-      "longitude": -75.457633,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 45.441579,
+      "longitude": -75.239944,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Hammond, Clarence-Rockland, Prescott and Russell, Ontario, Canada"
     },
     {
       "city": "Wawa",
@@ -1126,129 +1219,147 @@
     },
     {
       "city": "Paris",
-      "latitude": 43.868796,
-      "longitude": -80.510742,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 43.204968,
+      "longitude": -80.385033,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Paris District High School, Paris, Brant, Ontario, Canada"
     },
     {
       "city": "South Porcupine",
-      "latitude": 46.187271,
-      "longitude": -81.357579,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 48.485094,
+      "longitude": -81.208701,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "South Porcupine, Timmins, Cochrane, Ontario, Canada"
     },
     {
       "city": "Longlac",
-      "latitude": 43.667814,
-      "longitude": -77.890807,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 49.778191,
+      "longitude": -86.539396,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Longlac, Geraldton, Thunder Bay, Ontario, Canada"
     },
     {
       "city": "Elgin",
-      "latitude": 44.085285,
-      "longitude": -79.82619,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 42.726952,
+      "longitude": -81.366038,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Elgin, Ontario, Canada"
     },
     {
       "city": "Douglas",
-      "latitude": 42.6428,
-      "longitude": -80.166935,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 43.844443,
+      "longitude": -79.568612,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Tommy Douglas Secondary School, Woodbridge, York, Ontario, Canada"
     },
     {
       "city": "Campbellford",
-      "latitude": 43.224131,
-      "longitude": -79.655393,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 44.308591,
+      "longitude": -77.798084,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Campbellford, Trent Hills, Northumberland County, Ontario, Canada"
     },
     {
       "city": "Angus",
-      "latitude": 42.555342,
-      "longitude": -79.404372,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "St. Catharines"
+      "latitude": 44.324741,
+      "longitude": -79.888235,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Angus, Essa, Simcoe, Ontario, Canada"
     },
     {
       "city": "Cochrane",
-      "latitude": 44.834383,
-      "longitude": -77.057487,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kingston"
+      "latitude": 50.630898,
+      "longitude": -82.191444,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Cochrane, Ontario, Canada"
     },
     {
       "city": "Stayner",
-      "latitude": 42.696531,
-      "longitude": -81.922914,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 44.419464,
+      "longitude": -80.090445,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Stayner, Clearview, Simcoe, Ontario, Canada"
     },
     {
       "city": "Penetanguishene",
-      "latitude": 43.88706,
-      "longitude": -79.953044,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 44.768803,
+      "longitude": -79.933949,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Penetanguishene, Simcoe, Ontario, Canada"
     },
     {
       "city": "Caledonia",
-      "latitude": 44.395341,
-      "longitude": -78.509045,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 43.692323,
+      "longitude": -79.46534,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Caledonia, Toronto, Golden Horseshoe, Ontario, Canada"
     },
     {
       "city": "Blenheim",
-      "latitude": 43.386388,
-      "longitude": -79.862121,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "St. Catharines"
+      "latitude": 43.246292,
+      "longitude": -80.598631,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Blandford-Blenheim, Oxford, Ontario, Canada"
     },
     {
       "city": "Tillsonburg",
-      "latitude": 43.881142,
-      "longitude": -79.71752,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 42.859494,
+      "longitude": -80.726501,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Tillsonburg, Oxford, Ontario, Canada"
     },
     {
       "city": "Wingham",
-      "latitude": 42.930336,
-      "longitude": -81.224901,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 43.886245,
+      "longitude": -81.31275,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Wingham, North Huron, Huron, Ontario, Canada"
     },
     {
       "city": "Tilbury",
-      "latitude": 46.026592,
-      "longitude": -78.75866,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 42.259315,
+      "longitude": -82.432268,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Tilbury, Chatham-Kent (municipality), Ontario, Canada"
     },
     {
       "city": "M'Chigeeng",
-      "latitude": 43.456277,
-      "longitude": -78.551556,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "St. Catharines"
+      "latitude": 45.827579,
+      "longitude": -82.161235,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "M’Chigeeng, Manitoulin, Ontario, Canada"
     },
     {
       "city": "Newcastle",
-      "latitude": 44.793117,
-      "longitude": -77.843469,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 43.917484,
+      "longitude": -78.588831,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Newcastle, Clarington, Durham, Ontario, Canada"
     },
     {
       "city": "Aylmer",
-      "latitude": 42.834051,
-      "longitude": -80.871989,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 42.773227,
+      "longitude": -80.983658,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Aylmer, Elgin, Ontario, Canada"
     },
     {
       "city": "Kapuskasing",
@@ -1259,199 +1370,227 @@
     },
     {
       "city": "Cannington",
-      "latitude": 42.963555,
-      "longitude": -78.935048,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 44.350207,
+      "longitude": -79.038628,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Cannington, Brock, Durham, Ontario, Canada"
     },
     {
       "city": "Prescott",
-      "latitude": 45.080668,
-      "longitude": -75.532248,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 45.513464,
+      "longitude": -74.906598,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Prescott and Russell, Ontario, Canada"
     },
     {
       "city": "Langton",
-      "latitude": 42.996279,
-      "longitude": -80.551687,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 42.741929,
+      "longitude": -80.577675,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Langton, Norfolk, Ontario, Canada"
     },
     {
       "city": "Wallaceburg",
-      "latitude": 44.234305,
-      "longitude": -79.900214,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 42.592865,
+      "longitude": -82.387387,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Wallaceburg, Chatham-Kent (municipality), Ontario, Canada"
     },
     {
       "city": "Kirkland Lake",
-      "latitude": 43.575543,
-      "longitude": -79.60767,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 48.154177,
+      "longitude": -80.031281,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Kirkland Lake, Timiskaming, Ontario, Canada"
     },
     {
       "city": "Parkhill",
-      "latitude": 43.740677,
-      "longitude": -80.502141,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 43.16228,
+      "longitude": -81.684217,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Parkhill, North Middlesex, Middlesex County, Ontario, Canada"
     },
     {
       "city": "Hanmer",
-      "latitude": 43.967283,
-      "longitude": -81.171761,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 46.653056,
+      "longitude": -80.944796,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Hanmer, Sudbury, Sudbury, Ontario, Canada"
     },
     {
       "city": "Val Caron",
-      "latitude": 42.989291,
-      "longitude": -80.827719,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 46.610391,
+      "longitude": -81.007325,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Val Caron, Sudbury, Sudbury, Ontario, Canada"
     },
     {
       "city": "Avonmore",
-      "latitude": 48.811057,
-      "longitude": -89.340097,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Thunder Bay"
+      "latitude": 45.172023,
+      "longitude": -74.967074,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Avonmore, North Stormont, Stormont, Dundas and Glengarry, Ontario, Canada"
     },
     {
       "city": "Barry's Bay",
-      "latitude": 42.800568,
-      "longitude": -79.952711,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "St. Catharines"
+      "latitude": 45.488298,
+      "longitude": -77.679176,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Barry's Bay, Madawaska Valley, Renfrew, Ontario, Canada"
     },
     {
       "city": "Napanee",
-      "latitude": 42.576402,
-      "longitude": -81.790854,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 44.247388,
+      "longitude": -76.950554,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Napanee, Lennox and Addington, Ontario, Canada"
     },
     {
       "city": "Desbarats",
-      "latitude": 42.962928,
-      "longitude": -79.754358,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 46.344255,
+      "longitude": -83.922081,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Desbarats River, Johnson Township, Algoma, Ontario, Canada"
     },
     {
       "city": "Rainy River",
-      "latitude": 44.091704,
-      "longitude": -79.784044,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 48.820853,
+      "longitude": -92.699799,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Rainy River, Ontario, Canada"
     },
     {
       "city": "Pain Court",
-      "latitude": 46.272348,
-      "longitude": -80.17275,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 42.390373,
+      "longitude": -82.290328,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Pain Court, Chatham-Kent (municipality), Ontario, Canada"
     },
     {
       "city": "Sutton West",
-      "latitude": 44.453662,
-      "longitude": -78.563044,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 44.301502,
+      "longitude": -79.364382,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Sutton District High School, Sutton, York, Ontario, Canada"
     },
     {
       "city": "Blind River",
-      "latitude": 43.801006,
-      "longitude": -80.165498,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 46.188388,
+      "longitude": -82.95639,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Blind River, Algoma, Ontario, Canada"
     },
     {
       "city": "Glencoe",
-      "latitude": 48.067389,
-      "longitude": -89.460893,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Thunder Bay"
+      "latitude": 42.745976,
+      "longitude": -81.711605,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Glencoe, Glencoe, Middlesex County, Ontario, Canada"
     },
     {
       "city": "Delhi",
-      "latitude": 43.775181,
-      "longitude": -78.52464,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 42.851401,
+      "longitude": -80.491409,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Delhi District Secondary School, Delhi, Norfolk, Ontario, Canada"
     },
     {
       "city": "Parry Sound",
-      "latitude": 44.076927,
-      "longitude": -79.343055,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 45.667528,
+      "longitude": -80.105528,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Parry Sound, Ontario, Canada"
     },
     {
       "city": "Fort Frances",
-      "latitude": 43.696972,
-      "longitude": -80.170358,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 48.611443,
+      "longitude": -93.396761,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Fort Frances, Rainy River, Ontario, Canada"
     },
     {
       "city": "Mattawa",
-      "latitude": 44.680216,
-      "longitude": -76.350532,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kingston"
+      "latitude": 46.317296,
+      "longitude": -78.703308,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Mattawa, Nipissing, Ontario, Canada"
     },
     {
       "city": "Athens",
-      "latitude": 43.347984,
-      "longitude": -80.510412,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Hamilton"
+      "latitude": 44.625942,
+      "longitude": -75.952256,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Athens, Leeds and Grenville, Ontario, Canada"
     },
     {
       "city": "Odessa",
-      "latitude": 44.275596,
-      "longitude": -77.098436,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kingston"
+      "latitude": 44.281936,
+      "longitude": -76.719716,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Odessa Lake, Loyalist, Lennox and Addington, Ontario, Canada"
     },
     {
       "city": "Englehart",
-      "latitude": 44.070962,
-      "longitude": -77.782318,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 47.825574,
+      "longitude": -79.873362,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Englehart, Timiskaming, Ontario, Canada"
     },
     {
       "city": "Smiths Falls",
-      "latitude": 44.120937,
-      "longitude": -78.649435,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Peterborough"
+      "latitude": 44.897156,
+      "longitude": -75.998641,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Smiths Falls Police Service, Smiths Falls, Eastern Ontario, Ontario, Canada"
     },
     {
       "city": "Chelmsford",
-      "latitude": 46.868569,
-      "longitude": -78.823933,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 46.569157,
+      "longitude": -81.197894,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Chelmsford, Sudbury, Sudbury, Ontario, Canada"
     },
     {
       "city": "Iroquois",
-      "latitude": 43.137285,
-      "longitude": -78.99283,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 48.767221,
+      "longitude": -80.6771,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Iroquois Falls, Cochrane, Ontario, Canada"
     },
     {
       "city": "Bancroft",
-      "latitude": 43.917686,
-      "longitude": -79.743635,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 45.057077,
+      "longitude": -77.853713,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Bancroft, Hastings, Ontario, Canada"
     },
     {
       "city": "Marathon",
@@ -1462,122 +1601,139 @@
     },
     {
       "city": "Red Rock",
-      "latitude": 42.764795,
-      "longitude": -82.578845,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Windsor"
+      "latitude": 48.94756,
+      "longitude": -88.3337,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Red Rock Township, Thunder Bay, Ontario, Canada"
     },
     {
       "city": "Cloyne",
-      "latitude": 46.50554,
-      "longitude": -81.343826,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Sudbury"
+      "latitude": 44.812978,
+      "longitude": -77.184131,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Cloyne, North Frontenac, Frontenac, Ontario, Canada"
     },
     {
       "city": "South River",
-      "latitude": 44.603718,
-      "longitude": -75.87108,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kingston"
+      "latitude": 45.821981,
+      "longitude": -79.325607,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "South River/Sundridge Airport & Float Plane Base, Joly Township, Parry Sound, Ontario, Canada"
     },
     {
       "city": "Chapleau",
-      "latitude": 43.999183,
-      "longitude": -80.394676,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Mississauga"
+      "latitude": 47.831802,
+      "longitude": -83.409248,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Chapleau Township, Sudbury, Ontario, Canada"
     },
     {
       "city": "Red Lake",
-      "latitude": 44.779629,
-      "longitude": -79.750664,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 51.018938,
+      "longitude": -93.827362,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Red Lake, Kenora, Ontario, Canada"
     },
     {
       "city": "Terrace Bay",
-      "latitude": 46.054935,
-      "longitude": -75.90535,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Ottawa"
+      "latitude": 48.782437,
+      "longitude": -87.102356,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Terrace Bay, Thunder Bay, Ontario, Canada"
     },
     {
       "city": "Picton",
-      "latitude": 46.790931,
-      "longitude": -79.883127,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 44.010267,
+      "longitude": -77.135342,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Port Picton Harbour Marina, Picton, Prince Edward, Ontario, Canada"
     },
     {
       "city": "Iroquois Falls",
-      "latitude": 46.285012,
-      "longitude": -80.106261,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 48.767221,
+      "longitude": -80.6771,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Iroquois Falls, Cochrane, Ontario, Canada"
     },
     {
       "city": "Elliot Lake",
-      "latitude": 43.578739,
-      "longitude": -80.873203,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "London"
+      "latitude": 46.373464,
+      "longitude": -82.652893,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Elliot Lake, Algoma, Ontario, Canada"
     },
     {
       "city": "Norwood",
-      "latitude": 44.977479,
-      "longitude": -80.319045,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 44.336644,
+      "longitude": -78.010362,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Asphodel-Norwood, Peterborough, Ontario, Canada"
     },
     {
       "city": "Dunnville",
-      "latitude": 47.934372,
-      "longitude": -89.100047,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Thunder Bay"
+      "latitude": 42.905917,
+      "longitude": -79.618846,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Dunnville, Haldimand, Ontario, Canada"
     },
     {
       "city": "Geraldton",
-      "latitude": 44.348705,
-      "longitude": -79.025056,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 49.718875,
+      "longitude": -86.949317,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Geraldton, Thunder Bay, Ontario, Canada"
     },
     {
       "city": "Sioux Lookout",
-      "latitude": 43.809342,
-      "longitude": -80.123766,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 50.100096,
+      "longitude": -91.919027,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Sioux Lookout, Kenora, Ontario, Canada"
     },
     {
       "city": "Ridgetown",
-      "latitude": 43.910092,
-      "longitude": -80.052622,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Toronto"
+      "latitude": 42.439235,
+      "longitude": -81.887051,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Ridgetown, Chatham-Kent (municipality), Ontario, Canada"
     },
     {
       "city": "Moosonee",
-      "latitude": 46.222664,
-      "longitude": -79.963303,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "North Bay"
+      "latitude": 51.267071,
+      "longitude": -80.650635,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "ᒨᓱᓂᔾ Moosonee, Cochrane, Ontario, Canada"
     },
     {
       "city": "Attawapiskat",
-      "latitude": 44.324077,
-      "longitude": -80.304171,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Barrie"
+      "latitude": 52.927594,
+      "longitude": -82.431113,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Attawapiskat Airport, ᐋᐦᑕᐙᐱᐢᑲᑐᐎ Attawapiskat, Kenora, Ontario, Canada"
     },
     {
       "city": "Manitouwadge",
-      "latitude": 43.384089,
-      "longitude": -79.879446,
-      "coordinateSource": "city-derived-anchor+jitter",
-      "derivedFrom": "Kitchener"
+      "latitude": 49.097116,
+      "longitude": -85.844146,
+      "coordinateSource": "geocoded-city+jitter",
+      "derivedFrom": null,
+      "displayName": "Manitouwadge Township, Thunder Bay, Ontario, Canada"
     }
   ]
 }

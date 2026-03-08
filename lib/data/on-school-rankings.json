@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-08T00:17:22.278Z",
+  "generatedAt": "2026-03-08T03:41:07.037Z",
   "source": "ontario_747_schools.csv",
-  "notes": "Coordinates are approximated from Ontario city anchors and deterministic jitter per school (BC-style pipeline).",
+  "notes": "Coordinates are approximated from Ontario city anchors and deterministic jitter per school (BC-style pipeline). Water-fix pass applied: 0 schools moved off likely water coordinates. Tight centroid correction applied to derived-anchor Ontario schools. Derived Ontario city anchors corrected via city geocoding.",
   "count": 747,
   "sourceBreakdown": {
     "city-anchor+jitter": 550,
-    "city-derived-anchor+jitter": 197
+    "city-derived-anchor+tight-jitter": 197
   },
   "schools": [
     {
@@ -754,9 +754,9 @@
       "rating": 8.4,
       "rating5yr": 7.7,
       "source": "compareschoolrankings.org",
-      "latitude": 45.614932,
-      "longitude": -75.401556,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.045678,
+      "longitude": -82.586921,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1djjqus",
@@ -814,9 +814,9 @@
       "rating": 8.3,
       "rating5yr": 8.3,
       "source": "compareschoolrankings.org",
-      "latitude": 46.662895,
-      "longitude": -78.739959,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.421583,
+      "longitude": -76.01988,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1hhu74j",
@@ -904,9 +904,9 @@
       "rating": 8.3,
       "rating5yr": 7.8,
       "source": "compareschoolrankings.org",
-      "latitude": 46.901212,
-      "longitude": -81.529241,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.549083,
+      "longitude": -79.696585,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-epthy3",
@@ -994,9 +994,9 @@
       "rating": 8.2,
       "rating5yr": 8.3,
       "source": "compareschoolrankings.org",
-      "latitude": 43.994382,
-      "longitude": -80.382753,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.243273,
+      "longitude": -83.06178,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-qszvze",
@@ -1879,9 +1879,9 @@
       "rating": 7.7,
       "rating5yr": 7.3,
       "source": "compareschoolrankings.org",
-      "latitude": 45.365591,
-      "longitude": -75.676607,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.286961,
+      "longitude": -82.708746,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-t6h4us",
@@ -1924,9 +1924,9 @@
       "rating": 7.7,
       "rating5yr": 7.1,
       "source": "compareschoolrankings.org",
-      "latitude": 45.439651,
-      "longitude": -76.453362,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.031358,
+      "longitude": -79.290717,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-x14fbb",
@@ -1954,9 +1954,9 @@
       "rating": 7.6,
       "rating5yr": 7.7,
       "source": "compareschoolrankings.org",
-      "latitude": 42.435168,
-      "longitude": -81.813595,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.798804,
+      "longitude": -79.5157,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-4lvgah",
@@ -2089,9 +2089,9 @@
       "rating": 7.6,
       "rating5yr": 6.9,
       "source": "compareschoolrankings.org",
-      "latitude": 42.487955,
-      "longitude": -81.790458,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.796632,
+      "longitude": -79.518458,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-cpv6hf",
@@ -2104,9 +2104,9 @@
       "rating": 7.6,
       "rating5yr": 6.7,
       "source": "compareschoolrankings.org",
-      "latitude": 44.029857,
-      "longitude": -76.82845,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.650448,
+      "longitude": -79.3865,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1y1pr3w",
@@ -2509,9 +2509,9 @@
       "rating": 7.3,
       "rating5yr": 7.3,
       "source": "compareschoolrankings.org",
-      "latitude": 42.320119,
-      "longitude": -82.706916,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.703508,
+      "longitude": -80.367682,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-g5tesl",
@@ -2554,9 +2554,9 @@
       "rating": 7.3,
       "rating5yr": 6.9,
       "source": "compareschoolrankings.org",
-      "latitude": 45.792323,
-      "longitude": -78.820398,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.450189,
+      "longitude": -80.917146,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-geyzlt",
@@ -2629,9 +2629,9 @@
       "rating": 7.3,
       "rating5yr": 6.5,
       "source": "compareschoolrankings.org",
-      "latitude": 46.511882,
-      "longitude": -80.663776,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.098989,
+      "longitude": -75.2225,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-183565u",
@@ -2659,9 +2659,9 @@
       "rating": 7.3,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.923542,
-      "longitude": -79.218702,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.223311,
+      "longitude": -76.181348,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-131zvtj",
@@ -2749,9 +2749,9 @@
       "rating": 7.2,
       "rating5yr": 7.3,
       "source": "compareschoolrankings.org",
-      "latitude": 43.990906,
-      "longitude": -80.369537,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.249589,
+      "longitude": -83.06082,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1190hw5",
@@ -2944,9 +2944,9 @@
       "rating": 7.2,
       "rating5yr": 6.4,
       "source": "compareschoolrankings.org",
-      "latitude": 44.413801,
-      "longitude": -78.917285,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.892872,
+      "longitude": -82.157697,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1qsi9wy",
@@ -3109,9 +3109,9 @@
       "rating": 7.1,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 42.340632,
-      "longitude": -81.428487,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.179862,
+      "longitude": -81.626378,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1g7r6ge",
@@ -3169,9 +3169,9 @@
       "rating": 7.1,
       "rating5yr": 7.6,
       "source": "compareschoolrankings.org",
-      "latitude": 42.495109,
-      "longitude": -81.787401,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.792234,
+      "longitude": -79.515561,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-qufl8l",
@@ -3244,9 +3244,9 @@
       "rating": 7.1,
       "rating5yr": 7.1,
       "source": "compareschoolrankings.org",
-      "latitude": 46.831448,
-      "longitude": -79.245768,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.198838,
+      "longitude": -79.567156,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1xbwtj3",
@@ -3454,9 +3454,9 @@
       "rating": 7,
       "rating5yr": 6.5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.88269,
-      "longitude": -79.690491,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.31443,
+      "longitude": -74.642028,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-6jfyi",
@@ -3514,9 +3514,9 @@
       "rating": 7,
       "rating5yr": 6.4,
       "source": "compareschoolrankings.org",
-      "latitude": 46.134478,
-      "longitude": -79.897427,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.629293,
+      "longitude": -80.02226,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-okk1vv",
@@ -3739,9 +3739,9 @@
       "rating": 6.9,
       "rating5yr": 6.5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.35897,
-      "longitude": -80.090263,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.142451,
+      "longitude": -81.148989,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-nfhbvh",
@@ -3754,9 +3754,9 @@
       "rating": 6.9,
       "rating5yr": 6,
       "source": "compareschoolrankings.org",
-      "latitude": 42.021521,
-      "longitude": -82.498862,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.615469,
+      "longitude": -80.588173,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-ej0i5g",
@@ -3769,9 +3769,9 @@
       "rating": 6.9,
       "rating5yr": 5.8,
       "source": "compareschoolrankings.org",
-      "latitude": 48.249887,
-      "longitude": -88.479127,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.490136,
+      "longitude": -81.025637,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-3uovld",
@@ -3784,9 +3784,9 @@
       "rating": 6.9,
       "rating5yr": 5.8,
       "source": "compareschoolrankings.org",
-      "latitude": 42.920742,
-      "longitude": -81.065589,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.910584,
+      "longitude": -79.37997,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1dvs3z8",
@@ -3829,9 +3829,9 @@
       "rating": 6.8,
       "rating5yr": 7.6,
       "source": "compareschoolrankings.org",
-      "latitude": 43.706379,
-      "longitude": -78.811742,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.11597,
+      "longitude": -79.129021,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-19nuiw9",
@@ -3859,9 +3859,9 @@
       "rating": 6.8,
       "rating5yr": 7,
       "source": "compareschoolrankings.org",
-      "latitude": 41.875462,
-      "longitude": -82.693891,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.157056,
+      "longitude": -74.577539,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-13oebi7",
@@ -3874,9 +3874,9 @@
       "rating": 6.8,
       "rating5yr": 7,
       "source": "compareschoolrankings.org",
-      "latitude": 44.22524,
-      "longitude": -78.991456,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.145303,
+      "longitude": -76.136647,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-fwcha5",
@@ -3964,9 +3964,9 @@
       "rating": 6.8,
       "rating5yr": 6.6,
       "source": "compareschoolrankings.org",
-      "latitude": 46.862062,
-      "longitude": -78.705481,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.276998,
+      "longitude": -75.264782,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-zwpcqk",
@@ -4054,9 +4054,9 @@
       "rating": 6.8,
       "rating5yr": 5.8,
       "source": "compareschoolrankings.org",
-      "latitude": 43.305629,
-      "longitude": -81.653806,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.979582,
+      "longitude": -80.740977,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-mxhmnx",
@@ -4069,9 +4069,9 @@
       "rating": 6.8,
       "rating5yr": 5.1,
       "source": "compareschoolrankings.org",
-      "latitude": 46.409887,
-      "longitude": -81.005413,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.117704,
+      "longitude": -79.201551,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1vpabjl",
@@ -4129,9 +4129,9 @@
       "rating": 6.7,
       "rating5yr": 7.5,
       "source": "compareschoolrankings.org",
-      "latitude": 44.711168,
-      "longitude": -79.49172,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.889932,
+      "longitude": -79.435659,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1t4bk05",
@@ -4174,9 +4174,9 @@
       "rating": 6.7,
       "rating5yr": 7,
       "source": "compareschoolrankings.org",
-      "latitude": 42.459853,
-      "longitude": -81.90983,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.804492,
+      "longitude": -79.51793,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-jpinyt",
@@ -4189,9 +4189,9 @@
       "rating": 6.7,
       "rating5yr": 6.9,
       "source": "compareschoolrankings.org",
-      "latitude": 45.005249,
-      "longitude": -79.376859,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.045787,
+      "longitude": -79.307182,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1b51b37",
@@ -4204,9 +4204,9 @@
       "rating": 6.7,
       "rating5yr": 6.7,
       "source": "compareschoolrankings.org",
-      "latitude": 47.743469,
-      "longitude": -89.834287,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.408304,
+      "longitude": -76.366119,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-9ui1x8",
@@ -4249,9 +4249,9 @@
       "rating": 6.7,
       "rating5yr": 6.6,
       "source": "compareschoolrankings.org",
-      "latitude": 44.69548,
-      "longitude": -79.972862,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.918945,
+      "longitude": -79.513979,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1t1wogs",
@@ -4369,9 +4369,9 @@
       "rating": 6.7,
       "rating5yr": 5.3,
       "source": "compareschoolrankings.org",
-      "latitude": 43.643753,
-      "longitude": -79.584029,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.399563,
+      "longitude": -75.635826,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-7lj5ru",
@@ -4594,9 +4594,9 @@
       "rating": 6.6,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 43.058387,
-      "longitude": -79.542076,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.234809,
+      "longitude": -79.475994,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-o211c9",
@@ -4624,9 +4624,9 @@
       "rating": 6.6,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 45.259411,
-      "longitude": -75.790066,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.886245,
+      "longitude": -79.730876,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-162444m",
@@ -4639,9 +4639,9 @@
       "rating": 6.6,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 46.339796,
-      "longitude": -81.196727,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.750319,
+      "longitude": -81.109292,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-n8g40m",
@@ -4669,9 +4669,9 @@
       "rating": 6.5,
       "rating5yr": 4.9,
       "source": "compareschoolrankings.org",
-      "latitude": 43.916102,
-      "longitude": -81.191429,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.878579,
+      "longitude": -79.252251,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1hff8hf",
@@ -4759,9 +4759,9 @@
       "rating": 6.5,
       "rating5yr": 6.6,
       "source": "compareschoolrankings.org",
-      "latitude": 43.66682,
-      "longitude": -75.934397,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.505938,
+      "longitude": -80.222512,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1jsrkht",
@@ -4774,9 +4774,9 @@
       "rating": 6.5,
       "rating5yr": 6.5,
       "source": "compareschoolrankings.org",
-      "latitude": 46.292907,
-      "longitude": -80.423036,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.576254,
+      "longitude": -80.941718,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-11ngl94",
@@ -4834,9 +4834,9 @@
       "rating": 6.5,
       "rating5yr": 6.3,
       "source": "compareschoolrankings.org",
-      "latitude": 43.695263,
-      "longitude": -75.812964,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.492596,
+      "longitude": -80.20794,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-bnf1y3",
@@ -4879,9 +4879,9 @@
       "rating": 6.5,
       "rating5yr": 5.3,
       "source": "compareschoolrankings.org",
-      "latitude": 46.892133,
-      "longitude": -80.322275,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.963396,
+      "longitude": -80.042054,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1xqdbud",
@@ -4894,9 +4894,9 @@
       "rating": 6.4,
       "rating5yr": 7.3,
       "source": "compareschoolrankings.org",
-      "latitude": 44.835673,
-      "longitude": -78.009582,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.590391,
+      "longitude": -80.607179,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1ujy992",
@@ -4954,9 +4954,9 @@
       "rating": 6.4,
       "rating5yr": 6.3,
       "source": "compareschoolrankings.org",
-      "latitude": 43.849125,
-      "longitude": -80.30917,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.33439,
+      "longitude": -79.219591,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1f9a9ho",
@@ -4984,9 +4984,9 @@
       "rating": 6.4,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.430922,
-      "longitude": -79.465025,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.337666,
+      "longitude": -76.170831,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1q0zqug",
@@ -4999,9 +4999,9 @@
       "rating": 6.4,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.891311,
-      "longitude": -81.250713,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.890882,
+      "longitude": -79.23825,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-4d6cyj",
@@ -5014,9 +5014,9 @@
       "rating": 6.4,
       "rating5yr": 5.5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.646543,
-      "longitude": -80.132465,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.60946,
+      "longitude": -81.535635,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1haxq1p",
@@ -5029,9 +5029,9 @@
       "rating": 6.4,
       "rating5yr": 5.2,
       "source": "compareschoolrankings.org",
-      "latitude": 44.110955,
-      "longitude": -77.626817,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.527793,
+      "longitude": -75.250493,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1glrgb2",
@@ -5089,9 +5089,9 @@
       "rating": 6.3,
       "rating5yr": 7.1,
       "source": "compareschoolrankings.org",
-      "latitude": 46.759125,
-      "longitude": -81.300017,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.406156,
+      "longitude": -81.424502,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-pfwoeg",
@@ -5104,9 +5104,9 @@
       "rating": 6.3,
       "rating5yr": 6.8,
       "source": "compareschoolrankings.org",
-      "latitude": 42.940649,
-      "longitude": -80.742591,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 47.827509,
+      "longitude": -83.977388,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-19xalvj",
@@ -5119,9 +5119,9 @@
       "rating": 6.3,
       "rating5yr": 6.6,
       "source": "compareschoolrankings.org",
-      "latitude": 42.410791,
-      "longitude": -81.91318,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.794511,
+      "longitude": -79.527934,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1e1hink",
@@ -5239,9 +5239,9 @@
       "rating": 6.2,
       "rating5yr": 7.1,
       "source": "compareschoolrankings.org",
-      "latitude": 44.306003,
-      "longitude": -78.531963,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.508126,
+      "longitude": -74.914512,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-150vs0d",
@@ -5299,9 +5299,9 @@
       "rating": 6.2,
       "rating5yr": 6.5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.028769,
-      "longitude": -79.668565,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.988259,
+      "longitude": -81.062107,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-27blf5",
@@ -5404,9 +5404,9 @@
       "rating": 6.2,
       "rating5yr": 5.6,
       "source": "compareschoolrankings.org",
-      "latitude": 45.596927,
-      "longitude": -76.229087,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.511436,
+      "longitude": -79.704453,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-14b7b43",
@@ -5449,9 +5449,9 @@
       "rating": 6.2,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 42.50873,
-      "longitude": -83.361638,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.126995,
+      "longitude": -80.44313,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-addu2b",
@@ -5554,9 +5554,9 @@
       "rating": 6.1,
       "rating5yr": 6.4,
       "source": "compareschoolrankings.org",
-      "latitude": 45.212114,
-      "longitude": -75.679109,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.116685,
+      "longitude": -77.526506,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-8c9bj2",
@@ -5659,9 +5659,9 @@
       "rating": 6.1,
       "rating5yr": 6.1,
       "source": "compareschoolrankings.org",
-      "latitude": 42.474534,
-      "longitude": -81.881023,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.790119,
+      "longitude": -79.536856,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-xe38np",
@@ -5689,9 +5689,9 @@
       "rating": 6.1,
       "rating5yr": 6.1,
       "source": "compareschoolrankings.org",
-      "latitude": 44.858552,
-      "longitude": -76.413307,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.184263,
+      "longitude": -79.845259,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-18qgl",
@@ -5734,9 +5734,9 @@
       "rating": 6.1,
       "rating5yr": 6,
       "source": "compareschoolrankings.org",
-      "latitude": 42.449851,
-      "longitude": -81.846666,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.798294,
+      "longitude": -79.51378,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1yw7eqp",
@@ -5809,9 +5809,9 @@
       "rating": 6.1,
       "rating5yr": 5.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.379396,
-      "longitude": -80.416985,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 47.505728,
+      "longitude": -79.679079,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1nnng4r",
@@ -5854,9 +5854,9 @@
       "rating": 6,
       "rating5yr": 6.4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.043966,
-      "longitude": -79.803147,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.323668,
+      "longitude": -79.887513,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-3jnneg",
@@ -5914,9 +5914,9 @@
       "rating": 6,
       "rating5yr": 5.6,
       "source": "compareschoolrankings.org",
-      "latitude": 42.423578,
-      "longitude": -81.79074,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.792201,
+      "longitude": -79.522144,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1gmdk8n",
@@ -5929,9 +5929,9 @@
       "rating": 6,
       "rating5yr": 5.5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.857511,
-      "longitude": -78.594574,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.666932,
+      "longitude": -79.422802,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-p7sdb9",
@@ -5944,9 +5944,9 @@
       "rating": 6,
       "rating5yr": 5.4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.057589,
-      "longitude": -80.184995,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.52736,
+      "longitude": -78.730637,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-un19i7",
@@ -5959,9 +5959,9 @@
       "rating": 6,
       "rating5yr": 5.1,
       "source": "compareschoolrankings.org",
-      "latitude": 43.170104,
-      "longitude": -79.015412,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.161357,
+      "longitude": -81.068379,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1hzwe9n",
@@ -6109,9 +6109,9 @@
       "rating": 5.9,
       "rating5yr": 6.4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.253347,
-      "longitude": -80.61381,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.966099,
+      "longitude": -81.625188,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-q7kryp",
@@ -6124,9 +6124,9 @@
       "rating": 5.9,
       "rating5yr": 6.4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.265397,
-      "longitude": -78.697334,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.414275,
+      "longitude": -80.658075,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-z1drw4",
@@ -6154,9 +6154,9 @@
       "rating": 5.9,
       "rating5yr": 6.1,
       "source": "compareschoolrankings.org",
-      "latitude": 43.455561,
-      "longitude": -79.737566,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 49.692139,
+      "longitude": -83.666748,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-tbuno7",
@@ -6274,9 +6274,9 @@
       "rating": 5.9,
       "rating5yr": 5.3,
       "source": "compareschoolrankings.org",
-      "latitude": 46.248922,
-      "longitude": -80.529336,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.896028,
+      "longitude": -77.281444,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-zs053t",
@@ -6289,9 +6289,9 @@
       "rating": 5.9,
       "rating5yr": 5.3,
       "source": "compareschoolrankings.org",
-      "latitude": 44.304742,
-      "longitude": -77.573265,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.948112,
+      "longitude": -79.844782,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1cqk8w6",
@@ -6319,9 +6319,9 @@
       "rating": 5.9,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 44.965184,
-      "longitude": -78.138606,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.099574,
+      "longitude": -83.108538,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-13n2t53",
@@ -6334,9 +6334,9 @@
       "rating": 5.8,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 42.870707,
-      "longitude": -79.830597,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.987743,
+      "longitude": -81.218847,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1p0hr2j",
@@ -6364,9 +6364,9 @@
       "rating": 5.8,
       "rating5yr": 6.5,
       "source": "compareschoolrankings.org",
-      "latitude": 41.723955,
-      "longitude": -83.739158,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.042959,
+      "longitude": -82.736764,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-by613h",
@@ -6379,9 +6379,9 @@
       "rating": 5.8,
       "rating5yr": 6.4,
       "source": "compareschoolrankings.org",
-      "latitude": 45.9703,
-      "longitude": -76.206434,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.119303,
+      "longitude": -79.565335,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1kuahl6",
@@ -6394,9 +6394,9 @@
       "rating": 5.8,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 45.670888,
-      "longitude": -76.315612,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.494681,
+      "longitude": -79.717473,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1u26fd5",
@@ -6439,9 +6439,9 @@
       "rating": 5.8,
       "rating5yr": 6,
       "source": "compareschoolrankings.org",
-      "latitude": 44.577647,
-      "longitude": -76.144036,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.539245,
+      "longitude": -74.982206,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-r6nhw1",
@@ -6514,9 +6514,9 @@
       "rating": 5.8,
       "rating5yr": 5.6,
       "source": "compareschoolrankings.org",
-      "latitude": 46.753012,
-      "longitude": -79.560442,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.343494,
+      "longitude": -81.475988,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-ipgrlj",
@@ -6529,9 +6529,9 @@
       "rating": 5.8,
       "rating5yr": 5.4,
       "source": "compareschoolrankings.org",
-      "latitude": 46.266116,
-      "longitude": -80.437677,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.560767,
+      "longitude": -80.954631,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1tdvhml",
@@ -6544,9 +6544,9 @@
       "rating": 5.8,
       "rating5yr": 5.3,
       "source": "compareschoolrankings.org",
-      "latitude": 43.130008,
-      "longitude": -79.39036,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.970391,
+      "longitude": -81.639436,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-bdbso8",
@@ -6574,9 +6574,9 @@
       "rating": 5.8,
       "rating5yr": 4.4,
       "source": "compareschoolrankings.org",
-      "latitude": 42.175603,
-      "longitude": -82.735098,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.270604,
+      "longitude": -80.55156,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1w1db3j",
@@ -6649,9 +6649,9 @@
       "rating": 5.7,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 44.208184,
-      "longitude": -78.990761,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.140487,
+      "longitude": -76.137536,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1u1qhwl",
@@ -6679,9 +6679,9 @@
       "rating": 5.7,
       "rating5yr": 5.9,
       "source": "compareschoolrankings.org",
-      "latitude": 49.005859,
-      "longitude": -88.604764,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.036059,
+      "longitude": -77.74066,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-m5nniy",
@@ -6769,9 +6769,9 @@
       "rating": 5.7,
       "rating5yr": 4.9,
       "source": "compareschoolrankings.org",
-      "latitude": 46.58185,
-      "longitude": -81.606646,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.574793,
+      "longitude": -77.51079,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-5g0v1t",
@@ -6784,9 +6784,9 @@
       "rating": 5.7,
       "rating5yr": 4.8,
       "source": "compareschoolrankings.org",
-      "latitude": 44.263595,
-      "longitude": -78.407258,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.509544,
+      "longitude": -74.918439,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-q18pj1",
@@ -6814,9 +6814,9 @@
       "rating": 5.6,
       "rating5yr": 6.3,
       "source": "compareschoolrankings.org",
-      "latitude": 42.879841,
-      "longitude": -83.563385,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.509547,
+      "longitude": -74.651533,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-2r2jr9",
@@ -6844,9 +6844,9 @@
       "rating": 5.6,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.768603,
-      "longitude": -78.020832,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.231011,
+      "longitude": -82.712398,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-eufbjx",
@@ -6859,9 +6859,9 @@
       "rating": 5.6,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 45.045001,
-      "longitude": -79.369415,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.924481,
+      "longitude": -80.103058,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-c0ll3m",
@@ -6904,9 +6904,9 @@
       "rating": 5.6,
       "rating5yr": 6,
       "source": "compareschoolrankings.org",
-      "latitude": 45.313612,
-      "longitude": -75.746849,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.888931,
+      "longitude": -79.724879,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1qtvdr3",
@@ -6919,9 +6919,9 @@
       "rating": 5.6,
       "rating5yr": 6,
       "source": "compareschoolrankings.org",
-      "latitude": 43.157823,
-      "longitude": -80.082143,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.742962,
+      "longitude": -81.723782,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-12ac9bu",
@@ -6979,9 +6979,9 @@
       "rating": 5.6,
       "rating5yr": 5.7,
       "source": "compareschoolrankings.org",
-      "latitude": 43.641185,
-      "longitude": -80.158356,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.626415,
+      "longitude": -81.534039,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-19b0mo3",
@@ -7039,9 +7039,9 @@
       "rating": 5.6,
       "rating5yr": 5.2,
       "source": "compareschoolrankings.org",
-      "latitude": 44.032011,
-      "longitude": -81.003859,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.686832,
+      "longitude": -79.416268,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-t284du",
@@ -7084,9 +7084,9 @@
       "rating": 5.6,
       "rating5yr": 5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.437007,
-      "longitude": -80.058968,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.122485,
+      "longitude": -81.157896,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1h3lco5",
@@ -7099,9 +7099,9 @@
       "rating": 5.6,
       "rating5yr": 4.9,
       "source": "compareschoolrankings.org",
-      "latitude": 46.435929,
-      "longitude": -78.667501,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.374942,
+      "longitude": -79.918641,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-ujf6ct",
@@ -7114,9 +7114,9 @@
       "rating": 5.6,
       "rating5yr": 4.7,
       "source": "compareschoolrankings.org",
-      "latitude": 42.696967,
-      "longitude": -79.818036,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.960743,
+      "longitude": -78.281996,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-95xjx0",
@@ -7204,9 +7204,9 @@
       "rating": 5.5,
       "rating5yr": 6.2,
       "source": "compareschoolrankings.org",
-      "latitude": 44.985553,
-      "longitude": -79.307238,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.928936,
+      "longitude": -80.086885,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-v2exh9",
@@ -7234,9 +7234,9 @@
       "rating": 5.5,
       "rating5yr": 5.9,
       "source": "compareschoolrankings.org",
-      "latitude": 43.580193,
-      "longitude": -80.562709,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.902248,
+      "longitude": -78.915423,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-18icwb7",
@@ -7249,9 +7249,9 @@
       "rating": 5.5,
       "rating5yr": 5.8,
       "source": "compareschoolrankings.org",
-      "latitude": 43.337735,
-      "longitude": -80.432403,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 47.499268,
+      "longitude": -79.684621,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-budcwd",
@@ -7264,9 +7264,9 @@
       "rating": 5.5,
       "rating5yr": 5.7,
       "source": "compareschoolrankings.org",
-      "latitude": 43.172519,
-      "longitude": -79.480217,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.975896,
+      "longitude": -81.626855,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1nfl61a",
@@ -7369,9 +7369,9 @@
       "rating": 5.5,
       "rating5yr": 4.7,
       "source": "compareschoolrankings.org",
-      "latitude": 46.403127,
-      "longitude": -78.686751,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.356768,
+      "longitude": -79.924974,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-kaps6k",
@@ -7384,9 +7384,9 @@
       "rating": 5.5,
       "rating5yr": 4.3,
       "source": "compareschoolrankings.org",
-      "latitude": 45.882838,
-      "longitude": -79.297834,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.600929,
+      "longitude": -81.593573,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-83b5nx",
@@ -7414,9 +7414,9 @@
       "rating": 5.5,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 44.103594,
-      "longitude": -78.798589,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.268634,
+      "longitude": -81.769839,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1xs7e3q",
@@ -7459,9 +7459,9 @@
       "rating": 5.4,
       "rating5yr": 7,
       "source": "compareschoolrankings.org",
-      "latitude": 44.25673,
-      "longitude": -77.63535,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.588264,
+      "longitude": -78.959602,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1exyyg4",
@@ -7564,9 +7564,9 @@
       "rating": 5.4,
       "rating5yr": 5.6,
       "source": "compareschoolrankings.org",
-      "latitude": 45.026703,
-      "longitude": -79.288587,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.031142,
+      "longitude": -79.321241,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-l0tfgd",
@@ -7579,9 +7579,9 @@
       "rating": 5.4,
       "rating5yr": 5.6,
       "source": "compareschoolrankings.org",
-      "latitude": 45.339569,
-      "longitude": -75.066021,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.08881,
+      "longitude": -80.20324,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-w84q2e",
@@ -7819,9 +7819,9 @@
       "rating": 5.3,
       "rating5yr": 5.4,
       "source": "compareschoolrankings.org",
-      "latitude": 46.43477,
-      "longitude": -81.70909,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.108138,
+      "longitude": -78.650395,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-qsj22j",
@@ -7834,9 +7834,9 @@
       "rating": 5.3,
       "rating5yr": 5.1,
       "source": "compareschoolrankings.org",
-      "latitude": 48.200602,
-      "longitude": -89.631136,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.032683,
+      "longitude": -80.883911,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1ll0zu7",
@@ -7879,9 +7879,9 @@
       "rating": 5.3,
       "rating5yr": 5,
       "source": "compareschoolrankings.org",
-      "latitude": 44.000627,
-      "longitude": -79.707148,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.59934,
+      "longitude": -82.169081,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1ifdove",
@@ -7909,9 +7909,9 @@
       "rating": 5.3,
       "rating5yr": 4.7,
       "source": "compareschoolrankings.org",
-      "latitude": 43.002243,
-      "longitude": -79.71019,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.740222,
+      "longitude": -79.881072,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-172zu3s",
@@ -7939,9 +7939,9 @@
       "rating": 5.3,
       "rating5yr": 4,
       "source": "compareschoolrankings.org",
-      "latitude": 46.064889,
-      "longitude": -81.722015,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.937634,
+      "longitude": -80.29971,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-fyp9of",
@@ -7954,9 +7954,9 @@
       "rating": 5.3,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 45.182764,
-      "longitude": -76.253094,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.770817,
+      "longitude": -76.699402,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1w53svy",
@@ -7999,9 +7999,9 @@
       "rating": 5.2,
       "rating5yr": 5.9,
       "source": "compareschoolrankings.org",
-      "latitude": 43.062234,
-      "longitude": -79.140345,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.737098,
+      "longitude": -80.987028,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-x0lqyb",
@@ -8014,9 +8014,9 @@
       "rating": 5.2,
       "rating5yr": 5.9,
       "source": "compareschoolrankings.org",
-      "latitude": 44.158345,
-      "longitude": -77.73904,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.533004,
+      "longitude": -75.273701,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-285sqs",
@@ -8044,9 +8044,9 @@
       "rating": 5.2,
       "rating5yr": 5.5,
       "source": "compareschoolrankings.org",
-      "latitude": 45.974681,
-      "longitude": -76.085004,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.125249,
+      "longitude": -79.556861,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-c2gs42",
@@ -8089,9 +8089,9 @@
       "rating": 5.2,
       "rating5yr": 5.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.543606,
-      "longitude": -79.352099,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.438258,
+      "longitude": -81.14709,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-8fr354",
@@ -8119,9 +8119,9 @@
       "rating": 5.2,
       "rating5yr": 5.1,
       "source": "compareschoolrankings.org",
-      "latitude": 43.005468,
-      "longitude": -79.719251,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.750848,
+      "longitude": -79.882558,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-xbv7sv",
@@ -8134,9 +8134,9 @@
       "rating": 5.2,
       "rating5yr": 5,
       "source": "compareschoolrankings.org",
-      "latitude": 45.363201,
-      "longitude": -75.429762,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.444576,
+      "longitude": -75.245366,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-17b4sno",
@@ -8194,9 +8194,9 @@
       "rating": 5.1,
       "rating5yr": 5.4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.902522,
-      "longitude": -80.564534,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.201922,
+      "longitude": -80.398316,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-sbqraf",
@@ -8224,9 +8224,9 @@
       "rating": 5.1,
       "rating5yr": 5.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.942141,
-      "longitude": -79.61902,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.321905,
+      "longitude": -74.640383,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-dmz0ya",
@@ -8254,9 +8254,9 @@
       "rating": 5.1,
       "rating5yr": 4.4,
       "source": "compareschoolrankings.org",
-      "latitude": 46.14524,
-      "longitude": -81.417262,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.486634,
+      "longitude": -81.196418,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-r0dk73",
@@ -8269,9 +8269,9 @@
       "rating": 5.1,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 43.672111,
-      "longitude": -77.830579,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 49.788476,
+      "longitude": -86.545199,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-6xh1nu",
@@ -8284,9 +8284,9 @@
       "rating": 5,
       "rating5yr": 5.5,
       "source": "compareschoolrankings.org",
-      "latitude": 44.132805,
-      "longitude": -79.772818,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.720233,
+      "longitude": -81.355451,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-8mderj",
@@ -8299,9 +8299,9 @@
       "rating": 5,
       "rating5yr": 5.5,
       "source": "compareschoolrankings.org",
-      "latitude": 42.691961,
-      "longitude": -80.160227,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.849556,
+      "longitude": -79.566245,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1hsoi56",
@@ -8329,9 +8329,9 @@
       "rating": 5,
       "rating5yr": 5.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.24873,
-      "longitude": -79.595401,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.316892,
+      "longitude": -77.791145,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1fp2b6g",
@@ -8344,9 +8344,9 @@
       "rating": 5,
       "rating5yr": 5.1,
       "source": "compareschoolrankings.org",
-      "latitude": 42.602187,
-      "longitude": -79.429604,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.322479,
+      "longitude": -79.876014,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-naeev8",
@@ -8359,9 +8359,9 @@
       "rating": 5,
       "rating5yr": 5,
       "source": "compareschoolrankings.org",
-      "latitude": 44.85432,
-      "longitude": -77.065406,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 50.634107,
+      "longitude": -82.183254,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1b40dbz",
@@ -8539,9 +8539,9 @@
       "rating": 4.9,
       "rating5yr": 4.5,
       "source": "compareschoolrankings.org",
-      "latitude": 42.665229,
-      "longitude": -81.873429,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.414205,
+      "longitude": -80.079826,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1fiybab",
@@ -8629,9 +8629,9 @@
       "rating": 4.8,
       "rating5yr": 5.4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.903326,
-      "longitude": -79.921926,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.76133,
+      "longitude": -79.939466,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-jdy0w4",
@@ -8674,9 +8674,9 @@
       "rating": 4.8,
       "rating5yr": 4.8,
       "source": "compareschoolrankings.org",
-      "latitude": 44.37591,
-      "longitude": -78.567569,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.688913,
+      "longitude": -79.456161,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-19e1x9h",
@@ -8689,9 +8689,9 @@
       "rating": 4.8,
       "rating5yr": 4.5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.343797,
-      "longitude": -79.880849,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.247272,
+      "longitude": -80.602271,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-ydwnrn",
@@ -8749,9 +8749,9 @@
       "rating": 4.7,
       "rating5yr": 5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.837233,
-      "longitude": -79.708555,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.852054,
+      "longitude": -80.739338,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-a1c7iy",
@@ -8764,9 +8764,9 @@
       "rating": 4.7,
       "rating5yr": 4.7,
       "source": "compareschoolrankings.org",
-      "latitude": 42.978904,
-      "longitude": -81.207924,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.896622,
+      "longitude": -81.309441,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-12fbmh9",
@@ -8779,9 +8779,9 @@
       "rating": 4.7,
       "rating5yr": 4.6,
       "source": "compareschoolrankings.org",
-      "latitude": 46.070551,
-      "longitude": -78.756355,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.248617,
+      "longitude": -82.429815,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1rrkwb1",
@@ -8809,9 +8809,9 @@
       "rating": 4.7,
       "rating5yr": 4.5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.496831,
-      "longitude": -78.610118,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.836776,
+      "longitude": -82.170035,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-gu65ae",
@@ -8884,9 +8884,9 @@
       "rating": 4.6,
       "rating5yr": 5.8,
       "source": "compareschoolrankings.org",
-      "latitude": 44.834781,
-      "longitude": -77.883327,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.927992,
+      "longitude": -78.588601,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1olyqgm",
@@ -8974,9 +8974,9 @@
       "rating": 4.6,
       "rating5yr": 4.7,
       "source": "compareschoolrankings.org",
-      "latitude": 42.87829,
-      "longitude": -80.864284,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.766185,
+      "longitude": -80.995994,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-r18tsh",
@@ -9094,9 +9094,9 @@
       "rating": 4.5,
       "rating5yr": 5.6,
       "source": "compareschoolrankings.org",
-      "latitude": 48.232508,
-      "longitude": -88.463348,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.501723,
+      "longitude": -81.02494,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1jrfo5y",
@@ -9154,9 +9154,9 @@
       "rating": 4.5,
       "rating5yr": 4.9,
       "source": "compareschoolrankings.org",
-      "latitude": 43.08907,
-      "longitude": -79.527694,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.234788,
+      "longitude": -79.461316,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1ncutrj",
@@ -9169,9 +9169,9 @@
       "rating": 4.5,
       "rating5yr": 4.8,
       "source": "compareschoolrankings.org",
-      "latitude": 42.961796,
-      "longitude": -78.986494,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.353704,
+      "longitude": -79.030127,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-zru0un",
@@ -9199,9 +9199,9 @@
       "rating": 4.5,
       "rating5yr": 4.5,
       "source": "compareschoolrankings.org",
-      "latitude": 45.078228,
-      "longitude": -75.57222,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.51457,
+      "longitude": -74.895859,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-dh7e35",
@@ -9214,9 +9214,9 @@
       "rating": 4.5,
       "rating5yr": 4.4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.008,
-      "longitude": -80.496334,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.744827,
+      "longitude": -80.5867,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-kqb7dx",
@@ -9229,9 +9229,9 @@
       "rating": 4.5,
       "rating5yr": 4.4,
       "source": "compareschoolrankings.org",
-      "latitude": 44.200417,
-      "longitude": -79.964037,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.597806,
+      "longitude": -82.373473,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-z504ln",
@@ -9274,9 +9274,9 @@
       "rating": 4.5,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 43.539791,
-      "longitude": -79.653446,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.148104,
+      "longitude": -80.019227,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-rsxubn",
@@ -9289,9 +9289,9 @@
       "rating": 4.5,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 43.712461,
-      "longitude": -80.530962,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.16725,
+      "longitude": -81.680988,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-7hon7k",
@@ -9334,9 +9334,9 @@
       "rating": 4.4,
       "rating5yr": 5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.971043,
-      "longitude": -81.167839,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.652799,
+      "longitude": -80.945012,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1lbgx83",
@@ -9364,9 +9364,9 @@
       "rating": 4.4,
       "rating5yr": 4.8,
       "source": "compareschoolrankings.org",
-      "latitude": 42.956198,
-      "longitude": -80.782182,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.606422,
+      "longitude": -81.02131,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-146xxni",
@@ -9409,9 +9409,9 @@
       "rating": 4.4,
       "rating5yr": 4.3,
       "source": "compareschoolrankings.org",
-      "latitude": 48.776761,
-      "longitude": -89.385358,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.168024,
+      "longitude": -74.973829,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1wle10e",
@@ -9484,9 +9484,9 @@
       "rating": 4.4,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 43.601858,
-      "longitude": -79.660579,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.144932,
+      "longitude": -80.022437,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-ru8sbh",
@@ -9499,9 +9499,9 @@
       "rating": 4.3,
       "rating5yr": 5.2,
       "source": "compareschoolrankings.org",
-      "latitude": 45.536106,
-      "longitude": -75.404174,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.047526,
+      "longitude": -82.60849,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-ua8bmg",
@@ -9514,9 +9514,9 @@
       "rating": 4.3,
       "rating5yr": 5,
       "source": "compareschoolrankings.org",
-      "latitude": 42.823561,
-      "longitude": -79.923711,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.489445,
+      "longitude": -77.682898,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-5g0dv3",
@@ -9559,9 +9559,9 @@
       "rating": 4.3,
       "rating5yr": 4.7,
       "source": "compareschoolrankings.org",
-      "latitude": 42.583425,
-      "longitude": -81.774929,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.255388,
+      "longitude": -76.956119,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-12zjyut",
@@ -9589,9 +9589,9 @@
       "rating": 4.3,
       "rating5yr": 4.2,
       "source": "compareschoolrankings.org",
-      "latitude": 42.968545,
-      "longitude": -79.726585,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.335071,
+      "longitude": -83.91626,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-gu8ns4",
@@ -9694,9 +9694,9 @@
       "rating": 4.2,
       "rating5yr": 3.8,
       "source": "compareschoolrankings.org",
-      "latitude": 44.126229,
-      "longitude": -79.816176,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.810124,
+      "longitude": -92.710285,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-5h6rnp",
@@ -9724,9 +9724,9 @@
       "rating": 4.2,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 46.320582,
-      "longitude": -80.136149,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.385981,
+      "longitude": -82.280695,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1ihhqz7",
@@ -9784,9 +9784,9 @@
       "rating": 4.1,
       "rating5yr": 3.8,
       "source": "compareschoolrankings.org",
-      "latitude": 44.471334,
-      "longitude": -78.619064,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.308516,
+      "longitude": -79.360284,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1g6qtpq",
@@ -9799,9 +9799,9 @@
       "rating": 4.1,
       "rating5yr": 3.6,
       "source": "compareschoolrankings.org",
-      "latitude": 43.770051,
-      "longitude": -80.199763,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.180367,
+      "longitude": -82.969449,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1kvj8wg",
@@ -9844,9 +9844,9 @@
       "rating": 4,
       "rating5yr": 4.5,
       "source": "compareschoolrankings.org",
-      "latitude": 43.00482,
-      "longitude": -80.782369,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.606952,
+      "longitude": -81.012515,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-184bv0s",
@@ -9874,9 +9874,9 @@
       "rating": 4,
       "rating5yr": 4.5,
       "source": "compareschoolrankings.org",
-      "latitude": 48.051455,
-      "longitude": -89.483583,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.748865,
+      "longitude": -81.705569,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-t1mz41",
@@ -9919,9 +9919,9 @@
       "rating": 3.9,
       "rating5yr": 4.7,
       "source": "compareschoolrankings.org",
-      "latitude": 43.805071,
-      "longitude": -78.538839,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.86148,
+      "longitude": -80.493712,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-iez5cd",
@@ -9934,9 +9934,9 @@
       "rating": 3.9,
       "rating5yr": 4.5,
       "source": "compareschoolrankings.org",
-      "latitude": 44.056845,
-      "longitude": -79.376819,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.670425,
+      "longitude": -80.094257,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1wgdobn",
@@ -9949,9 +9949,9 @@
       "rating": 3.9,
       "rating5yr": 4.4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.714951,
-      "longitude": -80.164766,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.613387,
+      "longitude": -93.40148,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-rcz0i",
@@ -9964,9 +9964,9 @@
       "rating": 3.9,
       "rating5yr": 4,
       "source": "compareschoolrankings.org",
-      "latitude": 44.711762,
-      "longitude": -76.292537,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.313521,
+      "longitude": -78.699076,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1grul4n",
@@ -9979,9 +9979,9 @@
       "rating": 3.9,
       "rating5yr": 3.2,
       "source": "compareschoolrankings.org",
-      "latitude": 43.390341,
-      "longitude": -80.501478,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.635469,
+      "longitude": -75.94528,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1f0kyoy",
@@ -10024,9 +10024,9 @@
       "rating": 3.8,
       "rating5yr": 4.2,
       "source": "compareschoolrankings.org",
-      "latitude": 44.237744,
-      "longitude": -77.136036,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.281155,
+      "longitude": -76.719003,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-c1nbk1",
@@ -10084,9 +10084,9 @@
       "rating": 3.7,
       "rating5yr": 5.6,
       "source": "compareschoolrankings.org",
-      "latitude": 44.036512,
-      "longitude": -77.748606,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 47.835487,
+      "longitude": -79.861244,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1g3rq8l",
@@ -10114,9 +10114,9 @@
       "rating": 3.7,
       "rating5yr": 4.1,
       "source": "compareschoolrankings.org",
-      "latitude": 44.074585,
-      "longitude": -78.654585,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.907467,
+      "longitude": -76.006866,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-r6hpwz",
@@ -10144,9 +10144,9 @@
       "rating": 3.7,
       "rating5yr": 3.1,
       "source": "compareschoolrankings.org",
-      "latitude": 46.89245,
-      "longitude": -78.806788,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.567512,
+      "longitude": -81.210961,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1xfrzbr",
@@ -10204,9 +10204,9 @@
       "rating": 3.6,
       "rating5yr": 4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.099816,
-      "longitude": -79.020347,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.768867,
+      "longitude": -80.680228,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-2enay9",
@@ -10234,9 +10234,9 @@
       "rating": 3.5,
       "rating5yr": 4,
       "source": "compareschoolrankings.org",
-      "latitude": 43.870797,
-      "longitude": -79.795777,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.048105,
+      "longitude": -77.847664,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1vksytp",
@@ -10309,9 +10309,9 @@
       "rating": 3.5,
       "rating5yr": 2.8,
       "source": "compareschoolrankings.org",
-      "latitude": 42.796227,
-      "longitude": -82.547023,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.957118,
+      "longitude": -88.320178,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-977bi",
@@ -10324,9 +10324,9 @@
       "rating": 3.5,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 46.546946,
-      "longitude": -81.283557,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.803044,
+      "longitude": -77.193881,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1i7tsym",
@@ -10384,9 +10384,9 @@
       "rating": 3.4,
       "rating5yr": 3.4,
       "source": "compareschoolrankings.org",
-      "latitude": 44.581072,
-      "longitude": -75.838733,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 45.820473,
+      "longitude": -79.331257,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1ew8wm4",
@@ -10399,9 +10399,9 @@
       "rating": 3.4,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 43.76837,
-      "longitude": -80.115167,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.193742,
+      "longitude": -82.966684,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-kdtfh8",
@@ -10429,9 +10429,9 @@
       "rating": 3.3,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 44.012349,
-      "longitude": -80.414617,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 47.83225,
+      "longitude": -83.416029,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-69wzak",
@@ -10474,9 +10474,9 @@
       "rating": 3.2,
       "rating5yr": 3.8,
       "source": "compareschoolrankings.org",
-      "latitude": 44.812349,
-      "longitude": -79.711971,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 51.018669,
+      "longitude": -93.819504,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-fcov0x",
@@ -10489,9 +10489,9 @@
       "rating": 3.2,
       "rating5yr": 3.6,
       "source": "compareschoolrankings.org",
-      "latitude": 46.048173,
-      "longitude": -75.957896,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.791292,
+      "longitude": -87.100172,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1vj7xps",
@@ -10519,9 +10519,9 @@
       "rating": 3.2,
       "rating5yr": 1.5,
       "source": "compareschoolrankings.org",
-      "latitude": 44.871818,
-      "longitude": -77.076049,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 50.620212,
+      "longitude": -82.192298,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-156en4o",
@@ -10624,9 +10624,9 @@
       "rating": 2.9,
       "rating5yr": 2.4,
       "source": "compareschoolrankings.org",
-      "latitude": 46.396726,
-      "longitude": -78.722968,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.366699,
+      "longitude": -79.942263,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1cm3eia",
@@ -10654,9 +10654,9 @@
       "rating": 2.8,
       "rating5yr": 3.7,
       "source": "compareschoolrankings.org",
-      "latitude": 46.769422,
-      "longitude": -79.831081,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.0055,
+      "longitude": -77.133086,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1m0um9c",
@@ -10714,9 +10714,9 @@
       "rating": 2.7,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 46.262023,
-      "longitude": -80.173181,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.770389,
+      "longitude": -80.674999,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-c2x786",
@@ -10744,9 +10744,9 @@
       "rating": 2.5,
       "rating5yr": 4.1,
       "source": "compareschoolrankings.org",
-      "latitude": 43.599546,
-      "longitude": -80.891617,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.368975,
+      "longitude": -82.660479,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1aji1e8",
@@ -10774,9 +10774,9 @@
       "rating": 2.5,
       "rating5yr": 3.1,
       "source": "compareschoolrankings.org",
-      "latitude": 46.8426,
-      "longitude": -78.763396,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.564013,
+      "longitude": -81.208707,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-77a646",
@@ -10819,9 +10819,9 @@
       "rating": 2.4,
       "rating5yr": 3.6,
       "source": "compareschoolrankings.org",
-      "latitude": 44.977994,
-      "longitude": -80.315296,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.333639,
+      "longitude": -78.006753,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-7eifgd",
@@ -10834,9 +10834,9 @@
       "rating": 2.4,
       "rating5yr": 3.1,
       "source": "compareschoolrankings.org",
-      "latitude": 47.979362,
-      "longitude": -89.1626,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.913084,
+      "longitude": -79.626483,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-g5y0dn",
@@ -10879,9 +10879,9 @@
       "rating": 2.2,
       "rating5yr": 2.5,
       "source": "compareschoolrankings.org",
-      "latitude": 44.347159,
-      "longitude": -78.959203,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 49.711642,
+      "longitude": -86.941774,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1ta1nrl",
@@ -10924,9 +10924,9 @@
       "rating": 2.1,
       "rating5yr": 1.7,
       "source": "compareschoolrankings.org",
-      "latitude": 43.76186,
-      "longitude": -80.164542,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 50.094679,
+      "longitude": -91.922903,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-81v9h1",
@@ -10954,9 +10954,9 @@
       "rating": 1.9,
       "rating5yr": 2.9,
       "source": "compareschoolrankings.org",
-      "latitude": 44.062293,
-      "longitude": -78.859767,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.274715,
+      "longitude": -81.774535,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-17ef6mf",
@@ -10969,9 +10969,9 @@
       "rating": 1.8,
       "rating5yr": 2.6,
       "source": "compareschoolrankings.org",
-      "latitude": 44.001429,
-      "longitude": -81.177864,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 46.65837,
+      "longitude": -80.957872,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1menxtt",
@@ -10984,9 +10984,9 @@
       "rating": 1.7,
       "rating5yr": 3,
       "source": "compareschoolrankings.org",
-      "latitude": 43.91257,
-      "longitude": -80.050641,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 42.445318,
+      "longitude": -81.898363,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-11nxyyv",
@@ -11014,9 +11014,9 @@
       "rating": 1.4,
       "rating5yr": 3.2,
       "source": "compareschoolrankings.org",
-      "latitude": 46.29078,
-      "longitude": -80.138152,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.766748,
+      "longitude": -80.687909,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1qmc0sn",
@@ -11059,9 +11059,9 @@
       "rating": 0.9,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 44.128167,
-      "longitude": -78.625216,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 44.894252,
+      "longitude": -76.001559,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1ef82bu",
@@ -11104,9 +11104,9 @@
       "rating": 0.4,
       "rating5yr": 2.3,
       "source": "compareschoolrankings.org",
-      "latitude": 46.256792,
-      "longitude": -79.962232,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 51.264245,
+      "longitude": -80.652315,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-52hvi8",
@@ -11149,9 +11149,9 @@
       "rating": 0,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 44.357413,
-      "longitude": -80.267574,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 52.919166,
+      "longitude": -82.442845,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-1g4wah",
@@ -11179,9 +11179,9 @@
       "rating": 0,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 42.432446,
-      "longitude": -81.873743,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 43.796418,
+      "longitude": -79.534596,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-yz4ct4",
@@ -11194,9 +11194,9 @@
       "rating": 0,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 46.307373,
-      "longitude": -80.171048,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 48.775241,
+      "longitude": -80.687627,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     },
     {
       "id": "on-aiaptf",
@@ -11209,9 +11209,9 @@
       "rating": 0,
       "rating5yr": null,
       "source": "compareschoolrankings.org",
-      "latitude": 43.360839,
-      "longitude": -79.817033,
-      "coordinateSource": "city-derived-anchor+jitter"
+      "latitude": 49.095223,
+      "longitude": -85.84074,
+      "coordinateSource": "city-derived-anchor+tight-jitter"
     }
   ]
 }
