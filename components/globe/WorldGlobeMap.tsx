@@ -1110,7 +1110,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         <button
           type="button"
           onClick={() => handleModeChange('terrain')}
-          className={`rounded-md px-3 py-2 text-xs font-medium transition ${
+          className={`rounded-md px-3 py-2 text-[11px] font-medium uppercase tracking-[0.12em] transition ${
             activeLayer === 'terrain'
               ? 'bg-white text-slate-900'
               : 'bg-transparent text-slate-200 hover:bg-white/10'
@@ -1121,7 +1121,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         <button
           type="button"
           onClick={() => handleModeChange('academic')}
-          className={`rounded-md px-3 py-2 text-xs font-medium transition ${
+          className={`rounded-md px-3 py-2 text-[11px] font-medium uppercase tracking-[0.12em] transition ${
             activeLayer === 'academic'
               ? 'bg-white text-slate-900'
               : 'bg-transparent text-slate-200 hover:bg-white/10'
@@ -1136,9 +1136,9 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
               const activeMap = hasMapboxToken ? getUnderlyingMap(mapboxRef) : getUnderlyingMap(maplibreRef);
               if (activeMap) flyToCanada(activeMap);
             }}
-            className="rounded-md bg-transparent px-3 py-2 text-xs font-medium text-slate-200 transition hover:bg-white/10"
+            className="rounded-md bg-transparent px-3 py-2 text-[11px] font-medium uppercase tracking-[0.12em] text-slate-200 transition hover:bg-white/10"
           >
-            Reset to Canada
+            Return to Canada
           </button>
         )}
       </div>
@@ -1147,7 +1147,10 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         className="absolute right-4 top-4 z-10 w-[min(28rem,calc(100vw-2rem))] rounded-lg border border-white/15 bg-black/60 p-2 backdrop-blur"
         onSubmit={handleSchoolSearchSubmit}
       >
-        <label htmlFor="bc-school-search" className="mb-1 block text-[11px] font-medium text-slate-300">
+        <label
+          htmlFor="bc-school-search"
+          className="mb-1 block text-[11px] font-medium uppercase tracking-[0.14em] text-zinc-300"
+        >
           Find School
         </label>
         <input
@@ -1164,28 +1167,31 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
             }
           }}
           placeholder="Type school or city"
-          className="w-full rounded-md border border-white/20 bg-black/55 px-3 py-2 text-sm text-slate-100 outline-none transition focus:border-white/55"
+          className="w-full rounded-md border border-white/20 bg-black/55 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-500 outline-none transition focus:border-white/55"
         />
         {activeLayer === 'bc-schools' && (
           <div className="mt-2 rounded-md border border-white/10 bg-black/35 px-3 py-2">
             <div className="mb-1 flex items-center justify-between">
-              <label htmlFor="school-min-rating-filter" className="text-[11px] font-medium text-slate-300">
+              <label
+                htmlFor="school-min-rating-filter"
+                className="text-[11px] font-medium uppercase tracking-[0.14em] text-zinc-300"
+              >
                 Rating Range
               </label>
-              <span className="text-[11px] text-slate-200">
+              <span className="text-[11px] font-medium text-zinc-100">
                 {minSchoolRating <= 0 && maxSchoolRating >= 10
                   ? 'All'
                   : `${minSchoolRating.toFixed(1)} - ${maxSchoolRating.toFixed(1)}`}
               </span>
             </div>
-            <div className="mb-1 flex items-center justify-between text-[10px] text-slate-400">
+            <div className="mb-1 flex items-center justify-between text-[10px] text-zinc-400">
               <span>Min: {minSchoolRating.toFixed(1)}</span>
               <span>Max: {maxSchoolRating.toFixed(1)}</span>
             </div>
-            <div className="relative mt-1 h-8">
-              <div className="pointer-events-none absolute inset-x-0 top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-white/20" />
+            <div className="group relative mt-1 h-8">
+              <div className="pointer-events-none absolute inset-x-0 top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-white/25 shadow-inner shadow-white/10" />
               <div
-                className="pointer-events-none absolute top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-emerald-400/85"
+                className="pointer-events-none absolute top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-gradient-to-r from-white/95 to-white/75 shadow-[0_0_12px_rgba(255,255,255,0.35)]"
                 style={{
                   left: `${minRatingPercent}%`,
                   right: `${100 - maxRatingPercent}%`,
@@ -1205,7 +1211,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
                     setMaxSchoolRating(nextMin);
                   }
                 }}
-                className="pointer-events-none absolute inset-0 z-20 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-black/60 [&::-moz-range-thumb]:bg-emerald-300 [&::-moz-range-thumb]:shadow [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-black/60 [&::-webkit-slider-thumb]:bg-emerald-300 [&::-webkit-slider-thumb]:shadow"
+                className="pointer-events-none absolute inset-0 z-20 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border-2 [&::-moz-range-thumb]:border-white/90 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:shadow-lg [&::-moz-range-thumb]:shadow-white/40 [&::-moz-range-thumb]:opacity-0 [&::-moz-range-thumb]:transition-opacity [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white/90 [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow-lg [&::-webkit-slider-thumb]:shadow-white/40 [&::-webkit-slider-thumb]:opacity-0 [&::-webkit-slider-thumb]:transition-opacity group-hover:[&::-moz-range-thumb]:opacity-100 group-hover:[&::-webkit-slider-thumb]:opacity-100 focus:[&::-moz-range-thumb]:opacity-100 focus:[&::-webkit-slider-thumb]:opacity-100 active:[&::-moz-range-thumb]:opacity-100 active:[&::-webkit-slider-thumb]:opacity-100"
               />
               <input
                 id="school-max-rating-filter"
@@ -1221,10 +1227,10 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
                     setMinSchoolRating(nextMax);
                   }
                 }}
-                className="pointer-events-none absolute inset-0 z-10 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-black/60 [&::-moz-range-thumb]:bg-amber-300 [&::-moz-range-thumb]:shadow [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-black/60 [&::-webkit-slider-thumb]:bg-amber-300 [&::-webkit-slider-thumb]:shadow"
+                className="pointer-events-none absolute inset-0 z-10 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border-2 [&::-moz-range-thumb]:border-white/90 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:shadow-lg [&::-moz-range-thumb]:shadow-white/40 [&::-moz-range-thumb]:opacity-0 [&::-moz-range-thumb]:transition-opacity [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white/90 [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow-lg [&::-webkit-slider-thumb]:shadow-white/40 [&::-webkit-slider-thumb]:opacity-0 [&::-webkit-slider-thumb]:transition-opacity group-hover:[&::-moz-range-thumb]:opacity-100 group-hover:[&::-webkit-slider-thumb]:opacity-100 focus:[&::-moz-range-thumb]:opacity-100 focus:[&::-webkit-slider-thumb]:opacity-100 active:[&::-moz-range-thumb]:opacity-100 active:[&::-webkit-slider-thumb]:opacity-100"
               />
             </div>
-            <p className="mt-1 text-[10px] text-slate-400">
+            <p className="mt-1 text-[10px] text-zinc-400">
               Showing {visibleCanadaSchools.length} school{visibleCanadaSchools.length === 1 ? '' : 's'}
             </p>
           </div>
@@ -1236,10 +1242,10 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
                 key={school.id}
                 type="button"
                 onClick={() => handleSchoolSelect(school)}
-                className="flex w-full items-center justify-between rounded px-2 py-2 text-left text-xs text-slate-100 transition hover:bg-white/10"
+                className="flex w-full items-center justify-between rounded px-2 py-2 text-left text-xs text-zinc-100 transition hover:bg-white/10"
               >
                 <span className="truncate pr-2">{school.schoolName}</span>
-                <span className="shrink-0 text-slate-400">{school.city}, {school.province}</span>
+                <span className="shrink-0 text-zinc-400">{school.city}, {school.province}</span>
               </button>
             ))}
           </div>

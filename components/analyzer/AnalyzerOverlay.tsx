@@ -35,7 +35,7 @@ export function AnalyzerOverlay() {
         <button
           type="button"
           onClick={() => setIsOpen(true)}
-          className="fixed right-0 top-1/2 z-[90] -translate-y-1/2 rounded-l-xl border border-r-0 border-white/15 bg-zinc-950/95 px-3 py-5 text-[11px] font-medium uppercase tracking-[0.14em] text-zinc-200 shadow-xl backdrop-blur-sm transition hover:bg-zinc-900"
+          className="fixed right-0 top-1/2 z-[90] -translate-y-1/2 rounded-l-xl border border-r-0 border-white/20 bg-black/55 px-3 py-5 text-[11px] font-medium uppercase tracking-[0.14em] text-zinc-100 shadow-xl shadow-black/45 backdrop-blur-xl transition hover:bg-black/75"
         >
           Open Analyzer
         </button>
