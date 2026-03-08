@@ -1,9 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import {
   compareSchools,
+  getSchoolsByIds,
   getSchoolDetails,
   runSchoolAgentQuery,
   searchSchools,
+  type SchoolAgentSchoolResult,
   SCHOOL_AGENT_COVERAGE,
 } from '@/lib/school-agent';
 
@@ -28,11 +30,7 @@ Rules:
 4) Keep answers grounded in tool outputs and cite limitations.
 5) If user expresses stable preference (province/city/threshold), call remember_preference.
 6) Keep responses concise and practical.
-7) For parent recommendation prompts (e.g. "where should I send my kid"), do NOT provide a bare ranking list only.
-8) Recommendation responses must include:
-   - a short preliminary shortlist from tool results
-   - a clear statement that results are academic-ranking based
-   - at least 2 clarifying follow-up questions (public/private, budget, commute area, program needs).
+7) Use plain text only. Do not use markdown formatting like **bold**, bullets, or headings.
 `;
 
 const TOOL_DEFINITIONS = [
@@ -159,44 +157,23 @@ function extractResponseContent(response: any): string {
   return '(no answer)';
 }
 
-function normalizeText(value: string) {
-  return value
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim()
-    .replace(/\s+/g, ' ');
-}
+function toPlainConciseText(answer: string) {
+  const text = String(answer ?? '')
+    .replace(/\*\*/g, '')
+    .replace(/__/g, '')
+    .replace(/`/g, '')
+    .replace(/^\s*[-*]\s+/gm, '')
+    .replace(/^\s*\d+\.\s+/gm, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
 
-function isParentRecommendationPrompt(question: string) {
-  const normalized = normalizeText(question);
-  return (
-    /\b(where should i send|where should i put|best school for my kid|best school for my child|recommend|which school should)\b/.test(
-      normalized
-    ) || /\bmy kid\b/.test(normalized) || /\bmy child\b/.test(normalized)
-  );
-}
+  if (!text) return '(no answer)';
 
-function applyRecommendationGuardrail(question: string, answer: string) {
-  if (!isParentRecommendationPrompt(question)) return answer;
-
-  const hasClarifyingQuestion = answer.includes('?');
-  const hasScopeNote = /\b(rating|rank|dataset|academic)\b/i.test(answer);
-  if (hasClarifyingQuestion && hasScopeNote) return answer;
-
-  const suffix =
-    '\n\nBefore deciding, I need a few preferences to narrow this properly: public or private, budget range, preferred commute area, and any must-have programs (IB/AP/STEM/French immersion).';
-  const scope =
-    '\nThese recommendations are a preliminary academic shortlist based on ranking/rating fields in the available dataset.';
-
-  if (!hasClarifyingQuestion && !hasScopeNote) {
-    return `${answer}${scope}${suffix}`;
-  }
-  if (!hasClarifyingQuestion) {
-    return `${answer}${suffix}`;
-  }
-  return `${answer}${scope}`;
+  const lines = text
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean);
+  return lines.slice(0, 4).join('\n');
 }
 
 function extractRecommendedIds(toolName: string, output: any): string[] {
@@ -387,12 +364,13 @@ async function runBackboardPlain({
   });
 
   return {
-    answer: applyRecommendationGuardrail(question, extractResponseContent(response)),
+    answer: toPlainConciseText(extractResponseContent(response)),
     threadId: thread,
     assistantId: assistant,
     status: response?.status ?? null,
     toolTrace: [] as string[],
     recommendedSchoolIds: [] as string[],
+    results: [] as SchoolAgentSchoolResult[],
   };
 }
 
@@ -458,12 +436,13 @@ async function runBackboardWithTools({
   }
 
   return {
-    answer: applyRecommendationGuardrail(question, extractResponseContent(response)),
+    answer: toPlainConciseText(extractResponseContent(response)),
     threadId: thread,
     assistantId: assistant,
     status: response?.status ?? null,
     toolTrace,
     recommendedSchoolIds,
+    results: getSchoolsByIds(recommendedSchoolIds, 12),
   };
 }
 
@@ -502,7 +481,7 @@ export async function POST(request: NextRequest) {
         success: true,
         mode: 'school-agent',
         fallback: true,
-        answer: `Backboard is not configured, so I used local school agent.\n\n${result.answer}`,
+        answer: result.answer,
         appliedFilters: result.appliedFilters,
         results: result.results,
         recommendedSchoolIds: result.results.map((row) => row.id),
@@ -519,6 +498,7 @@ export async function POST(request: NextRequest) {
       success: true,
       mode,
       answer: backboardResult.answer,
+      results: backboardResult.results,
       threadId: backboardResult.threadId,
       assistantId: backboardResult.assistantId,
       status: backboardResult.status,

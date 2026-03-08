@@ -89,6 +89,110 @@ const PROVINCE_CONFIG = {
       'Owen Sound': [44.569, -80.9406],
     },
   },
+  MB: {
+    code: 'MB',
+    name: 'Manitoba',
+    inputCsv: 'data/csv/provincial/manitoba_schools_top110.csv',
+    outputJson: 'lib/data/mb-school-rankings.json',
+    fallbackBounds: {
+      minLat: 48.8,
+      maxLat: 60.2,
+      minLon: -102.2,
+      maxLon: -88.8,
+    },
+    cityAliases: {
+      Winnipeg: 'Winnipeg',
+    },
+    cityAnchors: {
+      Winnipeg: [49.8951, -97.1384],
+      Brandon: [49.8485, -99.9501],
+      Steinbach: [49.5258, -96.6845],
+      Thompson: [55.7435, -97.8558],
+      Morris: [49.3548, -97.3654],
+      Churchill: [58.7684, -94.165],
+      Winkler: [49.1817, -97.9397],
+      Selkirk: [50.1436, -96.8761],
+      Dauphin: [51.1493, -100.0502],
+      'Flin Flon': [54.7682, -101.865],
+    },
+  },
+  SK: {
+    code: 'SK',
+    name: 'Saskatchewan',
+    inputCsv: 'data/csv/provincial/saskatchewan_schools_top100.csv',
+    outputJson: 'lib/data/sk-school-rankings.json',
+    fallbackBounds: {
+      minLat: 49.0,
+      maxLat: 60.1,
+      minLon: -110.1,
+      maxLon: -101.2,
+    },
+    cityAliases: {
+      NAICAM: 'Naicam',
+      REGINA: 'Regina',
+      SASKATOON: 'Saskatoon',
+    },
+    cityAnchors: {
+      Regina: [50.4452, -104.6189],
+      Saskatoon: [52.1579, -106.6702],
+      PrinceAlbert: [53.2033, -105.7531],
+      'Prince Albert': [53.2033, -105.7531],
+      MooseJaw: [50.3913, -105.5344],
+      'Moose Jaw': [50.3913, -105.5344],
+      Yorkton: [51.2138, -102.4628],
+      NorthBattleford: [52.7575, -108.2861],
+      'North Battleford': [52.7575, -108.2861],
+      SwiftCurrent: [50.2881, -107.7939],
+      'Swift Current': [50.2881, -107.7939],
+      Naicam: [52.4199, -104.4934],
+      'Foam Lake': [51.65, -103.53],
+    },
+  },
+  NT: {
+    code: 'NT',
+    name: 'Northwest Territories',
+    inputCsv: 'data/csv/provincial/nwt_schools_all18.csv',
+    outputJson: 'lib/data/nt-school-rankings.json',
+    fallbackBounds: {
+      minLat: 60.0,
+      maxLat: 78.0,
+      minLon: -136.0,
+      maxLon: -101.0,
+    },
+    cityAliases: {},
+    cityAnchors: {
+      Yellowknife: [62.454, -114.3718],
+      Inuvik: [68.3607, -133.7237],
+      HayRiver: [60.8156, -115.7999],
+      'Hay River': [60.8156, -115.7999],
+      FortSmith: [60.0044, -111.8846],
+      'Fort Smith': [60.0044, -111.8846],
+      NormanWells: [65.2816, -126.8329],
+      'Norman Wells': [65.2816, -126.8329],
+    },
+  },
+  YT: {
+    code: 'YT',
+    name: 'Yukon',
+    inputCsv: 'data/csv/provincial/yukon_schools_all11.csv',
+    outputJson: 'lib/data/yt-school-rankings.json',
+    fallbackBounds: {
+      minLat: 59.8,
+      maxLat: 69.7,
+      minLon: -141.0,
+      maxLon: -123.0,
+    },
+    cityAliases: {},
+    cityAnchors: {
+      Whitehorse: [60.7212, -135.0568],
+      'Dawson City': [64.0601, -139.4326],
+      WatsonLake: [60.0631, -128.7058],
+      'Watson Lake': [60.0631, -128.7058],
+      HainesJunction: [60.7522, -137.5108],
+      'Haines Junction': [60.7522, -137.5108],
+      Carmacks: [62.0876, -136.2678],
+    },
+  },
   NL: {
     code: 'NL',
     name: 'Newfoundland and Labrador',
@@ -266,6 +370,16 @@ function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
 }
 
+function inferRatingFromRank(rank, minRank, maxRank) {
+  if (!Number.isFinite(rank)) return null;
+  if (!Number.isFinite(minRank) || !Number.isFinite(maxRank) || maxRank <= minRank) {
+    return 7.5;
+  }
+  const t = clamp((rank - minRank) / (maxRank - minRank), 0, 1);
+  const inferred = 10 - t * 4.8;
+  return Number(clamp(inferred, 5.2, 10).toFixed(1));
+}
+
 function normalizeSchoolName(schoolName) {
   return String(schoolName ?? '')
     .replace(/\s+/g, ' ')
@@ -278,6 +392,170 @@ function normalizeCity(config, city) {
     .replace(/\./g, '.')
     .trim();
   return config.cityAliases[normalized] ?? normalized;
+}
+
+const TORONTO_SUBAREA_ANCHORS = {
+  etobicokeSouth: [43.637, -79.544],
+  etobicokeNorth: [43.711, -79.566],
+  yorkWest: [43.694, -79.506],
+  oldTorontoWest: [43.656, -79.443],
+  oldTorontoCore: [43.668, -79.392],
+  oldTorontoEast: [43.674, -79.334],
+  northYorkWest: [43.744, -79.494],
+  northYorkCentral: [43.737, -79.425],
+  northYorkEast: [43.756, -79.353],
+  scarboroughWest: [43.732, -79.286],
+  scarboroughCentral: [43.757, -79.245],
+  scarboroughEast: [43.776, -79.194],
+};
+
+const TORONTO_SUBAREA_RULES = [
+  {
+    zone: 'etobicokeSouth',
+    patterns: [
+      /etobicoke/i,
+      /bishop allen/i,
+      /richview/i,
+      /lakeshore/i,
+      /ursula franklin/i,
+      /father john redmond/i,
+      /michael power/i,
+      /silverthorn/i,
+      /bloor/i,
+      /humberside/i,
+      /runnymede/i,
+      /martingrove/i,
+      /kipling/i,
+      /thistletown/i,
+      /west humber/i,
+      /north albion/i,
+      /st\.?\s*fr[eè]re-andr[eé]/i,
+    ],
+  },
+  {
+    zone: 'scarboroughEast',
+    patterns: [
+      /agincourt/i,
+      /albert campbell/i,
+      /birchmount/i,
+      /cedarbrae/i,
+      /woburn/i,
+      /west hill/i,
+      /sir oliver mowat/i,
+      /malvern/i,
+      /l['’]amoreaux/i,
+    ],
+  },
+  {
+    zone: 'scarboroughCentral',
+    patterns: [
+      /dr norman bethune/i,
+      /david and mary thomson/i,
+      /r h king/i,
+      /sir wilfrid laurier/i,
+      /stephen leacock/i,
+      /wexford/i,
+      /jean vanier/i,
+      /st joseph.?s morrow park/i,
+      /cardinal newman/i,
+    ],
+  },
+  {
+    zone: 'northYorkEast',
+    patterns: [
+      /a y jackson/i,
+      /earl haig/i,
+      /don mills/i,
+      /york mills/i,
+      /george s henry/i,
+      /newtonbrook/i,
+      /senator o.?connor/i,
+      /victoria park/i,
+      /mary ward/i,
+    ],
+  },
+  {
+    zone: 'northYorkCentral',
+    patterns: [
+      /lawrence park/i,
+      /leaside/i,
+      /north toronto/i,
+      /forest hill/i,
+      /marc garneau/i,
+      /northern/i,
+      /coll[eè]ge fran[cç]ais/i,
+      /st michael.?s choir/i,
+    ],
+  },
+  {
+    zone: 'northYorkWest',
+    patterns: [
+      /downsview/i,
+      /northview heights/i,
+      /c w jefferys/i,
+      /chaminade/i,
+      /westview centennial/i,
+      /weston/i,
+      /emery/i,
+      /james cardinal mcguigan/i,
+      /loretto abbey/i,
+      /brebeuf/i,
+    ],
+  },
+  {
+    zone: 'oldTorontoEast',
+    patterns: [
+      /danforth/i,
+      /riverdale/i,
+      /monarch park/i,
+      /east york/i,
+      /neil mcneil/i,
+      /st basil/i,
+      /dante alighieri/i,
+      /toronto ouest/i,
+      /st mary.?s/i,
+    ],
+  },
+  {
+    zone: 'oldTorontoWest',
+    patterns: [
+      /parkdale/i,
+      /harbord/i,
+      /oakwood/i,
+      /western/i,
+      /jarvis/i,
+      /central commerce/i,
+      /cardinal carter-arts/i,
+      /marshall mcluhan/i,
+      /georges vanier/i,
+      /archbishop romero/i,
+      /father henry carr/i,
+      /philippe-lamarche/i,
+      /w a porter/i,
+      /john polanyi/i,
+      /lester b pearson/i,
+    ],
+  },
+];
+
+function getTorontoSubareaAnchor(schoolName) {
+  const normalized = String(schoolName ?? '');
+  for (const rule of TORONTO_SUBAREA_RULES) {
+    if (rule.patterns.some((pattern) => pattern.test(normalized))) {
+      return TORONTO_SUBAREA_ANCHORS[rule.zone];
+    }
+  }
+
+  const fallbackZones = [
+    'oldTorontoCore',
+    'northYorkCentral',
+    'oldTorontoWest',
+    'oldTorontoEast',
+    'etobicokeNorth',
+    'scarboroughWest',
+  ];
+  const zone = fallbackZones[hashString(`on-toronto-zone:${normalized}`) % fallbackZones.length];
+  return TORONTO_SUBAREA_ANCHORS[zone];
 }
 
 function getCityBaseCoordinate(config, city) {
@@ -303,13 +581,28 @@ function getCityBaseCoordinate(config, city) {
 }
 
 function getSchoolCoordinate(config, city, schoolName) {
-  const cityBase = getCityBaseCoordinate(config, city);
-  const latOffset = (hashUnit(`school-lat:${config.code}:${city}:${schoolName}`) - 0.5) * 0.12;
-  const lonOffset = (hashUnit(`school-lon:${config.code}:${city}:${schoolName}`) - 0.5) * 0.16;
+  const isOntarioToronto = config.code === 'ON' && city === 'Toronto';
+  const cityBase = isOntarioToronto
+    ? (() => {
+        const [latitude, longitude] = getTorontoSubareaAnchor(schoolName);
+        return { latitude, longitude, coordinateSource: 'toronto-subarea+jitter' };
+      })()
+    : getCityBaseCoordinate(config, city);
+  const latOffset =
+    (hashUnit(`school-lat:${config.code}:${city}:${schoolName}`) - 0.5) *
+    (isOntarioToronto ? 0.055 : 0.12);
+  const lonOffset =
+    (hashUnit(`school-lon:${config.code}:${city}:${schoolName}`) - 0.5) *
+    (isOntarioToronto ? 0.075 : 0.16);
+
+  const minLat = isOntarioToronto ? 43.61 : config.fallbackBounds.minLat;
+  const maxLat = isOntarioToronto ? 43.84 : config.fallbackBounds.maxLat;
+  const minLon = isOntarioToronto ? -79.63 : config.fallbackBounds.minLon;
+  const maxLon = isOntarioToronto ? -79.11 : config.fallbackBounds.maxLon;
 
   return {
-    latitude: Number(clamp(cityBase.latitude + latOffset, config.fallbackBounds.minLat, config.fallbackBounds.maxLat).toFixed(6)),
-    longitude: Number(clamp(cityBase.longitude + lonOffset, config.fallbackBounds.minLon, config.fallbackBounds.maxLon).toFixed(6)),
+    latitude: Number(clamp(cityBase.latitude + latOffset, minLat, maxLat).toFixed(6)),
+    longitude: Number(clamp(cityBase.longitude + lonOffset, minLon, maxLon).toFixed(6)),
     coordinateSource: cityBase.coordinateSource,
   };
 }
@@ -325,12 +618,21 @@ function readRows(config) {
   const provinceCol = colAny('province', 'Province');
   const schoolCol = colAny('school_name', 'School Name');
   const cityCol = colAny('city', 'City');
-  const rankCol = colAny('rank_2019', 'rank_2023_2024', 'rank_2024', 'rank');
+  const rankCol = colAny('rank_2019', 'rank_2023_2024', 'rank_2024', 'rank', 'Rank');
   const rank5yrCol = colAny('rank_5yr', 'rank5yr');
   const trendCol = colAny('trend', 'Trend');
-  const ratingCol = colAny('overall_rating_2019', 'overall_rating_2023_2024', 'overall_rating_2024', 'overall_rating');
+  const ratingCol = colAny(
+    'overall_rating_2019',
+    'overall_rating_2023_2024',
+    'overall_rating_2024',
+    'overall_rating',
+    'rating',
+    'Rating'
+  );
   const rating5yrCol = colAny('overall_rating_5yr', 'overall_rating_5_year');
   const sourceCol = colAny('source', 'Source');
+  const latitudeCol = colAny('latitude', 'Latitude', 'lat', 'Lat');
+  const longitudeCol = colAny('longitude', 'Longitude', 'lon', 'Lon');
 
   if (schoolCol === -1 || cityCol === -1) {
     throw new Error(`Missing required CSV columns in ${config.inputCsv}. Expected school_name and city.`);
@@ -347,23 +649,52 @@ function readRows(config) {
       .trim()
       .toUpperCase();
 
-    const coordinate = getSchoolCoordinate(config, city, schoolName);
+    const rank = parseOptionalNumber(rankCol === -1 ? null : parsed[rankCol]);
+    const rawRating = parseOptionalNumber(ratingCol === -1 ? null : parsed[ratingCol]);
+    const providedLatitude = parseOptionalNumber(latitudeCol === -1 ? null : parsed[latitudeCol]);
+    const providedLongitude = parseOptionalNumber(longitudeCol === -1 ? null : parsed[longitudeCol]);
+    const hasProvidedCoordinate =
+      Number.isFinite(providedLatitude) &&
+      Number.isFinite(providedLongitude) &&
+      providedLatitude >= config.fallbackBounds.minLat &&
+      providedLatitude <= config.fallbackBounds.maxLat &&
+      providedLongitude >= config.fallbackBounds.minLon &&
+      providedLongitude <= config.fallbackBounds.maxLon;
+    const coordinate = hasProvidedCoordinate
+      ? {
+          latitude: Number(providedLatitude.toFixed(6)),
+          longitude: Number(providedLongitude.toFixed(6)),
+          coordinateSource: 'provided-coordinate',
+        }
+      : getSchoolCoordinate(config, city, schoolName);
 
     rows.push({
       id: `${config.code.toLowerCase()}-${hashString(`${schoolName}:${city}`).toString(36)}`,
       schoolName,
       city,
       province: provinceValue || config.code,
-      rank: parseOptionalNumber(rankCol === -1 ? null : parsed[rankCol]),
+      rank,
       rank5yr: parseOptionalNumber(rank5yrCol === -1 ? null : parsed[rank5yrCol]),
       trend: trendCol === -1 ? null : String(parsed[trendCol] ?? '').trim() || null,
-      rating: parseOptionalNumber(ratingCol === -1 ? null : parsed[ratingCol]),
+      rating: rawRating,
       rating5yr: parseOptionalNumber(rating5yrCol === -1 ? null : parsed[rating5yrCol]),
       source: sourceCol === -1 ? null : String(parsed[sourceCol] ?? '').trim() || null,
       latitude: coordinate.latitude,
       longitude: coordinate.longitude,
       coordinateSource: coordinate.coordinateSource,
     });
+  }
+
+  const ranks = rows
+    .map((row) => row.rank)
+    .filter((value) => Number.isFinite(value));
+  const minRank = ranks.length ? Math.min(...ranks) : null;
+  const maxRank = ranks.length ? Math.max(...ranks) : null;
+
+  for (const row of rows) {
+    if (row.rating == null && row.rank != null) {
+      row.rating = inferRatingFromRank(row.rank, minRank, maxRank);
+    }
   }
 
   return rows;
@@ -389,7 +720,7 @@ function buildProvince(provinceCode) {
   const payload = {
     generatedAt: new Date().toISOString(),
     source: config.inputCsv,
-    notes: `Coordinates are approximated from ${config.name} city anchors and deterministic jitter per school (BC-style pipeline).`,
+    notes: `Coordinates are from CSV when provided; otherwise approximated from ${config.name} city anchors and deterministic jitter. Ratings are inferred from rank when missing.`,
     count: schools.length,
     sourceBreakdown: summarizeCoordinateSources(schools),
     schools,

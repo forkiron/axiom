@@ -2,13 +2,14 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import type { SchoolAgentContext } from '@/lib/school-agent';
+import type { SchoolAgentContext, SchoolAgentSchoolResult } from '@/lib/school-agent';
 import { useSchoolTourStore } from '@/stores/useSchoolTourStore';
 
 interface ChatMessage {
   id: string;
   role: 'assistant' | 'user' | 'error';
   text: string;
+  schoolResults?: SchoolAgentSchoolResult[];
   meta?: {
     totalMatched?: number;
     intent?: string;
@@ -27,6 +28,7 @@ interface SchoolAgentResponse {
     totalMatched?: number;
     intent?: string;
   };
+  results?: SchoolAgentSchoolResult[];
   threadId?: string;
   toolTrace?: string[];
   recommendedSchoolIds?: string[];
@@ -54,13 +56,14 @@ export default function BackboardQuestionBox() {
     {
       id: messageId(),
       role: 'assistant',
-      text: 'School agent ready. Backboard tool orchestration + memory are enabled when configured.',
+      text: 'School agent ready.',
     },
   ]);
 
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
   const listRef = useRef<HTMLDivElement | null>(null);
-  const addSchoolsToTour = useSchoolTourStore((state) => state.addSchools);
+  const setSchoolTour = useSchoolTourStore((state) => state.setTour);
+  const setTourIndex = useSchoolTourStore((state) => state.setIndex);
   const clearTour = useSchoolTourStore((state) => state.clearTour);
 
   const placeholder = useMemo(
@@ -133,16 +136,13 @@ export default function BackboardQuestionBox() {
         setThreadId(json.threadId);
         window.localStorage.setItem('axiom_school_agent_thread_id', json.threadId);
       }
-      if (Array.isArray(json.recommendedSchoolIds) && json.recommendedSchoolIds.length > 0) {
-        addSchoolsToTour(json.recommendedSchoolIds, 'chat-agent');
-      }
-
       setMessages((prev) => [
         ...prev,
         {
           id: messageId(),
           role: 'assistant',
           text: json.answer ?? '(no answer)',
+          schoolResults: Array.isArray(json.results) ? json.results : [],
           meta: {
             totalMatched: json.meta?.totalMatched,
             intent: json.meta?.intent,
@@ -165,6 +165,38 @@ export default function BackboardQuestionBox() {
     }
   };
 
+  const handleSchoolResultClick = (
+    schoolId: string,
+    schoolResults: SchoolAgentSchoolResult[],
+    fallbackIndex = 0
+  ) => {
+    const normalizedId = String(schoolId ?? '').trim();
+    if (!normalizedId) return;
+
+    const schoolIds = Array.from(
+      new Set(
+        (schoolResults ?? [])
+          .map((row) => String(row?.id ?? '').trim())
+          .filter((id) => id.length > 0)
+      )
+    );
+
+    if (schoolIds.length === 0) {
+      setSchoolTour([normalizedId], 'chat-agent-click');
+      setTourIndex(0);
+      setOpen(false);
+      return;
+    }
+
+    const foundIndex = schoolIds.findIndex((id) => id === normalizedId);
+    const selectedIndex =
+      foundIndex >= 0 ? foundIndex : Math.max(0, Math.min(schoolIds.length - 1, Math.floor(fallbackIndex)));
+
+    setSchoolTour(schoolIds, 'chat-agent-click');
+    setTourIndex(selectedIndex);
+    setOpen(false);
+  };
+
   const resetConversation = () => {
     setContext(null);
     setThreadId('');
@@ -174,7 +206,7 @@ export default function BackboardQuestionBox() {
       {
         id: messageId(),
         role: 'assistant',
-        text: 'Thread cleared. A new Backboard thread will be created on your next message.',
+        text: 'Thread cleared.',
       },
     ]);
   };
@@ -211,27 +243,39 @@ export default function BackboardQuestionBox() {
           <div ref={listRef} className="max-h-[46vh] space-y-3 overflow-y-auto px-1 py-1">
             {messages.map((message) => (
               <div key={message.id} className={message.role === 'user' ? 'text-right' : 'text-left'}>
-                <div
-                  className={[
-                    'inline-block max-w-[95%] rounded-lg px-3 py-2 text-sm leading-relaxed whitespace-pre-wrap',
-                    message.role === 'user'
-                      ? 'bg-white/90 text-black'
-                      : message.role === 'error'
-                        ? 'bg-rose-950/70 text-rose-200'
-                        : 'bg-white/10 text-zinc-100',
-                  ].join(' ')}
-                >
-                  {message.text}
-                </div>
-                {message.role === 'assistant' && (
-                  <p className="mt-1 text-[11px] text-zinc-400">
-                    {message.meta?.mode ? `mode: ${message.meta.mode}` : 'mode: n/a'}
-                    {message.meta?.intent ? ` • intent: ${message.meta.intent}` : ''}
-                    {message.meta?.totalMatched !== undefined ? ` • matched: ${message.meta.totalMatched}` : ''}
-                    {message.meta?.toolTrace && message.meta.toolTrace.length > 0
-                      ? ` • tools: ${message.meta.toolTrace.join(', ')}`
-                      : ''}
-                  </p>
+                {!(message.role === 'assistant' && (message.schoolResults?.length ?? 0) > 0) && (
+                  <div
+                    className={[
+                      'inline-block max-w-[95%] rounded-lg px-3 py-2 text-sm leading-relaxed whitespace-pre-wrap',
+                      message.role === 'user'
+                        ? 'bg-white/90 text-black'
+                        : message.role === 'error'
+                          ? 'bg-rose-950/70 text-rose-200'
+                          : 'bg-white/10 text-zinc-100',
+                    ].join(' ')}
+                  >
+                    {message.text}
+                  </div>
+                )}
+                {message.role === 'assistant' && (message.schoolResults?.length ?? 0) > 0 && (
+                  <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+                    {message.schoolResults?.map((school, index) => (
+                      <button
+                        key={`${message.id}-${school.id}`}
+                        type="button"
+                        onClick={() => handleSchoolResultClick(school.id, message.schoolResults ?? [], index)}
+                        className="rounded-lg border border-white/20 bg-white/8 px-3 py-2 text-left transition hover:border-white/40 hover:bg-white/14"
+                      >
+                        <p className="truncate text-sm font-semibold text-zinc-100">{school.schoolName}</p>
+                        <p className="mt-0.5 text-xs text-zinc-400">
+                          {school.city}, {school.province}
+                        </p>
+                        <p className="mt-1 text-[11px] text-zinc-300">
+                          rating {typeof school.rating === 'number' ? `${school.rating.toFixed(1)}/10` : 'N/A'}
+                        </p>
+                      </button>
+                    ))}
+                  </div>
                 )}
               </div>
             ))}

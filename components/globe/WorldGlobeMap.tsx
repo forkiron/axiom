@@ -25,6 +25,10 @@ import onSchoolDataset from '../../lib/data/on-school-rankings.json';
 import nlSchoolDataset from '../../lib/data/nl-school-rankings.json';
 import nsSchoolDataset from '../../lib/data/ns-school-rankings.json';
 import peiSchoolDataset from '../../lib/data/pei-school-rankings.json';
+import mbSchoolDataset from '../../lib/data/mb-school-rankings.json';
+import skSchoolDataset from '../../lib/data/sk-school-rankings.json';
+import ntSchoolDataset from '../../lib/data/nt-school-rankings.json';
+import ytSchoolDataset from '../../lib/data/yt-school-rankings.json';
 import type { EducationCountryDataset } from '../../lib/types';
 import { getHeatDomain, heatColorFromValue } from './heatColor';
 import { MAP_STYLE_URL } from '../../lib/constants';
@@ -476,9 +480,39 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const nlSchools = (nlSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const nsSchools = (nsSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const peiSchools = (peiSchoolDataset as { schools: BcSchoolRecord[] }).schools;
+  const mbSchools = (mbSchoolDataset as { schools: BcSchoolRecord[] }).schools;
+  const skSchools = (skSchoolDataset as { schools: BcSchoolRecord[] }).schools;
+  const ntSchools = (ntSchoolDataset as { schools: BcSchoolRecord[] }).schools;
+  const ytSchools = (ytSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const canadaSchools = useMemo(
-    () => [...bcSchools, ...abSchools, ...qcSchools, ...nbSchools, ...onSchools, ...nlSchools, ...nsSchools, ...peiSchools],
-    [bcSchools, abSchools, qcSchools, nbSchools, onSchools, nlSchools, nsSchools, peiSchools]
+    () => [
+      ...bcSchools,
+      ...abSchools,
+      ...qcSchools,
+      ...nbSchools,
+      ...onSchools,
+      ...nlSchools,
+      ...nsSchools,
+      ...peiSchools,
+      ...mbSchools,
+      ...skSchools,
+      ...ntSchools,
+      ...ytSchools,
+    ],
+    [
+      bcSchools,
+      abSchools,
+      qcSchools,
+      nbSchools,
+      onSchools,
+      nlSchools,
+      nsSchools,
+      peiSchools,
+      mbSchools,
+      skSchools,
+      ntSchools,
+      ytSchools,
+    ]
   );
   const visibleCanadaSchools = useMemo(() => {
     return canadaSchools.filter((school) => {

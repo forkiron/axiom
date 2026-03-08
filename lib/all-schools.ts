@@ -6,6 +6,10 @@ import qcSchoolRankings from '@/lib/data/qc-school-rankings.json';
 import nlSchoolRankings from '@/lib/data/nl-school-rankings.json';
 import nsSchoolRankings from '@/lib/data/ns-school-rankings.json';
 import peiSchoolRankings from '@/lib/data/pei-school-rankings.json';
+import mbSchoolRankings from '@/lib/data/mb-school-rankings.json';
+import skSchoolRankings from '@/lib/data/sk-school-rankings.json';
+import ntSchoolRankings from '@/lib/data/nt-school-rankings.json';
+import ytSchoolRankings from '@/lib/data/yt-school-rankings.json';
 
 export interface AnalyzerSchoolOption {
   id: string;
@@ -58,4 +62,8 @@ export const ANALYZER_SCHOOL_OPTIONS: AnalyzerSchoolOption[] = [
   ...pickSchools(nlSchoolRankings),
   ...pickSchools(nsSchoolRankings),
   ...pickSchools(peiSchoolRankings),
+  ...pickSchools(mbSchoolRankings),
+  ...pickSchools(skSchoolRankings),
+  ...pickSchools(ntSchoolRankings),
+  ...pickSchools(ytSchoolRankings),
 ];

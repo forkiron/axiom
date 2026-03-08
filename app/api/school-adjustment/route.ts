@@ -8,6 +8,10 @@ import nsSchoolDataset from '@/lib/data/ns-school-rankings.json';
 import onSchoolDataset from '@/lib/data/on-school-rankings.json';
 import peiSchoolDataset from '@/lib/data/pei-school-rankings.json';
 import qcSchoolDataset from '@/lib/data/qc-school-rankings.json';
+import mbSchoolDataset from '@/lib/data/mb-school-rankings.json';
+import skSchoolDataset from '@/lib/data/sk-school-rankings.json';
+import ntSchoolDataset from '@/lib/data/nt-school-rankings.json';
+import ytSchoolDataset from '@/lib/data/yt-school-rankings.json';
 import { getSupabaseAdmin, hasSupabase } from '@/lib/supabase';
 
 export const dynamic = 'force-dynamic';
@@ -41,6 +45,10 @@ function getAllSchools(): SchoolRecord[] {
     ...pick(nlSchoolDataset),
     ...pick(nsSchoolDataset),
     ...pick(peiSchoolDataset),
+    ...pick(mbSchoolDataset),
+    ...pick(skSchoolDataset),
+    ...pick(ntSchoolDataset),
+    ...pick(ytSchoolDataset),
   ] as SchoolRecord[];
 }
 

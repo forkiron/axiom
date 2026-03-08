@@ -6,8 +6,12 @@ import onSchoolDataset from './data/on-school-rankings.json';
 import nlSchoolDataset from './data/nl-school-rankings.json';
 import nsSchoolDataset from './data/ns-school-rankings.json';
 import peiSchoolDataset from './data/pei-school-rankings.json';
+import mbSchoolDataset from './data/mb-school-rankings.json';
+import skSchoolDataset from './data/sk-school-rankings.json';
+import ntSchoolDataset from './data/nt-school-rankings.json';
+import ytSchoolDataset from './data/yt-school-rankings.json';
 
-export type ProvinceCode = 'BC' | 'AB' | 'QC' | 'NB' | 'ON' | 'NL' | 'NS' | 'PE';
+export type ProvinceCode = 'BC' | 'AB' | 'QC' | 'NB' | 'ON' | 'NL' | 'NS' | 'PE' | 'MB' | 'SK' | 'NT' | 'YT';
 type QueryIntent = 'list' | 'count' | 'average' | 'school';
 export type SortMode = 'best' | 'worst';
 
@@ -90,6 +94,34 @@ export interface SchoolAgentResult {
   };
 }
 
+export function getSchoolsByIds(schoolIds: string[], limit = 25): SchoolAgentSchoolResult[] {
+  if (!Array.isArray(schoolIds) || schoolIds.length === 0) return [];
+
+  const uniqueIds = Array.from(
+    new Set(
+      schoolIds
+        .map((value) => String(value ?? '').trim())
+        .filter((value) => value.length > 0)
+    )
+  ).slice(0, Math.max(1, Math.min(100, Math.floor(limit))));
+
+  if (uniqueIds.length === 0) return [];
+
+  const byId = new Map<string, IndexedSchoolRecord>();
+  for (const school of SCHOOLS) {
+    byId.set(school.id, school);
+  }
+
+  const resolved: SchoolAgentSchoolResult[] = [];
+  for (const schoolId of uniqueIds) {
+    const school = byId.get(schoolId);
+    if (!school) continue;
+    resolved.push(formatResultRecord(school));
+  }
+
+  return resolved;
+}
+
 export interface SearchSchoolsArgs {
   city?: string;
   province?: string;
@@ -139,6 +171,10 @@ const PROVINCE_LABELS: Record<ProvinceCode, string> = {
   NL: 'Newfoundland and Labrador',
   NS: 'Nova Scotia',
   PE: 'Prince Edward Island',
+  MB: 'Manitoba',
+  SK: 'Saskatchewan',
+  NT: 'Northwest Territories',
+  YT: 'Yukon',
 };
 
 const PROVINCE_ALIASES: Array<[string, ProvinceCode]> = [
@@ -163,6 +199,16 @@ const PROVINCE_ALIASES: Array<[string, ProvinceCode]> = [
   ['prince edward island', 'PE'],
   ['pei', 'PE'],
   ['pe', 'PE'],
+  ['manitoba', 'MB'],
+  ['mb', 'MB'],
+  ['saskatchewan', 'SK'],
+  ['sk', 'SK'],
+  ['northwest territories', 'NT'],
+  ['north west territories', 'NT'],
+  ['nwt', 'NT'],
+  ['nt', 'NT'],
+  ['yukon', 'YT'],
+  ['yt', 'YT'],
 ]
   .map(([alias, province]) => [normalizeText(alias), province])
   .sort((a, b) => b[0].length - a[0].length) as Array<[string, ProvinceCode]>;
@@ -176,9 +222,13 @@ const COVERAGE_COUNTS = {
   NL: ((nlSchoolDataset as SchoolDatasetFile).schools ?? []).length,
   NS: ((nsSchoolDataset as SchoolDatasetFile).schools ?? []).length,
   PE: ((peiSchoolDataset as SchoolDatasetFile).schools ?? []).length,
+  MB: ((mbSchoolDataset as SchoolDatasetFile).schools ?? []).length,
+  SK: ((skSchoolDataset as SchoolDatasetFile).schools ?? []).length,
+  NT: ((ntSchoolDataset as SchoolDatasetFile).schools ?? []).length,
+  YT: ((ytSchoolDataset as SchoolDatasetFile).schools ?? []).length,
 };
 
-export const SCHOOL_AGENT_COVERAGE = `BC (${COVERAGE_COUNTS.BC}), AB (${COVERAGE_COUNTS.AB}), QC (${COVERAGE_COUNTS.QC}), NB (${COVERAGE_COUNTS.NB}), ON (${COVERAGE_COUNTS.ON}), NL (${COVERAGE_COUNTS.NL}), NS (${COVERAGE_COUNTS.NS}), PEI (${COVERAGE_COUNTS.PE})`;
+export const SCHOOL_AGENT_COVERAGE = `BC (${COVERAGE_COUNTS.BC}), AB (${COVERAGE_COUNTS.AB}), QC (${COVERAGE_COUNTS.QC}), NB (${COVERAGE_COUNTS.NB}), ON (${COVERAGE_COUNTS.ON}), NL (${COVERAGE_COUNTS.NL}), NS (${COVERAGE_COUNTS.NS}), PEI (${COVERAGE_COUNTS.PE}), MB (${COVERAGE_COUNTS.MB}), SK (${COVERAGE_COUNTS.SK}), NT (${COVERAGE_COUNTS.NT}), YT (${COVERAGE_COUNTS.YT})`;
 
 const RAW_SCHOOLS: RawSchoolRecord[] = [
   ...((bcSchoolDataset as SchoolDatasetFile).schools ?? []),
@@ -189,6 +239,10 @@ const RAW_SCHOOLS: RawSchoolRecord[] = [
   ...((nlSchoolDataset as SchoolDatasetFile).schools ?? []),
   ...((nsSchoolDataset as SchoolDatasetFile).schools ?? []),
   ...((peiSchoolDataset as SchoolDatasetFile).schools ?? []),
+  ...((mbSchoolDataset as SchoolDatasetFile).schools ?? []),
+  ...((skSchoolDataset as SchoolDatasetFile).schools ?? []),
+  ...((ntSchoolDataset as SchoolDatasetFile).schools ?? []),
+  ...((ytSchoolDataset as SchoolDatasetFile).schools ?? []),
 ];
 
 const SCHOOLS: IndexedSchoolRecord[] = RAW_SCHOOLS.map((school) => ({

@@ -16,6 +16,10 @@ import nsSchoolDataset from '@/lib/data/ns-school-rankings.json';
 import qcSchoolDataset from '@/lib/data/qc-school-rankings.json';
 import onSchoolDataset from '@/lib/data/on-school-rankings.json';
 import peiSchoolDataset from '@/lib/data/pei-school-rankings.json';
+import mbSchoolDataset from '@/lib/data/mb-school-rankings.json';
+import skSchoolDataset from '@/lib/data/sk-school-rankings.json';
+import ntSchoolDataset from '@/lib/data/nt-school-rankings.json';
+import ytSchoolDataset from '@/lib/data/yt-school-rankings.json';
 
 const envAnalyzerAssistantId = process.env.BACKBOARD_ANALYZER_ASSISTANT_ID;
 const envAnalyzerThreadId = process.env.BACKBOARD_ANALYZER_THREAD_ID;
@@ -179,6 +183,10 @@ function getAllSchools(): SchoolRecord[] {
     ...pick(nlSchoolDataset),
     ...pick(nsSchoolDataset),
     ...pick(peiSchoolDataset),
+    ...pick(mbSchoolDataset),
+    ...pick(skSchoolDataset),
+    ...pick(ntSchoolDataset),
+    ...pick(ytSchoolDataset),
   ] as SchoolRecord[];
 }
 
@@ -269,6 +277,39 @@ function extractResponseContent(response: any): string {
     if (text) return text;
   }
   return '(no answer)';
+}
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isRetryableBackboardError(error: any) {
+  const statusCode = Number(error?.statusCode);
+  if ([429, 502, 503, 504].includes(statusCode)) return true;
+  const message = String(error?.message ?? '').toLowerCase();
+  return (
+    message.includes('http 502') ||
+    message.includes('http 503') ||
+    message.includes('http 504') ||
+    message.includes('bad gateway') ||
+    message.includes('gateway timeout')
+  );
+}
+
+async function withBackboardRetry<T>(action: () => Promise<T>, maxAttempts = 3): Promise<T> {
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      return await action();
+    } catch (error) {
+      lastError = error;
+      if (!isRetryableBackboardError(error) || attempt >= maxAttempts) {
+        throw error;
+      }
+      await sleep(350 * attempt);
+    }
+  }
+  throw lastError;
 }
 
 function parseInput(body: any): AnalyzerInput {
@@ -489,11 +530,13 @@ async function runBackboardAnalyzer({
     'Follow your rules: inspect_test_context first, then exactly one analyze_* tool.',
   ].join('\n');
 
-  let response = await client.addMessage(thread, {
-    content: initialMessage,
-    stream: false,
-    memory: 'Auto',
-  });
+  let response: any = await withBackboardRetry<any>(() =>
+    client.addMessage(thread, {
+      content: initialMessage,
+      stream: false,
+      memory: 'Auto',
+    })
+  );
 
   const toolTrace: string[] = [];
   let latestInspection: AnalyzerInspection | null = null;
@@ -546,7 +589,9 @@ async function runBackboardAnalyzer({
     }
 
     if (!response?.runId || outputs.length === 0) break;
-    response = await client.submitToolOutputs(thread, response.runId, outputs);
+    response = await withBackboardRetry<any>(() =>
+      client.submitToolOutputs(thread, response.runId, outputs)
+    );
     iterations += 1;
   }
 
@@ -617,17 +662,55 @@ export async function POST(request: Request) {
       });
     }
 
-    const routed = await runBackboardAnalyzer({
-      input,
-      sessionId,
-      threadIdFromBody,
-      systemPrompt,
-    });
+    let routed:
+      | Awaited<ReturnType<typeof runBackboardAnalyzer>>
+      | null = null;
+    let mode = 'backboard-tools';
+    let backboardFallbackWarning: string | null = null;
+
+    try {
+      routed = await runBackboardAnalyzer({
+        input,
+        sessionId,
+        threadIdFromBody,
+        systemPrompt,
+      });
+    } catch (backboardError: any) {
+      console.error('Backboard analyzer failed, falling back to direct analyzer:', backboardError);
+      let inspection: AnalyzerInspection;
+      try {
+        inspection = await inspectTestContext(input, geminiApiKey);
+      } catch {
+        inspection = {
+          subject: 'general',
+          confidence: 0.4,
+          questionStyle: 'mixed',
+          reasoning: 'Inspection fallback after Backboard failure',
+        };
+      }
+      const fallbackResult = await runSubjectAnalyzer({
+        subject: inspection.subject,
+        input,
+        apiKey: geminiApiKey,
+        forcedQuestionStyle: inspection.questionStyle,
+      });
+      routed = {
+        result: fallbackResult,
+        threadId: threadIdFromBody ?? '',
+        assistantId: analyzerAssistantId ?? '',
+        toolTrace: ['backboard_unavailable_fallback'],
+        inspection,
+        answer: 'Backboard unavailable. Used direct analyzer fallback.',
+        status: 'FALLBACK',
+      };
+      mode = 'backboard-fallback';
+      backboardFallbackWarning = 'Backboard temporarily unavailable (HTTP 502). Used direct analyzer fallback.';
+    }
     const formula = computeFormulaAdjustment(input, routed.result.estimatedDifficulty);
 
     return NextResponse.json({
       success: true,
-      mode: 'backboard-tools',
+      mode,
       result: {
         ...routed.result,
         adjustmentFactor: formula.adjustmentFactor,
@@ -642,6 +725,7 @@ export async function POST(request: Request) {
       inspection: routed.inspection,
       answer: routed.answer,
       status: routed.status,
+      warning: backboardFallbackWarning,
     });
   } catch (error: any) {
     console.error('Error analyzing test:', error);

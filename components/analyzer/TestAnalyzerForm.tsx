@@ -227,7 +227,7 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
         <h3 className="mb-1 text-xl font-medium uppercase tracking-[0.12em] text-zinc-100">EVALUATE TEST DIFFICULTY</h3>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium uppercase tracking-[0.12em] text-zinc-300">School (Search + Select)</label>
+          <label className="text-sm font-medium uppercase tracking-[0.12em] text-zinc-300">School</label>
           <div className="relative">
             <input
               type="text"
@@ -341,10 +341,7 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
         </div>
 
         <div className="space-y-2">
-          <label className="flex justify-between text-sm font-medium uppercase tracking-[0.12em] text-zinc-300">
-            <span>Additional Notes</span>
-            <span className="text-xs font-normal normal-case tracking-normal text-zinc-500">Optional - paste extra context</span>
-          </label>
+          <label className="text-sm font-medium uppercase tracking-[0.12em] text-zinc-300">Additional Notes</label>
           <textarea
             value={testContent}
             onChange={(e) => setTestContent(e.target.value)}

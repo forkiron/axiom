@@ -29,7 +29,7 @@ interface SchoolDetailsPanelProps {
   adjustmentCount?: number;
 }
 
-export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment, adjustmentCount }: SchoolDetailsPanelProps) {
+export function SchoolDetailsPanel({ school, onClose: _onClose, getRatingColor, adjustment, adjustmentCount }: SchoolDetailsPanelProps) {
   const [isResetting, setIsResetting] = useState(false);
   const [resetError, setResetError] = useState<string | null>(null);
 
@@ -66,23 +66,13 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment
           animate={{ opacity: 1, x: 0, scale: 1 }}
           exit={{ opacity: 0, x: -50, scale: 0.95 }}
           transition={{ duration: 0.25, ease: 'easeOut' }}
-          className="absolute left-4 top-24 z-20 w-[min(28rem,calc(100vw-2rem))] rounded-2xl border border-white/20 bg-black/55 p-5 shadow-2xl shadow-black/50 backdrop-blur-2xl"
+          className="absolute left-4 top-20 z-20 w-[min(24rem,calc(100vw-2rem))] rounded-2xl border border-white/20 bg-black/55 p-4 shadow-2xl shadow-black/50 backdrop-blur-2xl"
         >
-          <button
-            type="button"
-            onClick={onClose}
-            className="absolute right-4 top-4 rounded-full border border-white/20 bg-black/35 p-1 text-zinc-400 transition-colors hover:bg-white/10 hover:text-zinc-100"
-          >
-            <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
-            </svg>
-          </button>
-
-          <div className="pr-8">
-            <h2 className="mb-1 text-xl font-bold tracking-tight text-zinc-100">
+          <div>
+            <h2 className="mb-1 font-sans text-3xl font-semibold leading-tight tracking-[-0.02em] text-zinc-100">
               {school.schoolName}
             </h2>
-            <p className="mb-6 flex items-center gap-1.5 text-[11px] uppercase tracking-[0.12em] text-zinc-400">
+            <p className="mb-5 flex items-center gap-1.5 text-[10px] uppercase tracking-[0.12em] text-zinc-400">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -91,25 +81,25 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment
             </p>
 
             {/* Base metrics row */}
-            <div className="grid grid-cols-2 gap-4">
-              <div className="flex flex-col items-center justify-center rounded-xl border border-white/35 bg-white/10 p-4 backdrop-blur-2xl">
-                <div className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-zinc-500">
+            <div className="grid grid-cols-2 gap-3">
+              <div className="flex flex-col items-center justify-center rounded-xl border border-white/35 bg-white/10 p-3 backdrop-blur-2xl">
+                <div className="mb-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-zinc-500">
                   Overall Rating
                 </div>
                 <div
-                  className="text-4xl font-extrabold"
+                  className="text-3xl font-extrabold"
                   style={{ color: getRatingColor ? getRatingColor(school.rating) : '#10b981' }}
                 >
                   {school.rating != null ? school.rating.toFixed(1) : 'N/A'}
-                  {school.rating != null && <span className="ml-1 text-lg font-medium text-zinc-500">/10</span>}
+                  {school.rating != null && <span className="ml-1 text-base font-medium text-zinc-500">/10</span>}
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-center rounded-xl border border-white/35 bg-white/10 p-4 backdrop-blur-2xl">
-                <div className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-zinc-500">
+              <div className="flex flex-col items-center justify-center rounded-xl border border-white/35 bg-white/10 p-3 backdrop-blur-2xl">
+                <div className="mb-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-zinc-500">
                   Provincial Rank
                 </div>
-                <div className="text-4xl font-extrabold text-zinc-100">
+                <div className="text-3xl font-extrabold text-zinc-100">
                   {school.rank != null ? `#${school.rank}` : 'N/A'}
                 </div>
               </div>
@@ -117,10 +107,10 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment
 
             {/* AI analysis section — always show with defaults if not yet analyzed */}
             {adjustment != null && (
-              <div className="mt-4 space-y-3">
+              <div className="mt-3 space-y-2.5">
                 <div className="flex items-center gap-2">
                   <div className="h-px flex-1 bg-white/8" />
-                  <span className="text-[11px] uppercase tracking-[0.12em] text-zinc-500">
+                  <span className="text-[10px] uppercase tracking-[0.12em] text-zinc-500">
                     {adjustment.isDefault ? 'Estimated (Default)' : 'AI Analysis'}
                   </span>
                   <div className="h-px flex-1 bg-white/8" />
@@ -128,27 +118,27 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment
 
                 <div className="grid grid-cols-2 gap-3">
                   {/* Test Difficulty */}
-                  <div className="flex flex-col items-center justify-center rounded-xl border border-white/35 bg-white/10 p-3 backdrop-blur-2xl">
-                    <span className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-zinc-500">Difficulty</span>
-                    <span className="text-2xl font-bold text-zinc-100">
+                  <div className="flex flex-col items-center justify-center rounded-xl border border-white/35 bg-white/10 p-2.5 backdrop-blur-2xl">
+                    <span className="mb-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-zinc-500">Difficulty</span>
+                    <span className="text-xl font-bold text-zinc-100">
                       {adjustment.estimatedDifficulty != null
                         ? adjustment.estimatedDifficulty.toFixed(1)
                         : '5.0'}
                     </span>
-                    <span className="text-[11px] text-zinc-500">/10</span>
+                    <span className="text-[10px] text-zinc-500">/10</span>
                   </div>
 
                   {/* Adjustment Factor */}
-                  <div className={`rounded-xl border p-3 flex flex-col items-center justify-center ${
+                  <div className={`rounded-xl border p-2.5 flex flex-col items-center justify-center ${
                     isDeflated ? 'border-emerald-300/45 bg-white/10 backdrop-blur-2xl' :
                     isInflated ? 'border-rose-300/45 bg-white/10 backdrop-blur-2xl' :
                     'border-white/35 bg-white/10 backdrop-blur-2xl'
                   }`}>
-                    <span className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-zinc-500">Adjustment</span>
-                    <span className={`text-2xl font-bold ${isDeflated ? 'text-emerald-300' : isInflated ? 'text-rose-300' : 'text-zinc-300'}`}>
+                    <span className="mb-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-zinc-500">Adjustment</span>
+                    <span className={`text-xl font-bold ${isDeflated ? 'text-emerald-300' : isInflated ? 'text-rose-300' : 'text-zinc-300'}`}>
                       {af != null ? `${af > 0 ? '+' : ''}${af.toFixed(1)}` : '0.0'}
                     </span>
-                    <span className="text-[11px] uppercase tracking-[0.1em] text-zinc-500">pts</span>
+                    <span className="text-[10px] uppercase tracking-[0.1em] text-zinc-500">pts</span>
                   </div>
                 </div>
 
