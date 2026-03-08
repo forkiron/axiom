@@ -616,6 +616,20 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const minRatingPercent = (minSchoolRating / 10) * 100;
   const maxRatingPercent = (maxSchoolRating / 10) * 100;
   const activeTourSchool = schoolTour.length > 0 ? schoolTour[Math.min(tourIndex, schoolTour.length - 1)] : null;
+  const formatSchoolSearchLabel = useCallback(
+    (school: BcSchoolRecord) => `${school.schoolName} (${school.city}, ${school.province})`,
+    []
+  );
+  const clearSchoolQueryIfMatches = useCallback(
+    (school: BcSchoolRecord | null) => {
+      if (!school) return;
+      const expected = normalizeForSearch(formatSchoolSearchLabel(school));
+      setSchoolQuery((current) =>
+        normalizeForSearch(current) === expected ? '' : current
+      );
+    },
+    [formatSchoolSearchLabel]
+  );
 
   const flyToCanada = useCallback((mapInstance: any) => {
     if (!mapInstance) return;
@@ -680,6 +694,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
     (mode: LayerMode) => {
       setActiveLayer(mode);
       setIsSchoolSearchOpen(false);
+      clearSchoolQueryIfMatches(selectedSchool);
       setSelectedSchool(null);
       setAcademicHoverCard(null);
       setPreSchoolCameraState(null);
@@ -691,7 +706,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         flyToWorld(activeMap);
       }
     },
-    [hasMapboxToken, flyToCanada, flyToWorld]
+    [hasMapboxToken, flyToCanada, flyToWorld, selectedSchool, clearSchoolQueryIfMatches]
   );
 
   const handleSchoolSelect = useCallback(
@@ -811,6 +826,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
       const countryFeature = features.find((feature: any) => feature?.layer?.id === 'country-hit-layer');
       const iso3 = countryFeature?.properties?.ISO_A3;
       if (typeof iso3 === 'string' && iso3 && iso3 !== '-99') {
+        clearSchoolQueryIfMatches(selectedSchool);
         setSelectedSchool(null);
         if (preSchoolCameraState) {
           activeMap.flyTo({
@@ -833,7 +849,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         flyToCountry(activeMap, iso3);
       }
     },
-    [flyToCanada, flyToCountry, flyToSchool, selectedSchool, preSchoolCameraState, activeLayer]
+    [flyToCanada, flyToCountry, flyToSchool, selectedSchool, preSchoolCameraState, activeLayer, clearSchoolQueryIfMatches]
   );
   useEffect(() => {
     if (!selectedSchool) return;
@@ -1255,6 +1271,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
       <SchoolDetailsPanel 
         school={selectedSchool} 
         onClose={() => {
+          clearSchoolQueryIfMatches(selectedSchool);
           setSelectedSchool(null);
           const activeMap = hasMapboxToken ? getUnderlyingMap(mapboxRef) : getUnderlyingMap(maplibreRef);
           if (activeMap && preSchoolCameraState) {
