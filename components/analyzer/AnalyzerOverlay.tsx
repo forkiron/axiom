@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { TestAnalyzerForm } from '@/components/analyzer/TestAnalyzerForm';
 import { TestAnalyzerResult } from '@/components/analyzer/TestAnalyzerResult';
+import { GpaCalculatorForm } from '@/components/analyzer/GpaCalculatorForm';
 
 interface AnalysisResult {
   estimatedDifficulty: number;
@@ -16,6 +17,7 @@ interface AnalysisResult {
 
 export function AnalyzerOverlay() {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState<'evaluator' | 'gpa'>('evaluator');
   const [analysisResult, setAnalysisResult] = useState<AnalysisResult | null>(null);
 
   useEffect(() => {
@@ -61,24 +63,60 @@ export function AnalyzerOverlay() {
               transition={{ duration: 0.3, ease: 'easeOut' }}
               className="fixed inset-y-2 right-2 z-[80] w-[min(36rem,calc(100vw-1rem))] overflow-y-auto rounded-2xl border border-white/20 bg-black/45 p-3 shadow-2xl shadow-black/55 backdrop-blur-2xl sm:inset-y-4 sm:right-4 sm:w-[min(38rem,calc(100vw-2rem))] sm:p-4"
             >
-              <div className="mb-4 flex items-start justify-between gap-4">
-                <div>
-                  <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-500">AXIOM ANALYZER</p>
-                  <h2 className="mt-1 text-xl font-semibold text-zinc-100">AI Test Evaluator</h2>
+              <div className="mb-4 flex flex-col gap-4">
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-500">AXIOM ANALYZER</p>
+                    <h2 className="mt-1 text-xl font-semibold text-zinc-100">
+                      {activeTab === 'evaluator' ? 'AI Test Evaluator' : 'GPA Calculator'}
+                    </h2>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setIsOpen(false)}
+                    className="rounded-lg border border-white/15 px-3 py-1.5 text-xs font-medium text-zinc-300 transition hover:bg-white/10"
+                  >
+                    Close
+                  </button>
                 </div>
-                <button
-                  type="button"
-                  onClick={() => setIsOpen(false)}
-                  className="rounded-lg border border-white/15 px-3 py-1.5 text-xs font-medium text-zinc-300 transition hover:bg-white/10"
-                >
-                  Close
-                </button>
+
+                <div className="flex w-full items-center gap-1 rounded-lg border border-white/10 bg-black/40 p-1">
+                  <button
+                    type="button"
+                    onClick={() => setActiveTab('evaluator')}
+                    className={`flex-1 rounded-md px-3 py-1.5 text-xs font-medium transition-all ${
+                      activeTab === 'evaluator'
+                        ? 'bg-white/15 text-white shadow-sm'
+                        : 'text-zinc-400 hover:bg-white/5 hover:text-zinc-200'
+                    }`}
+                  >
+                    Test Evaluator
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setActiveTab('gpa')}
+                    className={`flex-1 rounded-md px-3 py-1.5 text-xs font-medium transition-all ${
+                      activeTab === 'gpa'
+                        ? 'bg-white/15 text-white shadow-sm'
+                        : 'text-zinc-400 hover:bg-white/5 hover:text-zinc-200'
+                    }`}
+                  >
+                    GPA Calculator
+                  </button>
+                </div>
               </div>
 
-              {!analysisResult ? (
-                <TestAnalyzerForm onResult={setAnalysisResult} />
-              ) : (
-                <TestAnalyzerResult result={analysisResult} onReset={() => setAnalysisResult(null)} />
+
+              {activeTab === 'evaluator' && (
+                !analysisResult ? (
+                  <TestAnalyzerForm onResult={setAnalysisResult} />
+                ) : (
+                  <TestAnalyzerResult result={analysisResult} onReset={() => setAnalysisResult(null)} />
+                )
+              )}
+
+              {activeTab === 'gpa' && (
+                <GpaCalculatorForm />
               )}
             </motion.aside>
           </>
