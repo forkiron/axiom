@@ -534,6 +534,8 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
     () => tourSchoolIds.map((schoolId) => schoolById.get(schoolId)).filter((school): school is BcSchoolRecord => Boolean(school)),
     [tourSchoolIds, schoolById]
   );
+  const minRatingPercent = (minSchoolRating / 10) * 100;
+  const maxRatingPercent = (maxSchoolRating / 10) * 100;
   const activeTourSchool = schoolTour.length > 0 ? schoolTour[Math.min(tourIndex, schoolTour.length - 1)] : null;
 
   const flyToCanada = useCallback((mapInstance: any) => {
@@ -1085,57 +1087,69 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
           placeholder="Type school or city"
           className="w-full rounded-md border border-white/20 bg-black/55 px-3 py-2 text-sm text-slate-100 outline-none transition focus:border-white/55"
         />
-        <div className="mt-2 rounded-md border border-white/10 bg-black/35 px-3 py-2">
-          <div className="mb-1 flex items-center justify-between">
-            <label htmlFor="school-min-rating-filter" className="text-[11px] font-medium text-slate-300">
-              Rating Range
-            </label>
-            <span className="text-[11px] text-slate-200">
-              {minSchoolRating <= 0 && maxSchoolRating >= 10
-                ? 'All'
-                : `${minSchoolRating.toFixed(1)} - ${maxSchoolRating.toFixed(1)}`}
-            </span>
+        {activeLayer === 'bc-schools' && (
+          <div className="mt-2 rounded-md border border-white/10 bg-black/35 px-3 py-2">
+            <div className="mb-1 flex items-center justify-between">
+              <label htmlFor="school-min-rating-filter" className="text-[11px] font-medium text-slate-300">
+                Rating Range
+              </label>
+              <span className="text-[11px] text-slate-200">
+                {minSchoolRating <= 0 && maxSchoolRating >= 10
+                  ? 'All'
+                  : `${minSchoolRating.toFixed(1)} - ${maxSchoolRating.toFixed(1)}`}
+              </span>
+            </div>
+            <div className="mb-1 flex items-center justify-between text-[10px] text-slate-400">
+              <span>Min: {minSchoolRating.toFixed(1)}</span>
+              <span>Max: {maxSchoolRating.toFixed(1)}</span>
+            </div>
+            <div className="relative mt-1 h-8">
+              <div className="pointer-events-none absolute inset-x-0 top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-white/20" />
+              <div
+                className="pointer-events-none absolute top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-emerald-400/85"
+                style={{
+                  left: `${minRatingPercent}%`,
+                  right: `${100 - maxRatingPercent}%`,
+                }}
+              />
+              <input
+                id="school-min-rating-filter"
+                type="range"
+                min={0}
+                max={10}
+                step={0.5}
+                value={minSchoolRating}
+                onChange={(event) => {
+                  const nextMin = Number(event.target.value);
+                  setMinSchoolRating(nextMin);
+                  if (nextMin > maxSchoolRating) {
+                    setMaxSchoolRating(nextMin);
+                  }
+                }}
+                className="pointer-events-none absolute inset-0 z-20 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-black/60 [&::-moz-range-thumb]:bg-emerald-300 [&::-moz-range-thumb]:shadow [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-black/60 [&::-webkit-slider-thumb]:bg-emerald-300 [&::-webkit-slider-thumb]:shadow"
+              />
+              <input
+                id="school-max-rating-filter"
+                type="range"
+                min={0}
+                max={10}
+                step={0.5}
+                value={maxSchoolRating}
+                onChange={(event) => {
+                  const nextMax = Number(event.target.value);
+                  setMaxSchoolRating(nextMax);
+                  if (nextMax < minSchoolRating) {
+                    setMinSchoolRating(nextMax);
+                  }
+                }}
+                className="pointer-events-none absolute inset-0 z-10 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-black/60 [&::-moz-range-thumb]:bg-amber-300 [&::-moz-range-thumb]:shadow [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-black/60 [&::-webkit-slider-thumb]:bg-amber-300 [&::-webkit-slider-thumb]:shadow"
+              />
+            </div>
+            <p className="mt-1 text-[10px] text-slate-400">
+              Showing {visibleCanadaSchools.length} school{visibleCanadaSchools.length === 1 ? '' : 's'}
+            </p>
           </div>
-          <div className="mb-1 flex items-center justify-between text-[10px] text-slate-400">
-            <span>Min: {minSchoolRating.toFixed(1)}</span>
-            <span>Max: {maxSchoolRating.toFixed(1)}</span>
-          </div>
-          <input
-            id="school-min-rating-filter"
-            type="range"
-            min={0}
-            max={10}
-            step={0.5}
-            value={minSchoolRating}
-            onChange={(event) => {
-              const nextMin = Number(event.target.value);
-              setMinSchoolRating(nextMin);
-              if (nextMin > maxSchoolRating) {
-                setMaxSchoolRating(nextMin);
-              }
-            }}
-            className="w-full accent-emerald-400"
-          />
-          <input
-            id="school-max-rating-filter"
-            type="range"
-            min={0}
-            max={10}
-            step={0.5}
-            value={maxSchoolRating}
-            onChange={(event) => {
-              const nextMax = Number(event.target.value);
-              setMaxSchoolRating(nextMax);
-              if (nextMax < minSchoolRating) {
-                setMinSchoolRating(nextMax);
-              }
-            }}
-            className="mt-1 w-full accent-amber-400"
-          />
-          <p className="mt-1 text-[10px] text-slate-400">
-            Showing {visibleCanadaSchools.length} school{visibleCanadaSchools.length === 1 ? '' : 's'}
-          </p>
-        </div>
+        )}
         {isSchoolSearchOpen && schoolSearchResults.length > 0 && (
           <div className="mt-2 max-h-64 overflow-y-auto rounded-md border border-white/15 bg-black/80 p-1">
             {schoolSearchResults.map((school) => (
