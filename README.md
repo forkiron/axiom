@@ -5,6 +5,7 @@
 AI-powered test difficulty evaluation, school-level adjustment factors, and an interactive Canada school map with a built-in school agent.
 
 ---
+<img width="1440" height="778" alt="heroherocanada" src="https://github.com/user-attachments/assets/41955e3c-64bb-4cfb-9bc0-53b2124cec11" />
 
 
 ## 🤩 Features
