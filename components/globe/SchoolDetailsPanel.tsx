@@ -25,9 +25,10 @@ interface SchoolDetailsPanelProps {
   onClose: () => void;
   getRatingColor?: (rating: number | null | undefined) => string;
   adjustment?: SchoolAdjustment;
+  adjustmentCount?: number;
 }
 
-export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment }: SchoolDetailsPanelProps) {
+export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment, adjustmentCount }: SchoolDetailsPanelProps) {
   const af = adjustment?.adjustmentFactor;
   const isInflated = af != null && af < 0;
   const isDeflated = af != null && af > 0;
@@ -126,34 +127,27 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment
                   </div>
                 </div>
 
-                <div className={`rounded-lg px-3 py-2 text-xs ${
-                  adjustment.isDefault
-                    ? 'bg-slate-800/60 text-slate-400'
-                    : isDeflated ? 'bg-emerald-500/10 text-emerald-400'
-                    : isInflated ? 'bg-rose-500/10 text-rose-400'
-                    : 'bg-white/5 text-slate-400'
-                }`}>
-                  {adjustment.isDefault
-                    ? '📋 Default estimate (Dt = 5) — submit a test to refine'
-                    : isDeflated ? '↑ Grade Deflation — school grades harder than average'
+                {!adjustment.isDefault && (
+                  <div
+                    className={`rounded-lg px-3 py-2 text-xs ${
+                      isDeflated ? 'bg-emerald-500/10 text-emerald-400'
+                      : isInflated ? 'bg-rose-500/10 text-rose-400'
+                      : 'bg-white/5 text-slate-400'
+                    }`}
+                  >
+                    {isDeflated ? '↑ Grade Deflation — school grades harder than average'
                     : isInflated ? '↓ Grade Inflation — school grades easier than average'
                     : 'Standard grading detected'}
-                </div>
+                  </div>
+                )}
+                {adjustmentCount != null && adjustmentCount > 0 && (
+                  <div className="text-xs text-slate-500 mt-1.5">
+                    Based on {adjustmentCount} {adjustmentCount === 1 ? 'analysis' : 'analyses'}
+                  </div>
+                )}
               </div>
             )}
 
-            {/* Prompt to submit a test — only show when using defaults */}
-            {(adjustment == null || adjustment.isDefault) && (
-              <div className="mt-4 rounded-lg border border-emerald-500/20 bg-emerald-500/10 p-3 flex gap-3 text-sm text-emerald-100">
-                <svg className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <p>
-                  To evaluate this school's curriculum difficulty directly, run one of their recent exams through the{' '}
-                  <span className="font-semibold text-emerald-400">AI Test Analyzer</span>.
-                </p>
-              </div>
-            )}
           </div>
         </motion.div>
       )}

@@ -8,7 +8,21 @@ interface AnalysisResult {
   estimatedDifficulty: number;
   adjustmentFactor: number;
   rationale: string;
+  curriculumAlignment?: string;
+  questionStyle?: string;
+  questionCount?: number;
+  classAverage?: number;
+  province?: string;
+  selectedAgent?: string;
+  agentLabel?: string;
+  autoApplied?: boolean;
+  autoAppliedSchoolId?: string;
+  autoAppliedSchoolName?: string;
+  autoAppliedMAdj?: number;
+  autoAppliedError?: string;
 }
+
+const DEFAULT_CLASS_AVERAGE = 75;
 
 function fileToBase64(file: File): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -26,18 +40,31 @@ function fileToBase64(file: File): Promise<string> {
 
 export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult) => void }) {
   const [province, setProvince] = useState('BC');
-  const [classAverage, setClassAverage] = useState('85');
   const [schoolSearch, setSchoolSearch] = useState('');
   const [selectedSchool, setSelectedSchool] = useState<AnalyzerSchoolOption | null>(null);
   const [showSchoolDropdown, setShowSchoolDropdown] = useState(false);
   const [testContent, setTestContent] = useState('');
   const [pdfFile, setPdfFile] = useState<File | null>(null);
-  const [pdfPreviewUrl, setPdfPreviewUrl] = useState('');
-  const [showPdfPreview, setShowPdfPreview] = useState(false);
   const [isDragOver, setIsDragOver] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [sessionId, setSessionId] = useState('');
+  const [threadId, setThreadId] = useState('');
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const existingSession = window.localStorage.getItem('axiom_analyzer_session_id');
+    const existingThread = window.localStorage.getItem('axiom_analyzer_thread_id');
+    const resolvedSession =
+      existingSession ??
+      (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function'
+        ? crypto.randomUUID()
+        : `analyzer-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`);
+
+    window.localStorage.setItem('axiom_analyzer_session_id', resolvedSession);
+    setSessionId(resolvedSession);
+    if (existingThread) setThreadId(existingThread);
+  }, []);
 
   const filteredSchools = useMemo(() => {
     const q = schoolSearch.trim().toLowerCase();
@@ -54,21 +81,6 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
       );
     }).slice(0, 10);
   }, [province, schoolSearch]);
-
-  useEffect(() => {
-    if (!pdfFile) {
-      setPdfPreviewUrl('');
-      setShowPdfPreview(false);
-      return;
-    }
-
-    const url = URL.createObjectURL(pdfFile);
-    setPdfPreviewUrl(url);
-
-    return () => {
-      URL.revokeObjectURL(url);
-    };
-  }, [pdfFile]);
 
   const handleFile = useCallback((file: File) => {
     if (file.type !== 'application/pdf') {
@@ -117,7 +129,7 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
         body: JSON.stringify({
           subject: 'general',
           province,
-          classAverage: parseFloat(classAverage),
+          classAverage: DEFAULT_CLASS_AVERAGE,
           school: selectedSchool
             ? {
                 id: selectedSchool.id,
@@ -128,6 +140,8 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
             : schoolSearch.trim() || undefined,
           testContent: testContent.trim() || undefined,
           pdfData,
+          sessionId: sessionId || undefined,
+          threadId: threadId || undefined,
         }),
       });
 
@@ -137,11 +151,50 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
         throw new Error(data.error || 'Analysis failed. Make sure your API key is set.');
       }
 
-      onResult({
-        ...data.result,
-        classAverage: parseFloat(classAverage),
+      if (typeof data.threadId === 'string' && data.threadId.length > 0) {
+        setThreadId(data.threadId);
+        window.localStorage.setItem('axiom_analyzer_thread_id', data.threadId);
+      }
+
+      const resultPayload: AnalysisResult = {
+        ...(data.result as AnalysisResult),
+        classAverage: DEFAULT_CLASS_AVERAGE,
         province,
-      } as AnalysisResult);
+      };
+
+      if (selectedSchool) {
+        try {
+          const saveResponse = await fetch('/api/school-adjustment', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              schoolId: selectedSchool.id,
+              estimatedDifficulty: resultPayload.estimatedDifficulty,
+              classAverage: DEFAULT_CLASS_AVERAGE,
+              province: selectedSchool.province,
+            }),
+          });
+
+          if (saveResponse.ok) {
+            const saveJson = await saveResponse.json();
+            resultPayload.autoApplied = true;
+            resultPayload.autoAppliedSchoolId = selectedSchool.id;
+            resultPayload.autoAppliedSchoolName = selectedSchool.schoolName;
+            resultPayload.autoAppliedMAdj =
+              typeof saveJson?.mAdj === 'number' ? saveJson.mAdj : undefined;
+            window.dispatchEvent(new CustomEvent('school-adjustments-updated'));
+          } else {
+            const saveJson = await saveResponse.json().catch(() => ({}));
+            resultPayload.autoApplied = false;
+            resultPayload.autoAppliedError = String(saveJson?.error ?? 'Failed to auto-apply adjustment');
+          }
+        } catch (saveError: any) {
+          resultPayload.autoApplied = false;
+          resultPayload.autoAppliedError = saveError?.message ?? 'Failed to auto-apply adjustment';
+        }
+      }
+
+      onResult(resultPayload);
     } catch (err: any) {
       setError(err.message);
     } finally {
@@ -210,20 +263,6 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-slate-300">Class Average (%)</label>
-          <div className="relative">
-            <input
-              type="number"
-              value={classAverage}
-              onChange={(e) => setClassAverage(e.target.value)}
-              min="0" max="100" step="0.1" required
-              className="w-full rounded-lg border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm text-slate-200 outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
-            />
-            <span className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500">%</span>
-          </div>
-        </div>
-
-        <div className="space-y-2">
           <label className="text-sm font-medium text-slate-300">Province / Territory</label>
           <select
             value={province}
@@ -277,16 +316,6 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <span className="text-sm font-medium text-emerald-300">{pdfFile.name}</span>
-                <button
-                  type="button"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setShowPdfPreview(true);
-                  }}
-                  className="text-xs text-slate-400 hover:text-slate-200 transition-colors"
-                >
-                  Preview
-                </button>
                 <button
                   type="button"
                   onClick={(e) => { e.stopPropagation(); setPdfFile(null); }}
@@ -345,30 +374,6 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
           'Analyze Standards Adjustment'
         )}
       </button>
-
-      {showPdfPreview && pdfPreviewUrl && (
-        <div className="fixed inset-0 z-[120] flex items-center justify-center bg-black/75 p-3">
-          <div className="flex h-[90vh] w-[min(70rem,96vw)] flex-col overflow-hidden rounded-xl border border-white/15 bg-slate-950 shadow-2xl">
-            <div className="flex items-center justify-between border-b border-white/10 px-4 py-3">
-              <p className="truncate text-sm font-medium text-slate-200">
-                {pdfFile?.name ?? 'PDF Preview'}
-              </p>
-              <button
-                type="button"
-                onClick={() => setShowPdfPreview(false)}
-                className="rounded-md border border-white/20 px-3 py-1 text-xs font-medium text-slate-200 transition hover:bg-white/10"
-              >
-                Close
-              </button>
-            </div>
-            <iframe
-              title="Uploaded PDF preview"
-              src={pdfPreviewUrl}
-              className="h-full w-full bg-slate-900"
-            />
-          </div>
-        </div>
-      )}
     </motion.form>
   );
 }

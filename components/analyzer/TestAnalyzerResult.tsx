@@ -1,241 +1,70 @@
 'use client';
 
-import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { ANALYZER_SCHOOL_OPTIONS, type AnalyzerSchoolOption } from '@/lib/all-schools';
 
 interface AnalysisResult {
   estimatedDifficulty: number;
   adjustmentFactor: number;
-  rationale: string;
-  curriculumAlignment?: string;
-  questionStyle?: string;
-  questionCount?: number;
   classAverage?: number;
   province?: string;
+  selectedAgent?: string;
+  agentLabel?: string;
+  autoApplied?: boolean;
+  autoAppliedSchoolId?: string;
+  autoAppliedSchoolName?: string;
+  autoAppliedMAdj?: number;
+  autoAppliedError?: string;
 }
 
 export function TestAnalyzerResult({ result, onReset }: { result: AnalysisResult, onReset: () => void }) {
-  const [schoolSearch, setSchoolSearch] = useState('');
-  const [selectedSchool, setSelectedSchool] = useState<AnalyzerSchoolOption | null>(null);
-  const [saveStatus, setSaveStatus] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
-  const [showDropdown, setShowDropdown] = useState(false);
-  const [savedMAdj, setSavedMAdj] = useState<number | null>(null);
-
-  const isInflated = result.adjustmentFactor < 0;
-  const isDeflated = result.adjustmentFactor > 0;
-
-  let statusColor = 'text-amber-400';
-  let statusBg = 'bg-amber-400/10 border-amber-400/20';
-  let statusLabel = 'Standard Average';
-
-  if (isInflated) {
-    statusColor = 'text-rose-400';
-    statusBg = 'bg-rose-500/10 border-rose-500/20';
-    statusLabel = 'Grade Inflation Detected';
-  } else if (isDeflated) {
-    statusColor = 'text-emerald-400';
-    statusBg = 'bg-emerald-500/10 border-emerald-500/20';
-    statusLabel = 'Standardized Deflation';
-  }
-
-  const filteredSchools = useMemo(() => {
-    if (!schoolSearch.trim()) return [];
-    const q = schoolSearch.toLowerCase();
-    return ANALYZER_SCHOOL_OPTIONS.filter(s =>
-      s.schoolName.toLowerCase().includes(q) || s.city.toLowerCase().includes(q)
-    ).slice(0, 8);
-  }, [schoolSearch]);
-
-  const handleSelectSchool = (school: AnalyzerSchoolOption) => {
-    setSelectedSchool(school);
-    setSchoolSearch(school.schoolName);
-    setShowDropdown(false);
-    setSaveStatus('idle');
-  };
-
-  const handleSave = async () => {
-    if (!selectedSchool) return;
-    setSaveStatus('saving');
-    try {
-      const res = await fetch('/api/school-adjustment', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          schoolId: selectedSchool.id,
-          estimatedDifficulty: result.estimatedDifficulty,
-          classAverage: result.classAverage,
-          province: result.province ?? selectedSchool.province,
-        }),
-      });
-      if (!res.ok) throw new Error('Failed to save');
-      const json = await res.json();
-      setSavedMAdj(json.mAdj ?? null);
-      setSaveStatus('saved');
-      window.dispatchEvent(new CustomEvent('school-adjustment-updated'));
-    } catch {
-      setSaveStatus('error');
-    }
-  };
-
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
       className="space-y-6 rounded-2xl border border-slate-700 bg-slate-900 p-8 shadow-2xl relative overflow-hidden"
     >
-      {/* Decorative background glow */}
-      <div className={`absolute top-0 right-0 -mr-16 -mt-16 w-48 h-48 rounded-full blur-[80px] opacity-20 ${
-        isInflated ? 'bg-rose-500' : isDeflated ? 'bg-emerald-500' : 'bg-amber-500'
-      }`} />
+      <div className="absolute top-0 right-0 -mr-16 -mt-16 h-48 w-48 rounded-full bg-cyan-500 blur-[80px] opacity-15" />
 
-      <div className="flex justify-between items-start relative z-10">
-        <div>
-          <h3 className="text-xl font-medium text-slate-100 mb-1">Analysis Complete</h3>
-          <p className="text-sm text-slate-400">AXIOM AI Evaluation</p>
-        </div>
-        <div className={`px-3 py-1 rounded-full text-xs font-medium border ${statusBg} ${statusColor}`}>
-          {statusLabel}
+      <div className="relative z-10">
+        <h3 className="mb-1 text-xl font-medium text-slate-100">Analysis Complete</h3>
+        <p className="text-sm text-slate-400">AXIOM AI Evaluation</p>
+        {result.agentLabel && (
+          <p className="mt-1 text-xs text-cyan-300/90">Routed via {result.agentLabel}</p>
+        )}
+      </div>
+
+      <div className="relative z-10 rounded-xl border border-slate-800 bg-slate-950/50 p-5">
+        <span className="mb-2 block text-xs uppercase tracking-wider text-slate-500">Inherent Difficulty</span>
+        <div className="flex items-baseline gap-1">
+          <span className="text-4xl font-bold text-slate-100">{result.estimatedDifficulty.toFixed(1)}</span>
+          <span className="text-slate-500 text-sm">/ 10</span>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 relative z-10 py-4">
-        <div className="flex flex-col border-l-2 border-slate-800 pl-4">
-          <span className="text-slate-500 text-xs uppercase tracking-wider mb-1">Inherent Difficulty</span>
-          <div className="flex items-baseline gap-1">
-            <span className="text-3xl font-bold text-slate-200">{result.estimatedDifficulty.toFixed(1)}</span>
-            <span className="text-slate-500 text-sm">/ 10</span>
-          </div>
-        </div>
-
-        <div className="flex flex-col border-l-2 border-slate-800 pl-4">
-          <span className="text-slate-500 text-xs uppercase tracking-wider mb-1">Adjustment Factor</span>
-          <div className="flex items-baseline gap-1">
-            <span className={`text-3xl font-bold ${statusColor}`}>
-              {result.adjustmentFactor > 0 ? '+' : ''}{result.adjustmentFactor.toFixed(1)}
-            </span>
-            <span className="text-slate-500 text-sm">%</span>
-          </div>
-        </div>
-      </div>
-
-      {(result.questionStyle || result.questionCount != null) && (
-        <div className="flex flex-wrap items-center gap-2 relative z-10">
-          {result.questionCount != null && (
-            <>
-              <span className="text-slate-500 text-xs uppercase tracking-wider">Questions</span>
-              <span className="rounded-full border border-slate-700 bg-slate-800 px-3 py-1 text-xs font-medium text-slate-200">
-                {result.questionCount}
-              </span>
-            </>
-          )}
-          {result.questionStyle && (
-            <>
-              <span className="text-slate-500 text-xs uppercase tracking-wider">Detected Style</span>
-              <span className="rounded-full border border-slate-700 bg-slate-800 px-3 py-1 text-xs font-medium text-slate-200">
-                {result.questionStyle}
-              </span>
-            </>
-          )}
-        </div>
-      )}
-
-      <div className="rounded-xl bg-slate-950/50 border border-slate-800/50 p-4 relative z-10">
-        <span className="text-slate-500 text-xs uppercase tracking-wider block mb-2">AI Rationale</span>
-        <p className="text-slate-300 text-sm leading-relaxed">
-          {result.rationale}
-        </p>
-      </div>
-
-      {result.curriculumAlignment && (
-        <div className="rounded-xl bg-slate-950/50 border border-slate-800/50 p-4 relative z-10">
-          <span className="text-slate-500 text-xs uppercase tracking-wider block mb-2">Curriculum Alignment</span>
-          <p className="text-slate-300 text-sm leading-relaxed">
-            {result.curriculumAlignment}
+      {result.autoApplied === true && (
+        <div className="relative z-10 space-y-1 rounded-xl border border-emerald-700/40 bg-emerald-900/20 px-4 py-3 text-xs text-emerald-300">
+          <p className="font-semibold text-emerald-200">
+            Auto-saved to {result.autoAppliedSchoolName ?? 'selected school'} ✓
+          </p>
+          <p>
+            Updated difficulty:{' '}
+            <span className="font-mono font-bold text-emerald-200">{result.estimatedDifficulty.toFixed(1)}/10</span>
           </p>
         </div>
       )}
 
-      {/* Apply to School */}
-      <div className="rounded-xl border border-slate-700/60 bg-slate-800/50 p-4 relative z-10 space-y-3">
-        <div>
-          <span className="text-slate-300 text-sm font-medium block mb-0.5">Apply to School</span>
-          <span className="text-slate-500 text-xs">
-            Save this adjustment factor ({result.adjustmentFactor > 0 ? '+' : ''}{result.adjustmentFactor.toFixed(1)}%) to a school's profile on the map
-          </span>
+      {result.autoApplied === false && result.autoAppliedError && (
+        <div className="relative z-10 rounded-xl border border-rose-800/40 bg-rose-950/20 px-4 py-3 text-xs text-rose-300">
+          Auto-save failed: {result.autoAppliedError}
         </div>
-
-        <div className="relative">
-          <input
-            type="text"
-            value={schoolSearch}
-            onChange={e => { setSchoolSearch(e.target.value); setShowDropdown(true); setSelectedSchool(null); setSaveStatus('idle'); }}
-            onFocus={() => setShowDropdown(true)}
-            placeholder="Search school name or city..."
-            className="w-full rounded-lg border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm text-slate-200 outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
-          />
-          {showDropdown && filteredSchools.length > 0 && (
-            <ul className="absolute z-50 mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 shadow-xl max-h-48 overflow-y-auto">
-              {filteredSchools.map(school => (
-                <li
-                  key={school.id}
-                  onClick={() => handleSelectSchool(school)}
-                  className="flex items-center justify-between px-4 py-2.5 text-sm cursor-pointer hover:bg-slate-800 transition-colors"
-                >
-                  <span className="text-slate-200 font-medium">{school.schoolName}</span>
-                  <span className="text-slate-500 text-xs ml-2">{school.city}, {school.province}</span>
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-
-        <button
-          onClick={handleSave}
-          disabled={!selectedSchool || saveStatus === 'saving' || saveStatus === 'saved'}
-          className={`flex w-full items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-medium transition-colors ${
-            saveStatus === 'saved'
-              ? 'bg-emerald-900/50 border border-emerald-700/50 text-emerald-400 cursor-default'
-              : saveStatus === 'error'
-              ? 'bg-rose-900/30 border border-rose-700/50 text-rose-400'
-              : !selectedSchool
-              ? 'bg-slate-800 text-slate-500 cursor-not-allowed'
-              : 'bg-emerald-600 hover:bg-emerald-500 text-white'
-          }`}
-        >
-          {saveStatus === 'saving' && (
-            <svg className="h-4 w-4 animate-spin" viewBox="0 0 24 24">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-            </svg>
-          )}
-          {saveStatus === 'saved' ? `✓ Saved to ${selectedSchool?.schoolName}` :
-           saveStatus === 'error' ? 'Error saving — try again' :
-           saveStatus === 'saving' ? 'Saving...' :
-           selectedSchool ? `Save to ${selectedSchool.schoolName}` : 'Select a school first'}
-        </button>
-
-        {saveStatus === 'saved' && savedMAdj != null && result.classAverage != null && (
-          <div className="rounded-lg border border-emerald-700/40 bg-emerald-900/20 px-4 py-3 text-xs text-emerald-300 space-y-1">
-            <p className="font-semibold text-emerald-200">Standardized result saved ✓</p>
-            <p>
-              Raw class avg: <span className="font-mono font-bold text-white">{result.classAverage.toFixed(1)}%</span>
-              {' '}→ Adjusted: <span className="font-mono font-bold text-emerald-300">{savedMAdj.toFixed(1)}%</span>
-            </p>
-            <p className="text-emerald-500">
-              M_adj = {result.classAverage.toFixed(1)} + 2×(Dt−5) + 1.5×(S−S_avg)
-            </p>
-          </div>
-        )}
-      </div>
+      )}
 
       <button
         onClick={onReset}
-        className="w-full text-center py-3 text-sm font-medium text-slate-400 hover:text-slate-200 transition-colors"
+        className="w-full py-3 text-center text-sm font-medium text-slate-400 transition-colors hover:text-slate-200"
       >
         Analyze Another Test
       </button>
-
     </motion.div>
   );
 }
