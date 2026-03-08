@@ -198,7 +198,7 @@ export default function BackboardQuestionBox() {
         <button
           type="button"
           onClick={() => setOpen((value) => !value)}
-          className="rounded-xl border border-white/20 bg-slate-900/60 px-3 py-5 text-[11px] font-medium uppercase tracking-[0.14em] text-zinc-100 shadow-xl shadow-black/45 backdrop-blur-xl transition hover:bg-slate-800/65"
+          className="rounded-xl border border-white/20 bg-slate-900/60 px-3 py-5 text-[11px] font-medium uppercase tracking-[0.14em] text-zinc-100 shadow-xl shadow-black/45 backdrop-blur-xl transition hover:bg-slate-900/80"
           aria-expanded={open}
           aria-label="Toggle school agent"
         >

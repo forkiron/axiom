@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { promises as fs } from 'fs';
 import path from 'path';
 
+export const dynamic = 'force-dynamic';
+
 // ── School data imports ──────────────────────────────────────────────────────
 import bcSchoolDataset from '../../../lib/data/bc-school-rankings.json';
 import abSchoolDataset from '../../../lib/data/ab-school-rankings.json';

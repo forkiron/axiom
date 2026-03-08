@@ -331,10 +331,17 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const [adjustmentOverrides, setAdjustmentOverrides] = useState<Record<string, { adjustmentFactor: number; estimatedDifficulty?: number; mAdj?: number }>>({});
 
   useEffect(() => {
-    fetch('/api/school-adjustment')
-      .then(r => r.ok ? r.json() : {})
-      .then(data => setAdjustmentOverrides(data))
-      .catch(() => {});
+    const fetchAdjustments = () => {
+      fetch('/api/school-adjustment')
+        .then(r => r.ok ? r.json() : {})
+        .then(data => setAdjustmentOverrides(data))
+        .catch(() => {});
+    };
+
+    fetchAdjustments();
+
+    window.addEventListener('school-adjustment-updated', fetchAdjustments);
+    return () => window.removeEventListener('school-adjustment-updated', fetchAdjustments);
   }, []);
   const token = MAPBOX_TOKEN.trim();
   const hasMapboxToken =
