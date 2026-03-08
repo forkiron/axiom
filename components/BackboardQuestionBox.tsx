@@ -185,7 +185,7 @@ export default function BackboardQuestionBox() {
 
   return (
     <div className="fixed bottom-4 left-1/2 z-50 w-[min(95vw,760px)] -translate-x-1/2">
-      <div className="flex justify-end gap-2">
+      <div className="flex items-center justify-center gap-2">
         {open && (
           <button
             type="button"
@@ -198,7 +198,7 @@ export default function BackboardQuestionBox() {
         <button
           type="button"
           onClick={() => setOpen((value) => !value)}
-          className="rounded-full border border-slate-300/20 bg-slate-100 px-4 py-2 text-sm font-semibold text-black transition hover:bg-white"
+          className="rounded-xl border border-white/15 bg-zinc-950/95 px-3 py-5 text-[11px] font-medium uppercase tracking-[0.14em] text-zinc-200 shadow-xl backdrop-blur-sm transition hover:bg-zinc-900"
           aria-expanded={open}
           aria-label="Toggle school agent"
         >
