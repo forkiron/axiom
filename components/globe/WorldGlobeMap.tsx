@@ -1104,9 +1104,9 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
               <span>Max: {maxSchoolRating.toFixed(1)}</span>
             </div>
             <div className="relative mt-1 h-8">
-              <div className="pointer-events-none absolute inset-x-0 top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-white/20" />
+              <div className="pointer-events-none absolute inset-x-0 top-1/2 h-1 -translate-y-1/2 rounded-full bg-white/25" />
               <div
-                className="pointer-events-none absolute top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-emerald-400/85"
+                className="pointer-events-none absolute top-1/2 h-1 -translate-y-1/2 rounded-full bg-white/90"
                 style={{
                   left: `${minRatingPercent}%`,
                   right: `${100 - maxRatingPercent}%`,
@@ -1126,7 +1126,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
                     setMaxSchoolRating(nextMin);
                   }
                 }}
-                className="pointer-events-none absolute inset-0 z-20 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-black/60 [&::-moz-range-thumb]:bg-emerald-300 [&::-moz-range-thumb]:shadow [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-black/60 [&::-webkit-slider-thumb]:bg-emerald-300 [&::-webkit-slider-thumb]:shadow"
+                className="pointer-events-none absolute inset-0 z-20 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-white/80 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:shadow-[0_0_10px_rgba(255,255,255,0.35)] [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-white/80 [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow-[0_0_10px_rgba(255,255,255,0.35)]"
               />
               <input
                 id="school-max-rating-filter"
@@ -1142,7 +1142,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
                     setMinSchoolRating(nextMax);
                   }
                 }}
-                className="pointer-events-none absolute inset-0 z-10 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-black/60 [&::-moz-range-thumb]:bg-amber-300 [&::-moz-range-thumb]:shadow [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-black/60 [&::-webkit-slider-thumb]:bg-amber-300 [&::-webkit-slider-thumb]:shadow"
+                className="pointer-events-none absolute inset-0 z-10 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-white/80 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:shadow-[0_0_10px_rgba(255,255,255,0.35)] [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-white/80 [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow-[0_0_10px_rgba(255,255,255,0.35)]"
               />
             </div>
             <p className="mt-1 text-[10px] text-slate-400">
