@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export interface BcSchoolRecord {
@@ -29,9 +30,33 @@ interface SchoolDetailsPanelProps {
 }
 
 export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment, adjustmentCount }: SchoolDetailsPanelProps) {
+  const [isResetting, setIsResetting] = useState(false);
+  const [resetError, setResetError] = useState<string | null>(null);
+
   const af = adjustment?.adjustmentFactor;
   const isInflated = af != null && af < 0;
   const isDeflated = af != null && af > 0;
+
+  const handleReset = async () => {
+    if (!school?.id) return;
+    setIsResetting(true);
+    setResetError(null);
+    try {
+      const res = await fetch('/api/school-adjustment/reset', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ schoolId: school.id })
+      });
+      if (!res.ok) throw new Error('Failed to reset');
+      
+      // Dispatch an event to WorldGlobeMap to reload adjustments
+      window.dispatchEvent(new Event('school-adjustments-updated'));
+    } catch (e: any) {
+      setResetError(e.message ?? 'Error resetting data');
+    } finally {
+      setIsResetting(false);
+    }
+  };
 
   return (
     <AnimatePresence>
@@ -141,8 +166,20 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment
                   </div>
                 )}
                 {adjustmentCount != null && adjustmentCount > 0 && (
-                  <div className="mt-1.5 text-[11px] uppercase tracking-[0.1em] text-zinc-500">
-                    Based on {adjustmentCount} {adjustmentCount === 1 ? 'analysis' : 'analyses'}
+                  <div className="mt-3 flex items-center justify-between border-t border-white/5 pt-3">
+                    <div className="text-[11px] uppercase tracking-[0.1em] text-zinc-500">
+                      Based on {adjustmentCount} {adjustmentCount === 1 ? 'analysis' : 'analyses'}
+                    </div>
+                    <div className="flex flex-col items-end">
+                      <button
+                        onClick={handleReset}
+                        disabled={isResetting}
+                        className="text-xs text-rose-400 hover:text-rose-300 transition-colors disabled:opacity-50 underline decoration-rose-400/30 underline-offset-2"
+                      >
+                        {isResetting ? 'Resetting...' : 'Reset to default'}
+                      </button>
+                      {resetError && <span className="text-[10px] text-rose-500 mt-0.5">{resetError}</span>}
+                    </div>
                   </div>
                 )}
               </div>
