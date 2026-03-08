@@ -1,0 +1,748 @@
+province,school_name,city,rank_2024,rank_5yr,trend,overall_rating_2024,overall_rating_5yr,source
+ON,St. Robert,Thornhill,1,2,—,10.0,9.4,compareschoolrankings.org
+ON,St. Therese of Lisieux,Richmond Hill,1,3,up,10.0,9.4,compareschoolrankings.org
+ON,St. Augustine,Markham,1,4,up,10.0,9.3,compareschoolrankings.org
+ON,St Michael’s Choir,Toronto,1,n/a,n/a,10.0,n/a,compareschoolrankings.org
+ON,Ursula Franklin,Toronto,5,1,—,9.7,9.5,compareschoolrankings.org
+ON,Pierre Elliott Trudeau,Markham,6,8,up,9.5,9.0,compareschoolrankings.org
+ON,Olive Grove High School,Mississauga,7,n/a,n/a,9.4,n/a,compareschoolrankings.org
+ON,Iroquois Ridge,Oakville,8,9,up,9.3,9.0,compareschoolrankings.org
+ON,Cardinal Carter-Arts,Toronto,8,10,up,9.3,9.0,compareschoolrankings.org
+ON,Abbey Park,Oakville,8,14,up,9.3,8.8,compareschoolrankings.org
+ON,Gaétan Gervais,Oakville,8,25,up,9.3,8.4,compareschoolrankings.org
+ON,Oakville Trafalgar,Oakville,12,6,—,9.2,9.1,compareschoolrankings.org
+ON,Bayview,Richmond Hill,12,11,—,9.2,9.0,compareschoolrankings.org
+ON,Bloor,Toronto,12,39,up,9.2,8.3,compareschoolrankings.org
+ON,Leaside,Toronto,15,15,up,9.1,8.8,compareschoolrankings.org
+ON,Lawrence Park,Toronto,15,20,up,9.1,8.5,compareschoolrankings.org
+ON,Malvern,Toronto,15,21,up,9.1,8.5,compareschoolrankings.org
+ON,Humberside,Toronto,18,28,up,9.0,8.4,compareschoolrankings.org
+ON,Collège Français,Toronto,18,53,—,9.0,8.1,compareschoolrankings.org
+ON,York Mills,Toronto,18,n/a,n/a,9.0,n/a,compareschoolrankings.org
+ON,Markville,Markham,18,7,—,9.0,9.1,compareschoolrankings.org
+ON,Unionville,Unionville,18,12,—,9.0,8.9,compareschoolrankings.org
+ON,Colonel By,Gloucester,23,5,—,8.9,9.2,compareschoolrankings.org
+ON,Bur Oak,Markham,23,13,—,8.9,8.8,compareschoolrankings.org
+ON,Earl Haig,Toronto,23,21,—,8.9,8.5,compareschoolrankings.org
+ON,A Y Jackson,Toronto,23,30,—,8.9,8.4,compareschoolrankings.org
+ON,Thornlea,Thornhill,23,40,up,8.9,8.3,compareschoolrankings.org
+ON,ISNA High School,Mississauga,23,n/a,n/a,8.9,n/a,compareschoolrankings.org
+ON,Milliken Mills,Unionville,29,26,up,8.8,8.4,compareschoolrankings.org
+ON,White Oaks,Oakville,29,26,—,8.8,8.4,compareschoolrankings.org
+ON,Toronto Ouest,Toronto,29,51,—,8.8,8.1,compareschoolrankings.org
+ON,John Fraser SS,Mississauga,29,n/a,n/a,8.8,n/a,compareschoolrankings.org
+ON,London Central,London,33,16,—,8.7,8.8,compareschoolrankings.org
+ON,William Lyon Mackenzie,Toronto,33,19,—,8.7,8.7,compareschoolrankings.org
+ON,Sir John A Macdonald,Waterloo,33,42,—,8.7,8.2,compareschoolrankings.org
+ON,Riverdale,Toronto,33,46,up,8.7,8.2,compareschoolrankings.org
+ON,Bishop Allen,Toronto,33,59,up,8.7,8.0,compareschoolrankings.org
+ON,Richview,Toronto,33,71,—,8.7,7.8,compareschoolrankings.org
+ON,Earl of March,Kanata,39,18,—,8.6,8.7,compareschoolrankings.org
+ON,Father John Redmond,Toronto,39,46,—,8.6,8.2,compareschoolrankings.org
+ON,Lo-Ellen Park,Sudbury,39,79,up,8.6,7.8,compareschoolrankings.org
+ON,Garth Webb,Oakville,42,21,—,8.5,8.5,compareschoolrankings.org
+ON,Father Michael McGivney,Markham,42,44,up,8.5,8.2,compareschoolrankings.org
+ON,Newmarket,Newmarket,42,51,up,8.5,8.1,compareschoolrankings.org
+ON,Alexander MacKenzie,Richmond Hill,42,68,up,8.5,7.9,compareschoolrankings.org
+ON,North Toronto,Toronto,46,17,—,8.4,8.8,compareschoolrankings.org
+ON,Aurora,Aurora,46,35,—,8.4,8.3,compareschoolrankings.org
+ON,Agincourt,Toronto,46,37,—,8.4,8.3,compareschoolrankings.org
+ON,Donald A. Wilson,Whitby,46,50,—,8.4,8.1,compareschoolrankings.org
+ON,Cardinal Carter,Leamington,46,90,—,8.4,7.7,compareschoolrankings.org
+ON,David Saint-Jacques,Kitchener,46,n/a,n/a,8.4,n/a,compareschoolrankings.org
+ON,Richmond Hill,Richmond Hill,52,24,—,8.3,8.5,compareschoolrankings.org
+ON,Bill Hogarth,Markham,52,33,—,8.3,8.4,compareschoolrankings.org
+ON,West Carleton,Dunrobin,52,36,—,8.3,8.3,compareschoolrankings.org
+ON,Dr G W Williams,Aurora,52,43,—,8.3,8.2,compareschoolrankings.org
+ON,Nepean,Ottawa,52,44,—,8.3,8.2,compareschoolrankings.org
+ON,Bill Crothers,Unionville,52,49,up,8.3,8.1,compareschoolrankings.org
+ON,Markham,Markham,52,54,—,8.3,8.1,compareschoolrankings.org
+ON,Richmond Green,Richmond Hill,52,68,—,8.3,7.9,compareschoolrankings.org
+ON,Erin,Erin,52,74,—,8.3,7.8,compareschoolrankings.org
+ON,St.-Trinité,Oakville,52,76,up,8.3,7.8,compareschoolrankings.org
+ON,Norval-Morrisseau,Richmond Hill,52,106,—,8.3,7.6,compareschoolrankings.org
+ON,Lockerby,Sudbury,52,114,—,8.3,7.5,compareschoolrankings.org
+ON,The Woodlands School,Mississauga,52,n/a,n/a,8.3,n/a,compareschoolrankings.org
+ON,Etobicoke-Arts,Toronto,65,31,—,8.2,8.4,compareschoolrankings.org
+ON,St. Thomas of Villanova,LaSalle,65,37,—,8.2,8.3,compareschoolrankings.org
+ON,Merivale,Nepean,65,46,—,8.2,8.2,compareschoolrankings.org
+ON,Guelph,Guelph,65,57,up,8.2,8.1,compareschoolrankings.org
+ON,Bishop Macdonell,Guelph,65,59,—,8.2,8.0,compareschoolrankings.org
+ON,Stephen Lewis,Thornhill,65,59,—,8.2,8.0,compareschoolrankings.org
+ON,Sacred Heart,Stittsville,65,71,—,8.2,7.8,compareschoolrankings.org
+ON,Bishop Paul Francis Reding,Milton,65,76,—,8.2,7.8,compareschoolrankings.org
+ON,Nelson,Burlington,65,79,—,8.2,7.8,compareschoolrankings.org
+ON,Thornhill,Thornhill,65,81,—,8.2,7.8,compareschoolrankings.org
+ON,Northern,Toronto,65,82,up,8.2,7.7,compareschoolrankings.org
+ON,St. Joseph,Mississauga,65,101,up,8.2,7.6,compareschoolrankings.org
+ON,St. Thomas Aquinas,Oakville,65,104,—,8.2,7.6,compareschoolrankings.org
+ON,Jeanne-Lajoie,Pembroke,65,109,—,8.2,7.6,compareschoolrankings.org
+ON,Lisgar,Ottawa,79,34,down,8.1,8.3,compareschoolrankings.org
+ON,St. Ignatius of Loyola,Oakville,79,54,—,8.1,8.1,compareschoolrankings.org
+ON,Vaughan,Thornhill,79,64,—,8.1,8.0,compareschoolrankings.org
+ON,Thomas A Blakelock,Oakville,79,74,—,8.1,7.8,compareschoolrankings.org
+ON,Renaissance,Aurora,79,97,—,8.1,7.7,compareschoolrankings.org
+ON,Corpus Christi,Burlington,79,111,—,8.1,7.6,compareschoolrankings.org
+ON,Etobicoke,Toronto,79,149,up,8.1,7.3,compareschoolrankings.org
+ON,Centennial,Guelph,86,40,—,8.0,8.3,compareschoolrankings.org
+ON,St. Francis Xavier,Mississauga,86,62,—,8.0,8.0,compareschoolrankings.org
+ON,Rosedale Heights-Arts,Toronto,86,62,—,8.0,8.0,compareschoolrankings.org
+ON,Milton,Milton,86,86,up,8.0,7.7,compareschoolrankings.org
+ON,Dr. Frank J. Hayden,Burlington,86,100,up,8.0,7.6,compareschoolrankings.org
+ON,St. David,Waterloo,86,120,—,8.0,7.5,compareschoolrankings.org
+ON,Oakridge,London,86,125,—,8.0,7.5,compareschoolrankings.org
+ON,Monarch Park,Toronto,86,180,up,8.0,7.1,compareschoolrankings.org
+ON,St. Paul,Niagara Falls,86,258,up,8.0,6.6,compareschoolrankings.org
+ON,All Saints,Kanata,95,31,—,7.9,8.4,compareschoolrankings.org
+ON,St. Marcellinus,Mississauga,95,54,—,7.9,8.1,compareschoolrankings.org
+ON,Tecumseh Vista,Tecumseh,95,67,—,7.9,7.9,compareschoolrankings.org
+ON,Westmount,Thornhill,95,68,—,7.9,7.9,compareschoolrankings.org
+ON,St. Benedict,Sudbury,95,82,—,7.9,7.7,compareschoolrankings.org
+ON,W A Porter,Toronto,95,86,—,7.9,7.7,compareschoolrankings.org
+ON,Dr Norman Bethune,Toronto,95,90,—,7.9,7.7,compareschoolrankings.org
+ON,Jean Vanier,Richmond Hill,95,118,—,7.9,7.5,compareschoolrankings.org
+ON,Garneau,Gloucester,95,128,—,7.9,7.5,compareschoolrankings.org
+ON,St. Brother André,Markham,95,131,up,7.9,7.4,compareschoolrankings.org
+ON,All Saints,Whitby,95,134,up,7.9,7.4,compareschoolrankings.org
+ON,Anderson,Whitby,95,175,up,7.9,7.1,compareschoolrankings.org
+ON,Al-Manarat Islamic School,Mississauga,95,n/a,n/a,7.9,n/a,compareschoolrankings.org
+ON,Canterbury HS,Ottawa,95,n/a,n/a,7.9,n/a,compareschoolrankings.org
+ON,Streetsville SS,Mississauga,95,n/a,n/a,7.9,n/a,compareschoolrankings.org
+ON,Ange-Gabriel,Brockville,95,28,—,7.9,8.4,compareschoolrankings.org
+ON,Eden,St Catharines,111,57,—,7.8,8.1,compareschoolrankings.org
+ON,A.Y. Jackson,Kanata,111,82,—,7.8,7.7,compareschoolrankings.org
+ON,St. Michael,Kemptville,111,109,—,7.8,7.6,compareschoolrankings.org
+ON,Jeunes sans frontières,Brampton,111,137,—,7.8,7.4,compareschoolrankings.org
+ON,St. Thomas Aquinas,London,111,144,—,7.8,7.3,compareschoolrankings.org
+ON,Pickering,Ajax,111,150,—,7.8,7.3,compareschoolrankings.org
+ON,Roméo Dallaire,Barrie,111,324,—,7.8,6.2,compareschoolrankings.org
+ON,ÉSC Pape-François,Stouffville,111,n/a,n/a,7.8,n/a,compareschoolrankings.org
+ON,St.-Frère-André,Toronto,119,66,—,7.7,7.9,compareschoolrankings.org
+ON,Notre Dame,Toronto,119,93,—,7.7,7.7,compareschoolrankings.org
+ON,John F Ross,Guelph,119,93,—,7.7,7.7,compareschoolrankings.org
+ON,St. Paul,Mississauga,119,106,—,7.7,7.6,compareschoolrankings.org
+ON,St. Aloysius Gonzaga,Mississauga,119,111,—,7.7,7.6,compareschoolrankings.org
+ON,Marc-Garneau,Trenton,119,128,—,7.7,7.5,compareschoolrankings.org
+ON,Belle River,Belle River,119,144,up,7.7,7.3,compareschoolrankings.org
+ON,Neil McNeil,Toronto,119,152,up,7.7,7.3,compareschoolrankings.org
+ON,Assumption,Burlington,119,159,—,7.7,7.2,compareschoolrankings.org
+ON,E L Crossley,Fonthill,119,181,up,7.7,7.1,compareschoolrankings.org
+ON,Georgetown,Georgetown,119,183,up,7.7,7.1,compareschoolrankings.org
+ON,Maple,Maple,130,82,—,7.6,7.7,compareschoolrankings.org
+ON,Aldershot,Burlington,130,106,—,7.6,7.6,compareschoolrankings.org
+ON,Cardinal Carter,Aurora,130,126,—,7.6,7.5,compareschoolrankings.org
+ON,Bishop Tonnos,Ancaster,130,128,—,7.6,7.5,compareschoolrankings.org
+ON,A N Myer,Niagara Falls,130,133,—,7.6,7.4,compareschoolrankings.org
+ON,Holy Names,Windsor,130,142,—,7.6,7.3,compareschoolrankings.org
+ON,Mer Bleue,Orléans,130,152,up,7.6,7.3,compareschoolrankings.org
+ON,Assumption,Windsor,130,159,up,7.6,7.2,compareschoolrankings.org
+ON,Loretto Abbey,Toronto,130,191,—,7.6,7.0,compareschoolrankings.org
+ON,Father Bressani,Woodbridge,130,207,up,7.6,6.9,compareschoolrankings.org
+ON,Highland,Dundas,130,232,—,7.6,6.7,compareschoolrankings.org
+ON,Lorne Park SS,Mississauga,130,n/a,n/a,7.6,n/a,compareschoolrankings.org
+ON,Paul-Desmarais,Ottawa,142,73,down,7.5,7.8,compareschoolrankings.org
+ON,St. Joseph,Nepean,142,76,—,7.5,7.8,compareschoolrankings.org
+ON,Harbord,Toronto,142,99,—,7.5,7.6,compareschoolrankings.org
+ON,Glebe,Ottawa,142,101,—,7.5,7.6,compareschoolrankings.org
+ON,Cameron Heights,Kitchener,142,120,—,7.5,7.5,compareschoolrankings.org
+ON,Béatrice-Desloges,Orléans,142,152,—,7.5,7.3,compareschoolrankings.org
+ON,Forest Hill,Toronto,142,152,—,7.5,7.3,compareschoolrankings.org
+ON,St. Francis,St Catharines,142,191,—,7.5,7.0,compareschoolrankings.org
+ON,Middlefield,Markham,150,97,down,7.4,7.7,compareschoolrankings.org
+ON,St. Anne,Tecumseh,150,114,—,7.4,7.5,compareschoolrankings.org
+ON,Burlington Central,Burlington,150,131,—,7.4,7.4,compareschoolrankings.org
+ON,Sir Winston Churchill,St Catharines,150,134,—,7.4,7.4,compareschoolrankings.org
+ON,Brooklin,Whitby,150,152,—,7.4,7.3,compareschoolrankings.org
+ON,Kitchener Waterloo,Kitchener,150,214,up,7.4,6.9,compareschoolrankings.org
+ON,Cardinal Newman,Stoney Creek,150,239,—,7.4,6.7,compareschoolrankings.org
+ON,de Casselman,Casselman,150,258,—,7.4,6.6,compareschoolrankings.org
+ON,Holy Trinity,Kanata,158,86,—,7.3,7.7,compareschoolrankings.org
+ON,Marie-Rivier,Kingston,158,86,—,7.3,7.7,compareschoolrankings.org
+ON,Westmount,Hamilton,158,118,—,7.3,7.5,compareschoolrankings.org
+ON,St. Mark,Manotick,158,122,—,7.3,7.5,compareschoolrankings.org
+ON,St. Joseph’s,Renfrew,158,137,—,7.3,7.4,compareschoolrankings.org
+ON,A B Lucas,London,158,137,—,7.3,7.4,compareschoolrankings.org
+ON,St.-Famille,Mississauga,158,140,—,7.3,7.4,compareschoolrankings.org
+ON,Dunbarton,Pickering,158,144,—,7.3,7.3,compareschoolrankings.org
+ON,R H King,Toronto,158,144,—,7.3,7.3,compareschoolrankings.org
+ON,Centre Wellington,Fergus,158,152,—,7.3,7.3,compareschoolrankings.org
+ON,Senator O’Connor,Toronto,158,172,up,7.3,7.2,compareschoolrankings.org
+ON,Sinclair,Whitby,158,183,—,7.3,7.1,compareschoolrankings.org
+ON,Sydenham,Sydenham,158,207,up,7.3,6.9,compareschoolrankings.org
+ON,St. Marys,St Marys,158,214,—,7.3,6.9,compareschoolrankings.org
+ON,Northern,Sarnia,158,222,—,7.3,6.8,compareschoolrankings.org
+ON,Le Sommet,Hawkesbury,158,248,—,7.3,6.7,compareschoolrankings.org
+ON,Bishop Smith,Pembroke,158,264,—,7.3,6.6,compareschoolrankings.org
+ON,North Dundas,Chesterville,158,265,—,7.3,6.5,compareschoolrankings.org
+ON,Holy Cross,St Catharines,158,308,—,7.3,6.3,compareschoolrankings.org
+ON,Almonte,Almonte,158,329,up,7.3,6.2,compareschoolrankings.org
+ON,John McCrae,Nepean,178,65,down,7.2,7.9,compareschoolrankings.org
+ON,Holy Name of Mary,Brampton,178,90,—,7.2,7.7,compareschoolrankings.org
+ON,Mary Ward,Toronto,178,93,—,7.2,7.7,compareschoolrankings.org
+ON,St. Joseph’s,Toronto,178,111,—,7.2,7.6,compareschoolrankings.org
+ON,Mother Teresa,Nepean,178,122,down,7.2,7.5,compareschoolrankings.org
+ON,Sandwich,LaSalle,178,144,—,7.2,7.3,compareschoolrankings.org
+ON,Stouffville,Stouffville,178,159,—,7.2,7.2,compareschoolrankings.org
+ON,St. Elizabeth,Thornhill,178,166,—,7.2,7.2,compareschoolrankings.org
+ON,Père-René-de-Galinée,Cambridge,178,169,—,7.2,7.2,compareschoolrankings.org
+ON,J Clarke Richardson,Ajax,178,177,—,7.2,7.1,compareschoolrankings.org
+ON,Marshall McLuhan,Toronto,178,194,—,7.2,7.0,compareschoolrankings.org
+ON,St. Mary’s,Hamilton,178,194,—,7.2,7.0,compareschoolrankings.org
+ON,Sacred Heart,Newmarket,178,198,—,7.2,7.0,compareschoolrankings.org
+ON,St. Mary’s,Brockville,178,207,—,7.2,6.9,compareschoolrankings.org
+ON,Governor Simcoe,St Catharines,178,213,—,7.2,6.9,compareschoolrankings.org
+ON,Gabriel-Dumont,London,178,235,—,7.2,6.7,compareschoolrankings.org
+ON,Francis Libermann,Toronto,178,248,—,7.2,6.7,compareschoolrankings.org
+ON,Étienne-Brûlé,Toronto,178,254,—,7.2,6.6,compareschoolrankings.org
+ON,Lambton Central,Petrolia,178,288,up,7.2,6.4,compareschoolrankings.org
+ON,Mayfield SS,Caledon,178,n/a,n/a,7.2,n/a,compareschoolrankings.org
+ON,North Park SS,Brampton,178,n/a,n/a,7.2,n/a,compareschoolrankings.org
+ON,Port Credit SS,Mississauga,178,n/a,n/a,7.2,n/a,compareschoolrankings.org
+ON,West Niagara Secondary,Lincoln,178,n/a,n/a,7.2,n/a,compareschoolrankings.org
+ON,Notre Dame,Ajax,201,222,up,7.1,6.8,compareschoolrankings.org
+ON,St. Joseph’s,Windsor,201,232,—,7.1,6.7,compareschoolrankings.org
+ON,St. Maximilian Kolbe,Aurora,201,239,—,7.1,6.7,compareschoolrankings.org
+ON,St. Mary,Pickering,201,239,—,7.1,6.7,compareschoolrankings.org
+ON,Albert Campbell,Toronto,201,254,—,7.1,6.6,compareschoolrankings.org
+ON,St. Mary,Cobourg,201,265,up,7.1,6.5,compareschoolrankings.org
+ON,Kincardine,Kincardine,201,333,—,7.1,6.2,compareschoolrankings.org
+ON,Georges-P-Vanier,Hamilton,201,494,up,7.1,5.1,compareschoolrankings.org
+ON,Cawthra Park SS,Mississauga,201,n/a,n/a,7.1,n/a,compareschoolrankings.org
+ON,Turner Fenton SS,Brampton,201,n/a,n/a,7.1,n/a,compareschoolrankings.org
+ON,Tommy Douglas,Woodbridge,201,104,down,7.1,7.6,compareschoolrankings.org
+ON,Holy Trinity,Oakville,201,126,—,7.1,7.5,compareschoolrankings.org
+ON,Mother Teresa,London,201,152,—,7.1,7.3,compareschoolrankings.org
+ON,Pierre-Savard,Nepean,201,165,down,7.1,7.2,compareschoolrankings.org
+ON,Michael Power/St. Joseph,Toronto,201,169,—,7.1,7.2,compareschoolrankings.org
+ON,Blessed Trinity,Grimsby,201,177,—,7.1,7.1,compareschoolrankings.org
+ON,Samuel-Genest,Ottawa,201,202,—,7.1,7.0,compareschoolrankings.org
+ON,St. Michael,Niagara Falls,201,210,—,7.1,6.9,compareschoolrankings.org
+ON,St. Patrick,Toronto,201,217,—,7.1,6.9,compareschoolrankings.org
+ON,Marymount,Sudbury,220,114,—,7.0,7.5,compareschoolrankings.org
+ON,Longfields Davidson Heights,Nepean,220,114,down,7.0,7.5,compareschoolrankings.org
+ON,Christ the King,Georgetown,220,159,—,7.0,7.2,compareschoolrankings.org
+ON,Eastview,Barrie,220,159,down,7.0,7.2,compareschoolrankings.org
+ON,Loyola,Mississauga,220,172,—,7.0,7.2,compareschoolrankings.org
+ON,Bluevale,Waterloo,220,181,—,7.0,7.1,compareschoolrankings.org
+ON,Ancaster,Ancaster,220,183,—,7.0,7.1,compareschoolrankings.org
+ON,Don Mills,Toronto,220,188,—,7.0,7.1,compareschoolrankings.org
+ON,St. Michael,Stratford,220,222,up,7.0,6.8,compareschoolrankings.org
+ON,Frontenac,Kingston,220,246,—,7.0,6.7,compareschoolrankings.org
+ON,Glengarry,Alexandria,220,277,—,7.0,6.5,compareschoolrankings.org
+ON,Holy Cross,Kingston,220,279,—,7.0,6.5,compareschoolrankings.org
+ON,Sir Oliver Mowat,Toronto,220,279,—,7.0,6.5,compareschoolrankings.org
+ON,Barrie North,Barrie,220,284,up,7.0,6.4,compareschoolrankings.org
+ON,Acton,Acton,220,292,—,7.0,6.4,compareschoolrankings.org
+ON,Hawkesbury,Hawkesbury,220,318,—,7.0,6.2,compareschoolrankings.org
+ON,Brampton Centennial SS,Brampton,220,n/a,n/a,7.0,n/a,compareschoolrankings.org
+ON,Mille-Iles,Kingston,220,n/a,n/a,7.0,n/a,compareschoolrankings.org
+ON,Vincent Massey,Windsor,238,134,down,6.9,7.4,compareschoolrankings.org
+ON,St. Matthew,Orléans,238,140,down,6.9,7.4,compareschoolrankings.org
+ON,Cardinal Ambrozic,Brampton,238,166,—,6.9,7.2,compareschoolrankings.org
+ON,Maxwell Heights,Oshawa,238,169,—,6.9,7.2,compareschoolrankings.org
+ON,Our Lady of Mount Carmel,Mississauga,238,196,—,6.9,7.0,compareschoolrankings.org
+ON,Brockville,Brockville,238,217,—,6.9,6.9,compareschoolrankings.org
+ON,Resurrection,Kitchener,238,222,—,6.9,6.8,compareschoolrankings.org
+ON,Martingrove,Toronto,238,228,up,6.9,6.8,compareschoolrankings.org
+ON,Regiopolis/Notre-Dame,Kingston,238,231,—,6.9,6.8,compareschoolrankings.org
+ON,St. Josephs Morrow Park,Toronto,238,234,—,6.9,6.7,compareschoolrankings.org
+ON,Assumption,Brantford,238,248,—,6.9,6.7,compareschoolrankings.org
+ON,Sacred Heart,Walkerton,238,265,—,6.9,6.5,compareschoolrankings.org
+ON,Georgian Bay,Meaford,238,362,—,6.9,6.0,compareschoolrankings.org
+ON,St. John,Perth,238,396,—,6.9,5.8,compareschoolrankings.org
+ON,Gravenhurst,Gravenhurst,238,398,up,6.9,5.8,compareschoolrankings.org
+ON,Odyssée,North Bay,238,n/a,n/a,6.9,n/a,compareschoolrankings.org
+ON,Maurice-Lapointe,Kanata,254,93,—,6.8,7.7,compareschoolrankings.org
+ON,Uxbridge,Uxbridge,254,103,down,6.8,7.6,compareschoolrankings.org
+ON,Henry Street,Whitby,254,183,—,6.8,7.1,compareschoolrankings.org
+ON,Charlottenburgh and Lancaster,Williamstown,254,196,—,6.8,7.0,compareschoolrankings.org
+ON,Notre Dame,Carleton Place,254,198,—,6.8,7.0,compareschoolrankings.org
+ON,Atikokan,Atikokan,254,201,—,6.8,7.0,compareschoolrankings.org
+ON,Craig Kielburger,Milton,254,202,—,6.8,7.0,compareschoolrankings.org
+ON,Franco-Ouest,Nepean,254,219,—,6.8,6.8,compareschoolrankings.org
+ON,Notre Dame,Brampton,254,248,—,6.8,6.7,compareschoolrankings.org
+ON,St. Andre Bessette,London,254,248,—,6.8,6.7,compareschoolrankings.org
+ON,Embrun,Embrun,254,262,—,6.8,6.6,compareschoolrankings.org
+ON,St. Benedict,Cambridge,254,271,—,6.8,6.5,compareschoolrankings.org
+ON,Pickering,Pickering,254,278,—,6.8,6.5,compareschoolrankings.org
+ON,Western,Toronto,254,324,up,6.8,6.2,compareschoolrankings.org
+ON,Innisdale,Barrie,254,346,—,6.8,6.1,compareschoolrankings.org
+ON,St. Charles,Sudbury,254,396,—,6.8,5.8,compareschoolrankings.org
+ON,Wellington Heights,Mount Forest,254,403,up,6.8,5.8,compareschoolrankings.org
+ON,Thorold,Thorold,254,486,—,6.8,5.1,compareschoolrankings.org
+ON,Confédération,Welland,254,n/a,n/a,6.8,n/a,compareschoolrankings.org
+ON,Glenforest SS,Mississauga,254,n/a,n/a,6.8,n/a,compareschoolrankings.org
+ON,Harold M. Brathwaite,Brampton,254,n/a,n/a,6.8,n/a,compareschoolrankings.org
+ON,South Carleton,Richmond,275,122,down,6.7,7.5,compareschoolrankings.org
+ON,St. Francis Xavier,Gloucester,275,159,—,6.7,7.2,compareschoolrankings.org
+ON,Northview Heights,Toronto,275,190,down,6.7,7.1,compareschoolrankings.org
+ON,Emily Carr,Woodbridge,275,191,—,6.7,7.0,compareschoolrankings.org
+ON,Bracebridge and Muskoka Lakes,Bracebridge,275,210,—,6.7,6.9,compareschoolrankings.org
+ON,Arnprior,Arnprior,275,235,—,6.7,6.7,compareschoolrankings.org
+ON,St. Peter’s,Peterborough,275,245,—,6.7,6.7,compareschoolrankings.org
+ON,Laura Secord,St Catharines,275,246,—,6.7,6.7,compareschoolrankings.org
+ON,King City,King City,275,254,—,6.7,6.6,compareschoolrankings.org
+ON,Westdale,Hamilton,275,265,—,6.7,6.5,compareschoolrankings.org
+ON,Pope John Paul II,Toronto,275,272,up,6.7,6.5,compareschoolrankings.org
+ON,Centennial,Welland,275,297,—,6.7,6.4,compareschoolrankings.org
+ON,Franco-Cité,Ottawa,275,308,—,6.7,6.3,compareschoolrankings.org
+ON,Central Commerce,Toronto,275,353,up,6.7,6.0,compareschoolrankings.org
+ON,Georges Vanier,Toronto,275,363,—,6.7,6.0,compareschoolrankings.org
+ON,St. Theresa,Belleville,275,434,—,6.7,5.5,compareschoolrankings.org
+ON,Elmvale,Elmvale,275,463,—,6.7,5.3,compareschoolrankings.org
+ON,Chinguacousy SS,BRAMPTON,275,n/a,n/a,6.7,n/a,compareschoolrankings.org
+ON,Mississauga Secondary,Mississauga,275,n/a,n/a,6.7,n/a,compareschoolrankings.org
+ON,Louis-Riel,Gloucester,294,142,down,6.6,7.3,compareschoolrankings.org
+ON,St.-Charles-Garnier,Whitby,294,168,—,6.6,7.2,compareschoolrankings.org
+ON,St. John’s,Brantford,294,210,—,6.6,6.9,compareschoolrankings.org
+ON,St. Ignatius,Thunder Bay,294,220,—,6.6,6.8,compareschoolrankings.org
+ON,Immaculata,Ottawa,294,228,—,6.6,6.8,compareschoolrankings.org
+ON,Sir William Mulock,Newmarket,294,239,—,6.6,6.7,compareschoolrankings.org
+ON,Ursuline (The Pines),Chatham,294,254,—,6.6,6.6,compareschoolrankings.org
+ON,Victoria Park,Toronto,294,274,—,6.6,6.5,compareschoolrankings.org
+ON,Nicholson,Belleville,294,297,—,6.6,6.4,compareschoolrankings.org
+ON,Port Perry,Port Perry,294,317,—,6.6,6.2,compareschoolrankings.org
+ON,Glenview Park,Cambridge,294,385,—,6.6,5.9,compareschoolrankings.org
+ON,Bayridge,Kingston,294,393,—,6.6,5.8,compareschoolrankings.org
+ON,Our Lady Of the Lake C.H.S.,Keswick,294,n/a,n/a,6.6,n/a,compareschoolrankings.org
+ON,Jordan Christian,Lincoln,294,n/a,n/a,6.6,n/a,compareschoolrankings.org
+ON,Humberview Secondary,Bolton,294,n/a,n/a,6.6,n/a,compareschoolrankings.org
+ON,Peninsula Shores District,Wiarton,294,n/a,n/a,6.6,n/a,compareschoolrankings.org
+ON,Maple Ridge,Barrie,294,n/a,n/a,6.6,n/a,compareschoolrankings.org
+ON,Port Colborne,Port Colborne,311,515,—,6.5,4.9,compareschoolrankings.org
+ON,Elsie MacGill Secondary,Milton,311,n/a,n/a,6.5,n/a,compareschoolrankings.org
+ON,Notre Dame,Burlington,311,206,—,6.5,6.9,compareschoolrankings.org
+ON,Gisèle-Lalonde,Orléans,311,214,—,6.5,6.9,compareschoolrankings.org
+ON,Jean Vanier,Milton,311,220,—,6.5,6.8,compareschoolrankings.org
+ON,St. Peter,Orléans,311,239,—,6.5,6.7,compareschoolrankings.org
+ON,Collingwood,Collingwood,311,258,—,6.5,6.6,compareschoolrankings.org
+ON,Owen Sound,Owen Sound,311,265,—,6.5,6.5,compareschoolrankings.org
+ON,St. Joseph’s,St Thomas,311,279,—,6.5,6.5,compareschoolrankings.org
+ON,M M Robinson,Burlington,311,292,—,6.5,6.4,compareschoolrankings.org
+ON,Parkdale,Toronto,311,292,—,6.5,6.4,compareschoolrankings.org
+ON,Jean Vanier,Collingwood,311,300,—,6.5,6.3,compareschoolrankings.org
+ON,Denis Morris,St Catharines,311,307,—,6.5,6.3,compareschoolrankings.org
+ON,de-Lamothe-Cadillac,Windsor,311,338,—,6.5,6.1,compareschoolrankings.org
+ON,Hagersville,Hagersville,311,466,up,6.5,5.3,compareschoolrankings.org
+ON,Elmira,Elmira,326,151,down,6.4,7.3,compareschoolrankings.org
+ON,Father Leo J Austin,Whitby,326,172,down,6.4,7.2,compareschoolrankings.org
+ON,R. S. McLaughlin,Oshawa,326,279,—,6.4,6.5,compareschoolrankings.org
+ON,Bowmanville,Bowmanville,326,300,—,6.4,6.3,compareschoolrankings.org
+ON,Huntsville,Huntsville,326,304,—,6.4,6.3,compareschoolrankings.org
+ON,Nouvelle-Alliance,Barrie,326,308,—,6.4,6.3,compareschoolrankings.org
+ON,Gananoque,Gananoque,326,318,—,6.4,6.2,compareschoolrankings.org
+ON,Lakeshore,Port Colborne,326,328,—,6.4,6.2,compareschoolrankings.org
+ON,Central Huron,Clinton,326,438,up,6.4,5.5,compareschoolrankings.org
+ON,Rockland,Rockland,326,477,—,6.4,5.2,compareschoolrankings.org
+ON,Kateri Tekakwitha Catholic,Milton,326,n/a,n/a,6.4,n/a,compareschoolrankings.org
+ON,Pierre-de-Blois,Nepean,326,n/a,n/a,6.4,n/a,compareschoolrankings.org
+ON,De La Salle,Ottawa,338,183,—,6.3,7.1,compareschoolrankings.org
+ON,Saugeen,Port Elgin,338,188,down,6.3,7.1,compareschoolrankings.org
+ON,Medway,Arva,338,228,—,6.3,6.8,compareschoolrankings.org
+ON,Woodbridge,Woodbridge,338,258,—,6.3,6.6,compareschoolrankings.org
+ON,Huron Heights,Kitchener,338,265,—,6.3,6.5,compareschoolrankings.org
+ON,St. Pius X,Ottawa,338,300,—,6.3,6.3,compareschoolrankings.org
+ON,Westlane,Niagara Falls,338,318,—,6.3,6.2,compareschoolrankings.org
+ON,North Park,Brantford,338,353,—,6.3,6.0,compareschoolrankings.org
+ON,Silverthorn,Toronto,338,368,—,6.3,6.0,compareschoolrankings.org
+ON,L’Académie de la Seigneurie,Casselman,338,n/a,n/a,6.3,n/a,compareschoolrankings.org
+ON,Castlebrooke Secondary,Brampton,338,n/a,n/a,6.3,n/a,compareschoolrankings.org
+ON,St. Thomas Aquinas,Russell,349,175,down,6.2,7.1,compareschoolrankings.org
+ON,St. Edmund Campion,Brampton,349,202,down,6.2,7.0,compareschoolrankings.org
+ON,St. Paul,Ottawa,349,222,—,6.2,6.8,compareschoolrankings.org
+ON,Waterloo,Waterloo,349,262,down,6.2,6.6,compareschoolrankings.org
+ON,Lord Dorchester,Dorchester,349,279,—,6.2,6.5,compareschoolrankings.org
+ON,Monseigneur-de-Charbonnel,Toronto,349,284,—,6.2,6.4,compareschoolrankings.org
+ON,West Humber,Toronto,349,318,—,6.2,6.2,compareschoolrankings.org
+ON,Sir Wilfrid Laurier,Toronto,349,342,—,6.2,6.1,compareschoolrankings.org
+ON,Notre Dame,Welland,349,346,up,6.2,6.1,compareschoolrankings.org
+ON,Brebeuf,Toronto,349,360,—,6.2,6.0,compareschoolrankings.org
+ON,Cardinal Newman,Toronto,349,403,—,6.2,5.8,compareschoolrankings.org
+ON,Simcoe,Simcoe,349,424,—,6.2,5.6,compareschoolrankings.org
+ON,Iona SS,Mississauga,349,n/a,n/a,6.2,n/a,compareschoolrankings.org
+ON,Erindale SS,MISSISSAUGA,349,n/a,n/a,6.2,n/a,compareschoolrankings.org
+ON,ÉS de la Rivière des Français,Noëlville,349,n/a,n/a,6.2,n/a,compareschoolrankings.org
+ON,Kingston,Kingston,349,n/a,n/a,6.2,n/a,compareschoolrankings.org
+ON,Sandalwood Heights,Brampton,349,n/a,n/a,6.2,n/a,compareschoolrankings.org
+ON,Superior CVI,Thunder Bay,349,n/a,n/a,6.2,n/a,compareschoolrankings.org
+ON,Sir Robert Borden,Nepean,367,177,down,6.1,7.1,compareschoolrankings.org
+ON,Sir John A Macdonald,Toronto,367,235,—,6.1,6.7,compareschoolrankings.org
+ON,Sir Wilfrid Laurier,Orléans,367,235,—,6.1,6.7,compareschoolrankings.org
+ON,MacKenzie,Deep River,367,288,—,6.1,6.4,compareschoolrankings.org
+ON,Grand River,Kitchener,367,304,—,6.1,6.3,compareschoolrankings.org
+ON,St. Marguerite d’Youville,Brampton,367,308,down,6.1,6.3,compareschoolrankings.org
+ON,Walkerville,Windsor,367,324,—,6.1,6.2,compareschoolrankings.org
+ON,Monsignor Doyle,Cambridge,367,333,—,6.1,6.2,compareschoolrankings.org
+ON,St. Mary’s,Kitchener,367,338,—,6.1,6.1,compareschoolrankings.org
+ON,St. Joseph’s,Cornwall,367,342,—,6.1,6.1,compareschoolrankings.org
+ON,Holy Cross,Woodbridge,367,345,—,6.1,6.1,compareschoolrankings.org
+ON,Holy Cross,Peterborough,367,349,—,6.1,6.1,compareschoolrankings.org
+ON,Banting Memorial,Alliston,367,349,—,6.1,6.1,compareschoolrankings.org
+ON,St. Stephen’s,Bowmanville,367,353,—,6.1,6.0,compareschoolrankings.org
+ON,DSBN Academy,St Catharines,367,353,—,6.1,6.0,compareschoolrankings.org
+ON,St. Jean de Brebeuf,Woodbridge,367,360,—,6.1,6.0,compareschoolrankings.org
+ON,Huron Heights,Newmarket,367,371,—,6.1,6.0,compareschoolrankings.org
+ON,St.-François-Xavier,Sarnia,367,400,—,6.1,5.8,compareschoolrankings.org
+ON,Parkside,St Thomas,367,438,up,6.1,5.5,compareschoolrankings.org
+ON,St. Thomas More,Hamilton,367,458,—,6.1,5.4,compareschoolrankings.org
+ON,St.-Marie,New Liskeard,367,475,—,6.1,5.2,compareschoolrankings.org
+ON,Hammarskjold HS,Thunder Bay,367,n/a,n/a,6.1,n/a,compareschoolrankings.org
+ON,Meadowvale SS,Mississauga,367,n/a,n/a,6.1,n/a,compareschoolrankings.org
+ON,Waterdown,Waterdown,390,288,—,6.0,6.4,compareschoolrankings.org
+ON,St. Patrick’s,Sarnia,390,353,—,6.0,6.0,compareschoolrankings.org
+ON,Riverside,Windsor,390,363,—,6.0,6.0,compareschoolrankings.org
+ON,Thousand Islands,Brockville,390,414,up,6.0,5.7,compareschoolrankings.org
+ON,St. Joan of Arc,Maple,390,423,up,6.0,5.6,compareschoolrankings.org
+ON,Norwell,Palmerston,390,444,—,6.0,5.5,compareschoolrankings.org
+ON,Fenelon Falls,Fenelon Falls,390,451,up,6.0,5.4,compareschoolrankings.org
+ON,John Diefenbaker,Hanover,390,489,—,6.0,5.1,compareschoolrankings.org
+ON,Philippe-Lamarche,Toronto,390,n/a,n/a,6.0,n/a,compareschoolrankings.org
+ON,Louise Arbour S.S.,Brampton,390,n/a,n/a,6.0,n/a,compareschoolrankings.org
+ON,Stephen Lewis SS,Mississauga,390,n/a,n/a,6.0,n/a,compareschoolrankings.org
+ON,Philip Pocock,Mississauga,401,198,—,5.9,7.0,compareschoolrankings.org
+ON,Cairine Wilson,Ottawa,401,222,down,5.9,6.8,compareschoolrankings.org
+ON,St. Joan of Arc,Mississauga,401,239,down,5.9,6.7,compareschoolrankings.org
+ON,E.J.Lajeunesse,Windsor,401,253,down,5.9,6.6,compareschoolrankings.org
+ON,Sir Frederick Banting,London,401,274,—,5.9,6.5,compareschoolrankings.org
+ON,Archbishop Denis O’Connor,Ajax,401,284,—,5.9,6.4,compareschoolrankings.org
+ON,Osgoode Township,Metcalfe,401,284,—,5.9,6.4,compareschoolrankings.org
+ON,Waterloo-Oxford,Baden,401,292,down,5.9,6.4,compareschoolrankings.org
+ON,Preston,Cambridge,401,308,down,5.9,6.3,compareschoolrankings.org
+ON,Hearst,Hearst,401,342,—,5.9,6.1,compareschoolrankings.org
+ON,Cardinal Leger,Brampton,401,346,—,5.9,6.1,compareschoolrankings.org
+ON,St. James,Guelph,401,353,—,5.9,6.0,compareschoolrankings.org
+ON,Bishop Ryan,Hamilton,401,374,—,5.9,5.9,compareschoolrankings.org
+ON,Galt,Cambridge,401,374,—,5.9,5.9,compareschoolrankings.org
+ON,St. Joan of Arc,Barrie,401,409,—,5.9,5.7,compareschoolrankings.org
+ON,James Cardinal McGuigan,Toronto,401,419,—,5.9,5.6,compareschoolrankings.org
+ON,Lindsay,Lindsay,401,438,—,5.9,5.5,compareschoolrankings.org
+ON,Valour,Petawawa,401,465,—,5.9,5.3,compareschoolrankings.org
+ON,Cayuga,Cayuga,401,470,—,5.9,5.3,compareschoolrankings.org
+ON,Newtonbrook,Toronto,401,539,—,5.9,4.7,compareschoolrankings.org
+ON,North Star High School,Amherstburg,401,n/a,n/a,5.9,n/a,compareschoolrankings.org
+ON,Bruce Peninsula,Lion’s Head,422,n/a,n/a,5.8,n/a,compareschoolrankings.org
+ON,Central Peel SS,Brampton,422,n/a,n/a,5.8,n/a,compareschoolrankings.org
+ON,Kingsville,Kingsville,422,272,—,5.8,6.5,compareschoolrankings.org
+ON,Bradford,Bradford,422,296,—,5.8,6.4,compareschoolrankings.org
+ON,Holy Trinity,Simcoe,422,318,down,5.8,6.2,compareschoolrankings.org
+ON,North Grenville,Kemptville,422,318,—,5.8,6.2,compareschoolrankings.org
+ON,F J Brennan,Windsor,422,324,—,5.8,6.2,compareschoolrankings.org
+ON,Plantagenet,Plantagenet,422,353,—,5.8,6.0,compareschoolrankings.org
+ON,Woodstock,Woodstock,422,382,—,5.8,5.9,compareschoolrankings.org
+ON,Danforth,Toronto,422,383,—,5.8,5.9,compareschoolrankings.org
+ON,St. Thomas Aquinas,Kenora,422,390,—,5.8,5.8,compareschoolrankings.org
+ON,La Salle,Kingston,422,412,—,5.8,5.7,compareschoolrankings.org
+ON,South Huron,Exeter,422,424,—,5.8,5.6,compareschoolrankings.org
+ON,St. Mary’s,Owen Sound,422,451,—,5.8,5.4,compareschoolrankings.org
+ON,Holy Cross,Strathroy,422,461,up,5.8,5.3,compareschoolrankings.org
+ON,Eastwood,Kitchener,422,481,—,5.8,5.2,compareschoolrankings.org
+ON,Grey Highlands,Flesherton,422,569,—,5.8,4.4,compareschoolrankings.org
+ON,Windsor Islamic,Windsor,422,n/a,n/a,5.8,n/a,compareschoolrankings.org
+ON,St. Paul,Trenton,440,300,—,5.7,6.3,compareschoolrankings.org
+ON,Courtice,Courtice,440,304,down,5.7,6.3,compareschoolrankings.org
+ON,O’Neill,Oshawa,440,329,—,5.7,6.2,compareschoolrankings.org
+ON,Carleton Place,Carleton Place,440,333,—,5.7,6.2,compareschoolrankings.org
+ON,Renfrew,Renfrew,440,338,down,5.7,6.1,compareschoolrankings.org
+ON,East Northumberland,Brighton,440,374,—,5.7,5.9,compareschoolrankings.org
+ON,Bayside,Belleville,440,385,—,5.7,5.9,compareschoolrankings.org
+ON,Jacob Hespeler,Cambridge,440,393,—,5.7,5.8,compareschoolrankings.org
+ON,Loretto,Toronto,440,407,—,5.7,5.7,compareschoolrankings.org
+ON,Crestwood,Peterborough,440,415,—,5.7,5.6,compareschoolrankings.org
+ON,Sudbury,Sudbury,440,427,—,5.7,5.6,compareschoolrankings.org
+ON,Centre Hastings,Madoc,440,517,—,5.7,4.9,compareschoolrankings.org
+ON,Russel High,Russell,440,522,—,5.7,4.8,compareschoolrankings.org
+ON,Dr John M Denison,Newmarket,453,308,—,5.6,6.3,compareschoolrankings.org
+ON,Vankleek Hill,Vankleek Hill,453,315,—,5.6,6.3,compareschoolrankings.org
+ON,Cobourg,Cobourg,453,315,down,5.6,6.3,compareschoolrankings.org
+ON,Essex,Essex,453,329,down,5.6,6.2,compareschoolrankings.org
+ON,Orangeville,Orangeville,453,333,down,5.6,6.2,compareschoolrankings.org
+ON,I E Weldon,Lindsay,453,338,—,5.6,6.1,compareschoolrankings.org
+ON,Southwood,Cambridge,453,349,—,5.6,6.1,compareschoolrankings.org
+ON,St. Michael,Bolton,453,368,—,5.6,6.0,compareschoolrankings.org
+ON,Goderich,Goderich,453,368,—,5.6,6.0,compareschoolrankings.org
+ON,Central Elgin,St Thomas,453,371,—,5.6,6.0,compareschoolrankings.org
+ON,Catholic Central,London,453,390,down,5.6,5.8,compareschoolrankings.org
+ON,Woburn,Toronto,453,409,—,5.6,5.7,compareschoolrankings.org
+ON,St. Anne’s,Clinton,453,411,—,5.6,5.7,compareschoolrankings.org
+ON,de la Verendrye,Thunder Bay,453,415,—,5.6,5.6,compareschoolrankings.org
+ON,Monsignor Paul Dwyer,Oshawa,453,427,—,5.6,5.6,compareschoolrankings.org
+ON,Dryden,Dryden,453,457,—,5.6,5.4,compareschoolrankings.org
+ON,North Lambton,Forest,453,474,up,5.6,5.2,compareschoolrankings.org
+ON,Saunders,London,453,494,—,5.6,5.1,compareschoolrankings.org
+ON,Loyalist,Kingston,453,500,—,5.6,5.0,compareschoolrankings.org
+ON,Walkerton,Walkerton,453,500,—,5.6,5.0,compareschoolrankings.org
+ON,Franco-Cité,Sturgeon Falls,453,515,—,5.6,4.9,compareschoolrankings.org
+ON,Port Hope,Port Hope,453,531,up,5.6,4.7,compareschoolrankings.org
+ON,Monsignor John Pereyma,Oshawa,453,554,up,5.6,4.5,compareschoolrankings.org
+ON,Heart Lake SS,Brampton,453,n/a,n/a,5.6,n/a,compareschoolrankings.org
+ON,Westgate C & VI,Thunder Bay,453,n/a,n/a,5.6,n/a,compareschoolrankings.org
+ON,St. Roch,Brampton,478,274,—,5.5,6.5,compareschoolrankings.org
+ON,Monseigneur-Bruyère,London,478,288,—,5.5,6.4,compareschoolrankings.org
+ON,Westside,Orangeville,478,329,down,5.5,6.2,compareschoolrankings.org
+ON,Orillia,Orillia,478,366,—,5.5,6.0,compareschoolrankings.org
+ON,Greater Fort Erie,Fort Erie,478,379,—,5.5,5.9,compareschoolrankings.org
+ON,Timiskaming District,New Liskeard,478,400,—,5.5,5.8,compareschoolrankings.org
+ON,Strathroy District,Strathroy,478,405,—,5.5,5.7,compareschoolrankings.org
+ON,West Ferris,North Bay,478,419,—,5.5,5.6,compareschoolrankings.org
+ON,East York,Toronto,478,444,—,5.5,5.5,compareschoolrankings.org
+ON,St. Joseph’s,Barrie,478,447,—,5.5,5.4,compareschoolrankings.org
+ON,Korah,Sault Ste. Marie,478,455,—,5.5,5.4,compareschoolrankings.org
+ON,Chippewa,North Bay,478,468,—,5.5,5.3,compareschoolrankings.org
+ON,Great Lakes,Sarnia,478,530,—,5.5,4.8,compareschoolrankings.org
+ON,Northern,Sturgeon Falls,478,540,up,5.5,4.7,compareschoolrankings.org
+ON,West Elgin,West Lorne,478,576,—,5.5,4.3,compareschoolrankings.org
+ON,Safa & Marwa Islamic,Mississauga,478,n/a,n/a,5.5,n/a,compareschoolrankings.org
+ON,La Renaissance,Espanola,478,n/a,n/a,5.5,n/a,compareschoolrankings.org
+ON,Fletcher’s Meadow SS,Brampton,478,n/a,n/a,5.5,n/a,compareschoolrankings.org
+ON,Rick Hansen SS,Mississauga,478,n/a,n/a,5.5,n/a,compareschoolrankings.org
+ON,Mitchell,Mitchell,497,205,down,5.4,7.0,compareschoolrankings.org
+ON,Robert F Hall,Caledon East,497,333,—,5.4,6.2,compareschoolrankings.org
+ON,Holy Trinity,Courtice,497,371,—,5.4,6.0,compareschoolrankings.org
+ON,Ajax,Ajax,497,379,—,5.4,5.9,compareschoolrankings.org
+ON,Stratford District,Stratford,497,399,—,5.4,5.8,compareschoolrankings.org
+ON,Hillcrest,Ottawa,497,407,—,5.4,5.7,compareschoolrankings.org
+ON,St. Joseph-Scollard Hall,North Bay,497,419,down,5.4,5.6,compareschoolrankings.org
+ON,St. Dominic,Bracebridge,497,419,—,5.4,5.6,compareschoolrankings.org
+ON,Centre Dufferin,Shelburne,497,430,—,5.4,5.6,compareschoolrankings.org
+ON,Monsignor Percy Johnson,Toronto,497,483,—,5.4,5.1,compareschoolrankings.org
+ON,Centennial,Belleville,497,490,—,5.4,5.1,compareschoolrankings.org
+ON,l’Essor,Tecumseh,497,497,—,5.4,5.1,compareschoolrankings.org
+ON,H B Beal,London,497,513,—,5.4,4.9,compareschoolrankings.org
+ON,Applewood Heights SS,Mississauga,497,n/a,n/a,5.4,n/a,compareschoolrankings.org
+ON,Jean Augustine,Brampton,497,n/a,n/a,5.4,n/a,compareschoolrankings.org
+ON,Peel Virtual Secondary School,Brampton,497,n/a,n/a,5.4,n/a,compareschoolrankings.org
+ON,Orchard Park,Stoney Creek,513,297,down,5.3,6.4,compareschoolrankings.org
+ON,St. Augustine,Brampton,513,377,down,5.3,5.9,compareschoolrankings.org
+ON,Wexford Collegiate-Arts,Toronto,513,383,—,5.3,5.9,compareschoolrankings.org
+ON,London South,London,513,385,—,5.3,5.9,compareschoolrankings.org
+ON,Saltfleet,Stoney Creek,513,405,—,5.3,5.7,compareschoolrankings.org
+ON,Adam Scott,Peterborough,513,415,down,5.3,5.6,compareschoolrankings.org
+ON,St. Patrick,Thunder Bay,513,431,—,5.3,5.6,compareschoolrankings.org
+ON,Brantford,Brantford,513,438,—,5.3,5.5,compareschoolrankings.org
+ON,Haliburton Highland,Haliburton,513,447,—,5.3,5.4,compareschoolrankings.org
+ON,Ingersoll District,Ingersoll,513,490,—,5.3,5.1,compareschoolrankings.org
+ON,L’Amoreaux,Toronto,513,490,—,5.3,5.1,compareschoolrankings.org
+ON,Sir Wilfrid Laurier,London,513,493,—,5.3,5.1,compareschoolrankings.org
+ON,Lambton Kent,Dresden,513,503,—,5.3,5.0,compareschoolrankings.org
+ON,O’Gorman,Timmins,513,527,up,5.3,4.8,compareschoolrankings.org
+ON,Georgian Bay District,Midland,513,540,—,5.3,4.7,compareschoolrankings.org
+ON,Stamford,Niagara Falls,513,573,—,5.3,4.4,compareschoolrankings.org
+ON,Waterford,Waterford,513,595,up,5.3,4.0,compareschoolrankings.org
+ON,Granite Ridge Education Centre,Sharbot Lake,513,n/a,n/a,5.3,n/a,compareschoolrankings.org
+ON,TDSB Virtual Secondary,Toronto,513,n/a,n/a,5.3,n/a,compareschoolrankings.org
+ON,Langstaff,Richmond Hill,532,308,down,5.2,6.3,compareschoolrankings.org
+ON,Listowel,Listowel,532,377,down,5.2,5.9,compareschoolrankings.org
+ON,L’Escale,Rockland,532,379,down,5.2,5.9,compareschoolrankings.org
+ON,Bear Creek,Barrie,532,415,down,5.2,5.6,compareschoolrankings.org
+ON,Holy Trinity,Bradford,532,433,—,5.2,5.5,compareschoolrankings.org
+ON,St. Mary’s,Sault Ste. Marie,532,451,—,5.2,5.4,compareschoolrankings.org
+ON,St. Mary’s,Woodstock,532,458,—,5.2,5.4,compareschoolrankings.org
+ON,Lively,Lively,532,471,—,5.2,5.2,compareschoolrankings.org
+ON,Woodroffe,Ottawa,532,479,—,5.2,5.2,compareschoolrankings.org
+ON,St. Theresa’s,Midland,532,483,—,5.2,5.1,compareschoolrankings.org
+ON,St. Francis Xavier,Hammond,532,499,—,5.2,5.0,compareschoolrankings.org
+ON,Saint-Joseph,Wawa,532,n/a,n/a,5.2,n/a,compareschoolrankings.org
+ON,Minto,Ottawa,532,n/a,n/a,5.2,n/a,compareschoolrankings.org
+ON,Chaminade,Toronto,545,385,down,5.1,5.9,compareschoolrankings.org
+ON,Paris,Paris,545,446,—,5.1,5.4,compareschoolrankings.org
+ON,Lester B Pearson,Toronto,545,456,—,5.1,5.4,compareschoolrankings.org
+ON,Le Relais,Alexandria,545,478,—,5.1,5.2,compareschoolrankings.org
+ON,Jean-Vanier,Welland,545,481,—,5.1,5.2,compareschoolrankings.org
+ON,Roland Michener,South Porcupine,545,567,—,5.1,4.4,compareschoolrankings.org
+ON,ÉS Château Jeunesse,Longlac,545,n/a,n/a,5.1,n/a,compareschoolrankings.org
+ON,Rideau,Elgin,552,435,—,5.0,5.5,compareschoolrankings.org
+ON,Opeongo,Douglas,552,443,—,5.0,5.5,compareschoolrankings.org
+ON,Kenner,Peterborough,552,461,—,5.0,5.3,compareschoolrankings.org
+ON,Campbellford,Campbellford,552,472,—,5.0,5.2,compareschoolrankings.org
+ON,Nottawasaga Pines,Angus,552,488,—,5.0,5.1,compareschoolrankings.org
+ON,Nouveau Regard - Jeunesse Nord,Cochrane,552,509,—,5.0,5.0,compareschoolrankings.org
+ON,Bramalea SS,Brampton,552,n/a,n/a,5.0,n/a,compareschoolrankings.org
+ON,St. Martin,Mississauga,559,385,—,4.9,5.9,compareschoolrankings.org
+ON,Pine Ridge,Pickering,559,435,—,4.9,5.5,compareschoolrankings.org
+ON,Clarington Central,Bowmanville,559,438,—,4.9,5.5,compareschoolrankings.org
+ON,Ascension of Our Lord,Mississauga,559,447,—,4.9,5.4,compareschoolrankings.org
+ON,Nantyr Shores,Innisfil,559,458,down,4.9,5.4,compareschoolrankings.org
+ON,St. Mary’s,Toronto,559,466,—,4.9,5.3,compareschoolrankings.org
+ON,Lakeshore,Toronto,559,521,—,4.9,4.8,compareschoolrankings.org
+ON,Forest Heights,Kitchener,559,531,—,4.9,4.7,compareschoolrankings.org
+ON,Twin Lakes,Orillia,559,547,up,4.9,4.6,compareschoolrankings.org
+ON,Cedarbrae,Toronto,559,551,—,4.9,4.5,compareschoolrankings.org
+ON,Stayner,Stayner,559,559,—,4.9,4.5,compareschoolrankings.org
+ON,Thistletown,Toronto,559,570,—,4.9,4.4,compareschoolrankings.org
+ON,West Hill,Toronto,559,570,up,4.9,4.4,compareschoolrankings.org
+ON,Notre-Dame,Woodstock,559,640,up,4.9,2.7,compareschoolrankings.org
+ON,Holy Trinity,Cornwall,573,363,down,4.8,6.0,compareschoolrankings.org
+ON,St. Thomas Aquinas,Lindsay,573,400,down,4.8,5.8,compareschoolrankings.org
+ON,Le Caron,Penetanguishene,573,451,—,4.8,5.4,compareschoolrankings.org
+ON,Huron Park,Woodstock,573,479,—,4.8,5.2,compareschoolrankings.org
+ON,Lester B Pearson,Gloucester,573,522,—,4.8,4.8,compareschoolrankings.org
+ON,McKinnon Park,Caledonia,573,527,—,4.8,4.8,compareschoolrankings.org
+ON,Blenheim,Blenheim,573,549,—,4.8,4.5,compareschoolrankings.org
+ON,Lasalle,Sudbury,573,559,—,4.8,4.5,compareschoolrankings.org
+ON,Lincoln M. Alexander S.S.,Mississauga,573,n/a,n/a,4.8,n/a,compareschoolrankings.org
+ON,St. Jean de Brebeuf,Hamilton,582,486,—,4.7,5.1,compareschoolrankings.org
+ON,Glendale,Tillsonburg,582,507,—,4.7,5.0,compareschoolrankings.org
+ON,F E Madill,Wingham,582,533,—,4.7,4.7,compareschoolrankings.org
+ON,Tilbury,Tilbury,582,544,—,4.7,4.6,compareschoolrankings.org
+ON,Jean Vanier,Toronto,582,545,—,4.7,4.6,compareschoolrankings.org
+ON,Manitoulin,M’Chigeeng,582,559,—,4.7,4.5,compareschoolrankings.org
+ON,St. Basil The Great,Toronto,582,564,—,4.7,4.4,compareschoolrankings.org
+ON,Catholic Central,Windsor,582,577,—,4.7,4.3,compareschoolrankings.org
+ON,David Suzuki Secondary,Brampton,582,n/a,n/a,4.7,n/a,compareschoolrankings.org
+ON,Our Lady of Lourdes,Guelph,591,349,down,4.6,6.1,compareschoolrankings.org
+ON,Clarke,Newcastle,591,393,—,4.6,5.8,compareschoolrankings.org
+ON,St. Patrick’s,Ottawa,591,431,down,4.6,5.6,compareschoolrankings.org
+ON,St. Peter’s,Barrie,591,494,down,4.6,5.1,compareschoolrankings.org
+ON,Notre Dame,Ottawa,591,500,—,4.6,5.0,compareschoolrankings.org
+ON,Madonna,Toronto,591,510,—,4.6,5.0,compareschoolrankings.org
+ON,Blessed Mother Teresa,Toronto,591,533,—,4.6,4.7,compareschoolrankings.org
+ON,East Elgin,Aylmer,591,533,—,4.6,4.7,compareschoolrankings.org
+ON,Glendale,Hamilton,591,570,—,4.6,4.4,compareschoolrankings.org
+ON,Fellowes,Pembroke,591,589,—,4.6,4.1,compareschoolrankings.org
+ON,Cathedral,Hamilton,591,602,—,4.6,3.8,compareschoolrankings.org
+ON,Oakwood,Toronto,591,605,—,4.6,3.8,compareschoolrankings.org
+ON,Clarkson SS,Mississauga,591,n/a,n/a,4.6,n/a,compareschoolrankings.org
+ON,Echo du Nord,Kapuskasing,591,n/a,n/a,4.6,n/a,compareschoolrankings.org
+ON,Bell,Nepean,605,366,—,4.5,6.0,compareschoolrankings.org
+ON,Perth and District,Perth,605,424,—,4.5,5.6,compareschoolrankings.org
+ON,Chatham-Kent,Chatham,605,435,—,4.5,5.5,compareschoolrankings.org
+ON,St. Thomas Aquinas,Tottenham,605,463,—,4.5,5.3,compareschoolrankings.org
+ON,Thomas A Stewart,Peterborough,605,485,—,4.5,5.1,compareschoolrankings.org
+ON,Keswick,Keswick,605,513,—,4.5,4.9,compareschoolrankings.org
+ON,Brock,Cannington,605,524,down,4.5,4.8,compareschoolrankings.org
+ON,Collège Notre-Dame,Sudbury,605,555,—,4.5,4.5,compareschoolrankings.org
+ON,South Grenville,Prescott,605,556,—,4.5,4.5,compareschoolrankings.org
+ON,Valley Heights,Langton,605,566,—,4.5,4.4,compareschoolrankings.org
+ON,Wallaceburg,Wallaceburg,605,574,—,4.5,4.4,compareschoolrankings.org
+ON,Eastdale,Welland,605,590,—,4.5,4.0,compareschoolrankings.org
+ON,Archbishop Romero,Toronto,605,622,—,4.5,3.2,compareschoolrankings.org
+ON,Kirkland Lake District Composite,Kirkland Lake,605,n/a,n/a,4.5,n/a,compareschoolrankings.org
+ON,North Middlesex DHS,Parkhill,605,n/a,n/a,4.5,n/a,compareschoolrankings.org
+ON,John Cabot,Mississauga,620,390,down,4.4,5.8,compareschoolrankings.org
+ON,L’Héritage,Cornwall,620,413,—,4.4,5.7,compareschoolrankings.org
+ON,Bishop Alexander Carter,Hanmer,620,507,—,4.4,5.0,compareschoolrankings.org
+ON,Stephen Leacock,Toronto,620,510,down,4.4,5.0,compareschoolrankings.org
+ON,l’Horizon,Val Caron,620,519,—,4.4,4.8,compareschoolrankings.org
+ON,Sherwood,Hamilton,620,524,—,4.4,4.8,compareschoolrankings.org
+ON,Father Henry Carr,Toronto,620,526,—,4.4,4.8,compareschoolrankings.org
+ON,Tagwi,Avonmore,620,577,—,4.4,4.3,compareschoolrankings.org
+ON,Theriault,Timmins,620,583,—,4.4,4.2,compareschoolrankings.org
+ON,David and Mary Thomson,Toronto,620,585,—,4.4,4.1,compareschoolrankings.org
+ON,John Polanyi,Toronto,620,594,—,4.4,4.0,compareschoolrankings.org
+ON,St. Catharines,St Catharines,620,627,—,4.4,3.2,compareschoolrankings.org
+ON,ÉS catholique l’Envolée du Nord,Kirkland Lake,620,n/a,n/a,4.4,n/a,compareschoolrankings.org
+ON,Leamington,Leamington,633,472,down,4.3,5.2,compareschoolrankings.org
+ON,Madawaska Valley,Barry’s Bay,633,503,—,4.3,5.0,compareschoolrankings.org
+ON,La Citadelle,Cornwall,633,506,—,4.3,5.0,compareschoolrankings.org
+ON,Bishop Marrocco/Thomas Merton,Toronto,633,519,—,4.3,4.8,compareschoolrankings.org
+ON,Napanee,Napanee,633,533,—,4.3,4.7,compareschoolrankings.org
+ON,Birchmount Park,Toronto,633,543,—,4.3,4.7,compareschoolrankings.org
+ON,Central Algoma,Desbarats,633,580,—,4.3,4.2,compareschoolrankings.org
+ON,Notre-Dame-du-Sault,Sault Ste. Marie,633,n/a,n/a,4.3,n/a,compareschoolrankings.org
+ON,Patrick Fogarty,Orillia,641,447,down,4.2,5.4,compareschoolrankings.org
+ON,St. Thomas Aquinas,Brampton,641,469,down,4.2,5.3,compareschoolrankings.org
+ON,Eastdale,Oshawa,641,533,—,4.2,4.7,compareschoolrankings.org
+ON,Mère-Teresa,Hamilton,641,545,—,4.2,4.6,compareschoolrankings.org
+ON,Moira,Belleville,641,575,—,4.2,4.3,compareschoolrankings.org
+ON,Rainy River,Rainy River,641,604,—,4.2,3.8,compareschoolrankings.org
+ON,Central,Toronto,641,648,up,4.2,2.1,compareschoolrankings.org
+ON,ÉS de Pain Court,Pain Court,641,n/a,n/a,4.2,n/a,compareschoolrankings.org
+ON,Superior Heights,Sault Ste. Marie,649,512,—,4.1,4.9,compareschoolrankings.org
+ON,Jarvis,Toronto,649,557,—,4.1,4.5,compareschoolrankings.org
+ON,Regina Mundi,London,649,580,—,4.1,4.2,compareschoolrankings.org
+ON,Sutton,Sutton West,649,599,—,4.1,3.8,compareschoolrankings.org
+ON,W C Eaket,Blind River,649,615,—,4.1,3.6,compareschoolrankings.org
+ON,Father Michael Goetz,Mississauga,654,475,down,4.0,5.2,compareschoolrankings.org
+ON,Brookfield,Ottawa,654,498,—,4.0,5.1,compareschoolrankings.org
+ON,Confederation,Val Caron,654,551,—,4.0,4.5,compareschoolrankings.org
+ON,John Paul II,London,654,559,—,4.0,4.5,compareschoolrankings.org
+ON,Glencoe,Glencoe,654,559,—,4.0,4.5,compareschoolrankings.org
+ON,Runnymede,Toronto,654,567,—,4.0,4.4,compareschoolrankings.org
+ON,Cité des Jeunes,Kapuskasing,660,529,—,3.9,4.8,compareschoolrankings.org
+ON,Delhi,Delhi,660,533,down,3.9,4.7,compareschoolrankings.org
+ON,Parry Sound,Parry Sound,660,550,—,3.9,4.5,compareschoolrankings.org
+ON,Fort Frances,Fort Frances,660,564,—,3.9,4.4,compareschoolrankings.org
+ON,F J McElligott,Mattawa,660,596,—,3.9,4.0,compareschoolrankings.org
+ON,Athens,Athens,660,624,—,3.9,3.2,compareschoolrankings.org
+ON,Marc Garneau,Toronto,666,503,down,3.8,5.0,compareschoolrankings.org
+ON,Macdonald-Cartier,Sudbury,666,548,down,3.8,4.6,compareschoolrankings.org
+ON,Ernestown,Odessa,666,580,—,3.8,4.2,compareschoolrankings.org
+ON,W F Herman,Windsor,666,583,—,3.8,4.2,compareschoolrankings.org
+ON,G L Roberts,Oshawa,666,608,—,3.8,3.7,compareschoolrankings.org
+ON,Sir Allan MacNab,Hamilton,666,611,—,3.8,3.7,compareschoolrankings.org
+ON,Englehart,Englehart,672,427,down,3.7,5.6,compareschoolrankings.org
+ON,Timmins,Timmins,672,551,down,3.7,4.5,compareschoolrankings.org
+ON,Smiths Falls,Smiths Falls,672,588,—,3.7,4.1,compareschoolrankings.org
+ON,Clarke Road,London,672,620,—,3.7,3.4,compareschoolrankings.org
+ON,Chelmsford Valley,Chelmsford,672,630,—,3.7,3.1,compareschoolrankings.org
+ON,College Avenue,Woodstock,672,634,—,3.7,2.9,compareschoolrankings.org
+ON,Deslauriers,Nepean,678,540,—,3.6,4.7,compareschoolrankings.org
+ON,North Albion,Toronto,678,579,—,3.6,4.2,compareschoolrankings.org
+ON,Seaway,Iroquois,678,592,—,3.6,4.0,compareschoolrankings.org
+ON,Nora Frances Henderson,Hamilton,678,612,—,3.6,3.7,compareschoolrankings.org
+ON,North Hastings,Bancroft,682,590,—,3.5,4.0,compareschoolrankings.org
+ON,Marathon,Marathon,682,597,—,3.5,3.9,compareschoolrankings.org
+ON,Michipicoten,Wawa,682,609,—,3.5,3.7,compareschoolrankings.org
+ON,White Pines,Sault Ste. Marie,682,619,—,3.5,3.5,compareschoolrankings.org
+ON,Downsview,Toronto,682,638,—,3.5,2.8,compareschoolrankings.org
+ON,Nipigon Red Rock,Red Rock,682,639,—,3.5,2.8,compareschoolrankings.org
+ON,North Addington,Cloyne,682,n/a,n/a,3.5,n/a,compareschoolrankings.org
+ON,Beaver Brae,Kenora,689,585,down,3.4,4.1,compareschoolrankings.org
+ON,Dante Alighieri,Toronto,689,600,—,3.4,3.8,compareschoolrankings.org
+ON,Winston Churchill,Toronto,689,618,—,3.4,3.5,compareschoolrankings.org
+ON,Almaguin Highlands,South River,689,621,—,3.4,3.4,compareschoolrankings.org
+ON,Jeunesse-Nord,Blind River,689,n/a,n/a,3.4,n/a,compareschoolrankings.org
+ON,Gloucester,Gloucester,694,602,—,3.3,3.8,compareschoolrankings.org
+ON,Chapleau HS,Chapleau,694,n/a,n/a,3.3,n/a,compareschoolrankings.org
+ON,Thomas L Kennedy SS,Mississauga,694,n/a,n/a,3.3,n/a,compareschoolrankings.org
+ON,John McGregor,Chatham,697,592,down,3.2,4.0,compareschoolrankings.org
+ON,Red Lake,Red Lake,697,601,—,3.2,3.8,compareschoolrankings.org
+ON,Lake Superior,Terrace Bay,697,613,—,3.2,3.6,compareschoolrankings.org
+ON,Montcalm,London,697,637,—,3.2,2.8,compareschoolrankings.org
+ON,Cochrane,Cochrane,697,652,up,3.2,1.5,compareschoolrankings.org
+ON,Algonquin,North Bay,702,518,down,3.1,4.9,compareschoolrankings.org
+ON,Cornwall,Cornwall,702,624,—,3.1,3.2,compareschoolrankings.org
+ON,Weston,Toronto,704,631,—,3.0,3.0,compareschoolrankings.org
+ON,Kipling,Toronto,704,646,—,3.0,2.2,compareschoolrankings.org
+ON,York Memorial,Toronto,706,558,—,2.9,4.5,compareschoolrankings.org
+ON,C W Jefferys,Toronto,706,605,—,2.9,3.8,compareschoolrankings.org
+ON,ÉS Northern,Sturgeon Falls,706,644,—,2.9,2.4,compareschoolrankings.org
+ON,Westminster,London,709,598,—,2.8,3.9,compareschoolrankings.org
+ON,Prince Edward,Picton,709,610,down,2.8,3.7,compareschoolrankings.org
+ON,Emery,Toronto,709,643,up,2.8,2.4,compareschoolrankings.org
+ON,Arthur Voaden,St Thomas,709,654,—,2.8,1.5,compareschoolrankings.org
+ON,Kapuskasing DHS,Kapuskasing,709,n/a,n/a,2.8,n/a,compareschoolrankings.org
+ON,É.S.C. L’Alliance,Iroquois Falls,714,n/a,n/a,2.7,n/a,compareschoolrankings.org
+ON,Hon W C Kennedy,Windsor,715,617,down,2.6,3.6,compareschoolrankings.org
+ON,Elliot Lake,Elliot Lake,716,585,—,2.5,4.1,compareschoolrankings.org
+ON,Ridgemont,Ottawa,716,624,—,2.5,3.2,compareschoolrankings.org
+ON,Champlain,Chelmsford,716,629,—,2.5,3.1,compareschoolrankings.org
+ON,Pauline Johnson,Brantford,716,631,down,2.5,3.0,compareschoolrankings.org
+ON,Sacré-Coeur,Sudbury,720,605,down,2.4,3.8,compareschoolrankings.org
+ON,Norwood,Norwood,720,616,—,2.4,3.6,compareschoolrankings.org
+ON,Dunnville,Dunnville,720,628,—,2.4,3.1,compareschoolrankings.org
+ON,Sir Winston Churchill,Hamilton,720,647,—,2.4,2.2,compareschoolrankings.org
+ON,George S Henry,Toronto,724,613,—,2.3,3.6,compareschoolrankings.org
+ON,Geraldton,Geraldton,725,642,—,2.2,2.5,compareschoolrankings.org
+ON,Bernie Custis,Hamilton,725,n/a,n/a,2.2,n/a,compareschoolrankings.org
+ON,St. Lawrence,Cornwall,727,649,—,2.1,2.1,compareschoolrankings.org
+ON,Queen Elizabeth,Sioux Lookout,727,651,—,2.1,1.7,compareschoolrankings.org
+ON,Trenton,Trenton,729,635,down,2.0,2.9,compareschoolrankings.org
+ON,Espanola,Espanola,730,636,—,1.9,2.9,compareschoolrankings.org
+ON,Hanmer,Hanmer,731,641,—,1.8,2.6,compareschoolrankings.org
+ON,Ridgetown,Ridgetown,732,631,—,1.7,3.0,compareschoolrankings.org
+ON,Westview Centennial,Toronto,733,650,down,1.6,2.0,compareschoolrankings.org
+ON,Iroquois Falls,Iroquois Falls,734,623,—,1.4,3.2,compareschoolrankings.org
+ON,Westview Freedom Academy,Windsor,735,653,—,1.3,1.5,compareschoolrankings.org
+ON,Sir Guy Carleton,Nepean,736,656,—,1.0,0.6,compareschoolrankings.org
+ON,St. Luke Catholic,Smiths Falls,737,n/a,n/a,0.9,n/a,compareschoolrankings.org
+ON,West Credit SS,Mississauga,737,n/a,n/a,0.9,n/a,compareschoolrankings.org
+ON,Judith Nyman,BRAMPTON,739,n/a,n/a,0.7,n/a,compareschoolrankings.org
+ON,Northern Lights,Moosonee,740,645,—,0.4,2.3,compareschoolrankings.org
+ON,Ottawa Technical,Ottawa,741,n/a,n/a,0.3,n/a,compareschoolrankings.org
+ON,College Heights,Guelph,742,655,—,0.0,1.3,compareschoolrankings.org
+ON,Vezina Secondary School,Attawapiskat,742,n/a,n/a,0.0,n/a,compareschoolrankings.org
+ON,St Matthew Catholic,Cornwall,742,n/a,n/a,0.0,n/a,compareschoolrankings.org
+ON,St Luke Catholic Learning Centre,Maple,742,n/a,n/a,0.0,n/a,compareschoolrankings.org
+ON,l’Alliance,Iroquois Falls,742,n/a,n/a,0.0,n/a,compareschoolrankings.org
+ON,Manitouwadge,Manitouwadge,742,n/a,n/a,0.0,n/a,compareschoolrankings.org

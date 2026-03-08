@@ -9,13 +9,10 @@ import { TestAnalyzerResult } from '../../components/analyzer/TestAnalyzerResult
 interface AnalysisResult {
   estimatedDifficulty: number;
   adjustmentFactor: number;
-  rationale: string;
-  curriculumAlignment?: string;
-  questionStyle?: string;
-  questionCount?: number;
-  // Pass-through context (set by form, not by AI)
   classAverage?: number;
   province?: string;
+  selectedAgent?: string;
+  agentLabel?: string;
 }
 
 export default function AnalyzerPage() {
@@ -24,22 +21,22 @@ export default function AnalyzerPage() {
   return (
     <AppShell
       title="AI Test Evaluator"
-      subtitle="Standardize difficulty across curricula"
+      subtitle="Difficulty routing by specialist agents"
     >
       <RouteTransitionOverlay />
 
       <section className="mx-auto max-w-3xl pt-8">
         <div className="mb-10 text-center">
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent mb-4">
-            Measure True Academic Rigor
+          <h2 className="mb-4 bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-3xl font-bold text-transparent">
+            Measure Inherent Difficulty
           </h2>
-          <p className="text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            Paste a test or assignment below. Our AI model evaluates the inherent difficulty of the material against national standards. By comparing this to the class average, AXIOM generates a definitive Adjustment Factor to expose grade inflation or reward rigorous grading.
+          <p className="mx-auto max-w-2xl leading-relaxed text-slate-400">
+            Submit a test or assignment. AXIOM routes it to the best analyzer agent and estimates the inherent difficulty.
           </p>
         </div>
 
         <div className="relative">
-          <div className="absolute inset-0 -z-10 bg-gradient-to-b from-emerald-900/20 to-transparent blur-3xl rounded-[3rem]" />
+          <div className="absolute inset-0 -z-10 rounded-[3rem] bg-gradient-to-b from-emerald-900/20 to-transparent blur-3xl" />
 
           {!analysisResult ? (
             <TestAnalyzerForm onResult={setAnalysisResult} />

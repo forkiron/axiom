@@ -2,8 +2,9 @@ import bcSchoolDataset from './data/bc-school-rankings.json';
 import abSchoolDataset from './data/ab-school-rankings.json';
 import qcSchoolDataset from './data/qc-school-rankings.json';
 import nbSchoolDataset from './data/nb-school-rankings.json';
+import onSchoolDataset from './data/on-school-rankings.json';
 
-export type ProvinceCode = 'BC' | 'AB' | 'QC' | 'NB';
+export type ProvinceCode = 'BC' | 'AB' | 'QC' | 'NB' | 'ON';
 type QueryIntent = 'list' | 'count' | 'average' | 'school';
 export type SortMode = 'best' | 'worst';
 
@@ -131,6 +132,7 @@ const PROVINCE_LABELS: Record<ProvinceCode, string> = {
   AB: 'Alberta',
   QC: 'Quebec',
   NB: 'New Brunswick',
+  ON: 'Ontario',
 };
 
 const PROVINCE_ALIASES: Array<[string, ProvinceCode]> = [
@@ -144,6 +146,8 @@ const PROVINCE_ALIASES: Array<[string, ProvinceCode]> = [
   ['qc', 'QC'],
   ['new brunswick', 'NB'],
   ['nb', 'NB'],
+  ['ontario', 'ON'],
+  ['on', 'ON'],
 ]
   .map(([alias, province]) => [normalizeText(alias), province])
   .sort((a, b) => b[0].length - a[0].length) as Array<[string, ProvinceCode]>;
@@ -153,15 +157,17 @@ const COVERAGE_COUNTS = {
   AB: ((abSchoolDataset as SchoolDatasetFile).schools ?? []).length,
   QC: ((qcSchoolDataset as SchoolDatasetFile).schools ?? []).length,
   NB: ((nbSchoolDataset as SchoolDatasetFile).schools ?? []).length,
+  ON: ((onSchoolDataset as SchoolDatasetFile).schools ?? []).length,
 };
 
-export const SCHOOL_AGENT_COVERAGE = `BC (${COVERAGE_COUNTS.BC}), AB (${COVERAGE_COUNTS.AB}), QC (${COVERAGE_COUNTS.QC}), NB (${COVERAGE_COUNTS.NB})`;
+export const SCHOOL_AGENT_COVERAGE = `BC (${COVERAGE_COUNTS.BC}), AB (${COVERAGE_COUNTS.AB}), QC (${COVERAGE_COUNTS.QC}), NB (${COVERAGE_COUNTS.NB}), ON (${COVERAGE_COUNTS.ON})`;
 
 const RAW_SCHOOLS: RawSchoolRecord[] = [
   ...((bcSchoolDataset as SchoolDatasetFile).schools ?? []),
   ...((abSchoolDataset as SchoolDatasetFile).schools ?? []),
   ...((qcSchoolDataset as SchoolDatasetFile).schools ?? []),
   ...((nbSchoolDataset as SchoolDatasetFile).schools ?? []),
+  ...((onSchoolDataset as SchoolDatasetFile).schools ?? []),
 ];
 
 const SCHOOLS: IndexedSchoolRecord[] = RAW_SCHOOLS.map((school) => ({
@@ -466,7 +472,7 @@ export function runSchoolAgentQuery(question: string, context?: SchoolAgentConte
 
   if (matched.length === 0) {
     return {
-      answer: `No schools matched your query (${describeScope(parsed)}). Current dataset coverage is ${SCHOOL_AGENT_COVERAGE}. Try a wider filter or a specific city in BC, AB, QC, or NB.`,
+      answer: `No schools matched your query (${describeScope(parsed)}). Current dataset coverage is ${SCHOOL_AGENT_COVERAGE}. Try a wider filter or a specific city in BC, AB, QC, NB, or ON.`,
       context: contextOut,
       appliedFilters: {
         intent: parsed.intent,

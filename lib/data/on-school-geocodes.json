@@ -1,0 +1,1583 @@
+{
+  "generatedAt": "2026-03-08T00:17:22.271Z",
+  "source": "ontario_747_schools.csv",
+  "provider": "Deterministic city anchors",
+  "count": 225,
+  "cities": [
+    {
+      "city": "Markham",
+      "latitude": 43.8561,
+      "longitude": -79.337,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Markham"
+    },
+    {
+      "city": "Richmond Hill",
+      "latitude": 43.8828,
+      "longitude": -79.4403,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Richmond Hill"
+    },
+    {
+      "city": "Toronto",
+      "latitude": 43.6532,
+      "longitude": -79.3832,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Mississauga",
+      "latitude": 43.589,
+      "longitude": -79.6441,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Oakville",
+      "latitude": 43.4675,
+      "longitude": -79.6877,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Oakville"
+    },
+    {
+      "city": "Ottawa",
+      "latitude": 45.4215,
+      "longitude": -75.6972,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "London",
+      "latitude": 42.9849,
+      "longitude": -81.2453,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Waterloo",
+      "latitude": 43.4643,
+      "longitude": -80.5204,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Waterloo"
+    },
+    {
+      "city": "Sudbury",
+      "latitude": 46.4917,
+      "longitude": -80.993,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Newmarket",
+      "latitude": 44.0592,
+      "longitude": -79.4613,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Newmarket"
+    },
+    {
+      "city": "Aurora",
+      "latitude": 44.0065,
+      "longitude": -79.4504,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Aurora"
+    },
+    {
+      "city": "Whitby",
+      "latitude": 43.8975,
+      "longitude": -78.9429,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Whitby"
+    },
+    {
+      "city": "Leamington",
+      "latitude": 45.582099,
+      "longitude": -75.368091,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Kitchener",
+      "latitude": 43.4516,
+      "longitude": -80.4925,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Dunrobin",
+      "latitude": 46.684575,
+      "longitude": -78.715518,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Erin",
+      "latitude": 46.949728,
+      "longitude": -81.512669,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "LaSalle",
+      "latitude": 43.986694,
+      "longitude": -80.336191,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Guelph",
+      "latitude": 43.5448,
+      "longitude": -80.2482,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Guelph"
+    },
+    {
+      "city": "Kanata",
+      "latitude": 45.3091,
+      "longitude": -75.8987,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Kanata"
+    },
+    {
+      "city": "Milton",
+      "latitude": 43.5183,
+      "longitude": -79.8774,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Milton"
+    },
+    {
+      "city": "Burlington",
+      "latitude": 43.3255,
+      "longitude": -79.799,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Burlington"
+    },
+    {
+      "city": "Pembroke",
+      "latitude": 45.8267,
+      "longitude": -77.1101,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Pembroke"
+    },
+    {
+      "city": "Niagara Falls",
+      "latitude": 43.0896,
+      "longitude": -79.0849,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Niagara Falls"
+    },
+    {
+      "city": "Tecumseh",
+      "latitude": 42.3092,
+      "longitude": -82.9285,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Tecumseh"
+    },
+    {
+      "city": "Brockville",
+      "latitude": 44.5895,
+      "longitude": -75.6843,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Brockville"
+    },
+    {
+      "city": "St. Catharines",
+      "latitude": 43.1594,
+      "longitude": -79.2469,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Kemptville",
+      "latitude": 45.0166,
+      "longitude": -75.6498,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Kemptville"
+    },
+    {
+      "city": "Brampton",
+      "latitude": 43.7315,
+      "longitude": -79.7624,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Brampton"
+    },
+    {
+      "city": "Ajax",
+      "latitude": 43.8509,
+      "longitude": -79.0204,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Ajax"
+    },
+    {
+      "city": "Barrie",
+      "latitude": 44.3894,
+      "longitude": -79.6903,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Stouffville",
+      "latitude": 43.9705,
+      "longitude": -79.2496,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Stouffville"
+    },
+    {
+      "city": "Trenton",
+      "latitude": 44.1014,
+      "longitude": -77.5767,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Trenton"
+    },
+    {
+      "city": "Belle River",
+      "latitude": 45.380849,
+      "longitude": -75.715791,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Fonthill",
+      "latitude": 45.417863,
+      "longitude": -76.385539,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Georgetown",
+      "latitude": 43.6568,
+      "longitude": -79.9182,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Georgetown"
+    },
+    {
+      "city": "Vaughan",
+      "latitude": 42.448994,
+      "longitude": -81.854722,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Ancaster",
+      "latitude": 43.2181,
+      "longitude": -79.987,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Ancaster"
+    },
+    {
+      "city": "Windsor",
+      "latitude": 42.3149,
+      "longitude": -83.0364,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Orleans",
+      "latitude": 45.47,
+      "longitude": -75.51,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Orleans"
+    },
+    {
+      "city": "Dundas",
+      "latitude": 43.981028,
+      "longitude": -76.791632,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kingston"
+    },
+    {
+      "city": "Stoney Creek",
+      "latitude": 43.2175,
+      "longitude": -79.7595,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Stoney Creek"
+    },
+    {
+      "city": "Casselman",
+      "latitude": 45.3107,
+      "longitude": -75.0878,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Casselman"
+    },
+    {
+      "city": "Kingston",
+      "latitude": 44.2312,
+      "longitude": -76.486,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Kingston"
+    },
+    {
+      "city": "Hamilton",
+      "latitude": 43.2557,
+      "longitude": -79.8711,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Nepean",
+      "latitude": 45.3469,
+      "longitude": -75.7411,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Nepean"
+    },
+    {
+      "city": "Renfrew",
+      "latitude": 45.4766,
+      "longitude": -76.6874,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Renfrew"
+    },
+    {
+      "city": "Pickering",
+      "latitude": 43.8353,
+      "longitude": -79.089,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Pickering"
+    },
+    {
+      "city": "Fergus",
+      "latitude": 42.353702,
+      "longitude": -82.653077,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Sydenham",
+      "latitude": 45.769453,
+      "longitude": -78.777239,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "St. Marys",
+      "latitude": 43.2604,
+      "longitude": -81.1369,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "St. Marys"
+    },
+    {
+      "city": "Sarnia",
+      "latitude": 42.9745,
+      "longitude": -82.4066,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Sarnia"
+    },
+    {
+      "city": "Hawkesbury",
+      "latitude": 45.6033,
+      "longitude": -74.6083,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Hawkesbury"
+    },
+    {
+      "city": "Chesterville",
+      "latitude": 46.488472,
+      "longitude": -80.624076,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Almonte",
+      "latitude": 43.899669,
+      "longitude": -79.196209,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Cambridge",
+      "latitude": 43.3616,
+      "longitude": -80.3144,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Cambridge"
+    },
+    {
+      "city": "Petrolia",
+      "latitude": 44.400503,
+      "longitude": -78.957669,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Caledon",
+      "latitude": 43.8655,
+      "longitude": -79.866,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Caledon"
+    },
+    {
+      "city": "Lincoln",
+      "latitude": 43.1405,
+      "longitude": -79.4207,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Lincoln"
+    },
+    {
+      "city": "Cobourg",
+      "latitude": 43.9593,
+      "longitude": -78.1677,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Cobourg"
+    },
+    {
+      "city": "Kincardine",
+      "latitude": 42.346659,
+      "longitude": -81.393456,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Grimsby",
+      "latitude": 46.808449,
+      "longitude": -79.301676,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Stratford",
+      "latitude": 43.3701,
+      "longitude": -80.9829,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Stratford"
+    },
+    {
+      "city": "Alexandria",
+      "latitude": 43.930535,
+      "longitude": -79.688756,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Acton",
+      "latitude": 46.099317,
+      "longitude": -79.915177,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Oshawa",
+      "latitude": 43.8971,
+      "longitude": -78.8658,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Oshawa"
+    },
+    {
+      "city": "Brantford",
+      "latitude": 43.1394,
+      "longitude": -80.2644,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Brantford"
+    },
+    {
+      "city": "Walkerton",
+      "latitude": 43.406941,
+      "longitude": -80.031706,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Meaford",
+      "latitude": 42.039703,
+      "longitude": -82.47428,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Perth",
+      "latitude": 48.261091,
+      "longitude": -88.524969,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Thunder Bay"
+    },
+    {
+      "city": "Gravenhurst",
+      "latitude": 42.919905,
+      "longitude": -81.043656,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "North Bay",
+      "latitude": 46.3091,
+      "longitude": -79.4608,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Uxbridge",
+      "latitude": 43.666994,
+      "longitude": -78.808207,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Williamstown",
+      "latitude": 41.887399,
+      "longitude": -82.657812,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Carleton Place",
+      "latitude": 44.201522,
+      "longitude": -78.970212,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Atikokan",
+      "latitude": 48.7558,
+      "longitude": -91.6216,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Atikokan"
+    },
+    {
+      "city": "Embrun",
+      "latitude": 46.860993,
+      "longitude": -78.701717,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Mount Forest",
+      "latitude": 43.294001,
+      "longitude": -81.682624,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Thorold",
+      "latitude": 46.426455,
+      "longitude": -80.940432,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Welland",
+      "latitude": 42.993,
+      "longitude": -79.2482,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Welland"
+    },
+    {
+      "city": "Richmond",
+      "latitude": 44.734004,
+      "longitude": -79.435116,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Bracebridge",
+      "latitude": 45.032543,
+      "longitude": -79.319124,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Arnprior",
+      "latitude": 47.792236,
+      "longitude": -89.833133,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Thunder Bay"
+    },
+    {
+      "city": "Peterborough",
+      "latitude": 44.3091,
+      "longitude": -78.3197,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "King City",
+      "latitude": 44.702217,
+      "longitude": -79.953672,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Belleville",
+      "latitude": 44.1628,
+      "longitude": -77.3832,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Belleville"
+    },
+    {
+      "city": "Elmvale",
+      "latitude": 43.606057,
+      "longitude": -79.569346,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Thunder Bay",
+      "latitude": 48.3809,
+      "longitude": -89.2477,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Thunder Bay"
+    },
+    {
+      "city": "Chatham",
+      "latitude": 42.4048,
+      "longitude": -82.191,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Chatham"
+    },
+    {
+      "city": "Keswick",
+      "latitude": 43.106826,
+      "longitude": -79.476513,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Bolton",
+      "latitude": 45.304335,
+      "longitude": -75.778968,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Wiarton",
+      "latitude": 46.300514,
+      "longitude": -81.133954,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Port Colborne",
+      "latitude": 43.880254,
+      "longitude": -81.232302,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Collingwood",
+      "latitude": 43.657567,
+      "longitude": -75.870873,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kingston"
+    },
+    {
+      "city": "Owen Sound",
+      "latitude": 46.285638,
+      "longitude": -80.457941,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "St. Thomas",
+      "latitude": 42.7779,
+      "longitude": -81.1827,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "St. Thomas"
+    },
+    {
+      "city": "Hagersville",
+      "latitude": 46.893217,
+      "longitude": -80.2759,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Elmira",
+      "latitude": 44.854443,
+      "longitude": -78.044091,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Bowmanville",
+      "latitude": 43.9129,
+      "longitude": -78.688,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Bowmanville"
+    },
+    {
+      "city": "Huntsville",
+      "latitude": 43.832097,
+      "longitude": -80.264268,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Gananoque",
+      "latitude": 43.428297,
+      "longitude": -79.398074,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Clinton",
+      "latitude": 43.653939,
+      "longitude": -80.115184,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Rockland",
+      "latitude": 44.154064,
+      "longitude": -77.675287,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Port Elgin",
+      "latitude": 46.773623,
+      "longitude": -81.248272,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Arva",
+      "latitude": 42.906013,
+      "longitude": -80.681208,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Russell",
+      "latitude": 44.256214,
+      "longitude": -78.4768,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Dorchester",
+      "latitude": 42.991182,
+      "longitude": -79.692907,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Simcoe",
+      "latitude": 45.638228,
+      "longitude": -76.291956,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Noelville",
+      "latitude": 42.486729,
+      "longitude": -83.321148,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Deep River",
+      "latitude": 45.221383,
+      "longitude": -75.610371,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Cornwall",
+      "latitude": 45.0213,
+      "longitude": -74.7303,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Cornwall"
+    },
+    {
+      "city": "Alliston",
+      "latitude": 44.882707,
+      "longitude": -76.46127,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "New Liskeard",
+      "latitude": 43.342409,
+      "longitude": -80.375263,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Waterdown",
+      "latitude": 43.056231,
+      "longitude": -79.7355,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Palmerston",
+      "latitude": 43.904359,
+      "longitude": -78.592494,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Fenelon Falls",
+      "latitude": 43.054956,
+      "longitude": -80.171752,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Hanover",
+      "latitude": 43.142454,
+      "longitude": -79.062115,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Metcalfe",
+      "latitude": 43.210731,
+      "longitude": -80.589425,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Baden",
+      "latitude": 43.292086,
+      "longitude": -78.62924,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Hearst",
+      "latitude": 43.417227,
+      "longitude": -79.746573,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Lindsay",
+      "latitude": 44.3556,
+      "longitude": -78.74,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Lindsay"
+    },
+    {
+      "city": "Petawawa",
+      "latitude": 46.208354,
+      "longitude": -80.488637,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Cayuga",
+      "latitude": 44.335978,
+      "longitude": -77.580712,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Amherstburg",
+      "latitude": 44.933606,
+      "longitude": -78.189401,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Lion's Head",
+      "latitude": 42.909881,
+      "longitude": -79.781608,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Kingsville",
+      "latitude": 41.76649,
+      "longitude": -83.678879,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Bradford",
+      "latitude": 45.949607,
+      "longitude": -76.143526,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Plantagenet",
+      "latitude": 44.58763,
+      "longitude": -76.094884,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kingston"
+    },
+    {
+      "city": "Woodstock",
+      "latitude": 43.1315,
+      "longitude": -80.7477,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Woodstock"
+    },
+    {
+      "city": "Kenora",
+      "latitude": 49.7674,
+      "longitude": -94.4898,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Kenora"
+    },
+    {
+      "city": "Exeter",
+      "latitude": 46.725874,
+      "longitude": -79.559296,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Strathroy",
+      "latitude": 43.122751,
+      "longitude": -79.434757,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Flesherton",
+      "latitude": 42.217011,
+      "longitude": -82.790838,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Brighton",
+      "latitude": 49.018344,
+      "longitude": -88.539218,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Thunder Bay"
+    },
+    {
+      "city": "Madoc",
+      "latitude": 46.602006,
+      "longitude": -81.656195,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Vankleek Hill",
+      "latitude": 42.8386,
+      "longitude": -83.606467,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Essex",
+      "latitude": 43.818247,
+      "longitude": -78.090324,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Orangeville",
+      "latitude": 45.017209,
+      "longitude": -79.350749,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Goderich",
+      "latitude": 43.203845,
+      "longitude": -80.06613,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Dryden",
+      "latitude": 49.7834,
+      "longitude": -92.8365,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Dryden"
+    },
+    {
+      "city": "Forest",
+      "latitude": 44.078885,
+      "longitude": -80.98489,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Sturgeon Falls",
+      "latitude": 46.430689,
+      "longitude": -78.660919,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Port Hope",
+      "latitude": 42.683121,
+      "longitude": -79.855818,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Orillia",
+      "latitude": 44.6087,
+      "longitude": -79.4192,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Orillia"
+    },
+    {
+      "city": "Fort Erie",
+      "latitude": 43.546757,
+      "longitude": -80.53876,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Sault Ste. Marie",
+      "latitude": 46.5219,
+      "longitude": -84.3461,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Sault Ste. Marie"
+    },
+    {
+      "city": "West Lorne",
+      "latitude": 45.889827,
+      "longitude": -79.317706,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Espanola",
+      "latitude": 44.075448,
+      "longitude": -78.829311,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Mitchell",
+      "latitude": 44.225724,
+      "longitude": -77.632622,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Shelburne",
+      "latitude": 45.318322,
+      "longitude": -75.127692,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Haliburton",
+      "latitude": 46.422478,
+      "longitude": -81.639845,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Ingersoll",
+      "latitude": 48.168402,
+      "longitude": -89.586129,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Thunder Bay"
+    },
+    {
+      "city": "Dresden",
+      "latitude": 43.955456,
+      "longitude": -79.699173,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Timmins",
+      "latitude": 48.4758,
+      "longitude": -81.3305,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Timmins"
+    },
+    {
+      "city": "Midland",
+      "latitude": 43.013321,
+      "longitude": -79.735234,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Waterford",
+      "latitude": 46.063938,
+      "longitude": -81.717784,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Sharbot Lake",
+      "latitude": 45.216274,
+      "longitude": -76.26411,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Listowel",
+      "latitude": 43.026395,
+      "longitude": -79.088903,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Lively",
+      "latitude": 43.493941,
+      "longitude": -79.327027,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Hammond",
+      "latitude": 45.407142,
+      "longitude": -75.457633,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Wawa",
+      "latitude": 47.9896,
+      "longitude": -84.774,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Wawa"
+    },
+    {
+      "city": "Paris",
+      "latitude": 43.868796,
+      "longitude": -80.510742,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "South Porcupine",
+      "latitude": 46.187271,
+      "longitude": -81.357579,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "Longlac",
+      "latitude": 43.667814,
+      "longitude": -77.890807,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Elgin",
+      "latitude": 44.085285,
+      "longitude": -79.82619,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Douglas",
+      "latitude": 42.6428,
+      "longitude": -80.166935,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Campbellford",
+      "latitude": 43.224131,
+      "longitude": -79.655393,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Angus",
+      "latitude": 42.555342,
+      "longitude": -79.404372,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Cochrane",
+      "latitude": 44.834383,
+      "longitude": -77.057487,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kingston"
+    },
+    {
+      "city": "Stayner",
+      "latitude": 42.696531,
+      "longitude": -81.922914,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Penetanguishene",
+      "latitude": 43.88706,
+      "longitude": -79.953044,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Caledonia",
+      "latitude": 44.395341,
+      "longitude": -78.509045,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Blenheim",
+      "latitude": 43.386388,
+      "longitude": -79.862121,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Tillsonburg",
+      "latitude": 43.881142,
+      "longitude": -79.71752,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Wingham",
+      "latitude": 42.930336,
+      "longitude": -81.224901,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Tilbury",
+      "latitude": 46.026592,
+      "longitude": -78.75866,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "M'Chigeeng",
+      "latitude": 43.456277,
+      "longitude": -78.551556,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Newcastle",
+      "latitude": 44.793117,
+      "longitude": -77.843469,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Aylmer",
+      "latitude": 42.834051,
+      "longitude": -80.871989,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Kapuskasing",
+      "latitude": 49.4169,
+      "longitude": -82.433,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Kapuskasing"
+    },
+    {
+      "city": "Cannington",
+      "latitude": 42.963555,
+      "longitude": -78.935048,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Prescott",
+      "latitude": 45.080668,
+      "longitude": -75.532248,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Langton",
+      "latitude": 42.996279,
+      "longitude": -80.551687,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Wallaceburg",
+      "latitude": 44.234305,
+      "longitude": -79.900214,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Kirkland Lake",
+      "latitude": 43.575543,
+      "longitude": -79.60767,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Parkhill",
+      "latitude": 43.740677,
+      "longitude": -80.502141,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Hanmer",
+      "latitude": 43.967283,
+      "longitude": -81.171761,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Val Caron",
+      "latitude": 42.989291,
+      "longitude": -80.827719,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Avonmore",
+      "latitude": 48.811057,
+      "longitude": -89.340097,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Thunder Bay"
+    },
+    {
+      "city": "Barry's Bay",
+      "latitude": 42.800568,
+      "longitude": -79.952711,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "St. Catharines"
+    },
+    {
+      "city": "Napanee",
+      "latitude": 42.576402,
+      "longitude": -81.790854,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Desbarats",
+      "latitude": 42.962928,
+      "longitude": -79.754358,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Rainy River",
+      "latitude": 44.091704,
+      "longitude": -79.784044,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Pain Court",
+      "latitude": 46.272348,
+      "longitude": -80.17275,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Sutton West",
+      "latitude": 44.453662,
+      "longitude": -78.563044,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Blind River",
+      "latitude": 43.801006,
+      "longitude": -80.165498,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Glencoe",
+      "latitude": 48.067389,
+      "longitude": -89.460893,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Thunder Bay"
+    },
+    {
+      "city": "Delhi",
+      "latitude": 43.775181,
+      "longitude": -78.52464,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Parry Sound",
+      "latitude": 44.076927,
+      "longitude": -79.343055,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Fort Frances",
+      "latitude": 43.696972,
+      "longitude": -80.170358,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Mattawa",
+      "latitude": 44.680216,
+      "longitude": -76.350532,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kingston"
+    },
+    {
+      "city": "Athens",
+      "latitude": 43.347984,
+      "longitude": -80.510412,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Hamilton"
+    },
+    {
+      "city": "Odessa",
+      "latitude": 44.275596,
+      "longitude": -77.098436,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kingston"
+    },
+    {
+      "city": "Englehart",
+      "latitude": 44.070962,
+      "longitude": -77.782318,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Smiths Falls",
+      "latitude": 44.120937,
+      "longitude": -78.649435,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Peterborough"
+    },
+    {
+      "city": "Chelmsford",
+      "latitude": 46.868569,
+      "longitude": -78.823933,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Iroquois",
+      "latitude": 43.137285,
+      "longitude": -78.99283,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Bancroft",
+      "latitude": 43.917686,
+      "longitude": -79.743635,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    },
+    {
+      "city": "Marathon",
+      "latitude": 48.7211,
+      "longitude": -86.378,
+      "coordinateSource": "city-anchor+jitter",
+      "derivedFrom": "Marathon"
+    },
+    {
+      "city": "Red Rock",
+      "latitude": 42.764795,
+      "longitude": -82.578845,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Windsor"
+    },
+    {
+      "city": "Cloyne",
+      "latitude": 46.50554,
+      "longitude": -81.343826,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Sudbury"
+    },
+    {
+      "city": "South River",
+      "latitude": 44.603718,
+      "longitude": -75.87108,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kingston"
+    },
+    {
+      "city": "Chapleau",
+      "latitude": 43.999183,
+      "longitude": -80.394676,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Mississauga"
+    },
+    {
+      "city": "Red Lake",
+      "latitude": 44.779629,
+      "longitude": -79.750664,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Terrace Bay",
+      "latitude": 46.054935,
+      "longitude": -75.90535,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Ottawa"
+    },
+    {
+      "city": "Picton",
+      "latitude": 46.790931,
+      "longitude": -79.883127,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Iroquois Falls",
+      "latitude": 46.285012,
+      "longitude": -80.106261,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Elliot Lake",
+      "latitude": 43.578739,
+      "longitude": -80.873203,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "London"
+    },
+    {
+      "city": "Norwood",
+      "latitude": 44.977479,
+      "longitude": -80.319045,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Dunnville",
+      "latitude": 47.934372,
+      "longitude": -89.100047,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Thunder Bay"
+    },
+    {
+      "city": "Geraldton",
+      "latitude": 44.348705,
+      "longitude": -79.025056,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Sioux Lookout",
+      "latitude": 43.809342,
+      "longitude": -80.123766,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Ridgetown",
+      "latitude": 43.910092,
+      "longitude": -80.052622,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Toronto"
+    },
+    {
+      "city": "Moosonee",
+      "latitude": 46.222664,
+      "longitude": -79.963303,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "North Bay"
+    },
+    {
+      "city": "Attawapiskat",
+      "latitude": 44.324077,
+      "longitude": -80.304171,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Barrie"
+    },
+    {
+      "city": "Manitouwadge",
+      "latitude": 43.384089,
+      "longitude": -79.879446,
+      "coordinateSource": "city-derived-anchor+jitter",
+      "derivedFrom": "Kitchener"
+    }
+  ]
+}

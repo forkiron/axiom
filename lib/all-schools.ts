@@ -1,6 +1,7 @@
 import abSchoolRankings from '@/lib/data/ab-school-rankings.json';
 import bcSchoolRankings from '@/lib/data/bc-school-rankings.json';
 import nbSchoolRankings from '@/lib/data/nb-school-rankings.json';
+import onSchoolRankings from '@/lib/data/on-school-rankings.json';
 import qcSchoolRankings from '@/lib/data/qc-school-rankings.json';
 
 export interface AnalyzerSchoolOption {
@@ -46,5 +47,6 @@ export const ANALYZER_SCHOOL_OPTIONS: AnalyzerSchoolOption[] = [
   ...pickSchools(abSchoolRankings),
   ...pickSchools(bcSchoolRankings),
   ...pickSchools(nbSchoolRankings),
+  ...pickSchools(onSchoolRankings),
   ...pickSchools(qcSchoolRankings),
 ];

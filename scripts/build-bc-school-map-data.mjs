@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const INPUT_CSV = 'bc_school_rankings_2025.csv';
+const INPUT_CSV = 'bc_252_schools_2019.csv';
 const OUTPUT_JSON = 'lib/data/bc-school-rankings.json';
 const CITY_CENTROIDS_PATH = 'lib/data/bc-city-centroids.json';
 
@@ -123,8 +123,12 @@ function getSchoolCoordinates(city, schoolName, centroidMap) {
 function parseOptionalNumber(value) {
   if (value == null) return null;
   const normalized = String(value).trim().toLowerCase();
-  if (!normalized || normalized === 'n/a') return null;
-  const parsed = Number(normalized);
+  if (!normalized || normalized === 'n/a' || normalized === 'na' || normalized === '—' || normalized === '-') {
+    return null;
+  }
+  const match = normalized.match(/-?\d+(\.\d+)?/);
+  if (!match) return null;
+  const parsed = Number(match[0]);
   return Number.isFinite(parsed) ? parsed : null;
 }
 
@@ -135,18 +139,28 @@ function buildBcSchoolMapData() {
   const centroidMap = loadCityCentroids();
 
   const col = (name) => headers.indexOf(name);
+  const colAny = (...names) => names.map((name) => col(name)).find((index) => index !== -1) ?? -1;
+  const schoolNameCol = colAny('school_name', 'School Name');
+  const cityCol = colAny('city', 'City');
+  const ratingCol = colAny('overall_rating_2023_2024', 'overall_rating_2019', 'Overall Rating');
+  const rating5yrCol = colAny('overall_rating_5yr', 'overall_rating_5_year', 'Overall Rating 5yr');
+  const rankCol = colAny('rank_2023_2024', 'rank_2019', 'Provincial Rank');
+
+  if (schoolNameCol === -1 || cityCol === -1) {
+    throw new Error('Missing required columns: expected school_name and city');
+  }
 
   const schools = [];
   for (let i = 1; i < lines.length; i += 1) {
     const row = parseCsvLine(lines[i]);
-    const schoolName = row[col('school_name')]?.trim();
-    const cityRaw = row[col('city')]?.trim();
+    const schoolName = row[schoolNameCol]?.trim();
+    const cityRaw = row[cityCol]?.trim();
     if (!schoolName || !cityRaw) continue;
 
     const city = normalizeCity(cityRaw);
-    const rating = parseOptionalNumber(row[col('overall_rating_2023_2024')]);
-    const rating5yr = parseOptionalNumber(row[col('overall_rating_5yr')]);
-    const rank = parseOptionalNumber(row[col('rank_2023_2024')]);
+    const rating = parseOptionalNumber(ratingCol === -1 ? null : row[ratingCol]);
+    const rating5yr = parseOptionalNumber(rating5yrCol === -1 ? null : row[rating5yrCol]);
+    const rank = parseOptionalNumber(rankCol === -1 ? null : row[rankCol]);
     const [latitude, longitude] = getSchoolCoordinates(city, schoolName, centroidMap);
     const hasRealCityCentroid = centroidMap.has(city);
 

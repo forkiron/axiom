@@ -21,6 +21,7 @@ import bcSchoolDataset from '../../lib/data/bc-school-rankings.json';
 import abSchoolDataset from '../../lib/data/ab-school-rankings.json';
 import qcSchoolDataset from '../../lib/data/qc-school-rankings.json';
 import nbSchoolDataset from '../../lib/data/nb-school-rankings.json';
+import onSchoolDataset from '../../lib/data/on-school-rankings.json';
 import type { EducationCountryDataset } from '../../lib/types';
 import { getHeatDomain, heatColorFromValue } from './heatColor';
 import { MAP_STYLE_URL } from '../../lib/constants';
@@ -328,20 +329,90 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
     pitch: number;
     bearing: number;
   } | null>(null);
-  const [adjustmentOverrides, setAdjustmentOverrides] = useState<Record<string, { adjustmentFactor: number; estimatedDifficulty?: number; mAdj?: number }>>({});
+  const [adjustmentOverrides, setAdjustmentOverrides] = useState<
+    Record<string, { adjustmentFactor: number; estimatedDifficulty?: number; mAdj?: number; isDefault?: boolean }>
+  >({});
+  const [adjustmentCounts, setAdjustmentCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
-    const fetchAdjustments = () => {
+    const normalizeAdjustments = (values: Record<string, unknown>) => {
+      const normalized: Record<
+        string,
+        { adjustmentFactor: number; estimatedDifficulty?: number; mAdj?: number; isDefault?: boolean }
+      > = {};
+
+      for (const [schoolId, value] of Object.entries(values)) {
+        if (typeof value === 'number' && Number.isFinite(value)) {
+          normalized[schoolId] = { adjustmentFactor: value };
+          continue;
+        }
+
+        if (value && typeof value === 'object' && !Array.isArray(value)) {
+          const maybe = value as {
+            adjustmentFactor?: unknown;
+            estimatedDifficulty?: unknown;
+            mAdj?: unknown;
+            isDefault?: unknown;
+          };
+          const factor = Number(maybe.adjustmentFactor);
+          if (!Number.isFinite(factor)) continue;
+          normalized[schoolId] = {
+            adjustmentFactor: factor,
+            estimatedDifficulty:
+              typeof maybe.estimatedDifficulty === 'number' && Number.isFinite(maybe.estimatedDifficulty)
+                ? maybe.estimatedDifficulty
+                : undefined,
+            mAdj: typeof maybe.mAdj === 'number' && Number.isFinite(maybe.mAdj) ? maybe.mAdj : undefined,
+            isDefault: maybe.isDefault === true,
+          };
+        }
+      }
+
+      return normalized;
+    };
+
+    const loadAdjustments = () => {
       fetch('/api/school-adjustment')
         .then(r => r.ok ? r.json() : {})
-        .then(data => setAdjustmentOverrides(data))
+        .then((data: unknown) => {
+          const wrapped = data as { values?: unknown; counts?: unknown } | null;
+          if (
+            wrapped &&
+            typeof wrapped === 'object' &&
+            'values' in wrapped &&
+            wrapped.values &&
+            typeof wrapped.values === 'object' &&
+            !Array.isArray(wrapped.values)
+          ) {
+            const counts =
+              wrapped.counts && typeof wrapped.counts === 'object' && !Array.isArray(wrapped.counts)
+                ? Object.fromEntries(
+                    Object.entries(wrapped.counts as Record<string, unknown>).map(([k, v]) => [k, Number(v) || 0])
+                  )
+                : {};
+            setAdjustmentOverrides(normalizeAdjustments(wrapped.values as Record<string, unknown>));
+            setAdjustmentCounts(counts);
+            return;
+          }
+
+          if (data && typeof data === 'object' && !Array.isArray(data)) {
+            setAdjustmentOverrides(normalizeAdjustments(data as Record<string, unknown>));
+          } else {
+            setAdjustmentOverrides({});
+          }
+          setAdjustmentCounts({});
+        })
         .catch(() => {});
     };
 
-    fetchAdjustments();
+    const handleAdjustmentsUpdated = () => loadAdjustments();
 
-    window.addEventListener('school-adjustment-updated', fetchAdjustments);
-    return () => window.removeEventListener('school-adjustment-updated', fetchAdjustments);
+    loadAdjustments();
+    window.addEventListener('school-adjustments-updated', handleAdjustmentsUpdated);
+
+    return () => {
+      window.removeEventListener('school-adjustments-updated', handleAdjustmentsUpdated);
+    };
   }, []);
   const token = MAPBOX_TOKEN.trim();
   const hasMapboxToken =
@@ -358,9 +429,10 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const abSchools = (abSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const qcSchools = (qcSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const nbSchools = (nbSchoolDataset as { schools: BcSchoolRecord[] }).schools;
+  const onSchools = (onSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const canadaSchools = useMemo(
-    () => [...bcSchools, ...abSchools, ...qcSchools, ...nbSchools],
-    [bcSchools, abSchools, qcSchools, nbSchools]
+    () => [...bcSchools, ...abSchools, ...qcSchools, ...nbSchools, ...onSchools],
+    [bcSchools, abSchools, qcSchools, nbSchools, onSchools]
   );
   const visibleCanadaSchools = useMemo(() => {
     return canadaSchools.filter((school) => {
@@ -398,7 +470,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
     const W_S = 1.5;
     const result: Record<string, { adjustmentFactor: number; estimatedDifficulty?: number; mAdj?: number; isDefault?: boolean }> = {};
     for (const s of canadaSchools) {
-      if (adjustmentOverrides[s.id]) {
+      if (adjustmentOverrides[s.id] != null) {
         result[s.id] = adjustmentOverrides[s.id];
       } else {
         const prov = (s.province ?? 'BC').toUpperCase();
@@ -1111,9 +1183,9 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
               <span>Max: {maxSchoolRating.toFixed(1)}</span>
             </div>
             <div className="relative mt-1 h-8">
-              <div className="pointer-events-none absolute inset-x-0 top-1/2 h-1 -translate-y-1/2 rounded-full bg-white/25" />
+              <div className="pointer-events-none absolute inset-x-0 top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-white/20" />
               <div
-                className="pointer-events-none absolute top-1/2 h-1 -translate-y-1/2 rounded-full bg-white/90"
+                className="pointer-events-none absolute top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-emerald-400/85"
                 style={{
                   left: `${minRatingPercent}%`,
                   right: `${100 - maxRatingPercent}%`,
@@ -1133,7 +1205,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
                     setMaxSchoolRating(nextMin);
                   }
                 }}
-                className="pointer-events-none absolute inset-0 z-20 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-white/80 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:shadow-[0_0_10px_rgba(255,255,255,0.35)] [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-white/80 [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow-[0_0_10px_rgba(255,255,255,0.35)]"
+                className="pointer-events-none absolute inset-0 z-20 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-black/60 [&::-moz-range-thumb]:bg-emerald-300 [&::-moz-range-thumb]:shadow [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-black/60 [&::-webkit-slider-thumb]:bg-emerald-300 [&::-webkit-slider-thumb]:shadow"
               />
               <input
                 id="school-max-rating-filter"
@@ -1149,7 +1221,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
                     setMinSchoolRating(nextMax);
                   }
                 }}
-                className="pointer-events-none absolute inset-0 z-10 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-white/80 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:shadow-[0_0_10px_rgba(255,255,255,0.35)] [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-white/80 [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow-[0_0_10px_rgba(255,255,255,0.35)]"
+                className="pointer-events-none absolute inset-0 z-10 h-8 w-full appearance-none bg-transparent [&::-moz-range-thumb]:pointer-events-auto [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border [&::-moz-range-thumb]:border-black/60 [&::-moz-range-thumb]:bg-amber-300 [&::-moz-range-thumb]:shadow [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border [&::-webkit-slider-thumb]:border-black/60 [&::-webkit-slider-thumb]:bg-amber-300 [&::-webkit-slider-thumb]:shadow"
               />
             </div>
             <p className="mt-1 text-[10px] text-slate-400">
@@ -1190,6 +1262,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         }} 
         getRatingColor={getRatingColor}
         adjustment={selectedSchool ? schoolAdjustments[selectedSchool.id] : undefined}
+        adjustmentCount={selectedSchool ? adjustmentCounts[selectedSchool.id] : undefined}
       />
       {schoolTour.length > 0 && activeTourSchool && (
         <div className="absolute bottom-24 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2 rounded-xl border border-white/20 bg-black/70 px-3 py-2 text-xs text-slate-100 backdrop-blur">

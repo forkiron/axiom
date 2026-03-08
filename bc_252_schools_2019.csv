@@ -1,0 +1,253 @@
+province,school_name,city,rank_2019,rank_5yr,trend,overall_rating_2019,overall_rating_5yr,source
+BC,Crofton House,Vancouver,1,1,—,10.0,10.0,compareschoolrankings.org
+BC,Little Flower,Vancouver,1,1,—,10.0,10.0,compareschoolrankings.org
+BC,Southridge,Surrey,1,4,—,10.0,9.8,compareschoolrankings.org
+BC,West Point Grey,Vancouver,1,4,up,10.0,9.8,compareschoolrankings.org
+BC,Richmond Christian,Richmond,5,9,—,9.9,9.4,compareschoolrankings.org
+BC,Brentwood College,Mill Bay,6,8,—,9.8,9.5,compareschoolrankings.org
+BC,York House,Vancouver,7,3,—,9.6,9.9,compareschoolrankings.org
+BC,St George’s,Vancouver,8,6,—,9.4,9.7,compareschoolrankings.org
+BC,Meadowridge,Maple Ridge,8,15,—,9.4,8.6,compareschoolrankings.org
+BC,Collingwood,West Vancouver,10,7,—,9.2,9.6,compareschoolrankings.org
+BC,Mulgrave,West Vancouver,10,10,—,9.2,9.3,compareschoolrankings.org
+BC,Southpointe,Delta,12,20,—,9.1,8.4,compareschoolrankings.org
+BC,Vancouver College,Vancouver,13,15,—,8.9,8.6,compareschoolrankings.org
+BC,King David,Vancouver,14,13,—,8.7,8.7,compareschoolrankings.org
+BC,Stratford Hall,Vancouver,14,13,—,8.7,8.7,compareschoolrankings.org
+BC,Pacific Academy,Surrey,14,15,—,8.7,8.6,compareschoolrankings.org
+BC,St John’s,Vancouver,17,11,—,8.6,9.1,compareschoolrankings.org
+BC,Carihi,Campbell River,17,40,up,8.6,7.2,compareschoolrankings.org
+BC,Dasmesh Punjabi,Abbotsford,17,n/a,n/a,8.6,n/a,compareschoolrankings.org
+BC,Dr. Charles Best,Coquitlam,20,24,up,8.5,7.9,compareschoolrankings.org
+BC,Glenlyon Norfolk,Victoria,21,11,—,8.4,9.1,compareschoolrankings.org
+BC,Lord Byng,Vancouver,21,22,—,8.4,8.2,compareschoolrankings.org
+BC,St Thomas More,Burnaby,23,20,—,8.3,8.4,compareschoolrankings.org
+BC,Nanaimo Christian,Nanaimo,23,n/a,n/a,8.3,n/a,compareschoolrankings.org
+BC,Grand Forks,Grand Forks,25,33,up,8.2,7.4,compareschoolrankings.org
+BC,Abbotsford Christian,Abbotsford,25,45,—,8.2,7.1,compareschoolrankings.org
+BC,St Michaels,Victoria,27,19,down,8.1,8.5,compareschoolrankings.org
+BC,Archbishop Carney,Port Coquitlam,27,28,—,8.1,7.6,compareschoolrankings.org
+BC,Hugh McRoberts,Richmond,27,40,—,8.1,7.2,compareschoolrankings.org
+BC,Cariboo Hill,Burnaby,27,116,up,8.1,6.1,compareschoolrankings.org
+BC,St Thomas Aquinas,North Vancouver,31,28,—,8.0,7.6,compareschoolrankings.org
+BC,J Lloyd Crowe,Trail,31,36,up,8.0,7.3,compareschoolrankings.org
+BC,Aberdeen Hall,Kelowna,33,25,—,7.9,7.7,compareschoolrankings.org
+BC,Sentinel,West Vancouver,33,25,—,7.9,7.7,compareschoolrankings.org
+BC,Immaculata,Kelowna,33,62,—,7.9,6.9,compareschoolrankings.org
+BC,Langley Fundamental,Langley,36,33,—,7.8,7.4,compareschoolrankings.org
+BC,Robert Alexander McMath,Richmond,36,36,—,7.8,7.3,compareschoolrankings.org
+BC,South Kamloops,Kamloops,36,69,up,7.8,6.8,compareschoolrankings.org
+BC,Revelstoke,Revelstoke,39,25,—,7.7,7.7,compareschoolrankings.org
+BC,Pemberton,Pemberton,39,126,—,7.7,6.0,compareschoolrankings.org
+BC,Heritage Woods,Port Moody,41,33,—,7.6,7.4,compareschoolrankings.org
+BC,Elphinstone,Gibsons,41,40,—,7.6,7.2,compareschoolrankings.org
+BC,Walnut Grove,Langley,41,45,—,7.6,7.1,compareschoolrankings.org
+BC,Moscrop,Burnaby,41,54,—,7.6,7.0,compareschoolrankings.org
+BC,Okanagan Mission,Kelowna,45,23,down,7.5,8.0,compareschoolrankings.org
+BC,R C Palmer,Richmond,45,54,up,7.5,7.0,compareschoolrankings.org
+BC,Shawnigan Lake,Shawnigan Lake,47,15,down,7.4,8.6,compareschoolrankings.org
+BC,Notre Dame,Vancouver,47,45,—,7.4,7.1,compareschoolrankings.org
+BC,Point Grey,Vancouver,47,45,—,7.4,7.1,compareschoolrankings.org
+BC,Handsworth,North Vancouver,50,31,—,7.3,7.5,compareschoolrankings.org
+BC,Rockridge,West Vancouver,50,31,down,7.3,7.5,compareschoolrankings.org
+BC,Claremont,Victoria,50,81,—,7.3,6.6,compareschoolrankings.org
+BC,Robert Bateman,Abbotsford,50,94,up,7.3,6.4,compareschoolrankings.org
+BC,Nanaimo District,Nanaimo,50,141,—,7.3,5.8,compareschoolrankings.org
+BC,Semiahmoo,Surrey,55,28,—,7.2,7.6,compareschoolrankings.org
+BC,Magee,Vancouver,55,75,—,7.2,6.7,compareschoolrankings.org
+BC,Kwalikum,Qualicum Beach,55,131,—,7.2,5.9,compareschoolrankings.org
+BC,George Elliot,Winfield,58,54,—,7.1,7.0,compareschoolrankings.org
+BC,Langley Christian,Langley,58,62,—,7.1,6.9,compareschoolrankings.org
+BC,Fraser Heights,Surrey,58,69,—,7.1,6.8,compareschoolrankings.org
+BC,David Thompson,Vancouver,58,108,—,7.1,6.2,compareschoolrankings.org
+BC,Howe Sound,Squamish,58,108,up,7.1,6.2,compareschoolrankings.org
+BC,Credo Christian,Langley,63,36,down,7.0,7.3,compareschoolrankings.org
+BC,Kelowna,Kelowna,63,45,—,7.0,7.1,compareschoolrankings.org
+BC,Whistler,Whistler,63,62,—,7.0,6.9,compareschoolrankings.org
+BC,Fleetwood Park,Surrey,63,69,—,7.0,6.8,compareschoolrankings.org
+BC,Johnston Heights,Surrey,63,75,—,7.0,6.7,compareschoolrankings.org
+BC,Dover Bay,Nanaimo,63,81,—,7.0,6.6,compareschoolrankings.org
+BC,College Heights,Prince George,63,108,—,7.0,6.2,compareschoolrankings.org
+BC,Langley Fine Arts,Fort Langley,70,54,—,6.9,7.0,compareschoolrankings.org
+BC,Kalamalka,Vernon,70,69,—,6.9,6.8,compareschoolrankings.org
+BC,Holy Cross,Surrey,72,36,—,6.8,7.3,compareschoolrankings.org
+BC,Eric Hamber,Vancouver,72,62,—,6.8,6.9,compareschoolrankings.org
+BC,Windsor,North Vancouver,72,62,—,6.8,6.9,compareschoolrankings.org
+BC,Sardis,Chilliwack,72,75,—,6.8,6.7,compareschoolrankings.org
+BC,Yale,Abbotsford,72,81,—,6.8,6.6,compareschoolrankings.org
+BC,West Vancouver,West Vancouver,72,86,—,6.8,6.5,compareschoolrankings.org
+BC,Mount Boucherie,West Kelowna,72,103,up,6.8,6.3,compareschoolrankings.org
+BC,Salmon Arm,Salmon Arm,72,103,up,6.8,6.3,compareschoolrankings.org
+BC,Hope,Hope,72,131,up,6.8,5.9,compareschoolrankings.org
+BC,W L Seaton,Vernon,72,150,up,6.8,5.7,compareschoolrankings.org
+BC,Elgin Park,Surrey,82,54,—,6.7,7.0,compareschoolrankings.org
+BC,New Westminster,New Westminster,82,62,—,6.7,6.9,compareschoolrankings.org
+BC,Mount Baker,Cranbrook,82,81,—,6.7,6.6,compareschoolrankings.org
+BC,Highland,Comox,82,94,—,6.7,6.4,compareschoolrankings.org
+BC,Oak Bay,Victoria,82,103,—,6.7,6.3,compareschoolrankings.org
+BC,Delview,Delta,82,108,—,6.7,6.2,compareschoolrankings.org
+BC,Charles Hays,Prince Rupert,82,171,up,6.7,5.3,compareschoolrankings.org
+BC,Lord Tweedsmuir,Surrey,89,62,—,6.6,6.9,compareschoolrankings.org
+BC,Kitsilano,Vancouver,89,69,—,6.6,6.8,compareschoolrankings.org
+BC,Maple Ridge,Maple Ridge,89,94,—,6.6,6.4,compareschoolrankings.org
+BC,North Island,Port McNeill,89,163,up,6.6,5.5,compareschoolrankings.org
+BC,Cambie,Richmond,89,182,—,6.6,5.1,compareschoolrankings.org
+BC,Prince Charles,Creston,89,184,—,6.6,5.0,compareschoolrankings.org
+BC,Mark R. Isfeld,Courtenay,95,40,down,6.5,7.2,compareschoolrankings.org
+BC,Valleyview,Kamloops,95,86,—,6.5,6.5,compareschoolrankings.org
+BC,Burnaby Central,Burnaby,95,141,—,6.5,5.8,compareschoolrankings.org
+BC,Summerland,Summerland,98,45,—,6.4,7.1,compareschoolrankings.org
+BC,Burnsview,Delta,98,94,—,6.4,6.4,compareschoolrankings.org
+BC,Argyle,North Vancouver,98,116,—,6.4,6.1,compareschoolrankings.org
+BC,Burnaby Mountain,Burnaby,98,116,—,6.4,6.1,compareschoolrankings.org
+BC,Nechako Valley,Vanderhoof,98,116,—,6.4,6.1,compareschoolrankings.org
+BC,Surrey Christian,Surrey,98,116,—,6.4,6.1,compareschoolrankings.org
+BC,Georges P Vanier,Courtenay,98,168,up,6.4,5.4,compareschoolrankings.org
+BC,Carson Graham,North Vancouver,98,176,—,6.4,5.2,compareschoolrankings.org
+BC,Dawson Creek,Dawson Creek,98,190,up,6.4,4.8,compareschoolrankings.org
+BC,Seaquam,Delta,107,45,—,6.3,7.1,compareschoolrankings.org
+BC,Seycove,North Vancouver,107,54,—,6.3,7.0,compareschoolrankings.org
+BC,Prince Of Wales,Vancouver,107,75,down,6.3,6.7,compareschoolrankings.org
+BC,L V Rogers,Nelson,107,86,—,6.3,6.5,compareschoolrankings.org
+BC,Delta,Delta,107,94,—,6.3,6.4,compareschoolrankings.org
+BC,Selkirk,Kimberley,107,94,—,6.3,6.4,compareschoolrankings.org
+BC,Stelly’s,Saanichton,107,150,up,6.3,5.7,compareschoolrankings.org
+BC,Templeton,Vancouver,107,155,—,6.3,5.6,compareschoolrankings.org
+BC,Penticton,Penticton,115,86,—,6.2,6.5,compareschoolrankings.org
+BC,Steveston-London,Richmond,115,94,—,6.2,6.4,compareschoolrankings.org
+BC,Brookswood,Langley,115,131,—,6.2,5.9,compareschoolrankings.org
+BC,Clarence Fulton,Vernon,115,131,—,6.2,5.9,compareschoolrankings.org
+BC,St Margaret’s,Victoria,119,40,down,6.1,7.2,compareschoolrankings.org
+BC,Panorama Ridge,Surrey,119,108,—,6.1,6.2,compareschoolrankings.org
+BC,Rutland,Kelowna,119,141,—,6.1,5.8,compareschoolrankings.org
+BC,MEI,Abbotsford,122,45,—,6.0,7.1,compareschoolrankings.org
+BC,GW Graham,Chilliwack,122,69,—,6.0,6.8,compareschoolrankings.org
+BC,Agassiz,Agassiz,122,94,—,6.0,6.4,compareschoolrankings.org
+BC,Thomas Haney,Maple Ridge,122,103,—,6.0,6.3,compareschoolrankings.org
+BC,R. E. Mountain,Langley,122,116,—,6.0,6.1,compareschoolrankings.org
+BC,Timberline,Campbell River,122,131,—,6.0,5.9,compareschoolrankings.org
+BC,Sands,Delta,122,141,—,6.0,5.8,compareschoolrankings.org
+BC,Samuel Robertson,Maple Ridge,122,184,up,6.0,5.0,compareschoolrankings.org
+BC,Houston,Houston,122,n/a,n/a,6.0,n/a,compareschoolrankings.org
+BC,Sir Winston Churchill,Vancouver,131,45,down,5.9,7.1,compareschoolrankings.org
+BC,Earl Marriott,Surrey,131,75,—,5.9,6.7,compareschoolrankings.org
+BC,Richmond,Richmond,131,75,down,5.9,6.7,compareschoolrankings.org
+BC,David Thompson,Invermere,131,81,—,5.9,6.6,compareschoolrankings.org
+BC,Vernon,Vernon,131,86,—,5.9,6.5,compareschoolrankings.org
+BC,North Surrey,Surrey,131,103,down,5.9,6.3,compareschoolrankings.org
+BC,Pitt Meadows,Pitt Meadows,131,126,—,5.9,6.0,compareschoolrankings.org
+BC,Alberni District,Port Alberni,131,141,—,5.9,5.8,compareschoolrankings.org
+BC,Parkland,North Saanich,131,190,—,5.9,4.8,compareschoolrankings.org
+BC,Chatelech,Sechelt,140,108,—,5.8,6.2,compareschoolrankings.org
+BC,Vancouver Technical,Vancouver,140,131,—,5.8,5.9,compareschoolrankings.org
+BC,Windermere,Vancouver,140,155,—,5.8,5.6,compareschoolrankings.org
+BC,Rick Hansen,Abbotsford,140,168,—,5.8,5.4,compareschoolrankings.org
+BC,Lake City,Williams Lake,140,204,up,5.8,4.5,compareschoolrankings.org
+BC,Caledonia,Terrace,145,126,—,5.7,6.0,compareschoolrankings.org
+BC,St Andrew’s,Victoria,145,131,—,5.7,5.9,compareschoolrankings.org
+BC,Golden,Golden,145,163,—,5.7,5.5,compareschoolrankings.org
+BC,Duchess Park,Prince George,148,126,—,5.6,6.0,compareschoolrankings.org
+BC,Southern Okanagan,Oliver,148,141,—,5.6,5.8,compareschoolrankings.org
+BC,Frances Kelsey,Mill Bay,148,171,—,5.6,5.3,compareschoolrankings.org
+BC,Charles Bloom,Lumby,148,216,—,5.6,4.1,compareschoolrankings.org
+BC,Princess Margaret,Penticton,152,86,—,5.5,6.5,compareschoolrankings.org
+BC,Sullivan Heights,Surrey,152,116,—,5.5,6.1,compareschoolrankings.org
+BC,Enver Creek,Surrey,152,141,—,5.5,5.8,compareschoolrankings.org
+BC,Riverside,Port Coquitlam,152,150,—,5.5,5.7,compareschoolrankings.org
+BC,Smithers,Smithers,152,155,—,5.5,5.6,compareschoolrankings.org
+BC,Similkameen,Keremeos,152,171,—,5.5,5.3,compareschoolrankings.org
+BC,Burnaby South,Burnaby,152,190,—,5.5,4.8,compareschoolrankings.org
+BC,Correlieu,Quesnel,152,190,—,5.5,4.8,compareschoolrankings.org
+BC,Abbotsford Traditional,Abbotsford,160,108,—,5.4,6.2,compareschoolrankings.org
+BC,Stanley Humphries,Castlegar,160,141,—,5.4,5.8,compareschoolrankings.org
+BC,Clayton Heights,Surrey,160,155,—,5.4,5.6,compareschoolrankings.org
+BC,Abbotsford,Abbotsford,160,163,—,5.4,5.5,compareschoolrankings.org
+BC,Centennial,Coquitlam,160,171,—,5.4,5.3,compareschoolrankings.org
+BC,Sir Charles Tupper,Vancouver,160,176,—,5.4,5.2,compareschoolrankings.org
+BC,Matthew McNair,Richmond,160,204,—,5.4,4.5,compareschoolrankings.org
+BC,Kelowna Christian,Kelowna,n/a,n/a,n/a,n/a,n/a,compareschoolrankings.org
+BC,J N Burnett,Richmond,167,86,—,5.3,6.5,compareschoolrankings.org
+BC,University Hill,Vancouver,167,86,down,5.3,6.5,compareschoolrankings.org
+BC,St Patrick’s,Vancouver,167,116,down,5.3,6.1,compareschoolrankings.org
+BC,Tamanawis,Surrey,167,126,—,5.3,6.0,compareschoolrankings.org
+BC,Regent Christian,Surrey,167,176,—,5.3,5.2,compareschoolrankings.org
+BC,St Ann’s,Kamloops,173,54,—,5.2,7.0,compareschoolrankings.org
+BC,Fernie,Fernie,173,94,—,5.2,6.4,compareschoolrankings.org
+BC,Gleneagle,Coquitlam,173,141,down,5.2,5.8,compareschoolrankings.org
+BC,Frank Hurt,Surrey,173,163,—,5.2,5.5,compareschoolrankings.org
+BC,Reynolds,Victoria,173,163,—,5.2,5.5,compareschoolrankings.org
+BC,Spectrum,Victoria,173,182,—,5.2,5.1,compareschoolrankings.org
+BC,Alpha,Burnaby,173,184,—,5.2,5.0,compareschoolrankings.org
+BC,John Oliver,Vancouver,173,199,—,5.2,4.7,compareschoolrankings.org
+BC,South Delta,Delta,181,131,down,5.1,5.9,compareschoolrankings.org
+BC,Burnaby North,Burnaby,181,176,—,5.1,5.2,compareschoolrankings.org
+BC,Lakes District,Burns Lake,181,190,—,5.1,4.8,compareschoolrankings.org
+BC,D W Poppy,Langley,181,202,—,5.1,4.6,compareschoolrankings.org
+BC,Gladstone,Vancouver,185,176,—,5.0,5.2,compareschoolrankings.org
+BC,Prince George,Prince George,185,187,—,5.0,4.9,compareschoolrankings.org
+BC,Chilliwack,Chilliwack,185,202,—,5.0,4.6,compareschoolrankings.org
+BC,Pleasant Valley,Armstrong,185,204,—,5.0,4.5,compareschoolrankings.org
+BC,Fort Nelson,Fort Nelson,185,211,—,5.0,4.2,compareschoolrankings.org
+BC,Mission,Mission,185,n/a,n/a,5.0,n/a,compareschoolrankings.org
+BC,W J Mouat,Abbotsford,191,108,—,4.9,6.2,compareschoolrankings.org
+BC,Mount Douglas,Victoria,191,116,down,4.9,6.1,compareschoolrankings.org
+BC,North Delta,Delta,191,131,—,4.9,5.9,compareschoolrankings.org
+BC,Guildford Park,Surrey,191,155,—,4.9,5.6,compareschoolrankings.org
+BC,Peter Skene Ogden,100 Mile House,191,155,—,4.9,5.6,compareschoolrankings.org
+BC,Sutherland,North Vancouver,191,168,—,4.9,5.4,compareschoolrankings.org
+BC,Ballenas,Parksville,191,187,—,4.9,4.9,compareschoolrankings.org
+BC,Merritt,Merritt,191,223,—,4.9,3.8,compareschoolrankings.org
+BC,John Barsby,Nanaimo,191,233,up,4.9,2.6,compareschoolrankings.org
+BC,Sparwood,Sparwood,191,n/a,n/a,4.9,n/a,compareschoolrankings.org
+BC,Pinetree,Coquitlam,201,131,down,4.7,5.9,compareschoolrankings.org
+BC,King George,Vancouver,201,155,—,4.7,5.6,compareschoolrankings.org
+BC,Wellington,Nanaimo,201,211,—,4.7,4.2,compareschoolrankings.org
+BC,St John Brebeuf,Abbotsford,201,216,—,4.7,4.1,compareschoolrankings.org
+BC,British Columbia Christian,Port Coquitlam,201,n/a,n/a,4.7,n/a,compareschoolrankings.org
+BC,Cedar,Nanaimo,201,n/a,n/a,4.7,n/a,compareschoolrankings.org
+BC,Terry Fox,Port Coquitlam,207,190,—,4.6,4.8,compareschoolrankings.org
+BC,Elkford,Elkford,207,n/a,n/a,4.6,n/a,compareschoolrankings.org
+BC,Killarney,Vancouver,209,171,down,4.5,5.3,compareschoolrankings.org
+BC,Ladysmith,Ladysmith,209,190,—,4.5,4.8,compareschoolrankings.org
+BC,Brooks,Powell River,209,221,—,4.5,3.9,compareschoolrankings.org
+BC,Britannia,Vancouver,209,223,—,4.5,3.8,compareschoolrankings.org
+BC,Westside Preparatory,Vancouver,209,n/a,n/a,4.5,n/a,compareschoolrankings.org
+BC,Port Moody,Port Moody,214,155,down,4.4,5.6,compareschoolrankings.org
+BC,Cowichan,Duncan,214,190,—,4.4,4.8,compareschoolrankings.org
+BC,Clearwater,Clearwater,214,n/a,n/a,4.4,n/a,compareschoolrankings.org
+BC,Khalsa (Surrey),Surrey,214,n/a,n/a,4.4,n/a,compareschoolrankings.org
+BC,Pacific Christian,Victoria,218,150,—,4.3,5.7,compareschoolrankings.org
+BC,A.R. MacNeill,Richmond,218,204,—,4.3,4.5,compareschoolrankings.org
+BC,Kelly Road,Prince George,218,204,—,4.3,4.5,compareschoolrankings.org
+BC,Westsyde,Kamloops,218,211,—,4.3,4.2,compareschoolrankings.org
+BC,Gulf Islands,Salt Spring Island,218,225,—,4.3,3.6,compareschoolrankings.org
+BC,Princess Margaret,Surrey,223,150,down,4.2,5.7,compareschoolrankings.org
+BC,Mount Sentinel,South Slocan,223,199,—,4.2,4.7,compareschoolrankings.org
+BC,Hugh Boyd,Richmond,225,187,down,4.1,4.9,compareschoolrankings.org
+BC,Norkam,Kamloops,225,190,—,4.1,4.8,compareschoolrankings.org
+BC,Aldergrove,Aldergrove,225,210,—,4.1,4.3,compareschoolrankings.org
+BC,Victoria High,Victoria,225,220,—,4.1,4.0,compareschoolrankings.org
+BC,Garibaldi,Maple Ridge,225,229,—,4.1,3.5,compareschoolrankings.org
+BC,Chemainus,Chemainus,230,116,—,4.0,6.1,compareschoolrankings.org
+BC,Edward Milne,Sooke,230,211,—,4.0,4.2,compareschoolrankings.org
+BC,Belmont,Victoria,230,225,—,4.0,3.6,compareschoolrankings.org
+BC,Royal Bay,Victoria,230,n/a,n/a,4.0,n/a,compareschoolrankings.org
+BC,Esquimalt,Victoria,234,211,—,3.8,4.2,compareschoolrankings.org
+BC,D P Todd,Prince George,235,204,—,3.5,4.5,compareschoolrankings.org
+BC,L A Matheson,Surrey,235,216,—,3.5,4.1,compareschoolrankings.org
+BC,North Peace,Fort St John,235,231,—,3.5,3.1,compareschoolrankings.org
+BC,Byrne Creek,Burnaby,238,230,—,3.4,3.3,compareschoolrankings.org
+BC,Kwantlen Park,Surrey,239,176,—,3.3,5.2,compareschoolrankings.org
+BC,Sa-Hali,Kamloops,239,216,—,3.3,4.1,compareschoolrankings.org
+BC,Westview,Maple Ridge,239,221,—,3.3,3.9,compareschoolrankings.org
+BC,MacKenzie,Mackenzie,242,n/a,n/a,3.2,n/a,compareschoolrankings.org
+BC,Langley,Langley,243,232,down,2.8,3.0,compareschoolrankings.org
+BC,Queen Elizabeth,Surrey,244,225,down,2.6,3.6,compareschoolrankings.org
+BC,Lake Cowichan,Lake Cowichan,245,n/a,n/a,2.3,n/a,compareschoolrankings.org
+BC,Fraser Lake,Fraser Lake,246,n/a,n/a,2.1,n/a,compareschoolrankings.org
+BC,Lambrick Park,Victoria,247,225,down,1.9,3.6,compareschoolrankings.org
+BC,Mount Elizabeth,Kitimat,248,199,—,1.7,4.7,compareschoolrankings.org
+BC,Port Hardy,Port Hardy,249,235,—,0.7,1.5,compareschoolrankings.org
+BC,Chetwynd,Chetwynd,250,234,down,0.0,2,compareschoolrankings.org
+BC,Hazelton,Hazelton,250,236,—,0.0,0.7,compareschoolrankings.org
+BC,Fort St James,Fort St James,250,n/a,n/a,0.0,n/a,compareschoolrankings.org
