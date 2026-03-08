@@ -161,14 +161,22 @@ async function generateModelJson({
   }
 
   parts.push({ text: prompt });
-
-  const response = await ai.models.generateContent({
+  
+  const timeoutMs = 30000;
+  
+  const generatePromise = ai.models.generateContent({
     model: 'gemini-2.5-flash',
     contents: [{ role: 'user', parts }],
     config: {
       responseMimeType: 'application/json',
     },
   });
+
+  const timeoutPromise = new Promise((_, reject) => {
+    setTimeout(() => reject(new Error('TIMEOUT_30S')), timeoutMs);
+  });
+
+  const response = (await Promise.race([generatePromise, timeoutPromise])) as any;
 
   const text = response.text;
   if (!text) throw new Error('No response from AI model.');
@@ -262,7 +270,8 @@ Rules:
 1) Estimate inherent difficulty from 1.0 to 10.0.
 2) Infer approximate question count if possible.
 3) Infer question style (Plug & Chug | Critical Thinking / Application | Mixed).
-4) Do not output long explanations.
+5) If the analysis takes more than 30 seconds, favor a fallback estimate of 9.0 difficulty.
+6) Do not output long explanations.
 
 Return ONLY valid JSON with this exact shape:
 {
@@ -272,11 +281,28 @@ Return ONLY valid JSON with this exact shape:
 }
 `;
 
-  const parsed = await generateModelJson({
-    apiKey,
-    prompt,
-    pdfData: input.pdfData,
-  });
+  let parsed: any;
+  try {
+    parsed = await generateModelJson({
+      apiKey,
+      prompt,
+      pdfData: input.pdfData,
+    });
+  } catch (error: any) {
+    if (error.message === 'TIMEOUT_30S' || (error.message && error.message.includes('TIMEOUT'))) {
+      return {
+        estimatedDifficulty: 9.0,
+        adjustmentFactor: 0,
+        questionCount: undefined,
+        questionStyle: forcedQuestionStyle ?? 'Mixed',
+        rationale: 'Analysis timed out (30s limit exceeded). Defaulting to high difficulty (9.0).',
+        curriculumAlignment: 'Timeout occurred during deep analysis.',
+        selectedAgent: subject,
+        agentLabel: subjectLabel,
+      };
+    }
+    throw error;
+  }
 
   return {
     estimatedDifficulty: toNumber(parsed?.estimatedDifficulty, 5, 1, 10),
