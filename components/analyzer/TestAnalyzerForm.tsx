@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback, useMemo } from 'react';
+import { useState, useRef, useCallback, useMemo, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ANALYZER_SCHOOL_OPTIONS, type AnalyzerSchoolOption } from '@/lib/all-schools';
 
@@ -32,6 +32,8 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
   const [showSchoolDropdown, setShowSchoolDropdown] = useState(false);
   const [testContent, setTestContent] = useState('');
   const [pdfFile, setPdfFile] = useState<File | null>(null);
+  const [pdfPreviewUrl, setPdfPreviewUrl] = useState('');
+  const [showPdfPreview, setShowPdfPreview] = useState(false);
   const [isDragOver, setIsDragOver] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -52,6 +54,21 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
       );
     }).slice(0, 10);
   }, [province, schoolSearch]);
+
+  useEffect(() => {
+    if (!pdfFile) {
+      setPdfPreviewUrl('');
+      setShowPdfPreview(false);
+      return;
+    }
+
+    const url = URL.createObjectURL(pdfFile);
+    setPdfPreviewUrl(url);
+
+    return () => {
+      URL.revokeObjectURL(url);
+    };
+  }, [pdfFile]);
 
   const handleFile = useCallback((file: File) => {
     if (file.type !== 'application/pdf') {
@@ -262,6 +279,16 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
                 <span className="text-sm font-medium text-emerald-300">{pdfFile.name}</span>
                 <button
                   type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setShowPdfPreview(true);
+                  }}
+                  className="text-xs text-slate-400 hover:text-slate-200 transition-colors"
+                >
+                  Preview
+                </button>
+                <button
+                  type="button"
                   onClick={(e) => { e.stopPropagation(); setPdfFile(null); }}
                   className="text-xs text-slate-500 hover:text-rose-400 transition-colors"
                 >
@@ -318,6 +345,30 @@ export function TestAnalyzerForm({ onResult }: { onResult: (res: AnalysisResult)
           'Analyze Standards Adjustment'
         )}
       </button>
+
+      {showPdfPreview && pdfPreviewUrl && (
+        <div className="fixed inset-0 z-[120] flex items-center justify-center bg-black/75 p-3">
+          <div className="flex h-[90vh] w-[min(70rem,96vw)] flex-col overflow-hidden rounded-xl border border-white/15 bg-slate-950 shadow-2xl">
+            <div className="flex items-center justify-between border-b border-white/10 px-4 py-3">
+              <p className="truncate text-sm font-medium text-slate-200">
+                {pdfFile?.name ?? 'PDF Preview'}
+              </p>
+              <button
+                type="button"
+                onClick={() => setShowPdfPreview(false)}
+                className="rounded-md border border-white/20 px-3 py-1 text-xs font-medium text-slate-200 transition hover:bg-white/10"
+              >
+                Close
+              </button>
+            </div>
+            <iframe
+              title="Uploaded PDF preview"
+              src={pdfPreviewUrl}
+              className="h-full w-full bg-slate-900"
+            />
+          </div>
+        </div>
+      )}
     </motion.form>
   );
 }
