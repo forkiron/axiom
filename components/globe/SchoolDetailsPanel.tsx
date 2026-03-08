@@ -100,7 +100,7 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment
                   <div className="h-px flex-1 bg-white/8" />
                 </div>
 
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-2 gap-3">
                   {/* Test Difficulty */}
                   <div className="rounded-xl border border-white/5 bg-white/5 p-3 flex flex-col items-center justify-center">
                     <span className="text-[10px] font-semibold uppercase tracking-wider text-slate-500 mb-1">Difficulty</span>
@@ -122,16 +122,7 @@ export function SchoolDetailsPanel({ school, onClose, getRatingColor, adjustment
                     <span className={`text-2xl font-bold ${isDeflated ? 'text-emerald-400' : isInflated ? 'text-rose-400' : 'text-slate-300'}`}>
                       {af != null ? `${af > 0 ? '+' : ''}${af.toFixed(1)}` : '0.0'}
                     </span>
-                    <span className="text-[10px] text-slate-600">%</span>
-                  </div>
-
-                  {/* Adjusted mark */}
-                  <div className="rounded-xl border border-white/5 bg-white/5 p-3 flex flex-col items-center justify-center">
-                    <span className="text-[10px] font-semibold uppercase tracking-wider text-slate-500 mb-1">M_adj</span>
-                    <span className="text-2xl font-bold text-slate-100">
-                      {adjustment.mAdj != null ? adjustment.mAdj.toFixed(1) : '—'}
-                    </span>
-                    <span className="text-[10px] text-slate-600">%</span>
+                    <span className="text-[10px] text-slate-600">pts</span>
                   </div>
                 </div>
 

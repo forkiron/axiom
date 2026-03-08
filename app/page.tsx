@@ -125,7 +125,7 @@ export default function LandingPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.65, ease: 'easeOut' }}
           >
-            <p className={`mb-6 text-[10px] tracking-[0.3em] text-zinc-500 ${monoFont.className}`}>AXIOM — CANSTANDARD</p>
+            <p className={`mb-6 text-[10px] tracking-[0.3em] text-zinc-500 ${monoFont.className}`}>AXIOM</p>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-white">
               Grade smarter.{' '}
               <br />
@@ -335,6 +335,12 @@ export default function LandingPage() {
           </FadeIn>
         </div>
       </section>
+
+      <footer className="bg-[#080B10] px-8 py-6 text-center sm:px-16">
+        <p className={`text-[10px] tracking-[0.2em] text-zinc-500 ${monoFont.className}`}>
+          © {new Date().getFullYear()} AXIOM. ALL RIGHTS RESERVED.
+        </p>
+      </footer>
 
     </main>
   );
