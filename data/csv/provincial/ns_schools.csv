@@ -1,0 +1,69 @@
+province,school_name,city,rank_2019,rank_5yr,trend,overall_rating_2019,overall_rating_5yr,source
+NS,Islands Consolidated School,Freeport,1,2,stable,9.8,9.6,aims.ca
+NS,Charles P Allen High School,Bedford,2,3,stable,8.6,8.5,aims.ca
+NS,Cape Breton Highlands Academy,Terre Noire,3,8,up,8.6,8.2,aims.ca
+NS,Dalbrae Academy,Southwest Mabou,4,4,stable,8.6,8.4,aims.ca
+NS,Dr John Hugh Gillis Regional School,Antigonish,5,5,stable,8.6,8.4,aims.ca
+NS,Queen Elizabeth High School,Halifax,6,7,down,8.6,8.3,aims.ca
+NS,St Patrick's High School,Halifax,7,9,down,8.6,8.2,aims.ca
+NS,Richmond Academy,Louisdale,8,10,up,8.6,8.1,aims.ca
+NS,Horton High School,Wolfville,9,11,stable,8.6,8.2,aims.ca
+NS,Baddeck Academy,Baddeck,10,12,stable,8,8.1,aims.ca
+NS,Prince Andrew High School,Dartmouth,11,15,stable,8,7.9,aims.ca
+NS,Riverview High School,Coxheath,12,13,stable,8,7.8,aims.ca
+NS,Sydney Academy,Sydney,13,16,stable,8,7.8,aims.ca
+NS,New Germany Rural High School,New Germany,14,18,stable,8,7.7,aims.ca
+NS,St Mary's Academy,Sherbrooke,15,14,up,8,8,aims.ca
+NS,Auburn Drive High School,Cole Harbour,16,19,stable,8,7.7,aims.ca
+NS,West Kings District High School,Auburn,17,21,down,8,7.6,aims.ca
+NS,Barrington Municipal High School,Barrington Passage,18,22,stable,8,7.6,aims.ca
+NS,Middleton Regional High School,Middleton,19,17,up,8,7.8,aims.ca
+NS,Sackville High School,Lower Sackville,20,20,stable,8,7.7,aims.ca
+NS,Shelburne Regional High School,Shelburne,21,25,up,8,7.4,aims.ca
+NS,Sir John A Macdonald High School,Hubley,22,24,down,8,7.5,aims.ca
+NS,Memorial High School,Sydney Mines,23,27,up,8,7.4,aims.ca
+NS,Parrsboro Regional High School,Parrsboro,24,23,stable,8,7.6,aims.ca
+NS,Pugwash District High School,Pugwash,25,28,stable,7,7.1,aims.ca
+NS,Annapolis West Education Centre,Annapolis Royal,26,29,up,7,7.2,aims.ca
+NS,Bridgewater Junior-Senior High School,Bridgewater,27,30,stable,7,7,aims.ca
+NS,Yarmouth Consolidated Memorial High School,Yarmouth,28,31,stable,7,7,aims.ca
+NS,Eastern Shore District High School,Musquodoboit Harbour,29,32,stable,7,6.9,aims.ca
+NS,Forest Heights Community School,Chester Basin,30,33,stable,7,7,aims.ca
+NS,Halifax West High School,Halifax,31,26,down,7,7.3,aims.ca
+NS,Breton Education Centre,New Waterford,32,34,stable,7,6.9,aims.ca
+NS,Inverness Academy,Inverness,33,36,stable,7,6.9,aims.ca
+NS,Dartmouth High School,Dartmouth,34,37,stable,7,6.8,aims.ca
+NS,Hants East Rural High School,Milford Station,35,39,stable,7,6.8,aims.ca
+NS,Cobequid Educational Centre,Truro,36,38,stable,7,6.9,aims.ca
+NS,East Antigonish Academy,Monastery,37,35,up,7,7,aims.ca
+NS,Chedabucto Education Centre Guysborough Academy,Guysborough,38,40,stable,7,6.8,aims.ca
+NS,St Mary's Bay Academy,Weymouth,39,41,stable,7,6.8,aims.ca
+NS,North Colchester High School,Tatamagouche,40,42,stable,7,6.8,aims.ca
+NS,Pictou Academy Dr T McCulloch School,Pictou,41,45,down,7,6.7,aims.ca
+NS,J L Ilsley High School,Halifax,42,43,stable,7,6.9,aims.ca
+NS,Bridgetown Regional High School,Bridgetown,43,46,stable,7,6.7,aims.ca
+NS,North Queens Rural High School,Caledonia,44,44,stable,7,6.8,aims.ca
+NS,Digby Regional High School,Digby,45,47,stable,7,6.7,aims.ca
+NS,Springhill Junior Senior High School,Springhill,46,48,stable,7,6.7,aims.ca
+NS,Amherst Regional High School,Amherst,47,49,stable,7,6.7,aims.ca
+NS,Liverpool Regional High School,Liverpool,48,50,stable,7,6.6,aims.ca
+NS,Lockeport Regional High School,Lockeport,49,52,stable,7,6.6,aims.ca
+NS,Park View Education Centre,Bridgewater,50,51,stable,7,6.6,aims.ca
+NS,South Colchester Academy,Brookfield,51,53,stable,7,6.6,aims.ca
+NS,Rankin Memorial School,Iona,52,33,down,7,7.2,aims.ca
+NS,Cabot High School,Neil's Harbour,53,54,stable,7,6.6,aims.ca
+NS,Central Kings Rural High School,Cambridge Station,54,55,stable,7,6.6,aims.ca
+NS,Strait Area Education Recreation Centre,Port Hawkesbury,55,56,stable,7,6.5,aims.ca
+NS,Northeast Kings Education Centre,Canning,56,57,stable,7,6.5,aims.ca
+NS,Lockview High School,Fall River,57,58,stable,6.5,6.4,aims.ca
+NS,Duncan MacMillan High School,Sheet Harbour,58,59,stable,6.5,6.4,aims.ca
+NS,Millwood High School,Lower Sackville,59,60,stable,6.5,6.4,aims.ca
+NS,Musquodoboit Rural High School,Middle Musquodoboit,60,61,stable,6.5,6.4,aims.ca
+NS,Holy Angels High School,Sydney,61,62,stable,6.5,6.3,aims.ca
+NS,Drumlin Heights Consolidated School,Glenwood,62,63,stable,6.5,6.3,aims.ca
+NS,Canso Academy,Canso,63,64,stable,6.5,6.3,aims.ca
+NS,Oxford Regional High School,Oxford,64,65,stable,6.5,6.3,aims.ca
+NS,Cole Harbour District High School,Dartmouth,65,66,stable,6.5,6.3,aims.ca
+NS,River Hebert District High School,River Hebert,66,67,stable,5.5,5.7,aims.ca
+NS,Lunenburg Junior Senior High School,Lunenburg,67,68,down,5.5,5.6,aims.ca
+NS,Hants North Rural High School,Kennetcook,68,69,down,5.5,5.6,aims.ca

@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const INPUT_CSV = 'bc_252_schools_2019.csv';
+const INPUT_CSV = 'data/csv/provincial/bc_252_schools_2019.csv';
 const OUTPUT_JSON = 'lib/data/bc-city-centroids.json';
 const REQUEST_DELAY_MS = Number(process.env.BC_CITY_GEOCODE_DELAY_MS ?? '1100');
 

@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const INPUT_CSV = 'bc_252_schools_2019.csv';
+const INPUT_CSV = 'data/csv/provincial/bc_252_schools_2019.csv';
 const OUTPUT_JSON = 'lib/data/bc-school-rankings.json';
 const CITY_CENTROIDS_PATH = 'lib/data/bc-city-centroids.json';
 const CACHE_JSON = 'lib/data/bc-school-geocodes.json';

@@ -33,3 +33,62 @@ body {
   background-size: 460px 340px, 560px 420px, 520px 380px, 640px 520px;
   background-repeat: repeat;
 }
+
+.dotted-glow-layer {
+  will-change: transform;
+  animation-name: dotted-glow-drift, dotted-glow-pulse;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+}
+
+.dotted-glow-layer-reverse {
+  animation-name: dotted-glow-drift-reverse, dotted-glow-pulse-reverse;
+}
+
+@keyframes dotted-glow-drift {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(calc(var(--dotted-gap, 10px) * -1), calc(var(--dotted-gap, 10px) * -1), 0);
+  }
+}
+
+@keyframes dotted-glow-drift-reverse {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--dotted-gap, 10px), calc(var(--dotted-gap, 10px) * -1), 0);
+  }
+}
+
+@keyframes dotted-glow-pulse {
+  0% {
+    opacity: 0.72;
+    filter: brightness(0.75);
+  }
+  50% {
+    opacity: 1;
+    filter: brightness(1.35);
+  }
+  100% {
+    opacity: 0.72;
+    filter: brightness(0.75);
+  }
+}
+
+@keyframes dotted-glow-pulse-reverse {
+  0% {
+    opacity: 0.6;
+    filter: brightness(0.7);
+  }
+  50% {
+    opacity: 0.95;
+    filter: brightness(1.45);
+  }
+  100% {
+    opacity: 0.6;
+    filter: brightness(0.7);
+  }
+}

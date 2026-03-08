@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-03-08T00:12:15.439Z",
-  "source": "bc_252_schools_2019.csv",
+  "source": "data/csv/provincial/bc_252_schools_2019.csv",
   "notes": "Coordinates are approximated from city-level anchors and deterministic jitter per school because the source CSV has no exact school coordinates.",
   "count": 252,
   "schools": [

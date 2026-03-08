@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const INPUT_CSV = 'nb_schools.csv';
+const INPUT_CSV = 'data/csv/provincial/nb_schools.csv';
 const OUTPUT_JSON = 'lib/data/nb-school-rankings.json';
 const CACHE_JSON = 'lib/data/nb-school-geocodes.json';
 const OSM_SCHOOL_CACHE_JSON = 'lib/data/nb-osm-schools.json';

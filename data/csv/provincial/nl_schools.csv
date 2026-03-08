@@ -1,0 +1,51 @@
+province,school_name,city,rank_2019,rank_5yr,trend,overall_rating_2019,overall_rating_5yr,source
+NL,Gonzaga High School,St Johns,1,2,stable,8.6,8.5,aims.ca
+NL,JM Olds Collegiate,Twillingate,2,4,up,8.6,8.3,aims.ca
+NL,Bay d'Espoir Academy,Milltown,3,7,up,8.6,8.2,aims.ca
+NL,Pasadena Academy,Pasadena,4,5,stable,8.6,8.3,aims.ca
+NL,Roncalli Central High,Port Saunders,5,6,stable,8.6,8.2,aims.ca
+NL,Fogo Island Central Academy,Fogo Island,6,9,up,8,7.9,aims.ca
+NL,Mountain Field Academy,Forteau,7,11,stable,8,7.8,aims.ca
+NL,New World Island Academy,Summerford,8,12,stable,8,7.8,aims.ca
+NL,Mount Pearl Senior High School,Mount Pearl,9,10,stable,8,7.9,aims.ca
+NL,Gander Collegiate,Gander,10,13,stable,8,7.8,aims.ca
+NL,Bishops College,St Johns,11,14,stable,8,7.7,aims.ca
+NL,Holy Heart High School,St Johns,12,16,up,8,7.6,aims.ca
+NL,John Burke High School,Grand Bank,13,15,stable,8,7.7,aims.ca
+NL,Dunne Memorial Academy,St Marys,14,17,stable,8,7.6,aims.ca
+NL,Indian River High School,Springdale,15,18,stable,8,7.6,aims.ca
+NL,Dorset Collegiate,Pilleys Island,16,3,down,8,8.4,aims.ca
+NL,Clarenville High School,Clarenville,17,19,stable,7.6,7.5,aims.ca
+NL,Carbonear Collegiate,Carbonear,18,21,stable,7.6,7.4,aims.ca
+NL,Discovery Collegiate,Bonavista,19,22,stable,7.6,7.4,aims.ca
+NL,Crescent Collegiate,Blaketown,20,23,stable,7.6,7.4,aims.ca
+NL,Mobile Central High,Mobile,21,24,stable,7.6,7.3,aims.ca
+NL,Ascension Collegiate,Bay Roberts,22,25,stable,7.6,7.3,aims.ca
+NL,Prince of Wales Collegiate,St Johns,23,8,down,7.6,7.8,aims.ca
+NL,Queen Elizabeth Regional High,Conception Bay South,24,26,stable,7.6,7.3,aims.ca
+NL,St Kevins High School,Goulds,25,27,stable,7.6,7.2,aims.ca
+NL,O'Donel High School,Mount Pearl,26,28,stable,7.6,7.2,aims.ca
+NL,Holy Spirit High School,Conception Bay South,27,29,stable,7.6,7.2,aims.ca
+NL,Templeton Academy,Meadows,28,30,stable,7.6,7.1,aims.ca
+NL,Stephenville High School,Stephenville,29,31,stable,7.6,7.1,aims.ca
+NL,Corner Brook Regional High School,Corner Brook,30,32,stable,7.6,7.1,aims.ca
+NL,Exploits Valley High School,Grand Falls Windsor,31,33,stable,7.6,7.1,aims.ca
+NL,Marystown Central High School,Marystown,32,34,stable,7.6,7,aims.ca
+NL,Botwood Collegiate,Botwood,33,35,stable,7.6,7,aims.ca
+NL,Lewisporte Collegiate,Lewisporte,34,36,stable,7.6,7,aims.ca
+NL,Leo Burke Academy,Bishops Falls,35,37,stable,7.6,7,aims.ca
+NL,Glovertown Academy,Glovertown,36,38,stable,7.6,6.9,aims.ca
+NL,Lakeside Academy,Buchans,37,39,stable,7.6,6.9,aims.ca
+NL,Random Island Academy,Random Island,38,40,stable,7.6,6.9,aims.ca
+NL,Fortune Bay Academy,St Bernards,39,41,stable,7.6,6.9,aims.ca
+NL,St Lawrence Academy,St Lawrence,40,42,stable,7.6,6.9,aims.ca
+NL,Baccalieu Collegiate,Old Perlican,41,43,stable,7.6,6.8,aims.ca
+NL,Laval High School,Placentia,42,44,stable,7.6,6.8,aims.ca
+NL,St James Regional High School,Channel Port Aux Basques,43,45,stable,7.6,6.8,aims.ca
+NL,Elwood Regional High School,Deer Lake,44,46,stable,7.6,6.8,aims.ca
+NL,Smallwood Academy,Gambo,45,47,stable,7.6,6.8,aims.ca
+NL,Long Range Academy,Cow Head,46,48,stable,7.6,6.8,aims.ca
+NL,Gros Morne Academy,Rocky Harbour,47,49,stable,7.6,6.7,aims.ca
+NL,William Gillett Academy,Charlottetown Labrador,48,50,stable,7.6,6.7,aims.ca
+NL,Valmont Academy,Kings Point,49,51,stable,7.6,6.7,aims.ca
+NL,Viking Trail Academy,Plum Point,50,52,stable,7.6,6.7,aims.ca

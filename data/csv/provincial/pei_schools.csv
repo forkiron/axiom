@@ -1,0 +1,11 @@
+province,school_name,city,rank_2019,rank_5yr,trend,overall_rating_2019,overall_rating_5yr,source
+PE,Souris Regional High School,Souris,1,2,up,8,8.1,aims.ca
+PE,Colonel Gray Senior High School,Charlottetown,2,3,stable,8,8,aims.ca
+PE,Charlottetown Rural High School,Charlottetown,3,4,stable,8,7.9,aims.ca
+PE,Morell Regional High School,Morell,4,6,up,8,7.7,aims.ca
+PE,Bluefield High School,North Wiltshire,5,5,stable,8,7.8,aims.ca
+PE,Montague Regional High School,Montague,6,7,stable,7,7.1,aims.ca
+PE,Westisle Composite High School,Rosebank,7,8,stable,7,7,aims.ca
+PE,Three Oaks Senior High School,Summerside,8,9,stable,7,7,aims.ca
+PE,Kinkora Regional High School,Kinkora,9,4,down,7,7.4,aims.ca
+PE,Kensington Intermediate Senior High,Kensington,10,10,stable,7,6.9,aims.ca

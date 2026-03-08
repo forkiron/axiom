@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-03-07T21:55:37.955Z",
-  "source": "nb_schools.csv",
+  "source": "data/csv/provincial/nb_schools.csv",
   "provider": "OpenStreetMap Nominatim",
   "notes": "Coordinates are resolved via school geocoding, OSM school feature matching, and address-level geocoding. Remaining unresolved schools use geocoded city centroids.",
   "count": 44,

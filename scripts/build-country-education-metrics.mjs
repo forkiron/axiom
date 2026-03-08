@@ -64,7 +64,7 @@ function parseCsvFileWithHeader(filePath, headerMatcher) {
 
 function parseHeatByIso2() {
   const rows = parseCsvFileWithHeader(
-    'global.csv',
+    'data/csv/global/global.csv',
     (line) => line.includes('"flagCode"') && line.includes('"country"')
   );
 
@@ -109,7 +109,7 @@ function parseHeatByIso2() {
 
 function parseLatestExtrusionByIso3() {
   const rows = parseCsvFileWithHeader(
-    'global_extrusion.csv',
+    'data/csv/global/global_extrusion.csv',
     (line) => line.includes('"Country Name"') && line.includes('"Country Code"')
   );
 
@@ -196,8 +196,8 @@ function buildDataset() {
   return {
     generatedAt: new Date().toISOString(),
     sources: {
-      heat: 'global.csv',
-      extrusion: 'global_extrusion.csv',
+      heat: 'data/csv/global/global.csv',
+      extrusion: 'data/csv/global/global_extrusion.csv',
       extrusionMethod:
         'latest non-empty value across year columns (1960-2025) for each country code',
     },

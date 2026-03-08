@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const INPUT_CSV = 'ab_school_rankings.csv';
+const INPUT_CSV = 'data/csv/provincial/ab_school_rankings.csv';
 const OUTPUT_JSON = 'lib/data/ab-school-rankings.json';
 const CACHE_JSON = 'lib/data/ab-school-geocodes.json';
 const REQUEST_DELAY_MS = Number(process.env.AB_SCHOOL_GEOCODE_DELAY_MS ?? '1100');

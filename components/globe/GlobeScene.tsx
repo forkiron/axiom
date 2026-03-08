@@ -13,6 +13,7 @@ import { CountryShapeExtrusions } from './CountryShapeExtrusions';
 import { EarthMesh } from './EarthMesh';
 import { GlobeLights } from './GlobeLights';
 import { latLonToCartesian } from './geo';
+import { cn } from '@/lib/utils';
 
 /* ── types ── */
 
@@ -27,6 +28,11 @@ interface GlobeSceneProps {
   onCountrySelect?: (record: EducationCountryMetric | null) => void;
   selectedIso3?: string | null;
   targetCoordinates?: { latitude: number; longitude: number } | null;
+  overlayStyle?: 'academic' | 'white';
+  interactive?: boolean;
+  showStars?: boolean;
+  transparentBackground?: boolean;
+  cameraDistanceScale?: number;
 }
 
 /* ── precompute country centroids + extents from GeoJSON ── */
@@ -95,10 +101,14 @@ function CameraController({
   targetIso3,
   targetCoordinates,
   worldScale,
+  interactive,
+  cameraDistanceScale,
 }: {
   targetIso3: string | null;
   targetCoordinates?: { latitude: number; longitude: number } | null;
   worldScale: number;
+  interactive: boolean;
+  cameraDistanceScale: number;
 }) {
   const { camera } = useThree();
   const controlsRef = useRef<OrbitControlsImpl>(null);
@@ -110,7 +120,7 @@ function CameraController({
   useEffect(() => {
     if (targetCoordinates) {
       // Zoom in tight for a specific school location
-      const dist = zoomDistanceForExtent(5, worldScale); 
+      const dist = zoomDistanceForExtent(5, worldScale) * cameraDistanceScale;
       const [cx, cy, cz] = latLonToCartesian(targetCoordinates.latitude, targetCoordinates.longitude, 1);
       const centroid = new Vector3(cx, cy, cz);
 
@@ -122,7 +132,7 @@ function CameraController({
     } else if (targetIso3) {
       const geo = COUNTRY_GEO_MAP.get(targetIso3);
       if (geo) {
-        const dist = zoomDistanceForExtent(geo.angularExtent, worldScale);
+        const dist = zoomDistanceForExtent(geo.angularExtent, worldScale) * cameraDistanceScale;
         const [cx, cy, cz] = latLonToCartesian(geo.centroidLat, geo.centroidLon, 1);
         const centroid = new Vector3(cx, cy, cz);
 
@@ -136,11 +146,11 @@ function CameraController({
     } else {
       // Zoom back out — reset to the default world view camera position
       targetPoint.current.set(0, 0, 0);
-      targetPos.current.set(0, 0, WORLD_DISTANCE);
+      targetPos.current.set(0, 0, WORLD_DISTANCE * cameraDistanceScale);
       isAnimating.current = true;
       setIsAnimatingState(true);
     }
-  }, [targetIso3, targetCoordinates, camera, worldScale]);
+  }, [targetIso3, targetCoordinates, camera, worldScale, cameraDistanceScale]);
 
   useFrame((_, delta) => {
     if (!isAnimating.current) return;
@@ -174,8 +184,11 @@ function CameraController({
       key={targetIso3 ?? (targetCoordinates ? 'school' : 'world')}
       ref={controlsRef}
       enablePan={false}
+      enabled
+      enableRotate={interactive}
+      enableZoom={interactive}
       autoRotate={targetIso3 === null && targetCoordinates == null && !isAnimatingState}
-      autoRotateSpeed={0.8}
+      autoRotateSpeed={0.9}
       // Allow deep zoom into countries (controls enforce minDistance)
       minDistance={0.12}
       // Allow zooming out further for a good globe view
@@ -195,22 +208,34 @@ function StaticWorld({
   onMetricHover,
   onCountryClick,
   scale = 1,
+  overlayStyle = 'academic',
+  interactive = true,
 }: {
   records: EducationCountryMetric[];
   hoveredIso3: string | null;
   onMetricHover: (record: EducationCountryMetric | null) => void;
   onCountryClick?: (record: EducationCountryMetric) => void;
   scale?: number;
+  overlayStyle?: 'academic' | 'white';
+  interactive?: boolean;
 }) {
   return (
     <group scale={scale}>
       <EarthMesh />
-      <CountryOutlines records={records} />
+      <CountryOutlines
+        records={records}
+        colorMode={overlayStyle === 'white' ? 'white' : 'heat'}
+        opacity={overlayStyle === 'white' ? 0.82 : 0.78}
+        strokeColor="#f5f7fb"
+      />
       <CountryShapeExtrusions
         records={records}
         selectedIso3={hoveredIso3}
         onCountryHover={onMetricHover}
         onCountryClick={onCountryClick}
+        colorMode={overlayStyle === 'white' ? 'white' : 'heat'}
+        fillColor="#f4f6fb"
+        enableInteraction={interactive && overlayStyle !== 'white'}
       />
     </group>
   );
@@ -223,14 +248,19 @@ export function GlobeScene({
   onCountrySelect,
   selectedIso3 = null,
   targetCoordinates = null,
+  overlayStyle = 'academic',
+  interactive = true,
+  showStars = true,
+  transparentBackground = false,
+  cameraDistanceScale = 1,
 }: GlobeSceneProps) {
   const worldScale = 0.84;
   const [hoveredIso3, setHoveredIso3] = useState<string | null>(null);
   const typedDataset = educationDataset as EducationCountryDataset;
 
   const records = useMemo(
-    () => typedDataset.records,
-    [typedDataset.records]
+    () => (overlayStyle === 'white' ? [] : typedDataset.records),
+    [overlayStyle, typedDataset.records]
   );
 
   const handleCountryClick = useCallback(
@@ -242,22 +272,33 @@ export function GlobeScene({
 
   return (
     <div
-      className={`relative min-h-[520px] overflow-hidden rounded-xl border border-white/10 bg-black ${className ?? ''}`}
+      className={cn(
+        'relative min-h-[520px] overflow-hidden rounded-xl border border-white/10',
+        transparentBackground ? 'bg-transparent' : 'bg-black',
+        className
+      )}
     >
       <Canvas
-        camera={{ position: [0, 0, WORLD_DISTANCE], fov: 40 }}
+        camera={{ position: [0, 0, WORLD_DISTANCE * cameraDistanceScale], fov: 40 }}
         dpr={[1, 1.75]}
-        gl={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
+        gl={{ antialias: true, alpha: true, premultipliedAlpha: false, powerPreference: 'high-performance' }}
+        onCreated={({ gl }) => {
+          if (transparentBackground) {
+            gl.setClearColor(0x000000, 0);
+          }
+        }}
       >
-        <color attach="background" args={['#010101']} />
-        <fog attach="fog" args={['#010101', 2.8, 6.5]} />
+        {!transparentBackground && <color attach="background" args={['#010101']} />}
+        {!transparentBackground && <fog attach="fog" args={['#010101', 2.8, 6.5]} />}
         <Suspense fallback={null}>
           <GlobeLights />
-          <Stars radius={120} depth={60} count={1100} factor={2.2} saturation={0} fade speed={0.12} />
+          {showStars && <Stars radius={120} depth={60} count={1100} factor={2.2} saturation={0} fade speed={0.12} />}
           <CameraController 
             targetIso3={selectedIso3} 
             targetCoordinates={targetCoordinates}
-            worldScale={worldScale} 
+            worldScale={worldScale}
+            interactive={interactive}
+            cameraDistanceScale={cameraDistanceScale}
           />
           <StaticWorld
             records={records}
@@ -265,11 +306,15 @@ export function GlobeScene({
             onMetricHover={(record) => setHoveredIso3(record?.iso3 ?? null)}
             onCountryClick={handleCountryClick}
             scale={worldScale}
+            overlayStyle={overlayStyle}
+            interactive={interactive}
           />
         </Suspense>
       </Canvas>
 
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_52%,rgba(0,0,0,0.58)_100%)]" />
+      {!transparentBackground && (
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_52%,rgba(0,0,0,0.58)_100%)]" />
+      )}
     </div>
   );
 }

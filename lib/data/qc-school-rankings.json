@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-03-07T20:31:53.311Z",
-  "source": "quebec_469_schools (1).csv",
+  "source": "data/csv/provincial/quebec_469_schools.csv",
   "provider": "OpenStreetMap school POIs + inferred Quebec city centroid fallback",
   "notes": "School coordinates are matched against OSM school POIs in Quebec by school name and city. Unmatched schools fall back to Quebec city centroid coordinates + deterministic jitter.",
   "count": 468,

@@ -13,10 +13,13 @@ import { latLonToCartesian } from './geo';
 import { getHeatDomain, heatColorFromValue } from './heatColor';
 
 interface CountryShapeExtrusionsProps {
-  records: EducationCountryMetric[];
+  records?: EducationCountryMetric[];
   selectedIso3?: string | null;
   onCountryHover?: (record: EducationCountryMetric | null) => void;
   onCountryClick?: (record: EducationCountryMetric) => void;
+  colorMode?: 'heat' | 'white';
+  fillColor?: string;
+  enableInteraction?: boolean;
 }
 
 type GeoJsonFeature = {
@@ -125,12 +128,15 @@ function buildExtrudedPolygonGeometry(
 }
 
 export function CountryShapeExtrusions({
-  records,
+  records = [],
   selectedIso3,
   onCountryHover,
   onCountryClick,
+  colorMode = 'heat',
+  fillColor = '#f3f6ff',
+  enableInteraction = true,
 }: CountryShapeExtrusionsProps) {
-  useCursor(Boolean(selectedIso3), 'pointer', 'auto');
+  useCursor(enableInteraction && Boolean(selectedIso3), 'pointer', 'auto');
 
   const meshes = useMemo(() => {
     const features = (countryShapesGeoJson as GeoJsonFeatureCollection).features;
@@ -143,17 +149,21 @@ export function CountryShapeExtrusions({
       key: string;
       geometry: BufferGeometry;
       color: string;
-      record: EducationCountryMetric;
+      iso3: string;
+      record?: EducationCountryMetric;
     }> = [];
 
-    for (const feature of features) {
+    for (const [featureIndex, feature] of features.entries()) {
       const iso3 = feature.properties?.ISO_A3;
       if (!iso3) continue;
       const record = recordByIso3.get(iso3);
-      if (!record) continue;
+      if (colorMode === 'heat' && !record) continue;
 
       const height = FLAT_COUNTRY_HEIGHT;
-      const color = heatColorFromValue(record.heatScore, minHeat, maxHeat);
+      const color =
+        colorMode === 'white'
+          ? fillColor
+          : heatColorFromValue(record?.heatScore ?? null, minHeat, maxHeat);
 
       if (feature.geometry.type === 'Polygon') {
         const geometry = buildExtrudedPolygonGeometry(
@@ -163,9 +173,10 @@ export function CountryShapeExtrusions({
         );
         if (geometry) {
           built.push({
-            key: `${iso3}-0`,
+            key: `${iso3}-${featureIndex}-p-0`,
             geometry,
             color,
+            iso3,
             record,
           });
         }
@@ -179,9 +190,10 @@ export function CountryShapeExtrusions({
           );
           if (geometry) {
             built.push({
-              key: `${iso3}-${index}`,
+              key: `${iso3}-${featureIndex}-m-${index}`,
               geometry,
               color,
+              iso3,
               record,
             });
           }
@@ -190,39 +202,42 @@ export function CountryShapeExtrusions({
     }
 
     return built;
-  }, [records]);
+  }, [colorMode, fillColor, records]);
 
   return (
     <>
       {meshes.map((mesh) => {
-        const selected = selectedIso3 === mesh.record.iso3;
+        const selected = selectedIso3 === mesh.iso3;
         return (
           <mesh
             key={mesh.key}
             geometry={mesh.geometry}
-            onClick={(event) => {
+            onClick={enableInteraction ? (event) => {
               event.stopPropagation();
+              if (!mesh.record) return;
               onCountryClick?.(mesh.record);
-            }}
-            onPointerOver={(event) => {
+            } : undefined}
+            onPointerOver={enableInteraction ? (event) => {
               event.stopPropagation();
+              if (!mesh.record) return;
               onCountryHover?.(mesh.record);
-            }}
-            onPointerMove={(event) => {
+            } : undefined}
+            onPointerMove={enableInteraction ? (event) => {
               event.stopPropagation();
+              if (!mesh.record) return;
               onCountryHover?.(mesh.record);
-            }}
-            onPointerOut={(event) => {
+            } : undefined}
+            onPointerOut={enableInteraction ? (event) => {
               event.stopPropagation();
               onCountryHover?.(null);
-            }}
+            } : undefined}
           >
             <meshStandardMaterial
               color={mesh.color}
               emissive={mesh.color}
-              emissiveIntensity={selected ? 1.75 : 0.72}
+              emissiveIntensity={colorMode === 'white' ? (selected ? 1.1 : 0.5) : selected ? 1.75 : 0.72}
               transparent
-              opacity={selected ? 1 : 0.84}
+              opacity={colorMode === 'white' ? (selected ? 0.9 : 0.58) : selected ? 1 : 0.84}
               metalness={0.06}
               roughness={0.42}
               side={DoubleSide}

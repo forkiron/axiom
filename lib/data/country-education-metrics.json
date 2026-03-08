@@ -1,8 +1,8 @@
 {
   "generatedAt": "2026-03-07T08:52:33.209Z",
   "sources": {
-    "heat": "global.csv",
-    "extrusion": "global_extrusion.csv",
+    "heat": "data/csv/global/global.csv",
+    "extrusion": "data/csv/global/global_extrusion.csv",
     "extrusionMethod": "latest non-empty value across year columns (1960-2025) for each country code"
   },
   "stats": {

@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const INPUT_CSV = 'quebec_469_schools (1).csv';
+const INPUT_CSV = 'data/csv/provincial/quebec_469_schools.csv';
 const OUTPUT_JSON = 'lib/data/qc-school-rankings.json';
 const CACHE_JSON = 'lib/data/qc-school-geocodes.json';
 const OSM_CACHE_JSON = 'lib/data/qc-osm-schools.json';

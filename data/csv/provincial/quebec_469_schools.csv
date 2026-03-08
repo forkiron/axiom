@@ -1,0 +1,470 @@
+﻿province,school_name,city,rank_2024,rank_5yr,trend,overall_rating_2024,overall_rating_5yr,source
+QC,Collège Saint-Louis,Montréal,1,1,flat,10.0,10.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Eudes,Montréal,1,2,flat,10.0,9.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-de-Brébeuf,Montréal,1,2,flat,10.0,9.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pasteur,Montréal,1,7,flat,10.0,9.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Alexandre,Gatineau,1,5,up,10.0,9.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Nom-de-Marie,Montréal,1,5,flat,10.0,9.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Sacrement,Terrebonne,1,7,up,10.0,9.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sainte-Anne de Lachine,Montréal,1,11,flat,10.0,9.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,École internationale de Montréal,Westmount,1,2,flat,10.0,9.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Joseph de Hull,Gatineau,10,7,flat,9.9,9.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sainte-Marcelline,Montréal,10,14,up,9.9,9.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Beaubois,Montréal,12,14,flat,9.8,9.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Charlemagne,Montréal,12,7,flat,9.8,9.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean de la Mennais,La Prairie,12,11,flat,9.8,9.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège Laval,Laval,15,11,flat,9.6,9.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Lucille-Teasdale,Brossard,15,18,up,9.6,9.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,The Study,Westmount,15,18,flat,9.6,9.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,École d’éducation internationale,Laval,15,14,flat,9.6,9.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Ali Ibn Abi Talib,Montréal,19,26,flat,9.5,8.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"“Skver, section française”",Montréal,19,21,up,9.5,9.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Beth Rivkah,Montréal,21,32,up,9.3,8.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,De Roberval,Montréal,21,30,up,9.3,8.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,L’Académie Sainte-Thérèse,Sainte-Thérèse,21,23,up,9.3,9.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont-Saint-Louis,Montréal,24,21,flat,9.2,9.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Regina Assumpta,Montréal,24,18,flat,9.2,9.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Externat Sacré-Coeur,Rosemère,26,26,up,9.1,8.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Miss Edgar’s & Miss Cramp’s,Westmount,26,26,flat,9.1,8.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Durocher Saint-Lambert,Saint-Lambert,28,24,flat,9.0,8.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,L’Assomption,L’Assomption,29,24,flat,8.9,8.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Villa Sainte-Marcelline,Westmount,29,32,flat,8.9,8.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marcellin-Champagnat,Saint-Jean-sur-Richelieu,31,30,flat,8.8,8.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Notre-Dame,Montréal,31,32,flat,8.8,8.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Ibn Sina,Montréal,33,106,flat,8.7,7.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont Notre-Dame,Sherbrooke,33,37,flat,8.7,8.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège de l’Ouest de l’Île,Dollard-des-Ormeaux,35,43,flat,8.6,8.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Lafontaine,Saint-Jérôme,35,37,flat,8.6,8.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Le Savoir,Montréal,35,75,up,8.6,7.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Reine-Marie,Montréal,35,83,up,8.6,7.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,École d’éducation internationale,McMasterville,35,14,down,8.6,9.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Bialik,Côte-Saint-Luc,40,55,flat,8.5,8.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Bourget,Rigaud,40,69,up,8.5,7.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Chicoutimi,Saguenay,40,83,flat,8.5,7.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jeunes Musulmans Canadiens,Montréal,40,98,up,8.5,7.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Keranna,Trois-Rivières,40,40,flat,8.5,8.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Laurentienne,Val-Morin,40,93,up,8.5,7.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Maïmonide (Jacob Safra),Montréal,40,64,flat,8.5,7.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Robert-Gravel,Montréal,40,64,flat,8.5,7.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Royal West,Montréal-Ouest,40,26,flat,8.5,8.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Beth Jacob d’Rav Hirschprung,Montréal,49,93,flat,8.4,7.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Charles-Lemoyne,Longueuil,49,55,flat,8.4,8.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Notre-Dame-de-Lourdes,Longueuil,49,40,flat,8.4,8.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Hilaire,Mont-Saint-Hilaire,49,32,flat,8.4,8.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège François-de-Laval,Québec,53,59,flat,8.3,8.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège d’Anjou,Montréal,53,106,up,8.3,7.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Juvénat Notre-Dame du Saint-Laurent,Lévis,53,43,flat,8.3,8.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Loyola,Montréal,53,32,flat,8.3,8.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Nouvelles Frontières,Gatineau,53,37,flat,8.3,8.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Charles-Garnier,Québec,53,64,flat,8.3,7.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège Français,Longueuil,59,43,flat,8.2,8.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Frenette,Saint-Jérôme,59,89,up,8.2,7.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Paul,Varennes,59,47,flat,8.2,8.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Pères Maristes,Québec,59,47,flat,8.2,8.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Antoine Manseau,Saint-Pierre,63,64,flat,8.1,7.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Kuper,Kirkland,63,43,flat,8.1,8.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"St, George’s",Montréal,63,40,flat,8.1,8.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Yéshiva Yavné,Côte-Saint-Luc,63,75,flat,8.1,7.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont-Saint-Sacrement,Saint-Gabriel-de-Valcartier,67,47,flat,8.0,8.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Selwyn House,Westmount,67,47,flat,8.0,8.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Chanoine-Beaudet,Saint-Pascal,69,129,up,7.9,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège Trinité,Saint-Bruno-de-Montarville,69,64,flat,7.9,7.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège de Montréal,Montréal,69,83,up,7.9,7.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jésus-Marie de Sillery,Québec,69,59,flat,7.9,8.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Letendre,Laval,69,83,flat,7.9,7.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Michèle-Provost,Montréal,69,114,up,7.9,7.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont-Royal,Mont-Royal,69,47,down,7.9,8.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Joseph,Saint-Hyacinthe,69,59,flat,7.9,8.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Maurice,Saint-Hyacinthe,69,69,flat,7.9,7.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Transcontinental,Pohénégamook,69,190,flat,7.9,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,école secondaire Herzliah,Montréal,69,75,flat,7.9,7.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Citoyen,Laval,80,98,flat,7.8,7.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège Héritage,Châteauguay,80,47,flat,7.8,8.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Herzliah High School,Montréal,80,59,flat,7.8,8.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Lévis,Lévis,80,47,flat,7.8,8.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sherbrooke,Sherbrooke,80,55,down,7.8,8.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Vincent Massey,Montréal,80,47,flat,7.8,8.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,François-Bourrin,Québec,86,75,flat,7.7,7.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Notre-Dame,Rivière-du-Loup,86,98,flat,7.7,7.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sainte-Anne,Daveluyville,86,98,flat,7.7,7.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Villa Maria,Montréal,86,69,flat,7.7,7.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Lacs,La Pêche,86,222,up,7.7,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Externat Saint-Jean-Eudes,Québec,91,75,flat,7.6,7.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sacred Heart,Montréal,91,69,flat,7.6,7.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-François,Saint-Augustin-de-Desmaures,91,69,flat,7.6,7.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Stanislas,Saint-Jérôme,91,93,flat,7.6,7.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Trafalgar,Montréal,91,69,down,7.6,7.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Cardinal-Roy,Québec,96,59,flat,7.5,8.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Charles-Lemoyne,Sainte-Catherine,96,89,flat,7.5,7.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,College Prep International,Montréal,96,89,flat,7.5,7.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"St, Thomas",Pointe-Claire,96,75,down,7.5,7.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"“Belz, Campus Jeanne-Mance”",Montréal,96,nd,nd,7.5,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Jean-Vianney,Montréal,101,93,flat,7.4,7.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,West Island College,Dollard-des-Ormeaux,101,55,down,7.4,8.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Arménienne Sourp Hagop,Montréal,103,98,flat,7.3,7.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège des Compagnons,Québec,103,119,flat,7.3,6.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Hebrew Academy,Côte-Saint-Luc,103,75,flat,7.3,7.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Polyvalente Sainte-Thérèse,Sainte-Thérèse,103,139,up,7.3,6.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Charles,Saint-Charles-de-Bellechasse,103,nd,nd,7.3,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Ville-Marie,Montréal,103,147,up,7.3,6.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Augustin-Norbert-Morin,Sainte-Adèle,109,106,flat,7.2,7.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jésus-Marie,Beauceville,109,139,up,7.2,6.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Royal Vale,Montréal,109,98,flat,7.2,7.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Armand-Corbeil,Terrebonne,112,114,flat,7.1,7.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Esther Blondin,Saint-Jacques,112,83,flat,7.1,7.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"M,I,N,D,",Montréal,112,nd,nd,7.1,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Rive-Nord,Bois-des-Filion,112,89,down,7.1,7.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Salésien,Sherbrooke,112,111,flat,7.1,7.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Vallée-des-Lacs,Saint-Michel-du-Squatec,112,nd,nd,7.1,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Pionniers,Saint-Augustin-de-Desmaures,112,177,up,7.1,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,l’Envolée,Granby,112,nd,nd,7.1,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Félix-Leclerc,Repentigny,120,155,up,7.0,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Joseph-François-Perrault,Montréal,120,129,flat,7.0,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Joseph-François-Perrault,Québec,120,139,flat,7.0,6.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mirabel,Mirabel,120,111,flat,7.0,7.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sainte-Anne de La Pocatière,La Pocatière,120,83,down,7.0,7.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Yeshiva Gedola Merkaz Hatorah (section anglaise),Montréal,120,nd,nd,7.0,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,FACE,Montréal,126,155,flat,6.9,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Le Carrefour,Gatineau,126,164,flat,6.9,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Monseigneur-Scheffer,Blanc-Sablon,126,nd,nd,6.9,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont-Sacré-Coeur,Granby,126,98,flat,6.9,7.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Val-Mauricie,Shawinigan,126,119,flat,6.9,6.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Verbe Divin,Granby,126,106,down,6.9,7.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Black Lake,Thetford Mines,132,208,flat,6.8,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Monique-Proulx,Warwick,132,114,flat,6.8,7.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Gabriel,Sainte-Thérèse,132,106,flat,6.8,7.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Quatre-Vents,Saint-Félicien,132,190,up,6.8,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,École Massey-Vanier,Cowansville,132,164,up,6.8,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Beaurivage,Saint-Agapit,137,155,flat,6.7,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Bromptonville,Sherbrooke,137,190,flat,6.7,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Baptiste-Meilleur,Repentigny,137,129,flat,6.7,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,John Rennie,Pointe-Claire,137,98,flat,6.7,7.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marie-de-l’Incarnation,Trois-Rivières,137,75,flat,6.7,7.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Monseigneur-Richard,Montréal,137,164,flat,6.7,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Monts,Sainte-Agathe-des-Monts,137,139,flat,6.7,6.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Jérôme,Saint-Jérôme,137,119,flat,6.7,6.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sainte-Marie,Shawinigan,137,125,flat,6.7,6.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Seigneurie,Québec,137,139,flat,6.7,6.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Trois-Saisons,Terrebonne,137,208,up,6.7,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Triolet,Sherbrooke,137,164,up,6.7,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Beaconsfield,Beaconsfield,149,177,flat,6.6,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Charlesbourg,Québec,149,208,up,6.6,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,De Mortagne,Boucherville,149,125,flat,6.6,6.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Grande-Rivière,Gatineau,149,190,up,6.6,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pointe-aux-Trembles,Montréal,149,155,flat,6.6,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Rivière-du-Loup,Rivière-du-Loup,149,177,flat,6.6,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Pionniers,Trois-Rivières,149,190,flat,6.6,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Des Rives,Terrebonne,156,190,up,6.5,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Félix-Leclerc,Pointe-Claire,156,114,flat,6.5,7.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Henri-Dunant,Blainville,156,259,flat,6.5,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louise-Trichet,Montréal,156,139,flat,6.5,6.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marie-Rivier,Drummondville,156,190,up,6.5,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont-Royal,Montréal,156,125,flat,6.5,6.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Damien,Saint-Damien-de-Buckland,156,119,down,6.5,6.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"St, Patrick",Québec,156,139,flat,6.5,6.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Westwood,Hudson,156,155,flat,6.5,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de Champigny,Québec,156,114,flat,6.5,7.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Magdeleine,La Prairie,156,139,flat,6.5,6.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Îles,Les Îles-de-la-Madeleine,156,155,flat,6.5,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Versant,Gatineau,156,177,up,6.5,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Académie Saint-Louis,Québec,169,93,down,6.4,7.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Curé-Mercure,Mont-Tremblant,169,248,up,6.4,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-du-Nord / Manikoutai,Sept-Îles,169,nd,nd,6.4,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Samare,Plessisville,169,125,down,6.4,6.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louis-Cyr,Saint-Cyprien-de-Napierville,169,129,flat,6.4,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Lucille-Teasdale,Blainville,169,190,flat,6.4,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marcelle-Mallet,Lévis,169,129,flat,6.4,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Monseigneur-Euclide-Théberge,Marieville,169,208,flat,6.4,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Notre Dame de Nareg,Laval,169,147,flat,6.4,6.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Joseph,Trois-Rivières,169,147,flat,6.4,6.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de Neufchâtel,Québec,169,238,up,6.4,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Berges,Les Bergeronnes,169,129,flat,6.4,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,l’Eau-Vive,Québec,169,190,flat,6.4,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Barthélemy-Joliette,Joliette,182,371,up,6.3,4.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,De Rochebelle,Québec,182,147,flat,6.3,6.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Dégelis,Dégelis,182,278,flat,6.3,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,D’Arcy McGee,Gatineau,182,177,flat,6.3,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Cité-des-Jeunes,Vaudreuil-Dorion,182,190,flat,6.3,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Frontalière,Coaticook,182,155,flat,6.3,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Le tandem,Victoriaville,182,119,down,6.3,6.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louis-Philippe-Paré,Châteauguay,182,155,flat,6.3,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,North Star,Laval,182,248,flat,6.3,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Philemon Wright,Gatineau,182,147,down,6.3,6.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pierrefonds,Montréal,182,147,flat,6.3,6.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Westmount,Westmount,182,164,flat,6.3,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de L’Érablière,Saint-Félix-de-Valois,182,190,flat,6.3,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Courvilloise,Québec,182,177,up,6.3,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Chêne-Bleu,Pincourt,182,129,flat,6.3,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,l’Agora,Longueuil,182,nd,nd,6.3,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"Éc, le Vitrail",Montréal,182,nd,nd,6.3,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"A,S, Johnson Memorial",Thetford Mines,199,nd,nd,6.2,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Camille-Lavoie,Alma,199,111,down,6.2,7.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont-Bleu,Gatineau,199,222,up,6.2,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-François,Beauceville,199,129,down,6.2,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Serge-Bouchard,Baie-Comeau,199,259,flat,6.2,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Three Rivers,Trois-Rivières,199,268,flat,6.2,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,aux Quatre-Vents,Bonaventure,199,238,flat,6.2,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Chutes,Shawinigan,199,208,flat,6.2,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Fadette,Saint-Hyacinthe,207,293,flat,6.1,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Jacques-Bertrand,Farnham,207,177,flat,6.1,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Nicolet,Nicolet,207,268,flat,6.1,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Découverte,Saint-Léonard-d’Aston,207,278,up,6.1,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Voie,Montréal,207,222,flat,6.1,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marie-Clarac,Montréal,207,129,down,6.1,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Notre-Dame-de-l’Assomption,Nicolet,207,222,flat,6.1,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Rosemere,Rosemère,207,222,flat,6.1,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de L’Ancienne-Lorette,L’Ancienne-Lorette,207,177,flat,6.1,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Plateau,La Malbaie,207,222,flat,6.1,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Armand-Saint-Onge,Amqui,217,259,up,6.0,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Horizon Jeunesse,Laval,217,208,flat,6.0,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Kells,Montréal,217,278,flat,6.0,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Tuque Secondaire,La Tuque,217,nd,nd,6.0,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Lakeside,Montréal,217,307,flat,6.0,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mitchell - Montcalm,Sherbrooke,217,129,flat,6.0,6.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Paul-Le Jeune,Saint-Tite,217,208,flat,6.0,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pierre-Laporte,Mont-Royal,217,164,flat,6.0,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pointe-Lévy,Lévis,217,190,flat,6.0,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sophie-Barat,Montréal,217,164,down,6.0,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Hauts-Sommets,Saint-Jérôme,217,177,flat,6.0,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Patriotes,Beauharnois,217,293,up,6.0,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Boisbriand,Boisbriand,229,222,flat,5.9,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Centennial,Longueuil,229,190,flat,5.9,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Le boisé,Victoriaville,229,208,flat,5.9,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Les Trois Saisons,Boucherville,229,nd,nd,5.9,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Nicolas-Gatineau,Gatineau,229,268,flat,5.9,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Paul-Arseneau,L’Assomption,229,222,flat,5.9,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Marc,Saint-Marc-des-Carrières,229,164,flat,5.9,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,le Tremplin,Malartic,229,238,flat,5.9,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,les Etchemins,Lévis,229,248,flat,5.9,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Dorval-Jean XXIII,Dorval,238,222,flat,5.8,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Cité étudiante,Maniwaki,238,371,up,5.8,4.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Porte-du-Nord,Chibougamau,238,147,down,5.8,6.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louis-Joseph-Papineau,Papineauville,238,307,flat,5.8,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont-Sainte-Anne,Sherbrooke,238,355,flat,5.8,4.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Montignac,Lac-Mégantic,238,190,flat,5.8,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pamphile-Le May,Sainte-Croix,238,278,up,5.8,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Paul-Hubert,Rimouski,238,248,flat,5.8,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Aubin,Baie-Saint-Paul,238,164,flat,5.8,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Bernard,Drummondville,238,222,flat,5.8,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Trois-Pistoles,Trois-Pistoles,238,259,flat,5.8,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de L’Érablière,Gatineau,238,248,flat,5.8,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Rivières,Forestville,238,177,flat,5.8,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Grand-Coteau,Sainte-Julie,238,268,flat,5.8,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"Bourget, anglaise",Rigaud,252,nd,nd,5.7,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Heritage Regional,Longueuil,252,222,flat,5.7,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Hormisdas-Gamelin,Gatineau,252,208,flat,5.7,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Massey-Vanier,Cowansville,252,293,flat,5.7,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Polybel,Beloeil,252,327,flat,5.7,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Soulanges,Saint-Polycarpe,252,222,flat,5.7,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de L’Île,Gatineau,252,248,flat,5.7,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Mont-Sainte-Anne,Beaupré,252,268,flat,5.7,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Antoine-Bernard,Carleton-sur-Mer,260,177,flat,5.6,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Benoît-Vachon,Sainte-Marie,260,278,flat,5.6,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"C,-E,-Pouliot",Gaspé,260,355,up,5.6,4.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Chanoine-Armand-Racicot,Saint-Jean-sur-Richelieu,260,293,flat,5.6,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Clarétain,Victoriaville,260,155,flat,5.6,6.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Emmanuel Christian,Dollard-des-Ormeaux,260,119,down,5.6,6.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,LaurenHill,Montréal,260,208,flat,5.6,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Laval Liberty,Laval,260,259,flat,5.6,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louis-Riel,Montréal,260,248,flat,5.6,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Ozias-Leduc,Mont-Saint-Hilaire,260,190,flat,5.6,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Paspébiac,Paspébiac,260,190,flat,5.6,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Georges,Saint-Georges,260,318,up,5.6,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Michael,Low,260,nd,nd,5.6,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Norbert,Cap-Chat,260,nd,nd,5.6,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Ste-Agathe,Sainte-Agathe-des-Monts,260,nd,nd,5.6,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Ruche,Magog,260,177,flat,5.6,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Sentiers,Québec,260,164,flat,5.6,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Antoine-de-Saint-Exupéry,Montréal,277,268,flat,5.5,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Arvida,Saguenay,277,293,flat,5.5,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Deux-Montagnes,Deux-Montagnes,277,238,flat,5.5,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Donnacona,Donnacona,277,190,flat,5.5,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"F,A,C,E,",Montréal,277,164,down,5.5,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jeanne-Mance,Drummondville,277,293,flat,5.5,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,LaSalle,Montréal,277,318,flat,5.5,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Laurier MacDonald,Montréal,277,248,flat,5.5,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Leblanc,Laval,277,222,flat,5.5,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Matane,Matane,277,293,flat,5.5,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Polyno,La Sarre,277,278,up,5.5,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Rivier,Coaticook,277,238,flat,5.5,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sacré-Coeur,Grenville-sur-la-Rouge,277,164,down,5.5,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sainte-Marie,Princeville,277,177,down,5.5,6.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Thérèse-Martin,Joliette,277,278,flat,5.5,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Rive,Lavaltrie,277,411,up,5.5,3.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Sources,Dollard-des-Ormeaux,277,238,flat,5.5,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,André-Laurendeau,Longueuil,294,318,flat,5.4,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Cabano,Témiscouata-sur-le-Lac,294,248,flat,5.4,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Source,Rouyn-Noranda,294,nd,nd,5.4,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louis-Saint-Laurent,East Angus,294,293,flat,5.4,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Rocher,Shawinigan,294,238,flat,5.4,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Casavant,Saint-Hyacinthe,299,307,flat,5.3,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Curé-Antoine-Labelle,Laval,299,259,flat,5.3,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Henri-Bourassa,Montréal,299,147,down,5.3,6.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Jacques-Rousseau,Boisbriand,299,336,up,5.3,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"Lester B, Pearson",Montréal,299,278,flat,5.3,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louis-Jacques-Casault,Montmagny,299,238,down,5.3,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Montessori Orford,Orford,299,nd,nd,5.3,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pierre-Dupuy,Montréal,299,382,flat,5.3,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Programme intégré secondaire,Repentigny,299,nd,nd,5.3,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Georges,Senneville,299,248,flat,5.3,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Montée,Sherbrooke,299,259,flat,5.3,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Cavelier-De LaSalle,Montréal,310,362,flat,5.2,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Hyacinthe-Delorme,Saint-Hyacinthe,310,278,flat,5.2,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Gauthier,Alma,310,371,up,5.2,4.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Raimbault,Drummondville,310,268,flat,5.2,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Lake of Two Mountains,Deux-Montagnes,310,293,flat,5.2,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,MacDonald,Sainte-Anne-de-Bellevue,310,307,flat,5.2,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marcel-Landry,Saint-Jean-sur-Richelieu,310,248,flat,5.2,5.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Paul-Gérin-Lajoie-d’Outremont,Montréal,310,164,flat,5.2,6.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Luc,Montréal,310,208,down,5.2,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Samuel-De Champlain,Québec,310,327,flat,5.2,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,d’Amos,Amos,310,327,flat,5.2,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,l’Horizon,Repentigny,310,345,up,5.2,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,l’Odyssée,Valcourt,310,nd,nd,5.2,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Châteauguay Valley,Ormstown,323,327,flat,5.1,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Dollard-des-Ormeaux,Shannon,323,190,flat,5.1,6.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,D’Iberville,Rouyn-Noranda,323,259,flat,5.1,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Joséphine-Dandurand,Saint-Jean-sur-Richelieu,323,377,flat,5.1,4.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Pocatière,La Pocatière,323,268,flat,5.1,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Oka,Oka,323,238,down,5.1,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Edmond,Longueuil,323,nd,nd,5.1,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Joseph,Mont-Laurier,323,222,flat,5.1,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Maxime,Laval,323,293,flat,5.1,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Veilleux,Saint-Joseph-de-Beauce,323,345,flat,5.1,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de l’Odyssée,Saguenay,323,259,flat,5.1,5.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Abénaquis,Saint-Prosper,323,371,up,5.1,4.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Champagneur,Rawdon,335,208,flat,5.0,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Chavigny,Trois-Rivières,335,336,flat,5.0,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Fréchette,L’Anse-Saint-Jean,335,nd,nd,5.0,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Laurentian,Lachute,335,318,flat,5.0,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marcel-Raymond,Lorrainville,335,208,flat,5.0,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marymount,Montréal,335,327,flat,5.0,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pierre-Bédard,Saint-Rémi,335,327,flat,5.0,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Laurent,Montréal,335,278,flat,5.0,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Paul,Saint-Paul-de-Montminy,335,nd,nd,5.0,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"St, John’s",Saint-Jean-sur-Richelieu,335,318,flat,5.0,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Patriotes,Saint-Eustache,335,307,flat,5.0,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,le Prélude,Mascouche,335,307,down,5.0,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,le Sommet,Québec,335,307,flat,5.0,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Cap-Jeunesse,Saint-Jérôme,348,293,down,4.9,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Charles-Gravel,Saguenay,348,336,flat,4.9,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Georges-Vanier,Laval,348,307,flat,4.9,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Normandin,Normandin,348,268,down,4.9,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Richmond,Richmond,348,318,flat,4.9,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Rosemount,Montréal,348,293,flat,4.9,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Wilbrod-Dufour,Alma,348,382,up,4.9,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Haute-Ville,Granby,348,318,flat,4.9,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de l’Odyssée,Terrebonne,348,327,flat,4.9,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Appalaches,Sainte-Justine,348,355,flat,4.9,4.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Harfang,Sainte-Anne-des-Plaines,348,278,flat,4.9,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Tournesol,Windsor,348,293,flat,4.9,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Le Carrefour,Val-d’Or,360,336,flat,4.8,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Les Estacades,Trois-Rivières,360,307,flat,4.8,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Wilfrid-Léger,Waterloo,360,345,flat,4.8,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Montagnes,Saint-Michel-des-Saints,360,345,flat,4.8,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Phare,Sherbrooke,360,345,flat,4.8,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,les Seigneuries,Saint-Pierre-les-Becquets,360,396,flat,4.8,4.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Collège Dina Bélanger,Saint-Michel-de-Bellechasse,367,268,flat,4.7,5.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Daniel-Johnson,Montréal,367,391,flat,4.7,4.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Greaves Adventist,Montréal,367,403,flat,4.7,3.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Dolbeau,Dolbeau-Mistassini,367,327,flat,4.7,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Kénogami,Saguenay,367,222,down,4.7,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Père-Marquette,Montréal,367,336,flat,4.7,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Sieur-de-Coulonge,Mansfield-et-Pontefract,367,336,flat,4.7,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Thetford Mines,Thetford Mines,367,362,flat,4.7,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Évangéline,Montréal,367,278,flat,4.7,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Alexander Galt,Sherbrooke,376,336,flat,4.6,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Bon-Pasteur,L’Islet,376,399,up,4.6,4.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Centre académique de l’Outaouais Gatineau,,376,382,flat,4.6,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Champagnat,La Tuque,376,208,down,4.6,6.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jacques-Rousseau,Longueuil,376,336,down,4.6,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Joliette,Joliette,376,318,flat,4.6,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pontiac,Clarendon,376,382,flat,4.6,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Baies,Baie-Comeau,376,371,flat,4.6,4.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Littoral,Grande-Rivière,376,307,flat,4.6,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Mont-Bruno,Saint-Bruno-de-Montarville,376,355,flat,4.6,4.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,le Carrefour,Varennes,376,362,flat,4.6,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"Howard S, Billings",Châteauguay,387,377,flat,4.5,4.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Robert-Ouimet,Acton Vale,387,318,flat,4.5,5.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du le Mistral,Mont-Joli,387,396,flat,4.5,4.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Dalbé-Viau,Montréal,390,327,down,4.4,5.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Honoré-Mercier,Montréal,390,391,flat,4.4,4.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Joseph-Hermas-Leclerc,Granby,390,377,flat,4.4,4.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marie-Reine-du-Clergé,Métabetchouan--Lac-à-la-Croix,390,362,flat,4.4,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Options II,Montréal,390,nd,nd,4.4,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Lambert International,Saint-Lambert,390,362,flat,4.4,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Deux-Rivières,Matapédia,390,345,flat,4.4,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Grandes-Marées,Saguenay,390,382,flat,4.4,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"École sec, Anjou",Montréal,390,362,flat,4.4,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-Grou,Montréal,399,307,down,4.3,5.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Lavigne,Lachute,399,355,flat,4.3,4.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Le Delta,Matagami,399,355,flat,4.3,4.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,L’Abri,Port-Cartier,399,362,down,4.3,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"Monseigneur-A,-M,-Parent",Longueuil,399,403,flat,4.3,3.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Mont-de-La Salle,Laval,399,362,flat,4.3,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Paul-Germain-Ostiguy,Saint-Césaire,399,399,flat,4.3,4.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Rivière-des-Quinze,Notre-Dame-du-Nord,399,278,flat,4.3,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Baie-Saint-François,Salaberry-de-Valleyfield,399,391,flat,4.3,4.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Édouard-Montpetit,Montréal,399,396,flat,4.3,4.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Disraëli,Disraeli,409,417,up,4.2,3.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Fernand-Lefebvre,Sorel-Tracy,409,382,flat,4.2,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Camaradière,Québec,409,345,down,4.2,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Marguerite-De Lajemmerais,Montréal,409,345,flat,4.2,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Monseigneur Sévigny,Chandler,409,377,flat,4.2,4.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Roger-Comtois,Québec,409,377,flat,4.2,4.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Jean-Baptiste,Longueuil,409,382,flat,4.2,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de la Rencontre,Saint-Pamphile,409,278,down,4.2,5.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Bélanger,Saint-Martin,417,345,down,4.1,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Gabriel-Le Courtois,Sainte-Anne-des-Monts,417,382,flat,4.1,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louis-Jobin,Saint-Raymond,417,391,flat,4.1,4.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Antoine-Brossard,Brossard,420,391,flat,4.0,4.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Dunton,Montréal,420,345,flat,4.0,4.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Golden Valley,Val-d’Or,420,nd,nd,4.0,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jean-de-Brébeuf,Québec,420,411,flat,4.0,3.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Poudrière,Drummondville,420,382,down,4.0,4.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Lucien-Pagé,Montréal,420,403,flat,4.0,3.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,L’Escale,Louiseville,420,222,flat,4.0,5.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Horizon-Blanc,Fermont,427,238,flat,3.9,5.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Institut d’Enseignement,Sept-Îles,427,409,flat,3.9,3.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Coteau,Mascouche,427,362,down,3.9,4.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Georges-Vanier,Montréal,430,399,flat,3.8,4.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de L’Escale,Val-des-Sources,430,371,flat,3.8,4.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de l’Amitié,L’Assomption,430,417,flat,3.8,3.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,"John F, Kennedy",Montréal,433,409,flat,3.7,3.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Concorde,Senneterre,433,403,flat,3.7,3.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Quebec,Québec,433,293,flat,3.7,5.3,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Havre-Jeunesse,Sainte-Julienne,433,416,flat,3.7,3.5,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Jeanne-Mance,Montréal,437,399,flat,3.6,4.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,École du Sas,Montréal,437,nd,nd,3.6,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Arthur Pigeon,Huntingdon,439,414,flat,3.5,3.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Anselme,Saint-Anselme,439,336,down,3.5,4.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Vanier,Québec,439,419,flat,3.5,3.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,James Lyng,Montréal,442,431,up,3.4,1.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La MFR,Saint-Romain,442,414,flat,3.4,3.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,La Taïga,Lebel-sur-Quévillon,442,nd,nd,3.4,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Antoine-Roy,Gaspé,445,424,flat,3.3,3.0,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Calixa-Lavallée,Montréal,445,403,flat,3.3,3.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Curé-Hébert,Hébertville,447,425,flat,3.2,2.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Nouvelle-Ère,Gatineau,447,nd,nd,3.2,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,New Carlisle,New Carlisle,449,nd,nd,3.1,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Saint-Henri,Montréal,449,411,flat,3.1,3.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Beurling,Montréal,451,422,flat,2.9,3.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,MacLean Memorial,Chibougamau,451,nd,nd,2.9,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Pierre-de-Lestage,Berthierville,451,419,flat,2.9,3.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Monseigneur-Labrie,Havre-Saint-Pierre,454,355,flat,2.8,4.7,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Riverside,Saguenay,454,nd,nd,2.8,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,de L’Achigan,Saint-Roch-de-l’Achigan,454,419,flat,2.8,3.2,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Chutes,Rawdon,457,425,flat,2.7,2.8,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Cité étudiante,Roberval,458,403,flat,2.5,3.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Louis-Joseph-Papineau,Montréal,459,422,flat,2.3,3.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,des Hauts Sommets,Saint-Tite-des-Caps,459,430,flat,2.3,1.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Chomedey-De-Maisonneuve,Montréal,461,429,up,2.2,1.9,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Gérard-Filion,Longueuil,462,428,flat,2.0,2.4,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,du Coeur-de-la-Gatineau,Gracefield,463,427,down,1.7,2.6,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Académie Québec Virtual,Montréal,464,nd,nd,1.5,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Avenues-Nouvelles,Trois-Rivières,464,nd,nd,1.5,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Bermon,Saint-Gabriel,466,nd,nd,1.1,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Horizon,Pointe-Claire,467,nd,nd,0.7,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Voyageur Memorial,Mistissini,468,432,up,0.4,0.1,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,James Bay Eeyou,Chisasibi,469,nd,nd,0.0,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf
+QC,Wiinibekuu,Waskaganish,469,nd,nd,0.0,nd,https://www.compareschoolrankings.org/pdf/bulletin-des-ecoles-secondaires-du-quebec-2025.pdf

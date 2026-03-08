@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-03-07T21:55:37.935Z",
-  "source": "nb_schools.csv",
+  "source": "data/csv/provincial/nb_schools.csv",
   "provider": "OpenStreetMap Nominatim",
   "schools": {
     "upper miramichi regional high school|boiestown": {

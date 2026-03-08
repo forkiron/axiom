@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-03-07T18:54:30.398Z",
-  "source": "ab_school_rankings.csv",
+  "source": "data/csv/provincial/ab_school_rankings.csv",
   "provider": "OpenStreetMap Nominatim",
   "notes": "Coordinates are geocoded per school when available; unresolved schools fall back to city centroid plus deterministic jitter.",
   "count": 293,

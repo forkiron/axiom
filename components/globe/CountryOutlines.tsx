@@ -6,9 +6,11 @@ import { latLonToCartesian } from "./geo";
 import { getHeatDomain, heatColorFromValue } from "./heatColor";
 
 interface CountryOutlinesProps {
-  records: EducationCountryMetric[];
+  records?: EducationCountryMetric[];
   radius?: number;
   opacity?: number;
+  colorMode?: "heat" | "white";
+  strokeColor?: string;
 }
 
 function darkenHexColor(hex: string, factor = 0.78) {
@@ -29,9 +31,11 @@ function darkenHexColor(hex: string, factor = 0.78) {
 }
 
 export function CountryOutlines({
-  records,
+  records = [],
   radius = 1.0049,
   opacity = 0.78,
+  colorMode = "heat",
+  strokeColor = "#f5f7fb",
 }: CountryOutlinesProps) {
   const paths = useMemo(() => {
     const featureCollection = countryShapesGeoJson as {
@@ -62,9 +66,12 @@ export function CountryOutlines({
     ] of featureCollection.features.entries()) {
       const iso3 = feature.properties?.ISO_A3 ?? "";
       const record = iso3 ? recordByIso3.get(iso3) : null;
-      const borderColor = darkenHexColor(
-        heatColorFromValue(record?.heatScore ?? null, minHeat, maxHeat),
-      );
+      const borderColor =
+        colorMode === "white"
+          ? strokeColor
+          : darkenHexColor(
+              heatColorFromValue(record?.heatScore ?? null, minHeat, maxHeat),
+            );
       if (feature.geometry.type === "Polygon") {
         const polygon = feature.geometry.coordinates as number[][][];
         polygon.forEach((ring, ringIndex) => {
@@ -99,7 +106,7 @@ export function CountryOutlines({
     }
 
     return linePaths;
-  }, [records, radius]);
+  }, [colorMode, records, radius, strokeColor]);
 
   return (
     <group>

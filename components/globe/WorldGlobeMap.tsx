@@ -22,6 +22,9 @@ import abSchoolDataset from '../../lib/data/ab-school-rankings.json';
 import qcSchoolDataset from '../../lib/data/qc-school-rankings.json';
 import nbSchoolDataset from '../../lib/data/nb-school-rankings.json';
 import onSchoolDataset from '../../lib/data/on-school-rankings.json';
+import nlSchoolDataset from '../../lib/data/nl-school-rankings.json';
+import nsSchoolDataset from '../../lib/data/ns-school-rankings.json';
+import peiSchoolDataset from '../../lib/data/pei-school-rankings.json';
 import type { EducationCountryDataset } from '../../lib/types';
 import { getHeatDomain, heatColorFromValue } from './heatColor';
 import { MAP_STYLE_URL } from '../../lib/constants';
@@ -470,9 +473,12 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const qcSchools = (qcSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const nbSchools = (nbSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const onSchools = (onSchoolDataset as { schools: BcSchoolRecord[] }).schools;
+  const nlSchools = (nlSchoolDataset as { schools: BcSchoolRecord[] }).schools;
+  const nsSchools = (nsSchoolDataset as { schools: BcSchoolRecord[] }).schools;
+  const peiSchools = (peiSchoolDataset as { schools: BcSchoolRecord[] }).schools;
   const canadaSchools = useMemo(
-    () => [...bcSchools, ...abSchools, ...qcSchools, ...nbSchools, ...onSchools],
-    [bcSchools, abSchools, qcSchools, nbSchools, onSchools]
+    () => [...bcSchools, ...abSchools, ...qcSchools, ...nbSchools, ...onSchools, ...nlSchools, ...nsSchools, ...peiSchools],
+    [bcSchools, abSchools, qcSchools, nbSchools, onSchools, nlSchools, nsSchools, peiSchools]
   );
   const visibleCanadaSchools = useMemo(() => {
     return canadaSchools.filter((school) => {

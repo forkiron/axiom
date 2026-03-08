@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-03-07T20:31:53.298Z",
-  "source": "quebec_469_schools (1).csv",
+  "source": "data/csv/provincial/quebec_469_schools.csv",
   "provider": "OpenStreetMap Overpass school POIs + deterministic city fallback",
   "schools": {
     "college saint-louis|montreal": {

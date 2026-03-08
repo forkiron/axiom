@@ -12,7 +12,10 @@
     "data:bc-schools": "node scripts/build-bc-school-map-data.mjs",
     "data:ab-schools": "node scripts/build-ab-school-map-data.mjs",
     "data:qc-schools": "node scripts/build-qc-school-map-data.mjs",
-    "data:on-schools": "node scripts/build-on-school-map-data.mjs",
+    "data:on-schools": "node scripts/build-fast-school-map-data.mjs ON",
+    "data:nl-schools": "node scripts/build-fast-school-map-data.mjs NL",
+    "data:ns-schools": "node scripts/build-fast-school-map-data.mjs NS",
+    "data:pei-schools": "node scripts/build-fast-school-map-data.mjs PEI",
     "backboard:upload-csv": "node scripts/upload-backboard-csv.mjs",
     "backboard:csv-status": "node scripts/upload-backboard-csv.mjs --status",
     "supabase:migrate": "node scripts/run-supabase-migration.mjs"
