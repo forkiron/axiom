@@ -4,6 +4,7 @@ import abSchoolDataset from '@/lib/data/ab-school-rankings.json';
 import bcSchoolDataset from '@/lib/data/bc-school-rankings.json';
 import nbSchoolDataset from '@/lib/data/nb-school-rankings.json';
 import qcSchoolDataset from '@/lib/data/qc-school-rankings.json';
+import onSchoolDataset from '@/lib/data/on-school-rankings.json';
 import { getSupabaseAdmin, hasSupabase } from '@/lib/supabase';
 
 export const dynamic = 'force-dynamic';
@@ -33,6 +34,7 @@ function getAllSchools(): SchoolRecord[] {
     ...pick(abSchoolDataset),
     ...pick(qcSchoolDataset),
     ...pick(nbSchoolDataset),
+    ...pick(onSchoolDataset),
   ] as SchoolRecord[];
 }
 
