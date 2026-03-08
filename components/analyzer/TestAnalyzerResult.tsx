@@ -72,6 +72,7 @@ export function TestAnalyzerResult({ result, onReset }: { result: AnalysisResult
       const json = await res.json();
       setSavedMAdj(json.mAdj ?? null);
       setSaveStatus('saved');
+      window.dispatchEvent(new CustomEvent('school-adjustment-updated'));
     } catch {
       setSaveStatus('error');
     }
