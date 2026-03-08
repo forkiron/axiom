@@ -318,6 +318,7 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const [activeLayer, setActiveLayer] = useState<LayerMode>('terrain');
   const [schoolQuery, setSchoolQuery] = useState('');
   const [minSchoolRating, setMinSchoolRating] = useState<number>(0);
+  const [maxSchoolRating, setMaxSchoolRating] = useState<number>(10);
   const [isSchoolSearchOpen, setIsSchoolSearchOpen] = useState(false);
   const [selectedSchool, setSelectedSchool] = useState<BcSchoolRecord | null>(null);
   const [academicHoverCard, setAcademicHoverCard] = useState<AcademicHoverCard | null>(null);
@@ -357,10 +358,12 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   const visibleCanadaSchools = useMemo(() => {
     return canadaSchools.filter((school) => {
       if (!Number.isFinite(school.longitude) || !Number.isFinite(school.latitude)) return false;
-      if (minSchoolRating <= 0) return true;
-      return typeof school.rating === 'number' && Number.isFinite(school.rating) && school.rating >= minSchoolRating;
+      if (typeof school.rating !== 'number' || !Number.isFinite(school.rating)) {
+        return minSchoolRating <= 0 && maxSchoolRating >= 10;
+      }
+      return school.rating >= minSchoolRating && school.rating <= maxSchoolRating;
     });
-  }, [canadaSchools, minSchoolRating]);
+  }, [canadaSchools, minSchoolRating, maxSchoolRating]);
   const tourSchoolIds = useSchoolTourStore((state) => state.schoolIds);
   const tourIndex = useSchoolTourStore((state) => state.currentIndex);
   const prevTourSchool = useSchoolTourStore((state) => state.prevSchool);
@@ -714,10 +717,14 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
   );
   useEffect(() => {
     if (!selectedSchool) return;
-    if (minSchoolRating <= 0) return;
-    if (typeof selectedSchool.rating === 'number' && selectedSchool.rating >= minSchoolRating) return;
+    if (typeof selectedSchool.rating !== 'number' || !Number.isFinite(selectedSchool.rating)) {
+      if (minSchoolRating <= 0 && maxSchoolRating >= 10) return;
+      setSelectedSchool(null);
+      return;
+    }
+    if (selectedSchool.rating >= minSchoolRating && selectedSchool.rating <= maxSchoolRating) return;
     setSelectedSchool(null);
-  }, [selectedSchool, minSchoolRating]);
+  }, [selectedSchool, minSchoolRating, maxSchoolRating]);
 
   useEffect(() => {
     if (schoolTour.length === 0) return;
@@ -1041,22 +1048,50 @@ export function WorldGlobeMap({ className }: WorldGlobeMapProps) {
         />
         <div className="mt-2 rounded-md border border-white/10 bg-black/35 px-3 py-2">
           <div className="mb-1 flex items-center justify-between">
-            <label htmlFor="school-rating-filter" className="text-[11px] font-medium text-slate-300">
-              Minimum Rating
+            <label htmlFor="school-min-rating-filter" className="text-[11px] font-medium text-slate-300">
+              Rating Range
             </label>
             <span className="text-[11px] text-slate-200">
-              {minSchoolRating <= 0 ? 'All' : `${minSchoolRating.toFixed(1)}+`}
+              {minSchoolRating <= 0 && maxSchoolRating >= 10
+                ? 'All'
+                : `${minSchoolRating.toFixed(1)} - ${maxSchoolRating.toFixed(1)}`}
             </span>
           </div>
+          <div className="mb-1 flex items-center justify-between text-[10px] text-slate-400">
+            <span>Min: {minSchoolRating.toFixed(1)}</span>
+            <span>Max: {maxSchoolRating.toFixed(1)}</span>
+          </div>
           <input
-            id="school-rating-filter"
+            id="school-min-rating-filter"
             type="range"
             min={0}
             max={10}
             step={0.5}
             value={minSchoolRating}
-            onChange={(event) => setMinSchoolRating(Number(event.target.value))}
+            onChange={(event) => {
+              const nextMin = Number(event.target.value);
+              setMinSchoolRating(nextMin);
+              if (nextMin > maxSchoolRating) {
+                setMaxSchoolRating(nextMin);
+              }
+            }}
             className="w-full accent-emerald-400"
+          />
+          <input
+            id="school-max-rating-filter"
+            type="range"
+            min={0}
+            max={10}
+            step={0.5}
+            value={maxSchoolRating}
+            onChange={(event) => {
+              const nextMax = Number(event.target.value);
+              setMaxSchoolRating(nextMax);
+              if (nextMax < minSchoolRating) {
+                setMinSchoolRating(nextMax);
+              }
+            }}
+            className="mt-1 w-full accent-amber-400"
           />
           <p className="mt-1 text-[10px] text-slate-400">
             Showing {visibleCanadaSchools.length} school{visibleCanadaSchools.length === 1 ? '' : 's'}
